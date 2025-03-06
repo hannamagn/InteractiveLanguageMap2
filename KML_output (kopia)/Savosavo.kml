@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="63749">
+        <Placemark id="63751">
+            <name>Central, Solomon Islands</name>
+            <description>
+                
+            
+<![CDATA[
+            <h3>Savosavo</h3>
+            <p><b>Countries:</b> Salomonöarna</p>
+            <p><b>Regions:</b> Centrala provinsen</p>
+            ]]>                
+            
+            </description>
+            <ExtendedData>
+                <Data name="Language">
+                    <value>Savosavo</value>
+                    <displayName>Language</displayName>
+                </Data>
+                <Data name="Countries">
+                    <value>Salomonöarna</value>
+                    <displayName>Countries</displayName>
+                </Data>
+                <Data name="Regions">
+                    <value>Centrala provinsen</value>
+                    <displayName>Regions</displayName>
+                </Data>
+            </ExtendedData>
+            <Polygon id="63750">
+                <outerBoundaryIs>
+                    <LinearRing id="63752">
+                        <coordinates>159.0,-9.216667,0.0 160.5,-9.216667,0.0 160.5,-8.75,0.0 159.0,-8.75,0.0 159.0,-9.216667,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

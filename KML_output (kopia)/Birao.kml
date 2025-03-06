@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="54797">
+        <Placemark id="54799">
+            <name>Guadalcanal, Solomon Islands</name>
+            <description>
+                
+            
+<![CDATA[
+            <h3>Birao</h3>
+            <p><b>Countries:</b> Salomonöarna</p>
+            <p><b>Regions:</b> Guadalcanal provinsen</p>
+            ]]>                
+            
+            </description>
+            <ExtendedData>
+                <Data name="Language">
+                    <value>Birao</value>
+                    <displayName>Language</displayName>
+                </Data>
+                <Data name="Countries">
+                    <value>Salomonöarna</value>
+                    <displayName>Countries</displayName>
+                </Data>
+                <Data name="Regions">
+                    <value>Guadalcanal provinsen</value>
+                    <displayName>Regions</displayName>
+                </Data>
+            </ExtendedData>
+            <Polygon id="54798">
+                <outerBoundaryIs>
+                    <LinearRing id="54800">
+                        <coordinates>158.4489661,-9.3333333,0.0 158.6735128,-9.4404818,0.0 159.6001666,-9.882303,0.0 159.6949458,-9.9544576,0.0 159.7239907,-9.9728917,0.0 159.7557696,-9.9861758,0.0 159.7893616,-9.993925,0.0 159.9880182,-10.0223045,0.0 160.8411059,-10.4665166,0.0 160.905458,-10.5,0.0 161.0,-10.5,0.0 161.0,-10.0,0.0 161.0,-9.3333333,0.0 160.5,-9.3333333,0.0 160.5,-9.216667,0.0 159.0,-9.216667,0.0 159.0,-9.3333333,0.0 158.4489661,-9.3333333,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="85325">
+        <Placemark id="85327">
+            <name>Shefa, Vanuatu</name>
+            <description>
+                
+            
+<![CDATA[
+            <h3>Baki</h3>
+            <p><b>Countries:</b> Vanuatu</p>
+            <p><b>Regions:</b> Shefa</p>
+            ]]>                
+            
+            </description>
+            <ExtendedData>
+                <Data name="Language">
+                    <value>Baki</value>
+                    <displayName>Language</displayName>
+                </Data>
+                <Data name="Countries">
+                    <value>Vanuatu</value>
+                    <displayName>Countries</displayName>
+                </Data>
+                <Data name="Regions">
+                    <value>Shefa</value>
+                    <displayName>Regions</displayName>
+                </Data>
+            </ExtendedData>
+            <Polygon id="85326">
+                <outerBoundaryIs>
+                    <LinearRing id="85328">
+                        <coordinates>167.4605951,-16.9799185,0.0 167.9769814,-17.8150115,0.0 167.9943541,-17.8413584,0.0 167.9977317,-17.8462637,0.0 168.3537551,-18.3437402,0.0 168.5283333,-18.2716667,0.0 169.3132685,-18.3500116,0.0 168.8096923,-17.6352329,0.0 168.8570755,-17.0215606,0.0 168.85739,-16.9968094,0.0 168.8523711,-16.960764,0.0 168.8470502,-16.9421848,0.0 168.7339464,-16.6093344,0.0 168.5616667,-16.6266667,0.0 167.9616667,-16.5,0.0 167.4605951,-16.9799185,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

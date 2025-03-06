@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="82699">
+        <Placemark id="82701">
+            <name>Choiseul, Solomon Islands</name>
+            <description>
+                
+            
+<![CDATA[
+            <h3>Babatana</h3>
+            <p><b>Countries:</b> Salomonöarna</p>
+            <p><b>Regions:</b> Chosieul provinsen</p>
+            ]]>                
+            
+            </description>
+            <ExtendedData>
+                <Data name="Language">
+                    <value>Babatana</value>
+                    <displayName>Language</displayName>
+                </Data>
+                <Data name="Countries">
+                    <value>Salomonöarna</value>
+                    <displayName>Countries</displayName>
+                </Data>
+                <Data name="Regions">
+                    <value>Chosieul provinsen</value>
+                    <displayName>Regions</displayName>
+                </Data>
+            </ExtendedData>
+            <Polygon id="82700">
+                <outerBoundaryIs>
+                    <LinearRing id="82702">
+                        <coordinates>156.225,-6.75,0.0 156.3125,-6.7625,0.0 156.3666667,-6.9583333,0.0 156.3958333,-7.2208333,0.0 157.0,-7.5916667,0.0 157.5,-7.7166667,0.0 157.9166667,-7.9166667,0.0 157.9166667,-7.0083879,0.0 156.7400244,-6.4542296,0.0 156.7222497,-6.4468463,0.0 156.5997777,-6.4027105,0.0 156.5696443,-6.3944319,0.0 156.5004996,-6.3811135,0.0 156.4673559,-6.3775457,0.0 156.4340798,-6.3795114,0.0 156.225,-6.409347,0.0 156.225,-6.75,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>
