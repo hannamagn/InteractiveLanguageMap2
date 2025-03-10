@@ -1,0 +1,132 @@
+[
+  {
+    "language": "http://www.wikidata.org/entity/Q131339",
+    "languageLabel": "Alemannic",
+    "isoCode": "gsw",
+    "countryLabels": [
+      "Venezuela",
+      "Liechtenstein",
+      "Germany",
+      "France",
+      "Austria",
+      "Switzerland",
+      "Italy"
+    ],
+    "countryOSMs": [
+      "272644",
+      "1155955",
+      "51477",
+      "2202162",
+      "16239",
+      "51701",
+      "365331"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q180945",
+    "languageLabel": "Western Armenian",
+    "isoCode": "hyw",
+    "countryLabels": [
+      "Syria",
+      "Lebanon",
+      "Armenia",
+      "Turkey"
+    ],
+    "countryOSMs": [
+      "184840",
+      "184843",
+      "364066",
+      "174737"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q1057898",
+    "languageLabel": "Emilian",
+    "isoCode": "egl",
+    "countryLabels": [
+      "Italy"
+    ],
+    "countryOSMs": [
+      "365331"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q1363072",
+    "languageLabel": "Guianan Creole",
+    "isoCode": "gcr",
+    "countryLabels": [
+      "France"
+    ],
+    "countryOSMs": [
+      "2202162"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q1776032",
+    "languageLabel": "Hill Mari",
+    "isoCode": "mrj",
+    "countryLabels": [
+      "Russia"
+    ],
+    "countryOSMs": [
+      "60189"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q1991779",
+    "languageLabel": "Southern Altai",
+    "isoCode": "alt",
+    "countryLabels": [
+      "Russia"
+    ],
+    "countryOSMs": [
+      "60189"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q2501174",
+    "languageLabel": "Gorontalo",
+    "isoCode": "gor",
+    "countryLabels": [
+      "Indonesia"
+    ],
+    "countryOSMs": [
+      "304751"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q3449805",
+    "languageLabel": "South Azerbaijani",
+    "isoCode": "azb",
+    "countryLabels": [
+      "Iran",
+      "Turkey"
+    ],
+    "countryOSMs": [
+      "304938",
+      "174737"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q5575236",
+    "languageLabel": "Goan Konkani",
+    "isoCode": "gom",
+    "countryLabels": [
+      "India"
+    ],
+    "countryOSMs": [
+      "304716"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q6502657",
+    "languageLabel": "Lavi",
+    "isoCode": "lvi",
+    "countryLabels": [
+      "Laos"
+    ],
+    "countryOSMs": [
+      "49903"
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+{
+    "http://www.wikidata.org/entity/Q33046": {
+        "Language": "Dalecarlian",
+        "Regions": [
+            "Dalarna County"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q103732"
+        ],
+        "RegionsOSM": [
+            "52834"
+        ],
+        "Countries": [
+            "Sweden"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q254950": {
+        "Language": "Elfdalian",
+        "Regions": [
+            "Älvdalen"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q2453291"
+        ],
+        "RegionsOSM": [
+            "935540"
+        ],
+        "Countries": [
+            "Sweden"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q56322": {
+        "Language": "Lule Sami",
+        "Regions": [
+            "Nordland",
+            "Norrbotten County"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q103686",
+            "http://www.wikidata.org/entity/Q50630"
+        ],
+        "RegionsOSM": [
+            "52824",
+            "408105"
+        ],
+        "Countries": [
+            "Sweden",
+            "Norway"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34",
+            "http://www.wikidata.org/entity/Q20"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13357": {
+        "Language": "Meänkieli",
+        "Regions": [
+            "Torne Valley",
+            "Lapland",
+            "Norrbotten County"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q103686",
+            "http://www.wikidata.org/entity/Q5700",
+            "http://www.wikidata.org/entity/Q734149"
+        ],
+        "RegionsOSM": [
+            "6436295",
+            "1724359",
+            "52824"
+        ],
+        "Countries": [
+            "Finland",
+            "Sweden"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34",
+            "http://www.wikidata.org/entity/Q33"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q33947": {
+        "Language": "Northern Sami",
+        "Regions": [
+            "Finnmark",
+            "Lapland",
+            "Troms",
+            "Norrbotten County",
+            "Nordland"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q50630",
+            "http://www.wikidata.org/entity/Q5700",
+            "http://www.wikidata.org/entity/Q18690772",
+            "http://www.wikidata.org/entity/Q103686",
+            "http://www.wikidata.org/entity/Q50632",
+            "http://www.wikidata.org/entity/Q50631"
+        ],
+        "RegionsOSM": [
+            "52824",
+            "406389",
+            "1724359",
+            "408105",
+            "407717"
+        ],
+        "Countries": [
+            "Finland",
+            "Sweden",
+            "Norway"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34",
+            "http://www.wikidata.org/entity/Q20",
+            "http://www.wikidata.org/entity/Q33"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q56314": {
+        "Language": "Pite Sami",
+        "Regions": [
+            "Beiarn Municipality",
+            "Norrbotten County",
+            "Arjeplog Municipality",
+            "Saltdal Municipality"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q48880",
+            "http://www.wikidata.org/entity/Q487524",
+            "http://www.wikidata.org/entity/Q493855",
+            "http://www.wikidata.org/entity/Q103686"
+        ],
+        "RegionsOSM": [
+            "408203",
+            "409039",
+            "935425",
+            "52824"
+        ],
+        "Countries": [
+            "Sweden",
+            "Norway"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34",
+            "http://www.wikidata.org/entity/Q20"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13293": {
+        "Language": "Southern Sami",
+        "Regions": [
+            "Dalarna County",
+            "Västerbotten County",
+            "Trøndelag",
+            "Hedmark",
+            "Sør-Trøndelag",
+            "Nord-Trøndelag",
+            "Jämtland County"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q50628",
+            "http://www.wikidata.org/entity/Q104877",
+            "http://www.wikidata.org/entity/Q103732",
+            "http://www.wikidata.org/entity/Q50629",
+            "http://www.wikidata.org/entity/Q103679",
+            "http://www.wikidata.org/entity/Q127676",
+            "http://www.wikidata.org/entity/Q50616"
+        ],
+        "RegionsOSM": [
+            "52834",
+            "52826",
+            "412436",
+            "52825",
+            "406567",
+            "13209578",
+            "13209579"
+        ],
+        "Countries": [
+            "Sweden",
+            "Norway"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34",
+            "http://www.wikidata.org/entity/Q20"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9027": {
+        "Language": "Swedish",
+        "Regions": [
+            "Kymenlaakso",
+            "Ostrobothnia",
+            "Sweden"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q34",
+            "http://www.wikidata.org/entity/Q5702",
+            "http://www.wikidata.org/entity/Q5698"
+        ],
+        "RegionsOSM": [
+            "2102313",
+            "52822",
+            "2000320"
+        ],
+        "Countries": [
+            "Finland",
+            "Sweden"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34",
+            "http://www.wikidata.org/entity/Q33"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q27808413": {
+        "Language": "Tavringer Romani",
+        "Regions": [
+            "Norrbotten County"
+        ],
+        "RegionsID": [
+            "http://www.wikidata.org/entity/Q103686"
+        ],
+        "RegionsOSM": [
+            "52824"
+        ],
+        "Countries": [
+            "Sweden"
+        ],
+        "CountriesID": [
+            "http://www.wikidata.org/entity/Q34"
+        ]
+    }
+}

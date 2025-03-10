@@ -1,0 +1,444 @@
+[
+  {
+    "language": "http://www.wikidata.org/entity/Q372927",
+    "languageLabel": "Fembe",
+    "isoCode": "agl",
+    "countryLabels": [
+      "Papua New Guinea"
+    ],
+    "countryOSMs": [
+      "307866"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q542564",
+    "languageLabel": "Rawang",
+    "isoCode": "raw",
+    "countryLabels": [
+      "Myanmar",
+      "India"
+    ],
+    "countryOSMs": [
+      "50371",
+      "304716"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q2896850",
+    "languageLabel": "Bira",
+    "isoCode": "brf",
+    "countryLabels": [
+      "Democratic Republic of the Congo"
+    ],
+    "countryOSMs": [
+      "192795"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q3418509",
+    "languageLabel": "Ramoaaina",
+    "isoCode": "rai",
+    "countryLabels": [
+      "Papua New Guinea"
+    ],
+    "countryOSMs": [
+      "307866"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q3440432",
+    "languageLabel": "Ron",
+    "isoCode": "cla",
+    "countryLabels": [
+      "Nigeria"
+    ],
+    "countryOSMs": [
+      "192787"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q3504295",
+    "languageLabel": "Heyo",
+    "isoCode": "auk",
+    "countryLabels": [
+      "Papua New Guinea"
+    ],
+    "countryOSMs": [
+      "307866"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q4866152",
+    "languageLabel": "Basa-Kontagora",
+    "isoCode": "bsr",
+    "countryLabels": [
+      "Nigeria"
+    ],
+    "countryOSMs": [
+      "192787"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q4879330",
+    "languageLabel": "Bedoanas",
+    "isoCode": "bed",
+    "countryLabels": [
+      "Indonesia"
+    ],
+    "countryOSMs": [
+      "304751"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q6921430",
+    "languageLabel": "Mount Iraya Agta",
+    "isoCode": "atl",
+    "countryLabels": [
+      "Philippines"
+    ],
+    "countryOSMs": [
+      "443174"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q8844749",
+    "languageLabel": "Bisorio",
+    "isoCode": "bir",
+    "countryLabels": [
+      "Papua New Guinea"
+    ],
+    "countryOSMs": [
+      "307866"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q12639245",
+    "languageLabel": "Pamplona Atta",
+    "isoCode": "att",
+    "countryLabels": [
+      "Philippines"
+    ],
+    "countryOSMs": [
+      "443174"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q12953362",
+    "languageLabel": "Amikoana",
+    "isoCode": "akn",
+    "countryLabels": [
+      "Unknown"
+    ],
+    "countryOSMs": [
+      "Unknown"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q12953819",
+    "languageLabel": "San Juan Atzingo Popoloca",
+    "isoCode": "poe",
+    "countryLabels": [
+      "Mexico"
+    ],
+    "countryOSMs": [
+      "114686"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q27602",
+    "languageLabel": "Maria",
+    "isoCode": "mrr",
+    "countryLabels": [
+      "India"
+    ],
+    "countryOSMs": [
+      "304716"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q27692",
+    "languageLabel": "Chipewyan",
+    "isoCode": "chp",
+    "countryLabels": [
+      "Canada"
+    ],
+    "countryOSMs": [
+      "1428125"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q27740",
+    "languageLabel": "Adele",
+    "isoCode": "ade",
+    "countryLabels": [
+      "Togo",
+      "Ghana"
+    ],
+    "countryOSMs": [
+      "192782",
+      "192781"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q27867",
+    "languageLabel": "Afro-Seminole Creole",
+    "isoCode": "afs",
+    "countryLabels": [
+      "Mexico"
+    ],
+    "countryOSMs": [
+      "114686"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q28026",
+    "languageLabel": "Akan",
+    "isoCode": "aka",
+    "countryLabels": [
+      "Ivory Coast",
+      "Ghana"
+    ],
+    "countryOSMs": [
+      "192779",
+      "192781"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q28269",
+    "languageLabel": "Lipan",
+    "isoCode": "apl",
+    "countryLabels": [
+      "Mexico",
+      "United States"
+    ],
+    "countryOSMs": [
+      "114686",
+      "148838"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q30004",
+    "languageLabel": "Evenki",
+    "isoCode": "evn",
+    "countryLabels": [
+      "Russia",
+      "People's Republic of China"
+    ],
+    "countryOSMs": [
+      "60189",
+      "270056"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q32930",
+    "languageLabel": "Bukusu",
+    "isoCode": "bxk",
+    "countryLabels": [
+      "Uganda",
+      "Kenya"
+    ],
+    "countryOSMs": [
+      "192796",
+      "192798"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q32928",
+    "languageLabel": "Bua",
+    "isoCode": "bub",
+    "countryLabels": [
+      "Chad"
+    ],
+    "countryOSMs": [
+      "2361304"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q32972",
+    "languageLabel": "Comanche",
+    "isoCode": "com",
+    "countryLabels": [
+      "United States"
+    ],
+    "countryOSMs": [
+      "148838"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q32981",
+    "languageLabel": "Chenchu",
+    "isoCode": "cde",
+    "countryLabels": [
+      "India"
+    ],
+    "countryOSMs": [
+      "304716"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q33028",
+    "languageLabel": "Badeshi",
+    "isoCode": "bdz",
+    "countryLabels": [
+      "Pakistan"
+    ],
+    "countryOSMs": [
+      "307573"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q33093",
+    "languageLabel": "Basaa",
+    "isoCode": "bas",
+    "countryLabels": [
+      "Cameroon"
+    ],
+    "countryOSMs": [
+      "192830"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q33295",
+    "languageLabel": "Fijian",
+    "isoCode": "fij",
+    "countryLabels": [
+      "Fiji"
+    ],
+    "countryOSMs": [
+      "571747"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q33299",
+    "languageLabel": "Hobyót",
+    "isoCode": "hoh",
+    "countryLabels": [
+      "Oman",
+      "Yemen"
+    ],
+    "countryOSMs": [
+      "305138",
+      "305092"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q33395",
+    "languageLabel": "Gullah",
+    "isoCode": "gul",
+    "countryLabels": [
+      "United States"
+    ],
+    "countryOSMs": [
+      "148838"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q33404",
+    "languageLabel": "Klallam",
+    "isoCode": "clm",
+    "countryLabels": [
+      "Jamestown S'Klallam Tribe",
+      "Port Gamble S'Klallam Tribe",
+      "Lower Elwha Klallam Tribe",
+      "United States"
+    ],
+    "countryOSMs": [
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "148838"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q33426",
+    "languageLabel": "Hulaulá",
+    "isoCode": "huy",
+    "countryLabels": [
+      "Israel"
+    ],
+    "countryOSMs": [
+      "1473946"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q34723",
+    "languageLabel": "Ahan",
+    "isoCode": "ahn",
+    "countryLabels": [
+      "Nigeria"
+    ],
+    "countryOSMs": [
+      "192787"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q34786",
+    "languageLabel": "Ayu",
+    "isoCode": "ayu",
+    "countryLabels": [
+      "Nigeria"
+    ],
+    "countryOSMs": [
+      "192787"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q34790",
+    "languageLabel": "Babanki",
+    "isoCode": "bbk",
+    "countryLabels": [
+      "Cameroon"
+    ],
+    "countryOSMs": [
+      "192830"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q34799",
+    "languageLabel": "Akum",
+    "isoCode": "aku",
+    "countryLabels": [
+      "Nigeria",
+      "Cameroon"
+    ],
+    "countryOSMs": [
+      "192787",
+      "192830"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q34808",
+    "languageLabel": "Ake",
+    "isoCode": "aik",
+    "countryLabels": [
+      "Nigeria"
+    ],
+    "countryOSMs": [
+      "192787"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q34813",
+    "languageLabel": "Alago language",
+    "isoCode": "ala",
+    "countryLabels": [
+      "Nigeria"
+    ],
+    "countryOSMs": [
+      "192787"
+    ]
+  },
+  {
+    "language": "http://www.wikidata.org/entity/Q34831",
+    "languageLabel": "Bonol",
+    "isoCode": "abr",
+    "countryLabels": [
+      "Ivory Coast",
+      "Ghana"
+    ],
+    "countryOSMs": [
+      "192779",
+      "192781"
+    ]
+  }
+]
