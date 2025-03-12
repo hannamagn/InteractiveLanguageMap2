@@ -11,10 +11,10 @@ function GlobalNav() {
                 </div>
                 <div className = "globalNavDivLinks">
                     <ul className = "globalNavLinkList">
-                        {/* <li className = "globalNavLinkListElement"><a href="/">Home</a></li> */}
+                        <li className = "globalNavLinkListElement"><a href="/">Home</a></li>
                         <li className = "globalNavLinkListElement"><a href="/worldMap">World Map</a></li>
-                        {/* <li className = "globalNavLinkListElement"><a href="/database">Database</a></li>
-                        <li className = "globalNavLinkListElement"><a href="/credits">Credits</a></li> */}
+                        <li className = "globalNavLinkListElement"><a href="/database">Database</a></li>
+                        <li className = "globalNavLinkListElement"><a href="/credits">Credits</a></li>
                     </ul>
                 </div>
             </nav>

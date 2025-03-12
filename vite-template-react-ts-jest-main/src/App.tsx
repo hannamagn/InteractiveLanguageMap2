@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import GlobalNav from "./components/globalComponents/globalNav/GlobalNav";
-import Map from "./components/worldMapComponents/map/map";
+import Map from "./components/worldMapComponents/map/Map";
 import './App.css'
 
 function App() {
