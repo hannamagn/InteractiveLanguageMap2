@@ -2,9 +2,9 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Language } from './language.entity';
-import { LanguagesController } from './language.controller';
-import { LanguageService } from './language.service';
+import { Language } from './language/language.entity';
+import { LanguagesController } from './language/language.controller';
+import { LanguageService } from './language/language.service';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Language])],
