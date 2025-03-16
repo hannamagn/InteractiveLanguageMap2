@@ -6,4 +6,4 @@ import { LanguageService } from './language.service';
   controllers: [LanguagesController], 
   providers: [LanguageService], 
 })
-export class KmlModule {}
+export class LanguageModule {}
