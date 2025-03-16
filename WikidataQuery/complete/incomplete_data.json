@@ -24,84 +24,6 @@
             ]
         }
     },
-    "ace": {
-        "Acehnese": {
-            "Language": "Acehnese",
-            "LangugeID": "http://www.wikidata.org/entity/Q27683",
-            "Regions": [
-                "Aceh",
-                "North Sumatra",
-                "Great Aceh",
-                "Aceh Jaya",
-                "Aceh Singkil",
-                "East Aceh",
-                "Aceh Tamiang",
-                "Bireuen",
-                "Nagan Raya",
-                "North Aceh",
-                "Pidie",
-                "Pidie Jaya",
-                "South Aceh",
-                "Southwest Aceh",
-                "West Aceh",
-                "Langsa",
-                "Lhokseumawe",
-                "Central Tapanuli"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q1823",
-                "http://www.wikidata.org/entity/Q2140",
-                "http://www.wikidata.org/entity/Q5662",
-                "http://www.wikidata.org/entity/Q5667",
-                "http://www.wikidata.org/entity/Q5672",
-                "http://www.wikidata.org/entity/Q5674",
-                "http://www.wikidata.org/entity/Q5678",
-                "http://www.wikidata.org/entity/Q5722",
-                "http://www.wikidata.org/entity/Q5746",
-                "http://www.wikidata.org/entity/Q5750",
-                "http://www.wikidata.org/entity/Q5751",
-                "http://www.wikidata.org/entity/Q5754",
-                "http://www.wikidata.org/entity/Q5759",
-                "http://www.wikidata.org/entity/Q5775",
-                "http://www.wikidata.org/entity/Q5778",
-                "http://www.wikidata.org/entity/Q5781",
-                "http://www.wikidata.org/entity/Q5784",
-                "http://www.wikidata.org/entity/Q5800",
-                "http://www.wikidata.org/entity/Q1048813"
-            ],
-            "RegionsOSM": [
-                "2390836",
-                "2390843",
-                "8930394",
-                "8912351",
-                "8922305",
-                "8931988",
-                "8922310",
-                "14734667",
-                "8912353",
-                "4559902",
-                "8931169",
-                "8931186",
-                "8922306",
-                "8912352",
-                "8912350",
-                "8922311",
-                "4126220",
-                "8483345",
-                "Missing"
-            ],
-            "Countries": [
-                "Indonesia"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q252"
-            ],
-            "Instances": [
-                "natural language",
-                "modern language"
-            ]
-        }
-    },
     "ach": {
         "Acholi": {
             "Language": "Acholi",
@@ -167,31 +89,6 @@
             ],
             "Instances": [
                 "natural language",
-                "modern language"
-            ]
-        }
-    },
-    "act": {
-        "Achterhooks": {
-            "Language": "Achterhooks",
-            "LangugeID": "http://www.wikidata.org/entity/Q153627",
-            "Regions": [
-                "Achterhook"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q9456"
-            ],
-            "RegionsOSM": [
-                "Missing"
-            ],
-            "Countries": [
-                "Netherlands"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q55"
-            ],
-            "Instances": [
-                "language",
                 "modern language"
             ]
         }
@@ -1701,33 +1598,6 @@
             ]
         }
     },
-    "bre": {
-        "Breton": {
-            "Language": "Breton",
-            "LangugeID": "http://www.wikidata.org/entity/Q12107",
-            "Regions": [
-                "Brittany"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q327",
-                "http://www.wikidata.org/entity/Q12130"
-            ],
-            "RegionsOSM": [
-                "Missing",
-                "102740"
-            ],
-            "Countries": [
-                "France"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q142"
-            ],
-            "Instances": [
-                "natural language",
-                "modern language"
-            ]
-        }
-    },
     "bsa": {
         "Abinomn": {
             "Language": "Abinomn",
@@ -2425,8 +2295,7 @@
                 "http://www.wikidata.org/entity/Q213189",
                 "http://www.wikidata.org/entity/Q217075",
                 "http://www.wikidata.org/entity/Q66711956",
-                "http://www.wikidata.org/entity/Q41470",
-                "http://www.wikidata.org/entity/Q134386"
+                "http://www.wikidata.org/entity/Q41470"
             ],
             "RegionsOSM": [
                 "241593",
@@ -2440,8 +2309,7 @@
                 "2969761",
                 "3242294",
                 "Missing",
-                "Missing",
-                "241546"
+                "Missing"
             ],
             "Countries": [
                 "Iraq",
@@ -2675,45 +2543,6 @@
             "Instances": [
                 "natural language",
                 "macrolanguage",
-                "modern language"
-            ]
-        }
-    },
-    "crg": {
-        "Michif": {
-            "Language": "Michif",
-            "LangugeID": "http://www.wikidata.org/entity/Q13315",
-            "Regions": [
-                "North Dakota",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Rupert's Land"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q1207",
-                "http://www.wikidata.org/entity/Q1904",
-                "http://www.wikidata.org/entity/Q1948",
-                "http://www.wikidata.org/entity/Q1989",
-                "http://www.wikidata.org/entity/Q738395"
-            ],
-            "RegionsOSM": [
-                "161653",
-                "68841",
-                "390841",
-                "391178",
-                "Missing"
-            ],
-            "Countries": [
-                "United States",
-                "Canada"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q30",
-                "http://www.wikidata.org/entity/Q16"
-            ],
-            "Instances": [
-                "language",
                 "modern language"
             ]
         }
@@ -3495,60 +3324,6 @@
             ]
         }
     },
-    "dzg": {
-        "Dazaga-kara": {
-            "Language": "Dazaga-kara",
-            "LangugeID": "http://www.wikidata.org/entity/Q35244",
-            "Regions": [
-                "Batha Region",
-                "Zinder Region",
-                "Ennedi Region",
-                "Kanem Region",
-                "Wadi Fira Region",
-                "Lac Region",
-                "Hadjer-Lamis",
-                "Bahr el Gazel",
-                "Diffa Region",
-                "Borkou"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q180414",
-                "http://www.wikidata.org/entity/Q204367",
-                "http://www.wikidata.org/entity/Q748093",
-                "http://www.wikidata.org/entity/Q849841",
-                "http://www.wikidata.org/entity/Q860813",
-                "http://www.wikidata.org/entity/Q867869",
-                "http://www.wikidata.org/entity/Q1042437",
-                "http://www.wikidata.org/entity/Q1050621",
-                "http://www.wikidata.org/entity/Q1053302",
-                "http://www.wikidata.org/entity/Q1139666"
-            ],
-            "RegionsOSM": [
-                "3106605",
-                "3218807",
-                "Missing",
-                "3106623",
-                "2537750",
-                "3217119",
-                "3106606",
-                "3106619",
-                "3218799",
-                "2537744"
-            ],
-            "Countries": [
-                "Niger",
-                "Chad"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q1032",
-                "http://www.wikidata.org/entity/Q657"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
     "ebc": {
         "Beginci": {
             "Language": "Beginci",
@@ -3718,38 +3493,6 @@
             ],
             "Instances": [
                 "language"
-            ]
-        }
-    },
-    "end": {
-        "Ende": {
-            "Language": "Ende",
-            "LangugeID": "http://www.wikidata.org/entity/Q2067656",
-            "Regions": [
-                "East Nusa Tenggara",
-                "Ende"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q5061",
-                "http://www.wikidata.org/entity/Q14140",
-                "http://www.wikidata.org/entity/Q24977488",
-                "http://www.wikidata.org/entity/Q26242357"
-            ],
-            "RegionsOSM": [
-                "2396778",
-                "11228379",
-                "Missing",
-                "Missing"
-            ],
-            "Countries": [
-                "Indonesia"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q252"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
             ]
         }
     },
@@ -3977,39 +3720,6 @@
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q142"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "fvr": {
-        "Fur": {
-            "Language": "Fur",
-            "LangugeID": "http://www.wikidata.org/entity/Q33364",
-            "Regions": [
-                "Darfur",
-                "West Darfur",
-                "Sila Region"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q46733",
-                "http://www.wikidata.org/entity/Q846331",
-                "http://www.wikidata.org/entity/Q1149611"
-            ],
-            "RegionsOSM": [
-                "Missing",
-                "3774664",
-                "3106495"
-            ],
-            "Countries": [
-                "Sudan",
-                "Chad"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q1049",
-                "http://www.wikidata.org/entity/Q657"
             ],
             "Instances": [
                 "language",
@@ -5086,6 +4796,7 @@
             "Language": "Hawu",
             "LangugeID": "http://www.wikidata.org/entity/Q2319877",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Ende",
                 "Sabu Raijua",
@@ -5095,6 +4806,7 @@
                 "Raijua Island"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q14140",
                 "http://www.wikidata.org/entity/Q14148",
@@ -5104,6 +4816,7 @@
                 "http://www.wikidata.org/entity/Q19731173"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "11228379",
                 "11225325",
@@ -5233,40 +4946,6 @@
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q142"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "iba": {
-        "Iban": {
-            "Language": "Iban",
-            "LangugeID": "http://www.wikidata.org/entity/Q33424",
-            "Regions": [
-                "Kapuas Hulu",
-                "Kapuas River"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q14157",
-                "http://www.wikidata.org/entity/Q841359",
-                "http://www.wikidata.org/entity/Q4197501"
-            ],
-            "RegionsOSM": [
-                "10621500",
-                "317445",
-                "Missing"
-            ],
-            "Countries": [
-                "Brunei",
-                "Malaysia",
-                "Indonesia"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q921",
-                "http://www.wikidata.org/entity/Q833",
-                "http://www.wikidata.org/entity/Q252"
             ],
             "Instances": [
                 "language",
@@ -5889,31 +5568,6 @@
             ]
         }
     },
-    "kfx": {
-        "Kullui": {
-            "Language": "Kullui",
-            "LangugeID": "http://www.wikidata.org/entity/Q6443148",
-            "Regions": [
-                "Kullu Valley"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q42564069"
-            ],
-            "RegionsOSM": [
-                "Missing"
-            ],
-            "Countries": [
-                "India"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q668"
-            ],
-            "Instances": [
-                "natural language",
-                "modern language"
-            ]
-        }
-    },
     "kgn": {
         "Karingani": {
             "Language": "Karingani",
@@ -5989,7 +5643,7 @@
                 "14905730",
                 "Missing",
                 "Missing",
-                "Missing",
+                "940417592",
                 "14905625"
             ],
             "Countries": [
@@ -6115,16 +5769,19 @@
             "Language": "Kabola",
             "LangugeID": "http://www.wikidata.org/entity/Q11732258",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Nub Island",
                 "Sika Island"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q15123117",
                 "http://www.wikidata.org/entity/Q15128554"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "Missing",
                 "Missing"
@@ -6482,50 +6139,6 @@
             ]
         }
     },
-    "krl": {
-        "Karelian": {
-            "Language": "Karelian",
-            "LangugeID": "http://www.wikidata.org/entity/Q33557",
-            "Regions": [
-                "Murmansk Oblast",
-                "Karelia",
-                "Leningrad Oblast",
-                "Tver Oblast",
-                "South Karelia",
-                "North Karelia"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q1759",
-                "http://www.wikidata.org/entity/Q1914",
-                "http://www.wikidata.org/entity/Q2191",
-                "http://www.wikidata.org/entity/Q2292",
-                "http://www.wikidata.org/entity/Q5691",
-                "http://www.wikidata.org/entity/Q5703",
-                "http://www.wikidata.org/entity/Q1069921"
-            ],
-            "RegionsOSM": [
-                "2099216",
-                "393980",
-                "176095",
-                "2095259",
-                "2067231",
-                "1999428",
-                "Missing"
-            ],
-            "Countries": [
-                "Russia",
-                "Finland"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q159",
-                "http://www.wikidata.org/entity/Q33"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
     "krm": {
         "Krim": {
             "Language": "Krim",
@@ -6630,108 +6243,18 @@
             "Language": "Kepo'",
             "LangugeID": "http://www.wikidata.org/entity/Q6393217",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Elar"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q11183268"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
-                "Missing"
-            ],
-            "Countries": [
-                "Indonesia"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q252"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "kvb": {
-        "Kubu": {
-            "Language": "Kubu",
-            "LangugeID": "http://www.wikidata.org/entity/Q6441341",
-            "Regions": [
-                "Indonesia",
-                "Jambi",
-                "Riau",
-                "South Sumatra",
-                "Sumatra"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q252",
-                "http://www.wikidata.org/entity/Q2051",
-                "http://www.wikidata.org/entity/Q2175",
-                "http://www.wikidata.org/entity/Q2271",
-                "http://www.wikidata.org/entity/Q3492",
-                "http://www.wikidata.org/entity/Q2641991"
-            ],
-            "RegionsOSM": [
-                "304751",
-                "2390838",
-                "2390840",
-                "2390842",
-                "7226121",
-                "Missing"
-            ],
-            "Countries": [
-                "Indonesia"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q252"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "kvo": {
-        "Dobel": {
-            "Language": "Dobel",
-            "LangugeID": "http://www.wikidata.org/entity/Q5286559",
-            "Regions": [
-                "Maluku"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q5093",
-                "http://www.wikidata.org/entity/Q24383316"
-            ],
-            "RegionsOSM": [
-                "2396795",
-                "Missing"
-            ],
-            "Countries": [
-                "Indonesia"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q252"
-            ],
-            "Instances": [
-                "natural language",
-                "modern language"
-            ]
-        }
-    },
-    "kvv": {
-        "Kola": {
-            "Language": "Kola",
-            "LangugeID": "http://www.wikidata.org/entity/Q6426967",
-            "Regions": [
-                "Maluku"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q5093",
-                "http://www.wikidata.org/entity/Q24386127"
-            ],
-            "RegionsOSM": [
-                "2396795",
                 "Missing"
             ],
             "Countries": [
@@ -7034,46 +6557,6 @@
             ]
         }
     },
-    "lim": {
-        "Limburgish": {
-            "Language": "Limburgish",
-            "LangugeID": "http://www.wikidata.org/entity/Q102172",
-            "Regions": [
-                "Limburg",
-                "Province of Liege",
-                "North Rhine-Westphalia",
-                "Westphalia"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q1093",
-                "http://www.wikidata.org/entity/Q1095",
-                "http://www.wikidata.org/entity/Q1127",
-                "http://www.wikidata.org/entity/Q1198",
-                "http://www.wikidata.org/entity/Q8614"
-            ],
-            "RegionsOSM": [
-                "47793",
-                "53142",
-                "1407192",
-                "62761",
-                "Missing"
-            ],
-            "Countries": [
-                "Germany",
-                "Netherlands",
-                "Belgium"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q183",
-                "http://www.wikidata.org/entity/Q55",
-                "http://www.wikidata.org/entity/Q31"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
     "liu": {
         "Logorik": {
             "Language": "Logorik",
@@ -7321,54 +6804,6 @@
             ]
         }
     },
-    "ltz": {
-        "Luxembourgish": {
-            "Language": "Luxembourgish",
-            "LangugeID": "http://www.wikidata.org/entity/Q9051",
-            "Regions": [
-                "Luxembourg",
-                "Rhineland-Palatinate",
-                "Merzig-Wadern",
-                "Moselle",
-                "Arrondissement of Verviers",
-                "East Belgium"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q32",
-                "http://www.wikidata.org/entity/Q1126",
-                "http://www.wikidata.org/entity/Q1200",
-                "http://www.wikidata.org/entity/Q6802",
-                "http://www.wikidata.org/entity/Q12652",
-                "http://www.wikidata.org/entity/Q93989",
-                "http://www.wikidata.org/entity/Q1514886"
-            ],
-            "RegionsOSM": [
-                "2171347",
-                "1412581",
-                "62341",
-                "62387",
-                "51854",
-                "1407211",
-                "Missing"
-            ],
-            "Countries": [
-                "Germany",
-                "France",
-                "Luxembourg",
-                "Belgium"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q183",
-                "http://www.wikidata.org/entity/Q142",
-                "http://www.wikidata.org/entity/Q32",
-                "http://www.wikidata.org/entity/Q31"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
     "lud": {
         "Ludic": {
             "Language": "Ludic",
@@ -7379,12 +6814,10 @@
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1914",
-                "http://www.wikidata.org/entity/Q192273",
-                "http://www.wikidata.org/entity/Q12857596"
+                "http://www.wikidata.org/entity/Q192273"
             ],
             "RegionsOSM": [
                 "393980",
-                "Missing",
                 "Missing"
             ],
             "Countries": [
@@ -7582,16 +7015,19 @@
             "Language": "Lewotobi",
             "LangugeID": "http://www.wikidata.org/entity/Q14916885",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Belen Island",
                 "Witi Island"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q30337497",
                 "http://www.wikidata.org/entity/Q30337502"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "Missing",
                 "Missing"
@@ -7800,33 +7236,6 @@
             "Instances": [
                 "language",
                 "modern language"
-            ]
-        }
-    },
-    "mkw": {
-        "Kituba (Congo)": {
-            "Language": "Kituba (Congo)",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953639",
-            "Regions": [
-                "Brazzaville",
-                "Pointe-Noire"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q3844",
-                "http://www.wikidata.org/entity/Q7208306"
-            ],
-            "RegionsOSM": [
-                "16370691",
-                "Missing"
-            ],
-            "Countries": [
-                "Republic of the Congo"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q971"
-            ],
-            "Instances": [
-                "language"
             ]
         }
     },
@@ -8361,16 +7770,19 @@
             "Language": "Eastern Ngad'a",
             "LangugeID": "http://www.wikidata.org/entity/Q12473454",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Boawae",
                 "Golewa"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q4193682",
                 "http://www.wikidata.org/entity/Q14919635"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "Missing",
                 "Missing"
@@ -8688,31 +8100,6 @@
             ],
             "Instances": [
                 "language"
-            ]
-        }
-    },
-    "num": {
-        "Niuafo'ou": {
-            "Language": "Niuafo'ou",
-            "LangugeID": "http://www.wikidata.org/entity/Q36173",
-            "Regions": [
-                "Tongatapu"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q10383165"
-            ],
-            "RegionsOSM": [
-                "Missing"
-            ],
-            "Countries": [
-                "Tonga"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q678"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
             ]
         }
     },
@@ -9388,16 +8775,19 @@
             "Language": "Palu'e",
             "LangugeID": "http://www.wikidata.org/entity/Q2196866",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Palue Island",
                 "Palue"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q2735628",
                 "http://www.wikidata.org/entity/Q12502325"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "24295673",
                 "Missing"
@@ -9814,16 +9204,19 @@
             "Language": "Rembong",
             "LangugeID": "http://www.wikidata.org/entity/Q7311570",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Elar",
                 "Sambi Rampas"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q11183268",
                 "http://www.wikidata.org/entity/Q12511782"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "Missing",
                 "Missing"
@@ -9870,18 +9263,21 @@
             "Language": "Riung",
             "LangugeID": "http://www.wikidata.org/entity/Q7336938",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Riung",
                 "Susumolas Island",
                 "Wire Island"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q4193616",
                 "http://www.wikidata.org/entity/Q26753920",
                 "http://www.wikidata.org/entity/Q30337668"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "Missing",
                 "Missing",
@@ -9896,60 +9292,6 @@
             "Instances": [
                 "language",
                 "modern language"
-            ]
-        }
-    },
-    "rkh": {
-        "Rakahanga-Manihiki": {
-            "Language": "Rakahanga-Manihiki",
-            "LangugeID": "http://www.wikidata.org/entity/Q3119695",
-            "Regions": [
-                "Manihiki",
-                "Rakahanga"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q967796",
-                "http://www.wikidata.org/entity/Q1345121"
-            ],
-            "RegionsOSM": [
-                "Missing",
-                "3830339"
-            ],
-            "Countries": [
-                "Cook Islands"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q26988"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "rkt": {
-        "Rangpuri": {
-            "Language": "Rangpuri",
-            "LangugeID": "http://www.wikidata.org/entity/Q3241618",
-            "Regions": [
-                "North Bengal"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q13395623"
-            ],
-            "RegionsOSM": [
-                "Missing"
-            ],
-            "Countries": [
-                "Bangladesh",
-                "India"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q902",
-                "http://www.wikidata.org/entity/Q668"
-            ],
-            "Instances": [
-                "natural language"
             ]
         }
     },
@@ -10165,11 +9507,11 @@
                 "Missing",
                 "563225",
                 "1379347",
-                "Missing",
+                "1253915",
                 "Missing",
                 "956726",
                 "558486",
-                "Missing",
+                "558521",
                 "1251469",
                 "2598355",
                 "2603188",
@@ -10525,21 +9867,24 @@
             "Language": "Sika",
             "LangugeID": "http://www.wikidata.org/entity/Q33960",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Sikka",
                 "Pemana Kecil Island",
                 "Kolisia Island"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q14150",
                 "http://www.wikidata.org/entity/Q24847501",
                 "http://www.wikidata.org/entity/Q30337711"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "11228380",
-                "Missing",
+                "24295776",
                 "Missing"
             ],
             "Countries": [
@@ -10619,6 +9964,7 @@
             "LangugeID": "http://www.wikidata.org/entity/Q6480777",
             "Regions": [
                 "Konga Island",
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "East Flores",
                 "Alor Island",
@@ -10627,6 +9973,7 @@
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q24895586",
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q14136",
                 "http://www.wikidata.org/entity/Q1130641",
@@ -10635,37 +9982,11 @@
             ],
             "RegionsOSM": [
                 "Missing",
+                "7226026",
                 "2396778",
                 "11228386",
                 "5138903",
-                "Missing",
-                "Missing"
-            ],
-            "Countries": [
-                "Indonesia"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q252"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "slu": {
-        "Selaru": {
-            "Language": "Selaru",
-            "LangugeID": "http://www.wikidata.org/entity/Q7447500",
-            "Regions": [
-                "Maluku"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q5093",
-                "http://www.wikidata.org/entity/Q24383165"
-            ],
-            "RegionsOSM": [
-                "2396795",
+                "5183294",
                 "Missing"
             ],
             "Countries": [
@@ -10760,14 +10081,17 @@
             "Language": "So’a",
             "LangugeID": "http://www.wikidata.org/entity/Q7572120",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Soa"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q4192868"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "Missing"
             ],
@@ -11916,120 +11240,6 @@
             ]
         }
     },
-    "tuk": {
-        "Turkmen": {
-            "Language": "Turkmen",
-            "LangugeID": "http://www.wikidata.org/entity/Q9267",
-            "Regions": [
-                "Turkmenistan",
-                "Balkh Province",
-                "Golestan Province",
-                "Badghis Province",
-                "Faryab Province",
-                "North Khorasan Province",
-                "Herat Province",
-                "Jowzjan Province",
-                "Kabul Province",
-                "Mazandaran Province",
-                "Razavi Khorasan Province"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q874",
-                "http://www.wikidata.org/entity/Q121104",
-                "http://www.wikidata.org/entity/Q170041",
-                "http://www.wikidata.org/entity/Q172052",
-                "http://www.wikidata.org/entity/Q173830",
-                "http://www.wikidata.org/entity/Q180075",
-                "http://www.wikidata.org/entity/Q182844",
-                "http://www.wikidata.org/entity/Q183036",
-                "http://www.wikidata.org/entity/Q188933",
-                "http://www.wikidata.org/entity/Q308864",
-                "http://www.wikidata.org/entity/Q587090"
-            ],
-            "RegionsOSM": [
-                "223026",
-                "1674795",
-                "269903",
-                "Missing",
-                "1674814",
-                "225444",
-                "1674803",
-                "Missing",
-                "1674876",
-                "269900",
-                "537657"
-            ],
-            "Countries": [
-                "Afghanistan",
-                "Turkmenistan",
-                "Tajikistan",
-                "Pakistan",
-                "Iran",
-                "Uzbekistan"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q889",
-                "http://www.wikidata.org/entity/Q874",
-                "http://www.wikidata.org/entity/Q863",
-                "http://www.wikidata.org/entity/Q843",
-                "http://www.wikidata.org/entity/Q794",
-                "http://www.wikidata.org/entity/Q265"
-            ],
-            "Instances": [
-                "natural language",
-                "modern language"
-            ]
-        }
-    },
-    "tuq": {
-        "Teda": {
-            "Language": "Teda",
-            "LangugeID": "http://www.wikidata.org/entity/Q36639",
-            "Regions": [
-                "Murzuq District",
-                "Agadez Region",
-                "Tibesti Region",
-                "Ennedi Region",
-                "Kanem Region",
-                "Diffa Region",
-                "Borkou"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q48239",
-                "http://www.wikidata.org/entity/Q389944",
-                "http://www.wikidata.org/entity/Q737711",
-                "http://www.wikidata.org/entity/Q748093",
-                "http://www.wikidata.org/entity/Q849841",
-                "http://www.wikidata.org/entity/Q1053302",
-                "http://www.wikidata.org/entity/Q1139666"
-            ],
-            "RegionsOSM": [
-                "2060181",
-                "3218798",
-                "2537732",
-                "Missing",
-                "3106623",
-                "3218799",
-                "2537744"
-            ],
-            "Countries": [
-                "Nigeria",
-                "Niger",
-                "Libya",
-                "Chad"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q1033",
-                "http://www.wikidata.org/entity/Q1032",
-                "http://www.wikidata.org/entity/Q1016",
-                "http://www.wikidata.org/entity/Q657"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
     "tur": {
         "Turkish": {
             "Language": "Turkish",
@@ -12579,140 +11789,6 @@
             ]
         }
     },
-    "vec": {
-        "Venetian": {
-            "Language": "Venetian",
-            "LangugeID": "http://www.wikidata.org/entity/Q32724",
-            "Regions": [
-                "São Paulo",
-                "Veneto",
-                "Province of Pordenone",
-                "Trentino",
-                "Province of Trieste",
-                "Rio Grande do Sul",
-                "Santa Catarina",
-                "Pontine Marshes"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q175",
-                "http://www.wikidata.org/entity/Q1243",
-                "http://www.wikidata.org/entity/Q16247",
-                "http://www.wikidata.org/entity/Q16289",
-                "http://www.wikidata.org/entity/Q16293",
-                "http://www.wikidata.org/entity/Q40030",
-                "http://www.wikidata.org/entity/Q41115",
-                "http://www.wikidata.org/entity/Q1756467"
-            ],
-            "RegionsOSM": [
-                "298204",
-                "43648",
-                "179293",
-                "45756",
-                "179292",
-                "242620",
-                "296584",
-                "Missing"
-            ],
-            "Countries": [
-                "Argentina",
-                "Montenegro",
-                "Croatia",
-                "Romania",
-                "Slovenia",
-                "Brazil",
-                "Mexico",
-                "Italy"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q414",
-                "http://www.wikidata.org/entity/Q236",
-                "http://www.wikidata.org/entity/Q224",
-                "http://www.wikidata.org/entity/Q218",
-                "http://www.wikidata.org/entity/Q215",
-                "http://www.wikidata.org/entity/Q155",
-                "http://www.wikidata.org/entity/Q96",
-                "http://www.wikidata.org/entity/Q38"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "vic": {
-        "Virgin Islands Creole": {
-            "Language": "Virgin Islands Creole",
-            "LangugeID": "http://www.wikidata.org/entity/Q7933935",
-            "Regions": [
-                "United States Virgin Islands",
-                "British Virgin Islands",
-                "Virgin Islands"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q11703",
-                "http://www.wikidata.org/entity/Q25305",
-                "http://www.wikidata.org/entity/Q26262"
-            ],
-            "RegionsOSM": [
-                "286898",
-                "285454",
-                "Missing"
-            ],
-            "Countries": [
-                "Sint Maarten",
-                "Bonaire",
-                "British Virgin Islands",
-                "United States Virgin Islands"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q26273",
-                "http://www.wikidata.org/entity/Q25396",
-                "http://www.wikidata.org/entity/Q25305",
-                "http://www.wikidata.org/entity/Q11703"
-            ],
-            "Instances": [
-                "creole language",
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "vif": {
-        "Vili": {
-            "Language": "Vili",
-            "LangugeID": "http://www.wikidata.org/entity/Q3558409",
-            "Regions": [
-                "Nyanga Province",
-                "Kouilou Department",
-                "Niari Department",
-                "Pointe-Noire"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q846017",
-                "http://www.wikidata.org/entity/Q855327",
-                "http://www.wikidata.org/entity/Q969317",
-                "http://www.wikidata.org/entity/Q7208306"
-            ],
-            "RegionsOSM": [
-                "1243587",
-                "3220590",
-                "3220593",
-                "Missing"
-            ],
-            "Countries": [
-                "Gabon",
-                "Republic of the Congo"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q1000",
-                "http://www.wikidata.org/entity/Q971"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
     "vkn": {
         "Koro Nulu": {
             "Language": "Koro Nulu",
@@ -12805,63 +11881,6 @@
             "Instances": [
                 "language",
                 "chronolect"
-            ]
-        }
-    },
-    "wae": {
-        "Walser German": {
-            "Language": "Walser German",
-            "LangugeID": "http://www.wikidata.org/entity/Q680517",
-            "Regions": [
-                "Valais",
-                "Piedmont",
-                "Canton of the Grisons",
-                "Uri",
-                "Ticino",
-                "Province of Novara",
-                "Vorarlberg",
-                "Tyrol",
-                "Triesenberg",
-                "Triesen"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q834",
-                "http://www.wikidata.org/entity/Q1216",
-                "http://www.wikidata.org/entity/Q11925",
-                "http://www.wikidata.org/entity/Q12404",
-                "http://www.wikidata.org/entity/Q12724",
-                "http://www.wikidata.org/entity/Q16216",
-                "http://www.wikidata.org/entity/Q38981",
-                "http://www.wikidata.org/entity/Q42880",
-                "http://www.wikidata.org/entity/Q49651",
-                "http://www.wikidata.org/entity/Q49654"
-            ],
-            "RegionsOSM": [
-                "1686699",
-                "44874",
-                "1686631",
-                "Missing",
-                "1687730",
-                "1552704",
-                "74942",
-                "52343",
-                "1155948",
-                "1155945"
-            ],
-            "Countries": [
-                "Liechtenstein",
-                "Austria",
-                "Switzerland",
-                "Italy"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q347",
-                "http://www.wikidata.org/entity/Q40",
-                "http://www.wikidata.org/entity/Q39",
-                "http://www.wikidata.org/entity/Q38"
-            ],
-            "Instances": [
-                "modern language"
             ]
         }
     },
@@ -13013,78 +12032,6 @@
             ]
         }
     },
-    "wln": {
-        "Walloon": {
-            "Language": "Walloon",
-            "LangugeID": "http://www.wikidata.org/entity/Q34219",
-            "Regions": [
-                "Walloon Brabant",
-                "Province of Namur",
-                "Luxembourg",
-                "Province of Liege",
-                "Hainaut",
-                "Pointe de Givet"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q1122",
-                "http://www.wikidata.org/entity/Q1125",
-                "http://www.wikidata.org/entity/Q1126",
-                "http://www.wikidata.org/entity/Q1127",
-                "http://www.wikidata.org/entity/Q1129",
-                "http://www.wikidata.org/entity/Q2472096"
-            ],
-            "RegionsOSM": [
-                "78748",
-                "1311816",
-                "1412581",
-                "1407192",
-                "157559",
-                "Missing"
-            ],
-            "Countries": [
-                "France",
-                "Belgium",
-                "United States"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q142",
-                "http://www.wikidata.org/entity/Q31",
-                "http://www.wikidata.org/entity/Q30"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "wls": {
-        "Wallisian": {
-            "Language": "Wallisian",
-            "LangugeID": "http://www.wikidata.org/entity/Q36979",
-            "Regions": [
-                "New Caledonia",
-                "Wallis"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q33788",
-                "http://www.wikidata.org/entity/Q489003"
-            ],
-            "RegionsOSM": [
-                "3407643",
-                "Missing"
-            ],
-            "Countries": [
-                "Wallis"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q489003"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
-            ]
-        }
-    },
     "wmg": {
         "Western Minyag": {
             "Language": "Western Minyag",
@@ -13141,14 +12088,17 @@
             "Language": "Wae Rana",
             "LangugeID": "http://www.wikidata.org/entity/Q7959375",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Rana Mese"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q24576956"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "Missing"
             ],
@@ -13684,16 +12634,19 @@
             "Language": "Ke'o",
             "LangugeID": "http://www.wikidata.org/entity/Q3195346",
             "Regions": [
+                "Lesser Sunda Islands",
                 "East Nusa Tenggara",
                 "Keo Tengah",
                 "Nangaroro"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
                 "http://www.wikidata.org/entity/Q4193411",
                 "http://www.wikidata.org/entity/Q4250236"
             ],
             "RegionsOSM": [
+                "7226026",
                 "2396778",
                 "Missing",
                 "Missing"
@@ -13762,34 +12715,6 @@
             ],
             "Instances": [
                 "mixed language",
-                "language",
-                "modern language"
-            ]
-        }
-    },
-    "ykg": {
-        "Tundra Yukaghir": {
-            "Language": "Tundra Yukaghir",
-            "LangugeID": "http://www.wikidata.org/entity/Q56319",
-            "Regions": [
-                "Sakha",
-                "Nizhnekolymsky District"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q6605",
-                "http://www.wikidata.org/entity/Q764931"
-            ],
-            "RegionsOSM": [
-                "151234",
-                "Missing"
-            ],
-            "Countries": [
-                "Russia"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q159"
-            ],
-            "Instances": [
                 "language",
                 "modern language"
             ]
@@ -13945,39 +12870,6 @@
             ],
             "Instances": [
                 "language"
-            ]
-        }
-    },
-    "zag": {
-        "Zaghawa": {
-            "Language": "Zaghawa",
-            "LangugeID": "http://www.wikidata.org/entity/Q37007",
-            "Regions": [
-                "Ennedi Region",
-                "West Darfur",
-                "Wadi Fira Region"
-            ],
-            "RegionsID": [
-                "http://www.wikidata.org/entity/Q748093",
-                "http://www.wikidata.org/entity/Q846331",
-                "http://www.wikidata.org/entity/Q860813"
-            ],
-            "RegionsOSM": [
-                "Missing",
-                "3774664",
-                "2537750"
-            ],
-            "Countries": [
-                "Sudan",
-                "Chad"
-            ],
-            "CountriesID": [
-                "http://www.wikidata.org/entity/Q1049",
-                "http://www.wikidata.org/entity/Q657"
-            ],
-            "Instances": [
-                "language",
-                "modern language"
             ]
         }
     },
