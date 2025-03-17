@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import os
 from osm_data import region_codes_by_country, old_regions, new_region_codes, new_region_ids, non_region_tags
 # This file is planned to become a one-click-get-all-languages automating the wikidata sparql api but
 # need major refactoring. 
@@ -264,12 +265,12 @@ def get_lang_data():
     
     return 
 
-
+# theres anotther function that already does under 
 def populate_iso_array(empty_array, json_data):
     iso_codes = list(json_data.keys()) 
     data_len = len(iso_codes)
     
-    # Split into chunks of 150, upped for faster query
+    # Split into chunks of choice, upped for faster query
     for i in range(0, data_len, 150):
         little_array = iso_codes[i:i+150]  
         empty_array.append(little_array)  
@@ -521,7 +522,7 @@ def filter_dialects_missing():
 def find_missing_entries():
     '''Util function dumping all the languages that has at least 1 missing field in its data'''
 
-    with open("WikidataQuery\complete\languages.json", "r", encoding="utf-8") as f:
+    with open("WikidataQuery/complete/languages.json", "r", encoding="utf-8") as f:
         json_data = json.load(f)
 
     incomplete_data = {}
@@ -623,7 +624,7 @@ def indiginous_query(wikidata_links):
        are tagged with to sort out non-region related ones'''
 
     results = {}
-    link_batches = list(link_list_splitter(wikidata_links))
+    link_batches = list(link_list_splitter(wikidata_links, 100))
 
     headers = {
         "User-Agent": "Testing for a school project - felixjon@net.chalmers.se" 
@@ -673,8 +674,7 @@ def indiginous_query(wikidata_links):
 
     print("Query completed. Results saved to 'WikidataQuery/ethnic_groups.json'.")
         
-def link_list_splitter(lst):
-    mini_listsize = 100
+def link_list_splitter(lst, mini_listsize):
     for i in range(0, len(lst), mini_listsize):
         yield lst[i:i + mini_listsize]
 
@@ -732,7 +732,10 @@ def get_all_regions():
     with open("WikidataQuery/complete/languages.json", "r", encoding="utf-8") as f:
         json_data = json.load(f)
 
-    only_region_list = {}
+    region_gjson = {
+        "type": "FeatureCollection",
+        "features": []
+    }
 
     for iso_code, languages in json_data.items():
         for language_name, data in languages.items():
@@ -745,25 +748,92 @@ def get_all_regions():
                 if r_name == "Missing" or r_osm == "Missing":
                     continue
                 
-                if r_name not in only_region_list:
-                    only_region_list[r_name] = []
-                if r_osm not in only_region_list[r_name]:
-                    if r_osm != "Missing":
-                        only_region_list[r_name].append(r_osm)
-                    
+                if r_name not in [feature["properties"]["Name"] for feature in region_gjson["features"]]:
+                    new_feature = {
+                        "type": "Feature",
+                        "properties": {"Name": r_name, "osm": [r_osm]}, # check if this r_osm is right later
+                        "geometry": {}
+                    }
+                    region_gjson["features"].append(new_feature)
+                 
+    osm_id_list = []
     
+    # its not sorting them out correctly so the whole file breaks when loading it in
+    for feature in region_gjson["features"]:
+        if len(feature["properties"]["osm"]) == 1:  # skip the regions with multiple osm codes for now 
+            osm_id_list.append(feature["properties"]["osm"][0])
+ 
+    osm_id_list = list(link_list_splitter(osm_id_list, 50))  # 46 lists = 46 queries
+   
+    total_batches = len(osm_id_list)
+    for i in range(total_batches):
+        response_content = nomimantim_api_call(osm_id_list[i])
+        update_region_geometry(region_gjson, response_content)
+        
+        file_name = f"WikidataQuery/regiondump/allregions_part{i+1}.geojson"
+        with open(file_name, "w", encoding="utf-8") as f:
+            json.dump(region_gjson, f, separators=(',', ':'))
+            f.flush() # To not kill my ram, update: its still killing my ram something tells me json is not made for this amount of data
+        
+        print(f"Batch {i + 1}/{total_batches} done")
+        print("Sleeping 2 sec")
+        time.sleep(2)
+    print("Finished fetching region data")
+
+def nomimantim_api_call(osmid):
+    # takes up to 50 ids at a time
+    osm_ids = ",".join([f"R{id}" for id in osmid])
+    query = f"https://nominatim.openstreetmap.org/lookup?osm_ids={osm_ids}&format=geojson&polygon_geojson=1&polygon_threshold=0.01"
+    headers = {
+        "User-Agent": "Testing for a school project - felixjon@net.chalmers.se" 
+    }
+    response = requests.get(query, headers=headers)
+    # dont need these
+    apidata_folder = "RAW_output"
+    os.makedirs(apidata_folder, exist_ok=True)   
+
+    return response.json()
+
+
+def update_region_geometry(region_geojson, response_content): # send in the response content as an argument
     
-    for key, id in only_region_list.items():
-        if len(id) > 1:
-            print({key})
+    features = response_content["features"]
+    for feature in features:
+        feature_osm_id = str(feature["properties"]["osm_id"])
+        feature_poly_type = feature["geometry"]["type"]
+        feature_polygon_coords = feature["geometry"]["coordinates"]
+        
+        if feature_poly_type == "Polygon":
+            mini_coords = []
+            geo_type = "Polygon"
+            for cord_list in feature_polygon_coords:
+                for point in cord_list:
+                    lon = round(point[0], 5)
+                    lan = round(point[1], 5)
+                    mini_point = [lon, lan]        
+                    mini_coords.append(mini_point)
+        
+        if feature_poly_type == "MultiPolygon":
+            multipoly_list = []
+            geo_type = "MultiPolygon"
+            for polygon_list in feature_polygon_coords:
+                mini_coords = []
+                for cord_list in polygon_list:
+                    mini_point = [[round(point[0], 5), round(point[1], 5)] for point in cord_list]        
+                    mini_coords.append(mini_point)
+                multipoly_list.append(mini_coords)
+         
+        feature_geometry = {
+            "type": geo_type,
+            "coordinates": [mini_coords]
+        }
 
-    print(len(only_region_list))
-    with open("WikidataQuery/region_list.json", "w", encoding="utf-8") as f:
-        json.dump(only_region_list, f, indent=4, ensure_ascii=False)
-                
+        for feature in region_geojson["features"]:
+            region_osm_id = feature["properties"]["osm"][0]
+            if feature_osm_id == region_osm_id:
+                feature["geometry"] = feature_geometry 
+          
 
-
-           
 
 def update_nepal_regions(lang_data):
     '''Unique function just for nepal to fully replace all their zones with the new provinces
@@ -834,13 +904,45 @@ def update_nepal_regions(lang_data):
                         
 #get_lang_data() # bka btx jhi krh with doublets get sorted out later 
 
+# psuedo api, this wont work well using only json files
+def get_one_language(input_lang):
+    with open("WikidataQuery/complete/languages.json", "r", encoding="utf-8") as f:
+        lang_data = json.load(f)
+    with open("WikidataQuery/regiondump0001/allregions_part47.geojson", "r", encoding="utf-8") as f:
+        region_gjson = json.load(f)
+    
+    for iso_code, languages in lang_data.items(): 
+        for language_name, details in languages.items():
+            if language_name == input_lang:
+                l_regions = details.get("RegionsOSM")
+    
+    lang_features = []
+    for feature in region_gjson["features"]:
+        f_osm = feature["properties"]["osm"][0]
+
+        #f_geometry = feature["geometry"]
+        if f_osm in l_regions:
+            lang_features.append(feature)
+            print("found")
+
+    new_langjson = {
+        "type": "FeatureCollection",
+        "features": [lang_features]
+    } 
+    
+    with open(f"WikidataQuery/{input_lang}.geojson","w", encoding="utf-8") as f: 
+        json.dump(new_langjson, f, separators=(',', ':'))
+    
+
 def main():
     #filter_dialects_missing()
     #find_missing_entries()
     #find_entries_with_missing_regionsosm()
     #print("Yearly update done")
     #help(update_nepal_regions)
-    get_all_regions()
+    #get_all_regions()
+    input_lang = input("Input lang name: ")
+    get_one_language(input_lang)
 
 if __name__ == "__main__":
     main()
