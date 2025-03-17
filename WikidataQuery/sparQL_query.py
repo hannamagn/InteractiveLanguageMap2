@@ -17,7 +17,8 @@ Do something about the rest of the missing data - at the moment it looks like it
 Maybe move official lang into its own file
 Create main function and organize the full pipeline
 Remove all the json files
-Get full list of all regions and osm id's to be fetched
+Get full list of all regions and osm id's to be fetched - ✔
+Deal with regions having more than 1 osm id
 Remake the create_kml query and code for geojson
 Fetch data for all present osm ids -> save as singular data files for modularity
 Way of minimizing file size - Done (in a smaller scale)
@@ -420,12 +421,7 @@ def replace_region_with_many(data):
             details["RegionsOSM"] = updated_region_osm
             details["RegionsID"] = updated_region_id
                 
-                
-                
-        
 
-    
-    
 
 # old file used was the new_cleaned_query_complete
 def filter_dialects_missing():
@@ -730,7 +726,44 @@ def util_unique_instanceoflabels():
             confirmed_ethnicWikiLink.append(wiki_link)
     return confirmed_ethnicWikiLink
 
+def get_all_regions():
+    '''Return or write a list of all region and the respective osm id'''
+    
+    with open("WikidataQuery/complete/languages.json", "r", encoding="utf-8") as f:
+        json_data = json.load(f)
 
+    only_region_list = {}
+
+    for iso_code, languages in json_data.items():
+        for language_name, data in languages.items():
+            regionNames = data.get("Regions", [])
+            regionOSM = data.get("RegionsOSM", [])
+            #print(f"New language: {iso_code}")
+            for i in range(len(regionNames)): 
+                r_name = regionNames[i]
+                r_osm = regionOSM[i]
+                if r_name == "Missing" or r_osm == "Missing":
+                    continue
+                
+                if r_name not in only_region_list:
+                    only_region_list[r_name] = []
+                if r_osm not in only_region_list[r_name]:
+                    if r_osm != "Missing":
+                        only_region_list[r_name].append(r_osm)
+                    
+    
+    
+    for key, id in only_region_list.items():
+        if len(id) > 1:
+            print({key})
+
+    print(len(only_region_list))
+    with open("WikidataQuery/region_list.json", "w", encoding="utf-8") as f:
+        json.dump(only_region_list, f, indent=4, ensure_ascii=False)
+                
+
+
+           
 
 def update_nepal_regions(lang_data):
     '''Unique function just for nepal to fully replace all their zones with the new provinces
@@ -802,10 +835,12 @@ def update_nepal_regions(lang_data):
 #get_lang_data() # bka btx jhi krh with doublets get sorted out later 
 
 def main():
-    filter_dialects_missing()
-    find_missing_entries()
-    find_entries_with_missing_regionsosm()
-    print("Yearly update done")
+    #filter_dialects_missing()
+    #find_missing_entries()
+    #find_entries_with_missing_regionsosm()
+    #print("Yearly update done")
+    #help(update_nepal_regions)
+    get_all_regions()
 
 if __name__ == "__main__":
     main()

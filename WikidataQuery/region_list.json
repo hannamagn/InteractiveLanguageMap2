@@ -1,0 +1,6990 @@
+{
+    "Federal Capital Territory": [
+        "3717259"
+    ],
+    "Edo State": [
+        "3717119"
+    ],
+    "Nasarawa State": [
+        "3720495"
+    ],
+    "Western Province": [
+        "311776",
+        "11916824",
+        "318852"
+    ],
+    "East Sepik Province": [
+        "311778"
+    ],
+    "Sandaun Province": [
+        "311777"
+    ],
+    "Karnataka": [
+        "2019939"
+    ],
+    "Kerala": [
+        "2018151"
+    ],
+    "Oro Province": [
+        "311781"
+    ],
+    "Gulf Province": [
+        "311775"
+    ],
+    "Borno State": [
+        "3721167"
+    ],
+    "North": [
+        "2750662"
+    ],
+    "Far North": [
+        "2749663"
+    ],
+    "South": [
+        "2750833"
+    ],
+    "Pará": [
+        "185579"
+    ],
+    "Debub Region": [
+        "4610903"
+    ],
+    "Afar Region": [
+        "1707249"
+    ],
+    "Somali Region": [
+        "1707658"
+    ],
+    "Amhara Region": [
+        "1707264"
+    ],
+    "Dikhil Region": [
+        "3725233"
+    ],
+    "Tadjourah Region": [
+        "3725194"
+    ],
+    "Arta Region": [
+        "4027786"
+    ],
+    "Ali Sabieh Region": [
+        "3725240"
+    ],
+    "Obock Region": [
+        "3905167"
+    ],
+    "West New Britain Province": [
+        "3777384"
+    ],
+    "Lesser Sunda Islands": [
+        "7226026"
+    ],
+    "East Nusa Tenggara": [
+        "2396778"
+    ],
+    "Lacs District": [
+        "3601645"
+    ],
+    "Lagunes District": [
+        "3581398"
+    ],
+    "West": [
+        "6312404"
+    ],
+    "Littoral": [
+        "2750851",
+        "2848206"
+    ],
+    "Central Luzon": [
+        "1552195"
+    ],
+    "Central Visayas": [
+        "3625910"
+    ],
+    "Bataan": [
+        "1504680"
+    ],
+    "Zambales": [
+        "1504691"
+    ],
+    "Camarines Norte": [
+        "1504550"
+    ],
+    "Sabah": [
+        "3879783"
+    ],
+    "Eastern Highlands Province": [
+        "311774"
+    ],
+    "Abkhazia": [
+        "1152720"
+    ],
+    "Lampung": [
+        "2390839"
+    ],
+    "Sumatra": [
+        "7226121"
+    ],
+    "Cross River State": [
+        "3716250"
+    ],
+    "Rivers State": [
+        "3720743"
+    ],
+    "Taraba State": [
+        "3720850"
+    ],
+    "Tarlac": [
+        "52307"
+    ],
+    "Stavropol Krai": [
+        "108081"
+    ],
+    "North Ossetia–Alania": [
+        "110032"
+    ],
+    "Karachay-Cherkessia": [
+        "109878"
+    ],
+    "Zanzan District": [
+        "1609813"
+    ],
+    "Ahafo Region": [
+        "10212840"
+    ],
+    "Bono East Region": [
+        "10212839"
+    ],
+    "Bono Region": [
+        "3329833"
+    ],
+    "Maluku": [
+        "2396795"
+    ],
+    "Aru Islands": [
+        "11774714"
+    ],
+    "Buru": [
+        "13262347"
+    ],
+    "Eastern Seram": [
+        "13262352"
+    ],
+    "Tanimbar Islands": [
+        "13262356"
+    ],
+    "West Halmahera": [
+        "13263675"
+    ],
+    "Ternate": [
+        "13263676"
+    ],
+    "Central Maluku": [
+        "13262350"
+    ],
+    "Comoé District": [
+        "3578769"
+    ],
+    "Bahrain": [
+        "378734"
+    ],
+    "Madang Province": [
+        "311779"
+    ],
+    "Northern Samar": [
+        "1506364"
+    ],
+    "Samar": [
+        "1506416"
+    ],
+    "Central Province": [
+        "311783",
+        "318861",
+        "2536258"
+    ],
+    "Alor Island": [
+        "5138903"
+    ],
+    "Casanare Department": [
+        "1392025"
+    ],
+    "Meta Department": [
+        "1305166"
+    ],
+    "Volta Region": [
+        "3328699"
+    ],
+    "Aceh": [
+        "2390836"
+    ],
+    "North Sumatra": [
+        "2390843"
+    ],
+    "Great Aceh": [
+        "8930394"
+    ],
+    "Aceh Jaya": [
+        "8912351"
+    ],
+    "Aceh Singkil": [
+        "8922305"
+    ],
+    "East Aceh": [
+        "8931988"
+    ],
+    "Aceh Tamiang": [
+        "8922310"
+    ],
+    "Bireuen": [
+        "14734667"
+    ],
+    "Nagan Raya": [
+        "8912353"
+    ],
+    "North Aceh": [
+        "4559902"
+    ],
+    "Pidie": [
+        "8931169"
+    ],
+    "Pidie Jaya": [
+        "8931186"
+    ],
+    "South Aceh": [
+        "8922306"
+    ],
+    "Southwest Aceh": [
+        "8912352"
+    ],
+    "West Aceh": [
+        "8912350"
+    ],
+    "Langsa": [
+        "8922311"
+    ],
+    "Lhokseumawe": [
+        "4126220"
+    ],
+    "Central Tapanuli": [
+        "8483345"
+    ],
+    "Saint Lucia": [
+        "550728"
+    ],
+    "Dominica": [
+        "307823"
+    ],
+    "Kitgum District": [
+        "3501820"
+    ],
+    "Gulu District": [
+        "3497245"
+    ],
+    "Pader District": [
+        "3497167"
+    ],
+    "Oyam District": [
+        "3497114"
+    ],
+    "Koboko District": [
+        "3501821"
+    ],
+    "Yunnan": [
+        "913094"
+    ],
+    "Chin State": [
+        "5996475"
+    ],
+    "Kachin State": [
+        "5996476"
+    ],
+    "Niger State": [
+        "3718384"
+    ],
+    "Kaduna State": [
+        "3709353"
+    ],
+    "Alta Verapaz Department": [
+        "214695"
+    ],
+    "Baja Verapaz Department": [
+        "214712"
+    ],
+    "Quiché Department": [
+        "214700"
+    ],
+    "El Progreso Department": [
+        "214697"
+    ],
+    "Doetinchem": [
+        "417679"
+    ],
+    "Montferland": [
+        "417701"
+    ],
+    "Lochem": [
+        "416833"
+    ],
+    "Winterswijk": [
+        "416742"
+    ],
+    "Bronckhorst": [
+        "417454"
+    ],
+    "Doesburg": [
+        "417595"
+    ],
+    "Berkelland": [
+        "416728"
+    ],
+    "Zutphen": [
+        "416840"
+    ],
+    "Aalten": [
+        "416892"
+    ],
+    "Oude IJsselstreek": [
+        "417140"
+    ],
+    "Oost Gelre": [
+        "416729"
+    ],
+    "Brummen": [
+        "416858"
+    ],
+    "Loreto Department": [
+        "1994077"
+    ],
+    "Pastaza Province": [
+        "113869"
+    ],
+    "Bolívar Province": [
+        "108899"
+    ],
+    "Morona-Santiago Province": [
+        "108521"
+    ],
+    "California": [
+        "165475"
+    ],
+    "Timor": [
+        "3987443"
+    ],
+    "Dili Municipality": [
+        "4631022"
+    ],
+    "Centrale Region": [
+        "3338091"
+    ],
+    "Central Region": [
+        "3330281",
+        "3365650"
+    ],
+    "Tororo District": [
+        "3501864"
+    ],
+    "Bugiri District": [
+        "3498135"
+    ],
+    "Busia District": [
+        "3501859"
+    ],
+    "Bukedea District": [
+        "3498172"
+    ],
+    "Arunachal Pradesh": [
+        "2027346"
+    ],
+    "Assam": [
+        "2025886"
+    ],
+    "Plateaux Region": [
+        "3338185"
+    ],
+    "Adonara": [
+        "5182707"
+    ],
+    "South Australia": [
+        "2316596"
+    ],
+    "Kogi State": [
+        "3717971"
+    ],
+    "Acre": [
+        "326266"
+    ],
+    "Rondônia": [
+        "325866"
+    ],
+    "Tibet Autonomous Region": [
+        "153292"
+    ],
+    "Sichuan": [
+        "913068"
+    ],
+    "Hainan": [
+        "2128285"
+    ],
+    "Gansu": [
+        "153314"
+    ],
+    "Qinghai": [
+        "153269"
+    ],
+    "Krasnodar Krai": [
+        "108082"
+    ],
+    "Adygea": [
+        "253256"
+    ],
+    "Nangarhar Province": [
+        "1674770"
+    ],
+    "Kunar Province": [
+        "1674607"
+    ],
+    "Quảng Bình": [
+        "1896050"
+    ],
+    "Khammouane Province": [
+        "5831658"
+    ],
+    "Sindh": [
+        "357981"
+    ],
+    "Benue State": [
+        "3716076"
+    ],
+    "Delta State": [
+        "3716950"
+    ],
+    "South Africa": [
+        "87565"
+    ],
+    "Botswana": [
+        "1889339"
+    ],
+    "Central District": [
+        "270335",
+        "1400928"
+    ],
+    "Ghanzi District": [
+        "270336"
+    ],
+    "Kgalagadi District": [
+        "270339"
+    ],
+    "Kgatleng District": [
+        "270333"
+    ],
+    "Southern District": [
+        "270338",
+        "1473952"
+    ],
+    "Papua": [
+        "4521144"
+    ],
+    "Ebonyi State": [
+        "3717071"
+    ],
+    "Southern Highlands Province": [
+        "311770"
+    ],
+    "West Papua": [
+        "4521145"
+    ],
+    "Orientale Province": [
+        "3652285"
+    ],
+    "Chhattisgarh": [
+        "1972004"
+    ],
+    "Madhya Pradesh": [
+        "1950071"
+    ],
+    "Uttar Pradesh": [
+        "1942587"
+    ],
+    "Bicol Region": [
+        "3561455"
+    ],
+    "Camarines Sur": [
+        "1504551"
+    ],
+    "Morobe Province": [
+        "311780"
+    ],
+    "Mimaropa": [
+        "1552261"
+    ],
+    "Palawan": [
+        "1506669"
+    ],
+    "Amazonas Department": [
+        "1973462",
+        "1303962"
+    ],
+    "Cajamarca Department": [
+        "1896111"
+    ],
+    "San Martin Department": [
+        "1971661"
+    ],
+    "Cagayan": [
+        "1504756"
+    ],
+    "Huehuetenango Department": [
+        "214708"
+    ],
+    "Aguacatán": [
+        "377251"
+    ],
+    "Quezon": [
+        "1504500"
+    ],
+    "Rizal": [
+        "1504641"
+    ],
+    "Makira-Ulawa Province": [
+        "2536262"
+    ],
+    "Dagestan": [
+        "109876"
+    ],
+    "Calabarzon": [
+        "1552120"
+    ],
+    "Bulacan": [
+        "1504656"
+    ],
+    "Nueva Ecija": [
+        "52306"
+    ],
+    "Western Region": [
+        "3498734"
+    ],
+    "Malampa": [
+        "3765629"
+    ],
+    "Boven Digoel": [
+        "7754474"
+    ],
+    "South Papua": [
+        "14309177"
+    ],
+    "Chiang Mai": [
+        "1908771"
+    ],
+    "Chiang Rai": [
+        "1908772"
+    ],
+    "Mae Hong Son": [
+        "1908785"
+    ],
+    "Phongsaly Province": [
+        "5831662"
+    ],
+    "Shan State": [
+        "5996485"
+    ],
+    "Lūang Namthā": [
+        "5831659"
+    ],
+    "Gujarat": [
+        "1949080"
+    ],
+    "Maharashtra": [
+        "1950884"
+    ],
+    "Alaska": [
+        "1116270"
+    ],
+    "Washington": [
+        "165479"
+    ],
+    "Xinjiang": [
+        "153310"
+    ],
+    "Saint Kitts and Nevis": [
+        "536899"
+    ],
+    "Montserrat": [
+        "537257"
+    ],
+    "Anguilla": [
+        "2177161"
+    ],
+    "Saint-Martin": [
+        "1891583"
+    ],
+    "Barbuda": [
+        "9604459"
+    ],
+    "Guizhou": [
+        "286937"
+    ],
+    "Northern District": [
+        "1375620"
+    ],
+    "Manipur": [
+        "2027869"
+    ],
+    "Sakhalin": [
+        "3987424"
+    ],
+    "Sakhalin Oblast": [
+        "394235"
+    ],
+    "Kuril Islands": [
+        "7273443"
+    ],
+    "Hokkaido": [
+        "3795658"
+    ],
+    "West Pantai": [
+        "16091326"
+    ],
+    "Mamberamo Hilir": [
+        "7754447"
+    ],
+    "Western Bahr el Ghazal": [
+        "2190484"
+    ],
+    "Mono Department": [
+        "2848207"
+    ],
+    "Zou Department": [
+        "2846873"
+    ],
+    "Maritime": [
+        "3338188"
+    ],
+    "Western Australia": [
+        "2316598"
+    ],
+    "Israel": [
+        "1473946"
+    ],
+    "Morocco": [
+        "3630439"
+    ],
+    "Meghalaya": [
+        "2027521"
+    ],
+    "Ghana": [
+        "192781"
+    ],
+    "South Tapanuli": [
+        "8484430"
+    ],
+    "Southwest Papua": [
+        "14905625"
+    ],
+    "Roraima": [
+        "326287"
+    ],
+    "Bolívar": [
+        "2269155"
+    ],
+    "Delta Amacuro": [
+        "272669"
+    ],
+    "Monagas": [
+        "272670"
+    ],
+    "Cuyuni-Mazaruni": [
+        "7108866"
+    ],
+    "Aklan": [
+        "1506745"
+    ],
+    "Antique": [
+        "1506746"
+    ],
+    "Capiz": [
+        "1550483"
+    ],
+    "Sipaliwini District": [
+        "5740857"
+    ],
+    "Sanma": [
+        "3765591"
+    ],
+    "Cuvette-Ouest Department": [
+        "3220589"
+    ],
+    "Cuvette Department": [
+        "3220588"
+    ],
+    "Alabama": [
+        "161950"
+    ],
+    "Texas": [
+        "114690"
+    ],
+    "Magellan and the Chilean Antarctic Region": [
+        "301542"
+    ],
+    "Northern Territory": [
+        "2316594"
+    ],
+    "Occidental Mindoro": [
+        "1506320"
+    ],
+    "Salavan Province": [
+        "5831664"
+    ],
+    "Sekong Province": [
+        "5831669"
+    ],
+    "Quebec": [
+        "61549"
+    ],
+    "Ontario": [
+        "68841"
+    ],
+    "Kamchatka Krai": [
+        "151233"
+    ],
+    "Altai Mountains": [
+        "10904143"
+    ],
+    "Honiara": [
+        "2536278"
+    ],
+    "Guadalcanal Province": [
+        "11916914"
+    ],
+    "Malaita Province": [
+        "2536263"
+    ],
+    "Oromia Region": [
+        "1707656"
+    ],
+    "Queensland": [
+        "2316595"
+    ],
+    "Ituri Interim Administration": [
+        "192818"
+    ],
+    "Arua District": [
+        "3501793"
+    ],
+    "Yumbe District": [
+        "3501826"
+    ],
+    "Nebbi District": [
+        "3501825"
+    ],
+    "Zombo District": [
+        "3501827"
+    ],
+    "Ucayali Department": [
+        "1921996"
+    ],
+    "Madre de Dios Department": [
+        "1891287"
+    ],
+    "Junin Department": [
+        "1948258"
+    ],
+    "Pasco Department": [
+        "1948452"
+    ],
+    "Addis Ababa": [
+        "1707699"
+    ],
+    "Hualien County": [
+        "2921156"
+    ],
+    "Taitung County": [
+        "2921155"
+    ],
+    "Batha Region": [
+        "3106605"
+    ],
+    "Ouaddaï Region": [
+        "3106500"
+    ],
+    "Wadi Fira Region": [
+        "2537750"
+    ],
+    "Sylhet Division": [
+        "3921222"
+    ],
+    "Sylhet District": [
+        "9514619"
+    ],
+    "Plateau State": [
+        "3720611"
+    ],
+    "Kagoshima Prefecture": [
+        "1842186"
+    ],
+    "Okinawa Prefecture": [
+        "3795635"
+    ],
+    "Oaxaca": [
+        "2529822"
+    ],
+    "Guerrero": [
+        "2439316"
+    ],
+    "Rif Dimashq Governorate": [
+        "184884"
+    ],
+    "Damascus Governorate": [
+        "7328462"
+    ],
+    "Langtang North": [
+        "3720620"
+    ],
+    "Langtang South": [
+        "3720621"
+    ],
+    "Pankshin": [
+        "3720624"
+    ],
+    "Kanam": [
+        "3720618"
+    ],
+    "Akwa Ibom State": [
+        "3715359"
+    ],
+    "Caquetá Department": [
+        "1394843"
+    ],
+    "Bihar": [
+        "1958982"
+    ],
+    "Jharkhand": [
+        "1960191"
+    ],
+    "Koshi Province": [
+        "10489132"
+    ],
+    "Andaman Islands": [
+        "9493295"
+    ],
+    "Telangana": [
+        "3250963"
+    ],
+    "Gambela Region": [
+        "1707655"
+    ],
+    "Jonglei": [
+        "2190481"
+    ],
+    "Abia State": [
+        "3713501"
+    ],
+    "Manus Province": [
+        "3777382"
+    ],
+    "São Tomé Province": [
+        "9377730"
+    ],
+    "Ternate Island": [
+        "24388000",
+        "12350836"
+    ],
+    "Kepa Island": [
+        "24387991"
+    ],
+    "Dhaka Division": [
+        "3921322"
+    ],
+    "Netrokona District": [
+        "9511903"
+    ],
+    "Upper Takutu-Upper Essequibo": [
+        "7108944"
+    ],
+    "Oe-Cusse Ambeno": [
+        "3725861"
+    ],
+    "West Timor": [
+        "9426161"
+    ],
+    "Turkey": [
+        "174737"
+    ],
+    "Jordan": [
+        "184818"
+    ],
+    "Lebanon": [
+        "184843"
+    ],
+    "Syria": [
+        "184840"
+    ],
+    "Hatay Province": [
+        "223122"
+    ],
+    "Isabela": [
+        "1504761"
+    ],
+    "Kalimantan": [
+        "7225940"
+    ],
+    "East Kalimantan": [
+        "5449459"
+    ],
+    "Mato Grosso": [
+        "333597"
+    ],
+    "New Mexico": [
+        "162014"
+    ],
+    "Chihuahua": [
+        "1673425"
+    ],
+    "Oklahoma": [
+        "161645"
+    ],
+    "Maranhão": [
+        "332924"
+    ],
+    "Tocantins": [
+        "336819"
+    ],
+    "Penama": [
+        "3765606"
+    ],
+    "Nagaland": [
+        "2027973"
+    ],
+    "Amazonas": [
+        "332476",
+        "2269815"
+    ],
+    "Arizona": [
+        "162018"
+    ],
+    "Sonora": [
+        "1673426"
+    ],
+    "Amapá": [
+        "331463"
+    ],
+    "Mopti Region": [
+        "2096899"
+    ],
+    "Ekiti State": [
+        "3717154"
+    ],
+    "Aurora": [
+        "1504662"
+    ],
+    "Presidente Hayes": [
+        "389884"
+    ],
+    "Aragon": [
+        "349045"
+    ],
+    "Zaragoza Province": [
+        "349030"
+    ],
+    "Huesca Province": [
+        "349022"
+    ],
+    "Magdalena Department": [
+        "1319097"
+    ],
+    "Cesar Department": [
+        "1317223"
+    ],
+    "North Dakota": [
+        "161653"
+    ],
+    "Buenos Aires": [
+        "1224652"
+    ],
+    "Araucanía Region": [
+        "296378"
+    ],
+    "Los Ríos Region": [
+        "274988"
+    ],
+    "Los Lagos Region": [
+        "274991"
+    ],
+    "Mendoza Province": [
+        "153540"
+    ],
+    "Neuquén Province": [
+        "1606727"
+    ],
+    "Río Negro Province": [
+        "153547"
+    ],
+    "Chubut Province": [
+        "153548"
+    ],
+    "La Paz Department": [
+        "400473",
+        "3624477"
+    ],
+    "Wyoming": [
+        "161991"
+    ],
+    "Saudi Arabia": [
+        "307584"
+    ],
+    "Commewijne District": [
+        "5740850"
+    ],
+    "Para District": [
+        "5740854"
+    ],
+    "Kilimanjaro Region": [
+        "1243795"
+    ],
+    "Manyara Region": [
+        "1243808"
+    ],
+    "Tanga Region": [
+        "1600844"
+    ],
+    "Saskatchewan": [
+        "391178"
+    ],
+    "Kebbi State": [
+        "3707933"
+    ],
+    "Nuristan Province": [
+        "1674544"
+    ],
+    "West Bengal": [
+        "1960177"
+    ],
+    "Odisha": [
+        "1984022"
+    ],
+    "East": [
+        "2750738"
+    ],
+    "Asturias": [
+        "349033"
+    ],
+    "Cantabria": [
+        "349013"
+    ],
+    "Zamora Province": [
+        "348987"
+    ],
+    "León Province": [
+        "349010"
+    ],
+    "Haut-Uele": [
+        "192817"
+    ],
+    "East New Britain Province": [
+        "3777381"
+    ],
+    "Davao Region": [
+        "3936842"
+    ],
+    "Bukidnon": [
+        "48393"
+    ],
+    "Davao de Oro": [
+        "1507283"
+    ],
+    "Davao del Norte": [
+        "1507313"
+    ],
+    "Davao del Sur": [
+        "1513050"
+    ],
+    "Western Visayas": [
+        "3589982"
+    ],
+    "Iloilo": [
+        "1506774"
+    ],
+    "Markazi Province": [
+        "229958"
+    ],
+    "Northwest": [
+        "2750874"
+    ],
+    "Sulawesi": [
+        "7226110"
+    ],
+    "West Sulawesi": [
+        "2388669"
+    ],
+    "Montana": [
+        "162115"
+    ],
+    "Lakes": [
+        "2190480"
+    ],
+    "Altai Krai": [
+        "144764"
+    ],
+    "Altai Republic": [
+        "145194"
+    ],
+    "Khakassia": [
+        "190911"
+    ],
+    "Tafea": [
+        "3765631"
+    ],
+    "Temotu Province": [
+        "2536265"
+    ],
+    "Napo Province": [
+        "114276"
+    ],
+    "Orellana Province": [
+        "114245"
+    ],
+    "Collines department": [
+        "2845888"
+    ],
+    "Haut-Katanga Province": [
+        "193085"
+    ],
+    "Katanga Province": [
+        "3652419"
+    ],
+    "Luapula Province": [
+        "318866"
+    ],
+    "Milne Bay Province": [
+        "311782"
+    ],
+    "Al Wahat District": [
+        "2060169"
+    ],
+    "Austral Islands": [
+        "1363095"
+    ],
+    "Chechnya": [
+        "109877"
+    ],
+    "Zaqatala District": [
+        "3764588"
+    ],
+    "Kakheti": [
+        "2000091"
+    ],
+    "Balakan District": [
+        "3764542"
+    ],
+    "Qom Province": [
+        "537702"
+    ],
+    "Gôh-Djiboua District": [
+        "3596727"
+    ],
+    "Western Equatoria": [
+        "2190483"
+    ],
+    "Central Equatoria": [
+        "2190479"
+    ],
+    "Goiás": [
+        "334443"
+    ],
+    "Karnali Province": [
+        "10493723"
+    ],
+    "Lumbini Province": [
+        "10493722"
+    ],
+    "Sudurpashchim Province": [
+        "10488187"
+    ],
+    "Xingu Indigenous Park": [
+        "3542572"
+    ],
+    "Benishangul-Gumuz Region": [
+        "1707653"
+    ],
+    "Gombe State": [
+        "3720422"
+    ],
+    "Kaltungo": [
+        "3720429"
+    ],
+    "Sangha Department": [
+        "3220596"
+    ],
+    "Lobaye Prefecture": [
+        "3564719"
+    ],
+    "Sangha-Mbaéré": [
+        "2954788"
+    ],
+    "Likouala Department": [
+        "3220591"
+    ],
+    "Atlantique Department": [
+        "2848205"
+    ],
+    "Kouffo Department": [
+        "2846891"
+    ],
+    "Ondo State": [
+        "3718605"
+    ],
+    "Hadhramaut": [
+        "383897"
+    ],
+    "Alto Paraguay": [
+        "389882"
+    ],
+    "Boquerón Department": [
+        "389883"
+    ],
+    "Santa Cruz Department": [
+        "3360565"
+    ],
+    "Tarapacá Region": [
+        "238393"
+    ],
+    "Antofagasta Region": [
+        "240932"
+    ],
+    "Potosí Department": [
+        "4509552"
+    ],
+    "Oruro Department": [
+        "395910"
+    ],
+    "West Azarbaijan Province": [
+        "241593"
+    ],
+    "East Azarbaijan Province": [
+        "2232180"
+    ],
+    "Durango": [
+        "2399740"
+    ],
+    "Nayarit": [
+        "7695827"
+    ],
+    "Azerbaijan": [
+        "364110"
+    ],
+    "Tbilisi": [
+        "1996871"
+    ],
+    "Samtskhe–Javakheti": [
+        "1996031"
+    ],
+    "Ardahan Province": [
+        "1251450"
+    ],
+    "Kars Province": [
+        "186431"
+    ],
+    "Iğdır Province": [
+        "186434"
+    ],
+    "Ardabil Province": [
+        "269635"
+    ],
+    "Kurdistan Province": [
+        "241546"
+    ],
+    "Zanjan Province": [
+        "241473"
+    ],
+    "Hamadan Province": [
+        "241038"
+    ],
+    "Kvemo Kartli": [
+        "2000092"
+    ],
+    "Tehran Province": [
+        "537701"
+    ],
+    "Gilan Province": [
+        "241472"
+    ],
+    "Qazvin Province": [
+        "241471"
+    ],
+    "Rutulsky District": [
+        "1858752"
+    ],
+    "Tabasaransky District": [
+        "1858755"
+    ],
+    "Derbentsky District": [
+        "1858723"
+    ],
+    "Cagayan Valley": [
+        "1552192"
+    ],
+    "Veracruz": [
+        "2415761"
+    ],
+    "Puebla": [
+        "1376491"
+    ],
+    "Choiseul Province": [
+        "2536259"
+    ],
+    "Cacheu Region": [
+        "1761582"
+    ],
+    "Banten": [
+        "2388356"
+    ],
+    "East Java": [
+        "3438227"
+    ],
+    "West Java": [
+        "2388361"
+    ],
+    "Java": [
+        "7663548"
+    ],
+    "Centre": [
+        "2750789",
+        "2746031"
+    ],
+    "The Bahamas": [
+        "547469"
+    ],
+    "Samara Oblast": [
+        "72194"
+    ],
+    "Saratov Oblast": [
+        "72193"
+    ],
+    "Orenburg Oblast": [
+        "77669"
+    ],
+    "Perm Krai": [
+        "115135"
+    ],
+    "Udmurtia": [
+        "115134"
+    ],
+    "Sverdlovsk Oblast": [
+        "79379"
+    ],
+    "Tatarstan": [
+        "79374"
+    ],
+    "Bashkortostan": [
+        "77677"
+    ],
+    "Chelyabinsk Oblast": [
+        "77687"
+    ],
+    "Kurgan Oblast": [
+        "140290"
+    ],
+    "Tyumen Oblast": [
+        "140291"
+    ],
+    "Balochistan": [
+        "357968"
+    ],
+    "Mali": [
+        "192785"
+    ],
+    "Indonesia": [
+        "304751"
+    ],
+    "Bali Island": [
+        "2130352"
+    ],
+    "Bali": [
+        "1615621"
+    ],
+    "Vaupés Department": [
+        "1359366",
+        "2269815"
+    ],
+    "Sikkim": [
+        "1791324"
+    ],
+    "Cameroon": [
+        "192830"
+    ],
+    "Bauchi State": [
+        "3722233"
+    ],
+    "Borgou Department": [
+        "2803880"
+    ],
+    "Atakora Department": [
+        "2845850"
+    ],
+    "Donga Department": [
+        "2845865"
+    ],
+    "Alibori Department": [
+        "2803879"
+    ],
+    "Kwara State": [
+        "3718090"
+    ],
+    "Dairi": [
+        "8483349"
+    ],
+    "Humbang Hasundutan": [
+        "8483346"
+    ],
+    "North Tapanuli": [
+        "8483344"
+    ],
+    "Samosir": [
+        "8483347"
+    ],
+    "Simalungun": [
+        "8483351"
+    ],
+    "Toba": [
+        "8483343"
+    ],
+    "Pematangsiantar": [
+        "8484618"
+    ],
+    "Ogooué-Maritime Province": [
+        "1243589"
+    ],
+    "Ngounié Province": [
+        "1243583"
+    ],
+    "Nyanga Province": [
+        "1243587"
+    ],
+    "Équateur": [
+        "193084"
+    ],
+    "Sikasso": [
+        "2096900"
+    ],
+    "Ségou Region": [
+        "2096901"
+    ],
+    "Banwa Province": [
+        "2828094"
+    ],
+    "Kossi Province": [
+        "2828096"
+    ],
+    "Ouaka Prefecture": [
+        "2954786"
+    ],
+    "Kémo Prefecture": [
+        "2954782"
+    ],
+    "Darazo": [
+        "3722238"
+    ],
+    "Ziguinchor": [
+        "2909649"
+    ],
+    "Boké Region": [
+        "3309644"
+    ],
+    "Ivory Coast": [
+        "192779"
+    ],
+    "Sorsogon": [
+        "1504631"
+    ],
+    "Albay": [
+        "1504625"
+    ],
+    "Catanduanes": [
+        "1506351"
+    ],
+    "Masbate": [
+        "1506350"
+    ],
+    "Autonomous Region of Bougainville": [
+        "3777380"
+    ],
+    "Adamawa State": [
+        "3720358"
+    ],
+    "Tshopo": [
+        "192819"
+    ],
+    "Southern Nations, Nationalities, and Peoples' Region": [
+        "1707657"
+    ],
+    "British Columbia": [
+        "390867"
+    ],
+    "Yobe State": [
+        "3698564"
+    ],
+    "Sédhiou": [
+        "3405259"
+    ],
+    "Kolda": [
+        "3405108"
+    ],
+    "Kaolack": [
+        "3405263"
+    ],
+    "Tambacounda Region": [
+        "3405109"
+    ],
+    "Dakar": [
+        "2892079"
+    ],
+    "North Kalimantan": [
+        "5449460"
+    ],
+    "Chocó Department": [
+        "1322131"
+    ],
+    "Jigawa State": [
+        "3703236"
+    ],
+    "Bade": [
+        "3698565"
+    ],
+    "Zaki": [
+        "3722253"
+    ],
+    "Bursari": [
+        "3698566"
+    ],
+    "Guri": [
+        "3703246"
+    ],
+    "Jakusko": [
+        "3698574"
+    ],
+    "Karasuwa": [
+        "3698575"
+    ],
+    "River Nile": [
+        "3774666"
+    ],
+    "Guba District": [
+        "3764570"
+    ],
+    "Bajo": [
+        "9368574"
+    ],
+    "Lac Region": [
+        "3217119"
+    ],
+    "Hadjer-Lamis": [
+        "3106606"
+    ],
+    "Guéra Region": [
+        "3106508"
+    ],
+    "Rukwa Region": [
+        "1600839"
+    ],
+    "Kon Tum": [
+        "1879515"
+    ],
+    "Gia Lai": [
+        "1884018"
+    ],
+    "Bình Định": [
+        "1889794"
+    ],
+    "Dodoma Region": [
+        "1600852"
+    ],
+    "Ombella-M'Poko Prefecture": [
+        "2954675"
+    ],
+    "Ouham Prefecture": [
+        "2954787"
+    ],
+    "Nana-Mambéré Prefecture": [
+        "2954785"
+    ],
+    "Mambéré-Kadéï": [
+        "2954783"
+    ],
+    "Ouham-Pendé Prefecture": [
+        "2954276"
+    ],
+    "Southwest": [
+        "2750875"
+    ],
+    "Andhra Pradesh": [
+        "2022095"
+    ],
+    "New South Wales": [
+        "2316593"
+    ],
+    "Alberta": [
+        "391186"
+    ],
+    "Uttarakhand": [
+        "9987086"
+    ],
+    "Belait District": [
+        "3853884"
+    ],
+    "Tutong District": [
+        "3853886"
+    ],
+    "Ouémé Department": [
+        "2848208"
+    ],
+    "Savanes Region": [
+        "402968"
+    ],
+    "Est Region": [
+        "1143562"
+    ],
+    "Kompienga Province": [
+        "2914767"
+    ],
+    "Red Sea Governorate": [
+        "3061758"
+    ],
+    "Al Qadarif": [
+        "3774675"
+    ],
+    "Anseba Region": [
+        "4605384"
+    ],
+    "Kassala": [
+        "3774665"
+    ],
+    "Belarus": [
+        "59065"
+    ],
+    "Northern Province": [
+        "318862",
+        "3230989"
+    ],
+    "Eastern Province": [
+        "318865",
+        "3230988"
+    ],
+    "Copperbelt Province": [
+        "318860"
+    ],
+    "Muchinga Province": [
+        "3668334"
+    ],
+    "Bangladesh": [
+        "184640"
+    ],
+    "Tripura": [
+        "2026458"
+    ],
+    "Central Sulawesi": [
+        "2388664"
+    ],
+    "Brazzaville": [
+        "16370691"
+    ],
+    "Bouenza Department": [
+        "3220587"
+    ],
+    "Pool Department": [
+        "3220595"
+    ],
+    "Tandjilé Region": [
+        "3218254"
+    ],
+    "Sassandra-Marahoué District": [
+        "3601234"
+    ],
+    "Bas-Sassandra District": [
+        "3597522"
+    ],
+    "Jakarta": [
+        "6362934"
+    ],
+    "Ruvuma Region": [
+        "1600825"
+    ],
+    "Iringa Region": [
+        "1600802"
+    ],
+    "Mbeya Region": [
+        "1600771"
+    ],
+    "Morogoro Region": [
+        "1600831"
+    ],
+    "Simiyu Region": [
+        "3775213"
+    ],
+    "Amuru District": [
+        "3501792"
+    ],
+    "Central Kalimantan": [
+        "2388613"
+    ],
+    "Bamingui-Bangoran Prefecture": [
+        "2634506"
+    ],
+    "Vakaga Prefecture": [
+        "2634498"
+    ],
+    "Haute-Kotto Prefecture": [
+        "2634510"
+    ],
+    "Nana-Grébizi Economic Prefecture": [
+        "2954784"
+    ],
+    "Cova Lima Municipality": [
+        "4631021"
+    ],
+    "Ainaro Municipality": [
+        "4631018"
+    ],
+    "Bobonaro Municipality": [
+        "4631020"
+    ],
+    "Bougouriba Province": [
+        "2916226"
+    ],
+    "Poni Province": [
+        "2916229"
+    ],
+    "Ioba Province": [
+        "2916227"
+    ],
+    "Sud-Ouest Region": [
+        "2745992"
+    ],
+    "Tamil Nadu": [
+        "96905"
+    ],
+    "Haryana": [
+        "1942601"
+    ],
+    "Punjab": [
+        "1942686",
+        "357988"
+    ],
+    "Jammu and Kashmir": [
+        "1943188"
+    ],
+    "Himachal Pradesh": [
+        "364186"
+    ],
+    "India": [
+        "304716"
+    ],
+    "Cebu": [
+        "1506936"
+    ],
+    "Zamfara State": [
+        "3706956"
+    ],
+    "Rajasthan": [
+        "1942920"
+    ],
+    "Chandigarh": [
+        "12773165"
+    ],
+    "Udomsai": [
+        "5831661"
+    ],
+    "Bolikhamsai Province": [
+        "5831655"
+    ],
+    "Kindia Region": [
+        "3309805"
+    ],
+    "Mizoram": [
+        "2029046"
+    ],
+    "Chattogram Division": [
+        "3824588"
+    ],
+    "Rangamati District": [
+        "3824602"
+    ],
+    "Cotabato": [
+        "1513151"
+    ],
+    "Isabel Province": [
+        "2536261"
+    ],
+    "Adamawa": [
+        "2750694"
+    ],
+    "Madesh Province": [
+        "10489318"
+    ],
+    "Bagmati Province": [
+        "10489317"
+    ],
+    "West Nusa Tenggara": [
+        "1615622"
+    ],
+    "Southeast Sulawesi": [
+        "2388668"
+    ],
+    "South Sulawesi": [
+        "2388667"
+    ],
+    "Biak Island": [
+        "9538266"
+    ],
+    "Numfor Island": [
+        "17049024"
+    ],
+    "North Kivu": [
+        "5642698"
+    ],
+    "Ganzourgou Province": [
+        "2916023"
+    ],
+    "Centre-Est Region": [
+        "2746016"
+    ],
+    "Upper East Region": [
+        "3327998"
+    ],
+    "Centre-Sud Region": [
+        "2746024"
+    ],
+    "Plateau-Central Region": [
+        "2746035"
+    ],
+    "Boulgou": [
+        "2828160"
+    ],
+    "Kouritenga Province": [
+        "2828162"
+    ],
+    "Vanuatu": [
+        "2177246"
+    ],
+    "Northern Region": [
+        "3498732",
+        "3365674"
+    ],
+    "Upper West Region": [
+        "3328013"
+    ],
+    "Mongala": [
+        "11248071"
+    ],
+    "Hunan": [
+        "913073"
+    ],
+    "Guangxi": [
+        "286342"
+    ],
+    "Jerusalem District": [
+        "1384720"
+    ],
+    "Bolama region": [
+        "1761581"
+    ],
+    "New Ireland Province": [
+        "3777383"
+    ],
+    "Nineveh Governorate": [
+        "2969789"
+    ],
+    "South Kalimantan": [
+        "2388615"
+    ],
+    "Basse-Kotto Prefecture": [
+        "2634533"
+    ],
+    "Mbomou Prefecture": [
+        "2634531"
+    ],
+    "Barbados": [
+        "547511"
+    ],
+    "Mandoul Region": [
+        "3218250"
+    ],
+    "Woleu-Ntem Province": [
+        "1243582"
+    ],
+    "Ogooué-Ivindo Province": [
+        "1243581"
+    ],
+    "Northern Mindanao": [
+        "3873457"
+    ],
+    "Lanao del Norte": [
+        "1513179"
+    ],
+    "Lanao del Sur": [
+        "1513166"
+    ],
+    "Misamis Oriental": [
+        "1513190"
+    ],
+    "Shefa": [
+        "3765630"
+    ],
+    "Sarawak": [
+        "3879784"
+    ],
+    "Oriental Mindoro": [
+        "1506328"
+    ],
+    "Gorontalo": [
+        "2388665"
+    ],
+    "North Sulawesi": [
+        "2388666"
+    ],
+    "Gbarpolu County": [
+        "3320950"
+    ],
+    "Lofa County": [
+        "3320953"
+    ],
+    "Bandundu Province": [
+        "3652335"
+    ],
+    "Mai-Ndombe Province": [
+        "5647368"
+    ],
+    "Kayin State": [
+        "5996478"
+    ],
+    "Kayah State": [
+        "5996477"
+    ],
+    "Mon State": [
+        "5996481"
+    ],
+    "Bangkok": [
+        "92277"
+    ],
+    "Sơn La": [
+        "1903291"
+    ],
+    "Yên Bái": [
+        "1903199"
+    ],
+    "Lai Châu": [
+        "1903322"
+    ],
+    "Lào Cai": [
+        "1903400"
+    ],
+    "Phú Thọ": [
+        "1902930"
+    ],
+    "Đắk Lắk": [
+        "1884034"
+    ],
+    "Lâm Đồng": [
+        "1885367"
+    ],
+    "Luanda Province": [
+        "1802546"
+    ],
+    "Cuanza Sul Province": [
+        "1802543"
+    ],
+    "Cordillera Administrative Region": [
+        "1552190"
+    ],
+    "Kalinga": [
+        "52300"
+    ],
+    "Mountain Province": [
+        "52301"
+    ],
+    "Pampanga": [
+        "1504669"
+    ],
+    "Maniema": [
+        "5642697"
+    ],
+    "South Kivu": [
+        "5642699"
+    ],
+    "Kigoma Region": [
+        "1600842"
+    ],
+    "Tanganyika Province": [
+        "193102"
+    ],
+    "Southern Province": [
+        "3230990",
+        "318863"
+    ],
+    "Gandaki Province": [
+        "10489605"
+    ],
+    "Sud-Ubangi": [
+        "193101"
+    ],
+    "Santander Department": [
+        "1372374"
+    ],
+    "Agadez Region": [
+        "3218798"
+    ],
+    "Litoral": [
+        "3728364"
+    ],
+    "Estuaire Province": [
+        "1243584"
+    ],
+    "Middle Juba": [
+        "1720061"
+    ],
+    "Taipei": [
+        "1293250"
+    ],
+    "Nantou County": [
+        "2497975"
+    ],
+    "Chiayi County": [
+        "2908173"
+    ],
+    "Romblon": [
+        "1506343"
+    ],
+    "Putumayo Department": [
+        "1375357"
+    ],
+    "Tana River County": [
+        "3495561"
+    ],
+    "Garissa County": [
+        "3495541"
+    ],
+    "Lamu County": [
+        "3495550"
+    ],
+    "Bhutan": [
+        "184629"
+    ],
+    "Hauts-Bassins Region": [
+        "2674447"
+    ],
+    "Houet Province": [
+        "2914808"
+    ],
+    "Alkaleri": [
+        "3722234"
+    ],
+    "Fika": [
+        "3698568"
+    ],
+    "Wase": [
+        "3720628"
+    ],
+    "Bosnia and Herzegovina": [
+        "2528142"
+    ],
+    "Warrap": [
+        "2190521"
+    ],
+    "Centre-Ouest Region": [
+        "2813987"
+    ],
+    "Sissili Province": [
+        "2828695"
+    ],
+    "Nayala Province": [
+        "2828098"
+    ],
+    "Mouhoun": [
+        "2828097"
+    ],
+    "Central African Republic": [
+        "192790"
+    ],
+    "Kasaï-Occidental": [
+        "193087"
+    ],
+    "Kasaï District": [
+        "5646599"
+    ],
+    "New Caledonia": [
+        "3407643"
+    ],
+    "Guangdong": [
+        "911844"
+    ],
+    "Sarangani": [
+        "1513098"
+    ],
+    "South Cotabato": [
+        "1513131"
+    ],
+    "Sultan Kudarat": [
+        "1513160"
+    ],
+    "Khuzestan Province": [
+        "3661581"
+    ],
+    "Lorestan Province": [
+        "229893"
+    ],
+    "Isfahan Province": [
+        "241475"
+    ],
+    "Champasak Province": [
+        "5831656"
+    ],
+    "Attapeu Province": [
+        "5831653"
+    ],
+    "Brittany": [
+        "102740"
+    ],
+    "Beni Department": [
+        "405935"
+    ],
+    "Kandahar Province": [
+        "1674567"
+    ],
+    "Helmand Province": [
+        "1674573"
+    ],
+    "Maidan Wardak Province": [
+        "1759757"
+    ],
+    "Bas-Uele": [
+        "192820"
+    ],
+    "Puntarenas Province": [
+        "3223028"
+    ],
+    "Bumthang District": [
+        "3899602"
+    ],
+    "Haa District": [
+        "3899607"
+    ],
+    "Quảng Trị": [
+        "1895630"
+    ],
+    "Savannakhet Province": [
+        "5831665"
+    ],
+    "Mukdahan": [
+        "2934603"
+    ],
+    "Sakon Nakhon": [
+        "1908814"
+    ],
+    "Nakhon Phanom": [
+        "1908789"
+    ],
+    "Ubon Ratchathani": [
+        "1908830"
+    ],
+    "Goa": [
+        "11251493"
+    ],
+    "Sarmi": [
+        "7754453"
+    ],
+    "Taritatu": [
+        "193299585"
+    ],
+    "Gaoual Prefecture": [
+        "3308997"
+    ],
+    "Labé Prefecture": [
+        "3308837"
+    ],
+    "Kerman Province": [
+        "229593"
+    ],
+    "Hormozgan Province": [
+        "3385992"
+    ],
+    "Badakhshan Province": [
+        "1674535"
+    ],
+    "Panjshir Province": [
+        "1675032"
+    ],
+    "Laghman Province": [
+        "1674766"
+    ],
+    "Billiri": [
+        "3720425"
+    ],
+    "Kashmir": [
+        "14101768"
+    ],
+    "Chari-Baguirmi Region": [
+        "3106626"
+    ],
+    "Montserrado County": [
+        "3320955"
+    ],
+    "Bong County": [
+        "3320949"
+    ],
+    "River Cess County": [
+        "3315299"
+    ],
+    "Grand Bassa County": [
+        "3320951"
+    ],
+    "Margibi County": [
+        "3320954"
+    ],
+    "Salamat Region": [
+        "3106489"
+    ],
+    "Sila Region": [
+        "3106495"
+    ],
+    "West Kalimantan": [
+        "2388616"
+    ],
+    "Riau": [
+        "2390840"
+    ],
+    "West Sumatra": [
+        "2390841"
+    ],
+    "Pasaman": [
+        "2648099"
+    ],
+    "Kelantan": [
+        "4443571"
+    ],
+    "Terengganu": [
+        "4444411"
+    ],
+    "Pahang": [
+        "4444595"
+    ],
+    "Agusan del Norte": [
+        "1507282"
+    ],
+    "Deli Serdang": [
+        "8483353"
+    ],
+    "Karo": [
+        "8483350"
+    ],
+    "Langkat": [
+        "8483352"
+    ],
+    "Medan": [
+        "8484616"
+    ],
+    "Irkutsk Oblast": [
+        "145454"
+    ],
+    "Buryatia": [
+        "145729"
+    ],
+    "Zabaykalsky Krai": [
+        "145730"
+    ],
+    "Inner Mongolia": [
+        "161349"
+    ],
+    "Moyen-Chari Region": [
+        "3218253"
+    ],
+    "Kara Region": [
+        "3338038"
+    ],
+    "Bulgaria": [
+        "186382"
+    ],
+    "Edirne Province": [
+        "223465"
+    ],
+    "Xanthi Prefecture": [
+        "939213"
+    ],
+    "Pirot District": [
+        "2117003"
+    ],
+    "Western Area": [
+        "3242455"
+    ],
+    "Ogooué-Lolo Province": [
+        "1243588"
+    ],
+    "Bioko Sur": [
+        "2793217"
+    ],
+    "Bioko Norte": [
+        "2793216"
+    ],
+    "Balangan": [
+        "12989888"
+    ],
+    "Leyte": [
+        "1506532"
+    ],
+    "Serua": [
+        "13882084"
+    ],
+    "Naitasiri": [
+        "13882081"
+    ],
+    "Namosi": [
+        "13882083"
+    ],
+    "Bago Region": [
+        "5996474"
+    ],
+    "Manicaland Province": [
+        "3336975"
+    ],
+    "Mashonaland East Province": [
+        "3336977"
+    ],
+    "Manica Province": [
+        "2908440"
+    ],
+    "Tuy Province": [
+        "2914810"
+    ],
+    "Niari Department": [
+        "3220593"
+    ],
+    "Uganda": [
+        "192796"
+    ],
+    "Trans-Nzoia county": [
+        "3495563"
+    ],
+    "Kakamega County": [
+        "3495543"
+    ],
+    "Bungoma County": [
+        "3495538"
+    ],
+    "Cascades Region": [
+        "2745987"
+    ],
+    "Kano State": [
+        "3710302"
+    ],
+    "Sulu": [
+        "1513292"
+    ],
+    "Limón Province": [
+        "3223056"
+    ],
+    "Belize": [
+        "287827"
+    ],
+    "North Maluku": [
+        "2396796"
+    ],
+    "Mamberamo Raya": [
+        "7754447"
+    ],
+    "Kwande": [
+        "3716088"
+    ],
+    "Obanliku": [
+        "3716262"
+    ],
+    "Chiquimula Department": [
+        "214702"
+    ],
+    "Zacapa Department": [
+        "214698"
+    ],
+    "Copán Department": [
+        "4627388"
+    ],
+    "Stann Creek District": [
+        "962353"
+    ],
+    "Belize District": [
+        "962354"
+    ],
+    "Bay Islands Department": [
+        "4625745"
+    ],
+    "Thiès Region": [
+        "2906477"
+    ],
+    "Sololá Department": [
+        "214713"
+    ],
+    "Sacatepéquez Department": [
+        "214703"
+    ],
+    "Chimaltenango Department": [
+        "214715"
+    ],
+    "Escuintla Department": [
+        "214714"
+    ],
+    "Northern Mariana Islands": [
+        "306004"
+    ],
+    "Saipan": [
+        "3218318"
+    ],
+    "Anzoátegui": [
+        "2267150"
+    ],
+    "Barima-Waini": [
+        "7105826"
+    ],
+    "Pomeroon-Supenaam": [
+        "7105874"
+    ],
+    "Andorra": [
+        "9407"
+    ],
+    "Catalonia": [
+        "349053"
+    ],
+    "Valencian Community": [
+        "349043"
+    ],
+    "Region of Murcia": [
+        "349047"
+    ],
+    "Pyrénées-Orientales": [
+        "7466"
+    ],
+    "La Franja": [
+        "11744144"
+    ],
+    "Northern Catalonia": [
+        "11745120"
+    ],
+    "Alghero": [
+        "40581"
+    ],
+    "Carche": [
+        "11755232"
+    ],
+    "Balearic Islands": [
+        "348981"
+    ],
+    "Pando Department": [
+        "3358584"
+    ],
+    "New York": [
+        "61320"
+    ],
+    "Guaviare Department": [
+        "1380540"
+    ],
+    "Miraflores": [
+        "11375750"
+    ],
+    "La Guajira Department": [
+        "1321379"
+    ],
+    "Esmeraldas Province": [
+        "113237"
+    ],
+    "Plateau Department": [
+        "2846872"
+    ],
+    "Philippines": [
+        "443174"
+    ],
+    "Zamboanga Peninsula": [
+        "3777290"
+    ],
+    "Basilan": [
+        "1513281"
+    ],
+    "Cavite": [
+        "1503544"
+    ],
+    "Zamboanga del Norte": [
+        "1513211"
+    ],
+    "Zamboanga del Sur": [
+        "1513233"
+    ],
+    "Zamboanga Sibugay": [
+        "1513227"
+    ],
+    "Phetchabun": [
+        "1908802"
+    ],
+    "Nakhon Ratchasima": [
+        "1908790"
+    ],
+    "Chaiyaphum": [
+        "1908769"
+    ],
+    "Phitsanulok": [
+        "1908805"
+    ],
+    "Kalasin": [
+        "1908775"
+    ],
+    "Bueng Kan": [
+        "2934602"
+    ],
+    "Huanuco Department": [
+        "1954493"
+    ],
+    "Southern Leyte": [
+        "1506605"
+    ],
+    "São Paulo": [
+        "298204"
+    ],
+    "Rio de Janeiro": [
+        "57963"
+    ],
+    "Maputo Province": [
+        "2908441"
+    ],
+    "Gaza Province": [
+        "2908438"
+    ],
+    "Inhambane Province": [
+        "2908439"
+    ],
+    "Arusha Region": [
+        "1243810"
+    ],
+    "Pwani Region": [
+        "1600824"
+    ],
+    "Malacca": [
+        "2939673"
+    ],
+    "Rakhine State": [
+        "5996483"
+    ],
+    "Khagrachari District": [
+        "3824617"
+    ],
+    "Zhejiang": [
+        "553302"
+    ],
+    "Fujian": [
+        "553303"
+    ],
+    "Rajshahi Division": [
+        "3859335"
+    ],
+    "Eastern Visayas": [
+        "3759193"
+    ],
+    "Caraga": [
+        "3870502"
+    ],
+    "Czech Republic": [
+        "51684"
+    ],
+    "Balanga": [
+        "3720424"
+    ],
+    "Lamurde": [
+        "3720367"
+    ],
+    "Ntungamo District": [
+        "3501899"
+    ],
+    "Rukungiri District": [
+        "3501900"
+    ],
+    "Kisoro District": [
+        "6489978"
+    ],
+    "Kibaale District": [
+        "3498022"
+    ],
+    "Kanungu District": [
+        "934530"
+    ],
+    "Kabale District": [
+        "3501894"
+    ],
+    "Mongar District": [
+        "3899609"
+    ],
+    "Lhuntse District": [
+        "3899608"
+    ],
+    "Guam": [
+        "1152532"
+    ],
+    "Colombia": [
+        "120027"
+    ],
+    "Ingushetia": [
+        "253252"
+    ],
+    "Tabasco": [
+        "2556680"
+    ],
+    "Chuuk": [
+        "3819479"
+    ],
+    "Kirov Oblast": [
+        "115100"
+    ],
+    "Mari El": [
+        "115114"
+    ],
+    "Oregon": [
+        "165476"
+    ],
+    "Mississippi": [
+        "161943"
+    ],
+    "Tennessee": [
+        "161838"
+    ],
+    "Louisiana": [
+        "224922"
+    ],
+    "Manitoba": [
+        "390841"
+    ],
+    "Northwest Territories": [
+        "391220"
+    ],
+    "Nunavut": [
+        "390840"
+    ],
+    "Chuvashia": [
+        "80513"
+    ],
+    "Zambezia Province": [
+        "2997943"
+    ],
+    "North Buton": [
+        "14910163"
+    ],
+    "Veneto": [
+        "43648"
+    ],
+    "Trentino": [
+        "45756"
+    ],
+    "Roana": [
+        "1650222"
+    ],
+    "Chiapas": [
+        "2556679"
+    ],
+    "Michigan": [
+        "165789"
+    ],
+    "Minnesota": [
+        "165471"
+    ],
+    "Wisconsin": [
+        "165466"
+    ],
+    "Sucre": [
+        "272671"
+    ],
+    "Bình Thuận": [
+        "1904231"
+    ],
+    "Ninh Thuận": [
+        "1886159"
+    ],
+    "Angola": [
+        "195267"
+    ],
+    "Lualaba Province": [
+        "5646601"
+    ],
+    "Cartago Province": [
+        "3223054"
+    ],
+    "San José Province": [
+        "3223004"
+    ],
+    "Kemerovo Oblast": [
+        "144763"
+    ],
+    "Chimbu Province": [
+        "311773"
+    ],
+    "Beijing": [
+        "912940"
+    ],
+    "Hebei": [
+        "912998"
+    ],
+    "Henan": [
+        "407492"
+    ],
+    "Shanxi": [
+        "913105"
+    ],
+    "Shaanxi": [
+        "913100"
+    ],
+    "Kermanshah Province": [
+        "241037"
+    ],
+    "Diyala Governorate": [
+        "3242295"
+    ],
+    "Kirkuk Governorate": [
+        "2969788"
+    ],
+    "Sulaymaniyah Governorate": [
+        "2969790"
+    ],
+    "Erbil Governorate": [
+        "2969761"
+    ],
+    "Iraqi Kurdistan": [
+        "3242294"
+    ],
+    "Bandarban District": [
+        "3824576"
+    ],
+    "Sakha": [
+        "151234"
+    ],
+    "Chukotka Autonomous Okrug": [
+        "151231"
+    ],
+    "Yilan County": [
+        "2912630"
+    ],
+    "Mangu": [
+        "3720622"
+    ],
+    "Bokkos": [
+        "3720614"
+    ],
+    "Barkin Ladi": [
+        "3720612"
+    ],
+    "Duhok Governorate": [
+        "2969732"
+    ],
+    "Đồng Nai": [
+        "1904421"
+    ],
+    "Savanes District": [
+        "1609809"
+    ],
+    "Valle del Cauca Department": [
+        "1322825"
+    ],
+    "Risaralda Department": [
+        "1374221"
+    ],
+    "Antioquia": [
+        "1315120"
+    ],
+    "Cauca Department": [
+        "1392085"
+    ],
+    "Caldas Department": [
+        "396705"
+    ],
+    "Hong Kong": [
+        "913110"
+    ],
+    "Chongqing": [
+        "913069"
+    ],
+    "Tianjin": [
+        "912999"
+    ],
+    "Macau": [
+        "1867188"
+    ],
+    "Jiangsu": [
+        "913012"
+    ],
+    "Heilongjiang": [
+        "199073"
+    ],
+    "Anhui": [
+        "913011"
+    ],
+    "Shandong": [
+        "913006"
+    ],
+    "Liaoning": [
+        "912942"
+    ],
+    "Jilin": [
+        "198590"
+    ],
+    "Hubei": [
+        "913106"
+    ],
+    "Jiangxi": [
+        "913109"
+    ],
+    "Ningxia": [
+        "913101"
+    ],
+    "Đắk Nông": [
+        "1884042"
+    ],
+    "Kratié Province": [
+        "2200456"
+    ],
+    "Gauteng": [
+        "349344"
+    ],
+    "Magway Region": [
+        "5996479"
+    ],
+    "Cusco Department": [
+        "1923695"
+    ],
+    "Ayacucho Department": [
+        "1930901"
+    ],
+    "Apurimac Department": [
+        "1929522"
+    ],
+    "Bokeo Province": [
+        "5831654"
+    ],
+    "Aïn Defla Province": [
+        "1283678"
+    ],
+    "Chlef Province": [
+        "1283740"
+    ],
+    "Tipasa Province": [
+        "1286213"
+    ],
+    "Colorado": [
+        "161961"
+    ],
+    "Baja California": [
+        "2589601"
+    ],
+    "Santo Domingo de los Tsáchilas Province": [
+        "113721"
+    ],
+    "Trat": [
+        "1908829"
+    ],
+    "Chanthaburi": [
+        "1908770"
+    ],
+    "Mombasa County": [
+        "3495554"
+    ],
+    "Kilifi County": [
+        "3495545"
+    ],
+    "Nariño Department": [
+        "1380130"
+    ],
+    "Sucumbíos Province": [
+        "114574"
+    ],
+    "Cornwall": [
+        "8508381"
+    ],
+    "Isles of Scilly": [
+        "158039"
+    ],
+    "Sardinia": [
+        "7361997"
+    ],
+    "Corsica": [
+        "76910"
+    ],
+    "Ica Department": [
+        "1899013"
+    ],
+    "Kedougou Region": [
+        "2738475"
+    ],
+    "Koundara Prefecture": [
+        "3309030"
+    ],
+    "Thessaly": [
+        "958236"
+    ],
+    "Nauru": [
+        "571804"
+    ],
+    "Eastern Region": [
+        "3498733"
+    ],
+    "Idaho": [
+        "162116"
+    ],
+    "Príncipe": [
+        "9377729"
+    ],
+    "Salta Province": [
+        "2405230"
+    ],
+    "Seychelles": [
+        "536765"
+    ],
+    "Bà Rịa-Vũng Tàu": [
+        "1904296"
+    ],
+    "Pomeranian Voivodeship": [
+        "130975"
+    ],
+    "Ayeyarwady Region": [
+        "5996473"
+    ],
+    "Mexico": [
+        "114686"
+    ],
+    "Sagaing Region": [
+        "5996484"
+    ],
+    "Córdoba Department": [
+        "1321032"
+    ],
+    "Darién Province": [
+        "5740656"
+    ],
+    "Guainía Department": [
+        "1385038",
+        "1359366"
+    ],
+    "Tharaka Nithi County": [
+        "3495562"
+    ],
+    "Meru County": [
+        "3495553"
+    ],
+    "Apure": [
+        "3395162"
+    ],
+    "Arauca Department": [
+        "1388045"
+    ],
+    "Vichada Department": [
+        "1357098"
+    ],
+    "Panamá Province": [
+        "5740665"
+    ],
+    "Colón Province": [
+        "5740655"
+    ],
+    "Guna Yala": [
+        "5740658"
+    ],
+    "Mara Region": [
+        "1243804"
+    ],
+    "Wales": [
+        "58437"
+    ],
+    "West Darfur": [
+        "3774664"
+    ],
+    "South Dakota": [
+        "161652"
+    ],
+    "Nebraska": [
+        "161648"
+    ],
+    "Denmark": [
+        "50046"
+    ],
+    "Schleswig-Holstein": [
+        "51529"
+    ],
+    "Montagnes District": [
+        "3600378"
+    ],
+    "Davao Oriental": [
+        "1507095"
+    ],
+    "Karim Lamido": [
+        "3720858"
+    ],
+    "Bay": [
+        "1720055"
+    ],
+    "Lower Shebelle": [
+        "1720060"
+    ],
+    "Lautém Municipality": [
+        "4631024"
+    ],
+    "Bomi County": [
+        "3320948"
+    ],
+    "Austria": [
+        "16239"
+    ],
+    "Germany": [
+        "51477"
+    ],
+    "Trentino-South Tyrol": [
+        "45757"
+    ],
+    "Karlovy Vary Region": [
+        "442314"
+    ],
+    "Ústí nad Labem Region": [
+        "442452"
+    ],
+    "Quirino": [
+        "52302"
+    ],
+    "Benguela Province": [
+        "1802540"
+    ],
+    "Huíla Province": [
+        "1802545"
+    ],
+    "Namibe Province": [
+        "1802550"
+    ],
+    "Cunene Province": [
+        "422606"
+    ],
+    "Kunene Region": [
+        "2279589"
+    ],
+    "Eastern Equatoria": [
+        "2190482"
+    ],
+    "Kwale County": [
+        "3495548"
+    ],
+    "Zambezi Region": [
+        "2279554"
+    ],
+    "Otjozondjupa Region": [
+        "2279628"
+    ],
+    "Kavango West Region": [
+        "3995171"
+    ],
+    "Kavango East Region": [
+        "3995170"
+    ],
+    "Maldives": [
+        "536773"
+    ],
+    "Lakshadweep": [
+        "2027460"
+    ],
+    "Victoria": [
+        "2316741"
+    ],
+    "Niamey": [
+        "3218804"
+    ],
+    "Gao Region": [
+        "2096895"
+    ],
+    "Tapoa Province": [
+        "2914768"
+    ],
+    "Dosso Region": [
+        "3218802"
+    ],
+    "Tillabéri Region": [
+        "3218806"
+    ],
+    "Brokopondo District": [
+        "5740849"
+    ],
+    "Marowijne District": [
+        "5740852"
+    ],
+    "Soum Province": [
+        "2916145"
+    ],
+    "Nord Region": [
+        "1159881"
+    ],
+    "Sahel Region": [
+        "1159873"
+    ],
+    "Yatenga Province": [
+        "2915655"
+    ],
+    "Trashigang District": [
+        "3899617"
+    ],
+    "Krasnoyarsk Krai": [
+        "190090"
+    ],
+    "Dahlak Archipelago": [
+        "4161588"
+    ],
+    "Lola Prefecture": [
+        "3402447"
+    ],
+    "Nimba": [
+        "3320773"
+    ],
+    "Nzérékoré Region": [
+        "3399113"
+    ],
+    "Dass": [
+        "3722239"
+    ],
+    "Matabeleland North Province": [
+        "3336980"
+    ],
+    "Santarém": [
+        "5122644"
+    ],
+    "Leiria": [
+        "5011694"
+    ],
+    "Porto": [
+        "3459013"
+    ],
+    "Drenthe": [
+        "47540"
+    ],
+    "Overijssel": [
+        "47608"
+    ],
+    "Kaohsiung": [
+        "2127079"
+    ],
+    "Pingtung County": [
+        "2775815"
+    ],
+    "Brandenburg": [
+        "62504"
+    ],
+    "Marsabit County": [
+        "3495552"
+    ],
+    "Turkana County": [
+        "3495564"
+    ],
+    "Vizianagaram district": [
+        "2022097"
+    ],
+    "Visakhapatnam district": [
+        "2022111"
+    ],
+    "Koraput district": [
+        "1984516"
+    ],
+    "Nabarangpur district": [
+        "1984498"
+    ],
+    "Rayagada district": [
+        "1984529"
+    ],
+    "Malkangiri district": [
+        "1984517"
+    ],
+    "Alluri Sitharama Raju district": [
+        "13999461"
+    ],
+    "Anakapalli district": [
+        "13999884"
+    ],
+    "Brunei": [
+        "2103120"
+    ],
+    "Enga Province": [
+        "311771"
+    ],
+    "Hela Province": [
+        "3778575"
+    ],
+    "Jambi": [
+        "2390838"
+    ],
+    "Johor": [
+        "2939653"
+    ],
+    "Vallée du Bandama District": [
+        "1609817"
+    ],
+    "West Coast Division": [
+        "7224888"
+    ],
+    "Zinder Region": [
+        "3218807"
+    ],
+    "Ennedi-Est": [
+        "7016937"
+    ],
+    "Ennedi-Ouest": [
+        "2537745"
+    ],
+    "Kanem Region": [
+        "3106623"
+    ],
+    "Bahr el Gazel": [
+        "3106619"
+    ],
+    "Diffa Region": [
+        "3218799"
+    ],
+    "Borkou": [
+        "2537744"
+    ],
+    "Trashiyangtse District": [
+        "3899618"
+    ],
+    "Punakha District": [
+        "3899612"
+    ],
+    "Paro District": [
+        "3899610"
+    ],
+    "Wangdue Phodrang District": [
+        "3899621"
+    ],
+    "Embu County": [
+        "3495540"
+    ],
+    "Estonia": [
+        "79510"
+    ],
+    "Rajshahi District": [
+        "9503379"
+    ],
+    "Nampula Province": [
+        "2908365"
+    ],
+    "Bayelsa State": [
+        "3715844"
+    ],
+    "Greece": [
+        "192307"
+    ],
+    "Albania": [
+        "53292"
+    ],
+    "Guinea": [
+        "192778"
+    ],
+    "Koulikoro Region": [
+        "2096898"
+    ],
+    "Emberá-Wounaan Comarca": [
+        "5740657"
+    ],
+    "Aquitaine": [
+        "8637"
+    ],
+    "Ain": [
+        "7387"
+    ],
+    "West Pokot County": [
+        "3495567"
+    ],
+    "Baringo County": [
+        "3495537"
+    ],
+    "Nandi County": [
+        "3495556"
+    ],
+    "Elgeyo-Marakwet County": [
+        "3495539"
+    ],
+    "Cao Bằng": [
+        "1844412"
+    ],
+    "Ende": [
+        "11228379"
+    ],
+    "England": [
+        "58447"
+    ],
+    "Bengkulu": [
+        "2390837"
+    ],
+    "Western Highlands Province": [
+        "311772"
+    ],
+    "Navarre": [
+        "349027"
+    ],
+    "Basque Country": [
+        "11107464"
+    ],
+    "Álava": [
+        "349011"
+    ],
+    "Biscay": [
+        "349034"
+    ],
+    "Gipuzkoa": [
+        "349015"
+    ],
+    "Khabarovsk Krai": [
+        "151223"
+    ],
+    "Magadan Oblast": [
+        "151228"
+    ],
+    "Togo": [
+        "192782"
+    ],
+    "Greater Accra Region": [
+        "1991849"
+    ],
+    "Extremadura": [
+        "349050"
+    ],
+    "Uasin Gishu County": [
+        "3495565"
+    ],
+    "Enugu State": [
+        "3717212"
+    ],
+    "Annobón Island": [
+        "8159080"
+    ],
+    "Annobón Province": [
+        "2793215"
+    ],
+    "Equatorial Guinea": [
+        "192791"
+    ],
+    "Moyen-Ogooué Province": [
+        "1243586"
+    ],
+    "Faroe Islands": [
+        "52939"
+    ],
+    "Fars Province": [
+        "255446"
+    ],
+    "Khartoum": [
+        "3774673"
+    ],
+    "Fiji": [
+        "571747"
+    ],
+    "Kadavu": [
+        "13879135"
+    ],
+    "Finland": [
+        "54224"
+    ],
+    "Leningrad Oblast": [
+        "176095"
+    ],
+    "Troms": [
+        "407717"
+    ],
+    "Finnmark": [
+        "406389"
+    ],
+    "Benin": [
+        "192784"
+    ],
+    "Luxembourg": [
+        "2171347",
+        "1412581"
+    ],
+    "France": [
+        "2202162"
+    ],
+    "Monaco": [
+        "36990"
+    ],
+    "Brussels-Capital Region": [
+        "54094"
+    ],
+    "Flemish Brabant": [
+        "58004"
+    ],
+    "Walloon Brabant": [
+        "78748"
+    ],
+    "Province of Namur": [
+        "1311816"
+    ],
+    "Province of Liege": [
+        "1407192",
+        "53142"
+    ],
+    "Hainaut": [
+        "157559"
+    ],
+    "Canton of Fribourg": [
+        "1698314"
+    ],
+    "Neuchâtel": [
+        "1702420"
+    ],
+    "Jura": [
+        "1697347"
+    ],
+    "canton Vaud": [
+        "1702421"
+    ],
+    "Piedmont": [
+        "44874"
+    ],
+    "Aosta Valley": [
+        "45155"
+    ],
+    "Doubs": [
+        "7462"
+    ],
+    "Aosta": [
+        "45916"
+    ],
+    "Loire": [
+        "7420"
+    ],
+    "Rhône": [
+        "4850451"
+    ],
+    "Heligoland": [
+        "1157962"
+    ],
+    "Sylt": [
+        "1576925"
+    ],
+    "Föhr": [
+        "3352541"
+    ],
+    "Amrum": [
+        "3787117"
+    ],
+    "Pellworm": [
+        "3787114"
+    ],
+    "Lower Saxony": [
+        "62771"
+    ],
+    "Saxony": [
+        "62467"
+    ],
+    "Groningen": [
+        "47826"
+    ],
+    "Friesland": [
+        "47381"
+    ],
+    "Mayo-Kebbi Ouest Region": [
+        "3218252"
+    ],
+    "Senegal": [
+        "192775"
+    ],
+    "Brakna Region": [
+        "3395242"
+    ],
+    "Nioros Region": [
+        "2096896"
+    ],
+    "Bafatá": [
+        "1761578"
+    ],
+    "Upper River Division": [
+        "7224884"
+    ],
+    "Lower River Division": [
+        "7224885"
+    ],
+    "Central River Division": [
+        "7224883"
+    ],
+    "North Bank Division": [
+        "7224886"
+    ],
+    "Trarza Region": [
+        "3395245"
+    ],
+    "Gorgol Region": [
+        "3395243"
+    ],
+    "Gabú Region": [
+        "1761583"
+    ],
+    "Tombali Region": [
+        "1761586"
+    ],
+    "Oudalan Province": [
+        "2916144"
+    ],
+    "Sourou Province": [
+        "2828099"
+    ],
+    "Bam Province": [
+        "2828631"
+    ],
+    "Centre-Nord Region": [
+        "2746040"
+    ],
+    "Séno Province": [
+        "2916146"
+    ],
+    "Yagha Province": [
+        "2916147"
+    ],
+    "White Nile": [
+        "3774676"
+    ],
+    "Alagoas": [
+        "303781"
+    ],
+    "Pernambuco": [
+        "303702"
+    ],
+    "Niger": [
+        "192786"
+    ],
+    "Friuli Venezia Giulia": [
+        "179296"
+    ],
+    "Sokoto State": [
+        "3707368"
+    ],
+    "Katsina State": [
+        "3711481"
+    ],
+    "Central Darfur": [
+        "3774671"
+    ],
+    "South Darfur": [
+        "3774662"
+    ],
+    "North Darfur": [
+        "3774668"
+    ],
+    "East Darfur": [
+        "3774670"
+    ],
+    "Ifugao": [
+        "52303"
+    ],
+    "Nueva Vizcaya": [
+        "52305"
+    ],
+    "Gagauzia": [
+        "1699032"
+    ],
+    "Cantemir District": [
+        "1699022"
+    ],
+    "Taraclia District": [
+        "1699033"
+    ],
+    "Leova District": [
+        "1699023"
+    ],
+    "Basarabeasca District": [
+        "1104136"
+    ],
+    "Criuleni District": [
+        "1692126"
+    ],
+    "Cahul District": [
+        "1699034"
+    ],
+    "Gedo": [
+        "1720057"
+    ],
+    "Mandera County": [
+        "3495551"
+    ],
+    "Isiolo County": [
+        "3495542"
+    ],
+    "Laikipia County": [
+        "3495549"
+    ],
+    "Wajir County": [
+        "3495566"
+    ],
+    "Nairobi County": [
+        "9721587"
+    ],
+    "Ethiopia": [
+        "192800"
+    ],
+    "Grand Kru County": [
+        "3315170"
+    ],
+    "Maryland County": [
+        "3315051"
+    ],
+    "Grand Gedeh County": [
+        "3315297"
+    ],
+    "Sinoe County": [
+        "3315211"
+    ],
+    "River Gee County": [
+        "3315298"
+    ],
+    "Guadeloupe": [
+        "1401835"
+    ],
+    "Grenada": [
+        "550727"
+    ],
+    "French Guiana": [
+        "1260551"
+    ],
+    "Aragua": [
+        "272746"
+    ],
+    "Al Mahrah Governorate": [
+        "383908"
+    ],
+    "Al Wusta Governorate": [
+        "3781238"
+    ],
+    "Nalut District": [
+        "2060182"
+    ],
+    "Mandalay Region": [
+        "5996480"
+    ],
+    "Tangier-Tetouan-Al Hoceima": [
+        "1592819"
+    ],
+    "KwaZulu-Natal": [
+        "349390"
+    ],
+    "Western Cape": [
+        "80501"
+    ],
+    "Eastern Cape": [
+        "88574"
+    ],
+    "Free State": [
+        "92417"
+    ],
+    "Pakistan": [
+        "307573"
+    ],
+    "Kiribati": [
+        "571178"
+    ],
+    "Hà Giang": [
+        "1903478"
+    ],
+    "Savannah": [
+        "119867"
+    ],
+    "Savannah Region": [
+        "10212838"
+    ],
+    "Scotland": [
+        "58446"
+    ],
+    "Glasgow": [
+        "1906767"
+    ],
+    "Edinburgh": [
+        "1920901"
+    ],
+    "Highland": [
+        "1433249"
+    ],
+    "Primorsky Krai": [
+        "151225"
+    ],
+    "Amur Oblast": [
+        "147166"
+    ],
+    "Northern Ireland": [
+        "156393"
+    ],
+    "Ireland": [
+        "62273",
+        "7681896"
+    ],
+    "Cork": [
+        "11797890"
+    ],
+    "County Galway": [
+        "335444"
+    ],
+    "County Mayo": [
+        "338539"
+    ],
+    "County Donegal": [
+        "4085165"
+    ],
+    "County Meath": [
+        "282818"
+    ],
+    "County Kerry": [
+        "332622"
+    ],
+    "County Waterford": [
+        "283426"
+    ],
+    "Galicia": [
+        "349036"
+    ],
+    "Bragança": [
+        "3905929"
+    ],
+    "Kapisa Province": [
+        "1674767"
+    ],
+    "Parwan Province": [
+        "1674782"
+    ],
+    "Kabul Province": [
+        "1674876"
+    ],
+    "Isle of Man": [
+        "62269"
+    ],
+    "Njombe Region": [
+        "3775101"
+    ],
+    "Woroba District": [
+        "3603714"
+    ],
+    "Singida Region": [
+        "1600775"
+    ],
+    "Grand Cape Mount County": [
+        "3320952"
+    ],
+    "Western Division": [
+        "4632582"
+    ],
+    "Logone Oriental Region": [
+        "3218249"
+    ],
+    "Adrar Province": [
+        "1258650"
+    ],
+    "Béchar Province": [
+        "1258647"
+    ],
+    "Naama Province": [
+        "1258648"
+    ],
+    "El Bayadh Province": [
+        "1258649"
+    ],
+    "Figuig Province": [
+        "1719452"
+    ],
+    "Rabat-Salé-Kénitra": [
+        "4730737"
+    ],
+    "Oriental": [
+        "1719443"
+    ],
+    "Jamalpur District": [
+        "9512010"
+    ],
+    "Sherpur District": [
+        "9512004"
+    ],
+    "Sunamganj District": [
+        "9514618"
+    ],
+    "Mymensingh Division": [
+        "7318343"
+    ],
+    "Mato Grosso do Sul": [
+        "334051"
+    ],
+    "Zulia": [
+        "272632"
+    ],
+    "Mérida": [
+        "272635"
+    ],
+    "Trujillo": [
+        "272634"
+    ],
+    "Tarija Department": [
+        "396198"
+    ],
+    "Chuquisaca Department": [
+        "396197"
+    ],
+    "Daman and Diu": [
+        "1953042"
+    ],
+    "Blue Nile State": [
+        "3774677"
+    ],
+    "Sennar": [
+        "3774667"
+    ],
+    "Florida": [
+        "162050"
+    ],
+    "Georgia": [
+        "161957",
+        "28699"
+    ],
+    "North Carolina": [
+        "224045"
+    ],
+    "South Carolina": [
+        "224040"
+    ],
+    "Minas Gerais": [
+        "315173"
+    ],
+    "Espírito Santo": [
+        "54882"
+    ],
+    "Corrientes Province": [
+        "153552"
+    ],
+    "Misiones Province": [
+        "153553"
+    ],
+    "Paraguarí Department": [
+        "389893"
+    ],
+    "Alto Paraná Department": [
+        "389891"
+    ],
+    "Guairá Department": [
+        "389894"
+    ],
+    "Caaguazú Department": [
+        "389890"
+    ],
+    "Alajuela Province": [
+        "3222933"
+    ],
+    "Lagos State": [
+        "3718182"
+    ],
+    "Ogun State": [
+        "3718463"
+    ],
+    "Gourma Province": [
+        "2914765"
+    ],
+    "Gnagna Province": [
+        "2914764"
+    ],
+    "Namentenga Province": [
+        "2828632"
+    ],
+    "Migori County": [
+        "3486018"
+    ],
+    "Nyamira county": [
+        "3486290"
+    ],
+    "Kisii County": [
+        "3338140"
+    ],
+    "Narok County": [
+        "3338145"
+    ],
+    "Concepción Department": [
+        "389885"
+    ],
+    "Yukon": [
+        "391455"
+    ],
+    "Kweneng District": [
+        "270337"
+    ],
+    "Mbale District": [
+        "3498160"
+    ],
+    "Budaka District": [
+        "3498159"
+    ],
+    "Namutumba District": [
+        "3498128"
+    ],
+    "Pallisa District": [
+        "3498129"
+    ],
+    "Centro Sur": [
+        "3728411"
+    ],
+    "Bocas del Toro Province": [
+        "3420383"
+    ],
+    "Veraguas Province": [
+        "5740666"
+    ],
+    "Chiriquí Province": [
+        "5740681"
+    ],
+    "Guyana": [
+        "287083"
+    ],
+    "North East Region": [
+        "10212837"
+    ],
+    "Prince of Wales Island": [
+        "3955666"
+    ],
+    "Rangpur Division": [
+        "3921211"
+    ],
+    "Rangpur District": [
+        "9458329"
+    ],
+    "Taiwan": [
+        "449220"
+    ],
+    "Ketapang": [
+        "10617337"
+    ],
+    "Singkawang": [
+        "10616895"
+    ],
+    "Miaoli County": [
+        "2915592"
+    ],
+    "Hsinchu County": [
+        "2912613"
+    ],
+    "Taoyuan": [
+        "2770986"
+    ],
+    "Hsinchu City": [
+        "2849488"
+    ],
+    "Kagera Region": [
+        "1600767"
+    ],
+    "Yahukimo": [
+        "7754454"
+    ],
+    "Highland Papua": [
+        "14309176"
+    ],
+    "Shinyanga Region": [
+        "5712716"
+    ],
+    "Dire Dawa": [
+        "1707654"
+    ],
+    "Harari Region": [
+        "1707700"
+    ],
+    "Haiti": [
+        "307829"
+    ],
+    "Nigeria": [
+        "192787"
+    ],
+    "Hawaii": [
+        "166563"
+    ],
+    "Manatuto Municipality": [
+        "4631027"
+    ],
+    "Jalisco": [
+        "2340910"
+    ],
+    "Zacatecas": [
+        "2399704"
+    ],
+    "Mayo-Kebbi Est Region": [
+        "3218251"
+    ],
+    "North-West District": [
+        "2104170"
+    ],
+    "Omaheke Region": [
+        "2279601"
+    ],
+    "Soccsksargen": [
+        "3851570"
+    ],
+    "Negros Island Region": [
+        "17733978"
+    ],
+    "Torba": [
+        "3765596"
+    ],
+    "South Sumatra": [
+        "2390842"
+    ],
+    "Timbuktu Region": [
+        "2096902"
+    ],
+    "Hòa Bình": [
+        "1902973"
+    ],
+    "Laos": [
+        "49903"
+    ],
+    "Thanh Hóa": [
+        "1898590"
+    ],
+    "Nghệ An": [
+        "1898509"
+    ],
+    "Phayao": [
+        "1908801"
+    ],
+    "Uthai Thani": [
+        "2934606"
+    ],
+    "Phrae": [
+        "1908807"
+    ],
+    "Nan": [
+        "1908793"
+    ],
+    "Uttaradit": [
+        "1908832"
+    ],
+    "Kamphaeng Phet": [
+        "1908776"
+    ],
+    "Loei province": [
+        "1908783"
+    ],
+    "Tak": [
+        "1908827"
+    ],
+    "Sukhothai": [
+        "1908823"
+    ],
+    "Paramaribo District": [
+        "5740855"
+    ],
+    "Nickerie District": [
+        "5740853"
+    ],
+    "Wanica District": [
+        "5740858"
+    ],
+    "Saramacca District": [
+        "5740856"
+    ],
+    "Lunda Norte Province": [
+        "1802547"
+    ],
+    "Malanje Province": [
+        "422660"
+    ],
+    "Utah": [
+        "161993"
+    ],
+    "Quảng Ngãi": [
+        "1890793"
+    ],
+    "Phu Yen": [
+        "1889204"
+    ],
+    "Siirt Province": [
+        "223543"
+    ],
+    "Croatia": [
+        "214885"
+    ],
+    "Montenegro": [
+        "53296"
+    ],
+    "Vienna": [
+        "109166"
+    ],
+    "Lower Austria": [
+        "77189"
+    ],
+    "Burgenland": [
+        "76909"
+    ],
+    "Hungary": [
+        "21335"
+    ],
+    "Slovakia": [
+        "14296"
+    ],
+    "Vojvodina": [
+        "1279074"
+    ],
+    "Zakarpattia Oblast": [
+        "72489"
+    ],
+    "San Luis Potosí": [
+        "4086617"
+    ],
+    "Sabu Raijua": [
+        "11225325"
+    ],
+    "Kupang": [
+        "11226931"
+    ],
+    "Nevada": [
+        "165473"
+    ],
+    "Armenia": [
+        "364066"
+    ],
+    "Kapuas Hulu": [
+        "10621500"
+    ],
+    "Kapuas River": [
+        "317445"
+    ],
+    "Benguet": [
+        "52304"
+    ],
+    "North Halmahera": [
+        "13263672"
+    ],
+    "Archipelago of San Andrés, Providencia and Santa Catalina": [
+        "2181889"
+    ],
+    "Daman": [
+        "10087799"
+    ],
+    "Aileu municipality": [
+        "4631017"
+    ],
+    "Manufahi Municipality": [
+        "4631028"
+    ],
+    "Plateaux Department": [
+        "3220594"
+    ],
+    "Anambra State": [
+        "3715505"
+    ],
+    "Fakfak": [
+        "14954918"
+    ],
+    "Nunavik": [
+        "8118160"
+    ],
+    "Imo State": [
+        "3717825"
+    ],
+    "Ilocos Region": [
+        "1552186"
+    ],
+    "Maguindanao": [
+        "1513165"
+    ],
+    "Kabardino-Balkaria": [
+        "109879"
+    ],
+    "Abra": [
+        "52299"
+    ],
+    "Apayao": [
+        "52296"
+    ],
+    "Ilocos Norte": [
+        "1504744"
+    ],
+    "Iceland": [
+        "299133"
+    ],
+    "Istria County": [
+        "226351"
+    ],
+    "Italy": [
+        "365331"
+    ],
+    "San Marino": [
+        "54624"
+    ],
+    "Canton of the Grisons": [
+        "1686631"
+    ],
+    "Ticino": [
+        "1687730"
+    ],
+    "Tuscany": [
+        "41977"
+    ],
+    "Province of Siena": [
+        "42172"
+    ],
+    "Thái Nguyên": [
+        "1902967"
+    ],
+    "Vĩnh Phúc": [
+        "1902889"
+    ],
+    "Quảng Ninh": [
+        "1902947"
+    ],
+    "Lạng Sơn": [
+        "5522596"
+    ],
+    "Bắc Giang": [
+        "1902941"
+    ],
+    "Bắc Kạn": [
+        "1903471"
+    ],
+    "Tuyên Quang": [
+        "1903418"
+    ],
+    "Batanes": [
+        "1506352"
+    ],
+    "Lékoumou Department": [
+        "3220592"
+    ],
+    "Jamaica": [
+        "555017"
+    ],
+    "Purus River": [
+        "2635816"
+    ],
+    "Balkh Province": [
+        "1674795"
+    ],
+    "Faryab Province": [
+        "1674814"
+    ],
+    "Herat Province": [
+        "1674803"
+    ],
+    "Malaysia": [
+        "2108121"
+    ],
+    "Central Java": [
+        "2388357"
+    ],
+    "Yogyakarta": [
+        "5616105"
+    ],
+    "Haifa District": [
+        "1400966"
+    ],
+    "Sous": [
+        "2424036"
+    ],
+    "Jabal al Gharbi District": [
+        "2060175"
+    ],
+    "Tripoli District": [
+        "2060186"
+    ],
+    "Quảng Nam": [
+        "1891352"
+    ],
+    "Perak": [
+        "4445076"
+    ],
+    "Francisco Morazán Department": [
+        "4627390"
+    ],
+    "Yoro Department": [
+        "4627396"
+    ],
+    "Mwanza Region": [
+        "5712706"
+    ],
+    "Jeju Province": [
+        "2398560"
+    ],
+    "State of Mexico": [
+        "1376489"
+    ],
+    "Denguélé District": [
+        "1609819"
+    ],
+    "Japan": [
+        "382313"
+    ],
+    "Lima Department": [
+        "1944659"
+    ],
+    "Lima province": [
+        "1944670"
+    ],
+    "Ratanakiri Province": [
+        "2200301"
+    ],
+    "Upper Nile": [
+        "2190518"
+    ],
+    "Sanaa": [
+        "9126077"
+    ],
+    "Al Bayda' Governorate": [
+        "383901"
+    ],
+    "Aden Governorate": [
+        "383893"
+    ],
+    "Shabwah Governorate": [
+        "383896"
+    ],
+    "Karakalpakstan": [
+        "196241"
+    ],
+    "Bukhara Region": [
+        "1670973"
+    ],
+    "Xorazm Region": [
+        "196242"
+    ],
+    "Navoiy Region": [
+        "196246"
+    ],
+    "Algiers Province": [
+        "157062"
+    ],
+    "Tizi Ouzou Province": [
+        "1283601"
+    ],
+    "Bouira Province": [
+        "1283093"
+    ],
+    "Béjaïa Province": [
+        "1278765"
+    ],
+    "Jijel Province": [
+        "1278746"
+    ],
+    "Mila Province": [
+        "1273544"
+    ],
+    "Médéa Province": [
+        "1282111"
+    ],
+    "Boumerdès Province": [
+        "1283608"
+    ],
+    "Sétif Province": [
+        "1278747"
+    ],
+    "Bordj Bou Arréridj Province": [
+        "1278766"
+    ],
+    "Misau": [
+        "3722247"
+    ],
+    "Gamawa": [
+        "3722240"
+    ],
+    "Nangere": [
+        "3698577"
+    ],
+    "Pangasinan": [
+        "1504701"
+    ],
+    "Greenland": [
+        "2184073"
+    ],
+    "Kajiado County": [
+        "3486020"
+    ],
+    "Makueni County": [
+        "3492708"
+    ],
+    "Kitui County": [
+        "3495547"
+    ],
+    "Machakos County": [
+        "3492707"
+    ],
+    "Azad Kashmir": [
+        "3780130"
+    ],
+    "Artvin Province": [
+        "223448"
+    ],
+    "Sakarya Province": [
+        "223462"
+    ],
+    "Ordu Province": [
+        "223450"
+    ],
+    "Kazakhstan": [
+        "214665"
+    ],
+    "Bayan-Ölgii Province": [
+        "3382266"
+    ],
+    "Sirdaryo Region": [
+        "196253"
+    ],
+    "Jizzakh Region": [
+        "196254"
+    ],
+    "Nenets Autonomous Okrug": [
+        "274048"
+    ],
+    "Omsk Oblast": [
+        "140292"
+    ],
+    "Tomsk Oblast": [
+        "140295"
+    ],
+    "Khanty-Mansi Autonomous Okrug": [
+        "140296"
+    ],
+    "Yamalo-Nenets Autonomous Okrug": [
+        "191706"
+    ],
+    "Matabeleland South Province": [
+        "3336981"
+    ],
+    "Kumi District": [
+        "3498173"
+    ],
+    "Luwero District": [
+        "3498105"
+    ],
+    "Akko Town": [
+        "3720423"
+    ],
+    "Tindouf Province": [
+        "1258651"
+    ],
+    "Dar es Salaam Region": [
+        "7202037"
+    ],
+    "Lindi Region": [
+        "1600807"
+    ],
+    "Cabo Delgado Province": [
+        "2908364"
+    ],
+    "Mtwara Region": [
+        "1600798"
+    ],
+    "Kamuli District": [
+        "3498118"
+    ],
+    "Lira District": [
+        "3497128"
+    ],
+    "Soroti District": [
+        "3497400"
+    ],
+    "Kaabong District": [
+        "3501829"
+    ],
+    "Kaberamaido District": [
+        "3497364"
+    ],
+    "Dokolo District": [
+        "3497127"
+    ],
+    "Amuria District": [
+        "3497424"
+    ],
+    "Abim District": [
+        "3497425"
+    ],
+    "Kapchorwa District": [
+        "3501837"
+    ],
+    "Amolatar District": [
+        "3497388"
+    ],
+    "Kotido District": [
+        "3497438"
+    ],
+    "Sironko District": [
+        "3498162"
+    ],
+    "Moroto District": [
+        "3501830"
+    ],
+    "Nakapiripirit District": [
+        "3498251"
+    ],
+    "Mashonaland Central Province": [
+        "3336976"
+    ],
+    "Tete Province": [
+        "2908443"
+    ],
+    "Lusaka Province": [
+        "318864"
+    ],
+    "Trakai District Municipality": [
+        "1016309"
+    ],
+    "Buri Ram": [
+        "1908766"
+    ],
+    "Surin": [
+        "1908826"
+    ],
+    "Si Sa Ket": [
+        "1908821"
+    ],
+    "Kampong Thom Province": [
+        "2198944"
+    ],
+    "Preah Vihear Province": [
+        "2198922"
+    ],
+    "Stung Treng Province": [
+        "2198916"
+    ],
+    "Cape Verde": [
+        "535774"
+    ],
+    "Petén Department": [
+        "214699"
+    ],
+    "Toledo District": [
+        "962358"
+    ],
+    "Izabal Department": [
+        "214705"
+    ],
+    "Ermera Municipality": [
+        "4631023"
+    ],
+    "Kullu Valley": [
+        "9977197"
+    ],
+    "Sanmatenga Province": [
+        "2828633"
+    ],
+    "Loroum Province": [
+        "2915653"
+    ],
+    "East Ogan Komering Ulu": [
+        "2657933"
+    ],
+    "Ogan Komering Ilir": [
+        "9997288"
+    ],
+    "Ogan Komering Ulu": [
+        "2657934"
+    ],
+    "South Ogan Komering Ulu": [
+        "2657935"
+    ],
+    "Paraná": [
+        "297640"
+    ],
+    "Rio Grande do Sul": [
+        "242620"
+    ],
+    "Santa Catarina": [
+        "296584"
+    ],
+    "Sorong": [
+        "14954913",
+        "14905729"
+    ],
+    "Tambrauw": [
+        "14905730"
+    ],
+    "Moraid": [
+        "940417592"
+    ],
+    "Luang Prabang Province": [
+        "5831660"
+    ],
+    "Cambodia": [
+        "49898"
+    ],
+    "Ho Chi Minh City": [
+        "1973756"
+    ],
+    "Long An": [
+        "1877236"
+    ],
+    "Cà Mau": [
+        "1873490"
+    ],
+    "Hậu Giang": [
+        "1874249"
+    ],
+    "Kiên Giang": [
+        "1874471"
+    ],
+    "An Giang": [
+        "1875748"
+    ],
+    "Bạc Liêu province": [
+        "1873533"
+    ],
+    "Đồng Tháp": [
+        "1875866"
+    ],
+    "Cần Thơ": [
+        "1874283"
+    ],
+    "Lomami Province": [
+        "5646600"
+    ],
+    "Kansas": [
+        "161644"
+    ],
+    "Coahuila": [
+        "1661524"
+    ],
+    "Nyeri County": [
+        "3495558"
+    ],
+    "Nakuru County": [
+        "3486019"
+    ],
+    "Kirinyaga County": [
+        "3495546"
+    ],
+    "Kiambu County": [
+        "3495544"
+    ],
+    "Ganjuwa": [
+        "3722241"
+    ],
+    "Rwanda": [
+        "171496"
+    ],
+    "Kyrgyzstan": [
+        "178009"
+    ],
+    "Gorno-Badakhshan Autonomous Region": [
+        "3279614"
+    ],
+    "Tabora Region": [
+        "1600809"
+    ],
+    "Phetchaburi": [
+        "1908803"
+    ],
+    "Kanchanaburi": [
+        "1908777"
+    ],
+    "Ratchaburi": [
+        "1908811"
+    ],
+    "Tanintharyi Region": [
+        "5996486"
+    ],
+    "Lampang": [
+        "1908781"
+    ],
+    "Trongsa District": [
+        "3899619"
+    ],
+    "Faranah Region": [
+        "3403910"
+    ],
+    "Mamou Region": [
+        "3308938"
+    ],
+    "Kenya": [
+        "192798"
+    ],
+    "Khyber Pakhtunkhwa": [
+        "3780131"
+    ],
+    "Gilgit-Baltistan": [
+        "357995"
+    ],
+    "Kotayk Province": [
+        "364084"
+    ],
+    "Aragatsotn Province": [
+        "3917110"
+    ],
+    "Golestan Province": [
+        "269903"
+    ],
+    "Ararat Province": [
+        "364083"
+    ],
+    "Gegharkunik Province": [
+        "364080"
+    ],
+    "Shirak Province": [
+        "364077"
+    ],
+    "Armavir Province": [
+        "364086"
+    ],
+    "Al-Hasakah Governorate": [
+        "184856"
+    ],
+    "Al-Raqqah Governorate": [
+        "184878"
+    ],
+    "Lachin District": [
+        "11871224"
+    ],
+    "Mazandaran Province": [
+        "269900"
+    ],
+    "Kalbajar District": [
+        "11821490"
+    ],
+    "Ordubad District": [
+        "3789858"
+    ],
+    "Biu": [
+        "3721172"
+    ],
+    "Guyuk": [
+        "3720364"
+    ],
+    "Shongom": [
+        "3720432"
+    ],
+    "Ilocos Sur": [
+        "1504724"
+    ],
+    "La Union": [
+        "1504722"
+    ],
+    "Quinara Region": [
+        "1761585"
+    ],
+    "Quintana Roo": [
+        "2614434"
+    ],
+    "Campeche": [
+        "2568834"
+    ],
+    "Kankan Region": [
+        "3403911"
+    ],
+    "Faranah Prefecture": [
+        "12286515"
+    ],
+    "Kedah": [
+        "4444908"
+    ],
+    "Yala": [
+        "1908872"
+    ],
+    "Komi Republic": [
+        "115136"
+    ],
+    "Kabarole District": [
+        "3498021"
+    ],
+    "Kasese District": [
+        "3501895"
+    ],
+    "Bundibugyo District": [
+        "3501892"
+    ],
+    "Ntoroko District": [
+        "3498024"
+    ],
+    "Haut-Ogooué Province": [
+        "1243580"
+    ],
+    "North Korea": [
+        "192734"
+    ],
+    "South Korea": [
+        "307756"
+    ],
+    "Kosrae": [
+        "10810878"
+    ],
+    "Kosrae State": [
+        "3819480"
+    ],
+    "N'Djamena": [
+        "3718330"
+    ],
+    "Pohnpei State": [
+        "3819481"
+    ],
+    "Bukwo District": [
+        "3501836"
+    ],
+    "Northwestern Province": [
+        "318859"
+    ],
+    "Northern Cape": [
+        "86720"
+    ],
+    "Viqueque Municipality": [
+        "4631029"
+    ],
+    "Baucau Municipality": [
+        "4631019"
+    ],
+    "Murmansk Oblast": [
+        "2099216"
+    ],
+    "Karelia": [
+        "393980"
+    ],
+    "Tver Oblast": [
+        "2095259"
+    ],
+    "South Karelia": [
+        "2067231"
+    ],
+    "North Karelia": [
+        "1999428"
+    ],
+    "Dinajpur District": [
+        "9461341"
+    ],
+    "Thakurgaon District": [
+        "9449351"
+    ],
+    "Yangon Region": [
+        "5996487"
+    ],
+    "Da Nang": [
+        "1891418"
+    ],
+    "Huế": [
+        "1891483"
+    ],
+    "Kuala Lumpur": [
+        "2939672"
+    ],
+    "Bangka Belitung Islands": [
+        "3797243"
+    ],
+    "Riau Islands": [
+        "3797244"
+    ],
+    "Kerinci": [
+        "13757876"
+    ],
+    "Selangor": [
+        "2932285"
+    ],
+    "Negeri Sembilan": [
+        "2939674"
+    ],
+    "Naypyidaw Union Territory": [
+        "5996482"
+    ],
+    "Carchi Province": [
+        "114048"
+    ],
+    "Ohangwena Region": [
+        "2279597"
+    ],
+    "Oshikoto Region": [
+        "2279627"
+    ],
+    "Kongo Central": [
+        "193090"
+    ],
+    "Agusan del Sur": [
+        "52297"
+    ],
+    "Surigao del Sur": [
+        "1507067"
+    ],
+    "Negros Occidental": [
+        "1506913"
+    ],
+    "Xiangkhouang Province": [
+        "5831670"
+    ],
+    "Hūaphan": [
+        "5831657"
+    ],
+    "Nepal": [
+        "184633"
+    ],
+    "Kikai Island": [
+        "4098964"
+    ],
+    "Mulanje District": [
+        "7347097"
+    ],
+    "Thyolo District": [
+        "7347769"
+    ],
+    "North Bolaang Mongondow": [
+        "14907634"
+    ],
+    "Spain": [
+        "1311341"
+    ],
+    "Karonga District": [
+        "7342879"
+    ],
+    "Chitipa district": [
+        "7342878"
+    ],
+    "Kayunga District": [
+        "3498104"
+    ],
+    "Apac District": [
+        "3497126"
+    ],
+    "Banteay Meanchey Province": [
+        "2200390"
+    ],
+    "Svay Rieng Province": [
+        "2301441"
+    ],
+    "Prey Veng Province": [
+        "2200477"
+    ],
+    "Logone Occidental Region": [
+        "3218248"
+    ],
+    "Latvia": [
+        "72594"
+    ],
+    "Ladakh": [
+        "5515045"
+    ],
+    "Balikpapan": [
+        "14921096"
+    ],
+    "Moxico Province": [
+        "1802549"
+    ],
+    "Beyla Prefecture": [
+        "3401811"
+    ],
+    "Samtse District": [
+        "3899614"
+    ],
+    "Sigi": [
+        "8758189"
+    ],
+    "Baku": [
+        "3764541"
+    ],
+    "Zardab District": [
+        "3764589"
+    ],
+    "Aghdash District": [
+        "3764538"
+    ],
+    "Agsu District": [
+        "3764540"
+    ],
+    "Shamakhi District": [
+        "3764593"
+    ],
+    "Shaki District": [
+        "3912205"
+    ],
+    "Qusar District": [
+        "3764571"
+    ],
+    "Shabran District": [
+        "3764592"
+    ],
+    "Yevlakh District": [
+        "3764587"
+    ],
+    "Ujar District": [
+        "3764582"
+    ],
+    "Goychay District": [
+        "3764553"
+    ],
+    "Samukh District": [
+        "3764577"
+    ],
+    "Kurdamir District": [
+        "3764559"
+    ],
+    "Siyazan District": [
+        "3764578"
+    ],
+    "Khachmaz District": [
+        "3764583"
+    ],
+    "Liguria": [
+        "301482"
+    ],
+    "Province of Cuneo": [
+        "42845"
+    ],
+    "Province of Alessandria": [
+        "43199"
+    ],
+    "Bonifacio": [
+        "122377"
+    ],
+    "Limburg": [
+        "47793",
+        "53142"
+    ],
+    "North Rhine-Westphalia": [
+        "1407192"
+    ],
+    "Westphalia": [
+        "62761"
+    ],
+    "Kinshasa": [
+        "388103"
+    ],
+    "Lithuania": [
+        "72596"
+    ],
+    "Mayuge District": [
+        "3501862"
+    ],
+    "Ilam Province": [
+        "229766"
+    ],
+    "Busia County": [
+        "3486321"
+    ],
+    "Lau": [
+        "13879133"
+    ],
+    "Ba": [
+        "13882086"
+    ],
+    "Ra": [
+        "13882085"
+    ],
+    "Mamou Prefecture": [
+        "3308938"
+    ],
+    "Lombardy": [
+        "44879"
+    ],
+    "Emilia-Romagna": [
+        "42611"
+    ],
+    "Province of Piacenza": [
+        "43332"
+    ],
+    "Lomaiviti": [
+        "13879134"
+    ],
+    "Nord-Ubangi": [
+        "192822"
+    ],
+    "Temburong District": [
+        "7843853"
+    ],
+    "Noumbiel Province": [
+        "2916228"
+    ],
+    "Banggai": [
+        "4269707"
+    ],
+    "Tshuapa": [
+        "193083"
+    ],
+    "Machinga District": [
+        "7345874"
+    ],
+    "Phalombe District": [
+        "7347098"
+    ],
+    "Zomba District": [
+        "7345872"
+    ],
+    "Blantyre District": [
+        "7347100"
+    ],
+    "Vihiga County": [
+        "3486322"
+    ],
+    "Kisumu County": [
+        "3486289"
+    ],
+    "Semnan Province": [
+        "241474"
+    ],
+    "Siaya County": [
+        "3486291"
+    ],
+    "Rhineland-Palatinate": [
+        "1412581",
+        "62341"
+    ],
+    "Merzig-Wadern": [
+        "62341"
+    ],
+    "Moselle": [
+        "62387"
+    ],
+    "Arrondissement of Verviers": [
+        "51854"
+    ],
+    "East Belgium": [
+        "1407211"
+    ],
+    "Sankuru": [
+        "193099"
+    ],
+    "Haut-Lomami Province": [
+        "193086"
+    ],
+    "Gasa District": [
+        "3899606"
+    ],
+    "Bié Province": [
+        "1802541"
+    ],
+    "Lunda Sul Province": [
+        "1802548"
+    ],
+    "Homa Bay County": [
+        "3486017"
+    ],
+    "Kouilou Department": [
+        "3220590"
+    ],
+    "Bushehr Province": [
+        "269575"
+    ],
+    "Kohgiluyeh and Boyer-Ahmad Province": [
+        "241478"
+    ],
+    "New Ireland": [
+        "3987460"
+    ],
+    "Thimphu District": [
+        "3899616"
+    ],
+    "Adjara": [
+        "1995970"
+    ],
+    "Bolu Province": [
+        "223461"
+    ],
+    "Kocaeli Province": [
+        "223473"
+    ],
+    "Rize Province": [
+        "223542"
+    ],
+    "Marshall Islands": [
+        "571771"
+    ],
+    "Mumbai": [
+        "7888990"
+    ],
+    "Puducherry": [
+        "107001"
+    ],
+    "Quetzaltenango Department": [
+        "214710"
+    ],
+    "San Marcos Department": [
+        "214707"
+    ],
+    "Retalhuleu Department": [
+        "214711"
+    ],
+    "Nairobi": [
+        "9185096"
+    ],
+    "Querétaro": [
+        "2340903"
+    ],
+    "Michoacán": [
+        "2340636"
+    ],
+    "Potaro-Siparuni": [
+        "7108941"
+    ],
+    "Bahia": [
+        "362413"
+    ],
+    "Itapúa": [
+        "389898"
+    ],
+    "Central Department": [
+        "389892"
+    ],
+    "San Pedro Department": [
+        "389887"
+    ],
+    "Cordillera Department": [
+        "389889"
+    ],
+    "Morelos": [
+        "1376332"
+    ],
+    "Nizhny Novgorod Oblast": [
+        "72195"
+    ],
+    "Ryazan Oblast": [
+        "71950"
+    ],
+    "Tambov Oblast": [
+        "72180"
+    ],
+    "Mordovia": [
+        "72196"
+    ],
+    "Penza Oblast": [
+        "72182"
+    ],
+    "Kwilu": [
+        "5646653"
+    ],
+    "Penang": [
+        "4445131"
+    ],
+    "Perlis": [
+        "4444918"
+    ],
+    "Satun": [
+        "1908819"
+    ],
+    "Yomou Prefecture": [
+        "3400656"
+    ],
+    "Nzérékoré Prefecture": [
+        "3402448"
+    ],
+    "Mauritania": [
+        "192763"
+    ],
+    "Mauritius": [
+        "535828"
+    ],
+    "Cuando Cubango Province": [
+        "568485"
+    ],
+    "Oio Region": [
+        "1761584"
+    ],
+    "Sinaloa": [
+        "2455086"
+    ],
+    "Liquiçá Municipality": [
+        "4631025"
+    ],
+    "Putrajaya": [
+        "4443881"
+    ],
+    "Adjumani District": [
+        "3501791"
+    ],
+    "Moyo District": [
+        "3501824"
+    ],
+    "Mocheni Valley": [
+        "6536032"
+    ],
+    "Buru Island": [
+        "4096998"
+    ],
+    "Nova Scotia": [
+        "390558"
+    ],
+    "New Brunswick": [
+        "68942"
+    ],
+    "Prince Edward Island": [
+        "391115"
+    ],
+    "Baghdad Governorate": [
+        "3242293"
+    ],
+    "Basra Governorate": [
+        "3244379"
+    ],
+    "Singapore": [
+        "536780"
+    ],
+    "Pekanbaru": [
+        "16563796"
+    ],
+    "Muko Muko": [
+        "16196031"
+    ],
+    "South Caribbean Coast Autonomous Region": [
+        "2195081"
+    ],
+    "North Caribbean Coast Autonomous Region": [
+        "2195034"
+    ],
+    "Jinotega Department": [
+        "2196713"
+    ],
+    "Lempira Department": [
+        "4627393"
+    ],
+    "Olancho Department": [
+        "4627317"
+    ],
+    "Gracias a Dios Department": [
+        "3811537"
+    ],
+    "Colón Department": [
+        "4627315"
+    ],
+    "North Macedonia": [
+        "53293"
+    ],
+    "Bitola Municipality": [
+        "2598354"
+    ],
+    "Debar Municipality": [
+        "2605591"
+    ],
+    "Kratovo Municipality": [
+        "2587448"
+    ],
+    "Dojran Municipality": [
+        "2591259"
+    ],
+    "Gevgelija Municipality": [
+        "2591417"
+    ],
+    "Veles Municipality": [
+        "2575609"
+    ],
+    "Strumica Municipality": [
+        "2591087"
+    ],
+    "Kumanovo Municipality": [
+        "2585982"
+    ],
+    "Prilep Municipality": [
+        "2593112"
+    ],
+    "Phuket": [
+        "2934604"
+    ],
+    "Phang Nga": [
+        "1908799"
+    ],
+    "Macenta Prefecture": [
+        "3401335"
+    ],
+    "Pointe-Noire": [
+        "3947631"
+    ],
+    "Camiguin": [
+        "1552824"
+    ],
+    "Tidore Islands": [
+        "13263677"
+    ],
+    "Obi Island": [
+        "7173836"
+    ],
+    "Bacan": [
+        "7176719"
+    ],
+    "Kayoa": [
+        "12556588"
+    ],
+    "Sainyabūlī": [
+        "5831663"
+    ],
+    "Northern State": [
+        "3774678"
+    ],
+    "Malta": [
+        "365307"
+    ],
+    "Hidalgo": [
+        "1376490"
+    ],
+    "Surigao del Norte": [
+        "1507031"
+    ],
+    "Qapqal Xibe Autonomous County": [
+        "2751494"
+    ],
+    "The Gambia": [
+        "192774"
+    ],
+    "Samut Sakhon": [
+        "1908816"
+    ],
+    "Nakhon Pathom": [
+        "1908788"
+    ],
+    "Pathum Thani": [
+        "1908797"
+    ],
+    "Chaco Province": [
+        "153554"
+    ],
+    "Santa Fe Province": [
+        "153543"
+    ],
+    "Cayo District": [
+        "962357"
+    ],
+    "Burkina Faso": [
+        "192783"
+    ],
+    "Norte de Santander Department": [
+        "1324192"
+    ],
+    "North Island": [
+        "6571744"
+    ],
+    "French Polynesia": [
+        "3412620"
+    ],
+    "Kouroussa Prefecture": [
+        "3839724"
+    ],
+    "Formosa Province": [
+        "2849847"
+    ],
+    "Ninh Bình": [
+        "1900963"
+    ],
+    "Negros Oriental": [
+        "1506914"
+    ],
+    "Cotopaxi Province": [
+        "963072"
+    ],
+    "Tungurahua Province": [
+        "113442"
+    ],
+    "Govi-Altai Province": [
+        "270054"
+    ],
+    "Dornod Province": [
+        "269886"
+    ],
+    "Dornogovi Province": [
+        "270050"
+    ],
+    "Sükhbaatar Province": [
+        "269874"
+    ],
+    "Bayankhongor Province": [
+        "270052"
+    ],
+    "Mexico City": [
+        "1376330"
+    ],
+    "Miyako Islands": [
+        "4858178"
+    ],
+    "Enrekang": [
+        "14752066"
+    ],
+    "Gurage Zone": [
+        "3306768"
+    ],
+    "Torres Strait Islands": [
+        "11677464"
+    ],
+    "Myanmar": [
+        "50371"
+    ],
+    "Krabi": [
+        "1908779"
+    ],
+    "Ranong province": [
+        "1908810"
+    ],
+    "Uíge Province": [
+        "422659"
+    ],
+    "Ulyanovsk Oblast": [
+        "72192"
+    ],
+    "Butaleja District": [
+        "3498136"
+    ],
+    "Manafwa District": [
+        "3501861"
+    ],
+    "Ghardaïa Province": [
+        "1279666"
+    ],
+    "Alborz Province": [
+        "1015996"
+    ],
+    "Changhua County": [
+        "2917549"
+    ],
+    "Tainan": [
+        "2418506"
+    ],
+    "Penghu County": [
+        "3339738"
+    ],
+    "Kinmen County": [
+        "3339695"
+    ],
+    "Campania": [
+        "40218"
+    ],
+    "Calabria": [
+        "1783980"
+    ],
+    "Huambo Province": [
+        "1802544"
+    ],
+    "Funakaye": [
+        "3720427"
+    ],
+    "Nafada": [
+        "3720431"
+    ],
+    "Mpumalanga": [
+        "349556"
+    ],
+    "Limpopo": [
+        "349547"
+    ],
+    "North West": [
+        "349519"
+    ],
+    "Masvingo Province": [
+        "3336979"
+    ],
+    "Sofala": [
+        "2908442"
+    ],
+    "Midlands Province": [
+        "3336982"
+    ],
+    "Bulawayo Province": [
+        "3337019"
+    ],
+    "Reef Islands": [
+        "3593007"
+    ],
+    "Democratic Republic of the Congo": [
+        "192795"
+    ],
+    "Niassa Province": [
+        "2908366"
+    ],
+    "Nendo Island": [
+        "2746824"
+    ],
+    "Tlaxcala": [
+        "1375274"
+    ],
+    "Amecameca Municipality": [
+        "5605508"
+    ],
+    "Texcoco Municipality": [
+        "5606496"
+    ],
+    "Taymyrsky Dolgano-Nenetsky District": [
+        "1165292"
+    ],
+    "Niue": [
+        "3548481"
+    ],
+    "Ituri Province": [
+        "192818"
+    ],
+    "Northern Bahr el Ghazal": [
+        "2190520"
+    ],
+    "Netherlands": [
+        "47796"
+    ],
+    "Flanders": [
+        "53134"
+    ],
+    "East Flanders": [
+        "53135"
+    ],
+    "Province of Antwerp": [
+        "53114"
+    ],
+    "Flemish Region": [
+        "53134"
+    ],
+    "Kleve": [
+        "448557"
+    ],
+    "Hardap Region": [
+        "2279556"
+    ],
+    "Norway": [
+        "1059668"
+    ],
+    "Lamphun": [
+        "1908782"
+    ],
+    "Astrakhan Oblast": [
+        "112819"
+    ],
+    "Jersey": [
+        "367988"
+    ],
+    "Guernsey": [
+        "270009"
+    ],
+    "Kaliro District": [
+        "3498126"
+    ],
+    "Tongatapu": [
+        "3772680"
+    ],
+    "Yap State": [
+        "3819422"
+    ],
+    "Nagekeo": [
+        "11228385"
+    ],
+    "Ngada": [
+        "11228384"
+    ],
+    "Mbarara District": [
+        "3498063"
+    ],
+    "Bushenyi District": [
+        "3498054"
+    ],
+    "Ibanda": [
+        "6088794"
+    ],
+    "Rubirizi District": [
+        "3501896"
+    ],
+    "Kiboga District": [
+        "3498002"
+    ],
+    "Masindi District": [
+        "3497974"
+    ],
+    "Hoima District": [
+        "3501926"
+    ],
+    "Buliisa District": [
+        "3501794"
+    ],
+    "Kyenjojo District": [
+        "3498023"
+    ],
+    "Kiruhura District": [
+        "3498012"
+    ],
+    "Udon Thani": [
+        "1908831"
+    ],
+    "Sa Kaeo": [
+        "2934605"
+    ],
+    "Maha Sarakham": [
+        "1908786"
+    ],
+    "Limousin": [
+        "8644"
+    ],
+    "Cantal": [
+        "7381"
+    ],
+    "Haute-Loire": [
+        "7452"
+    ],
+    "Val d'Aran": [
+        "2810776"
+    ],
+    "Haute-Vienne": [
+        "7418"
+    ],
+    "Provence-Alpes-Côte d'Azur": [
+        "8654"
+    ],
+    "Province of Imperia": [
+        "42628"
+    ],
+    "Midi-Pyrénées": [
+        "8647"
+    ],
+    "Languedoc-Roussillon": [
+        "8643"
+    ],
+    "Poitou-Charentes": [
+        "8652"
+    ],
+    "Auvergne-Rhône-Alpes": [
+        "3792877"
+    ],
+    "Kisar Island": [
+        "25870936"
+    ],
+    "Okinoerabujima": [
+        "4098980"
+    ],
+    "Iowa": [
+        "161650"
+    ],
+    "Missouri": [
+        "161638"
+    ],
+    "Federally Administered Tribal Areas": [
+        "358004"
+    ],
+    "Banyuwangi": [
+        "9674156"
+    ],
+    "South Ossetia": [
+        "1152717"
+    ],
+    "Racha-Lechkhumi and Kvemo Svaneti": [
+        "1997284"
+    ],
+    "Imereti": [
+        "1997289"
+    ],
+    "Shida Kartli": [
+        "2000040"
+    ],
+    "Mtskheta-Mtianeti": [
+        "2000090"
+    ],
+    "Guanajuato": [
+        "2340909"
+    ],
+    "Constantine Province": [
+        "1273368"
+    ],
+    "Ouargla Province": [
+        "1279811"
+    ],
+    "Älvdalen": [
+        "935540"
+    ],
+    "Surxondaryo Region": [
+        "196248"
+    ],
+    "Districts under Central Government Jurisdiction": [
+        "3279615"
+    ],
+    "Palau": [
+        "571805"
+    ],
+    "Tolima Department": [
+        "1309495"
+    ],
+    "Huila Department": [
+        "1396291"
+    ],
+    "Biombo Region": [
+        "1761579"
+    ],
+    "Pegunungan Bintang": [
+        "7754452"
+    ],
+    "Picardy": [
+        "8651"
+    ],
+    "Nord-Pas-de-Calais": [
+        "8648"
+    ],
+    "Normandy": [
+        "3793170"
+    ],
+    "Virginia": [
+        "224042"
+    ],
+    "West Virginia": [
+        "162068"
+    ],
+    "Ohio": [
+        "162061"
+    ],
+    "Pennsylvania": [
+        "162109"
+    ],
+    "Indiana": [
+        "161816"
+    ],
+    "Lorraine": [
+        "8645"
+    ],
+    "Alsace": [
+        "8636"
+    ],
+    "Hà Tĩnh": [
+        "1898458"
+    ],
+    "Amnat Charoen": [
+        "2746948"
+    ],
+    "Yasothon": [
+        "1908873"
+    ],
+    "Roi Et": [
+        "1908813"
+    ],
+    "Phichit": [
+        "1908804"
+    ],
+    "Prachin Buri": [
+        "1908808"
+    ],
+    "Chachoengsao": [
+        "1908767"
+    ],
+    "Lopburi": [
+        "1908784"
+    ],
+    "Saraburi": [
+        "1908818"
+    ],
+    "Nakhon Nayok": [
+        "1908787"
+    ],
+    "Norfolk Island": [
+        "2386068"
+    ],
+    "Pitcairn Islands": [
+        "2185375"
+    ],
+    "Solomon Islands": [
+        "1857436"
+    ],
+    "Nyandarua County": [
+        "3495557"
+    ],
+    "United Kingdom": [
+        "62149"
+    ],
+    "Palue Island": [
+        "24295673"
+    ],
+    "Atlántico Department": [
+        "1315209"
+    ],
+    "Tuamotus": [
+        "6065911"
+    ],
+    "Penrhyn": [
+        "3830336"
+    ],
+    "Boucle du Mouhoun Region": [
+        "2674448"
+    ],
+    "Thessaloniki": [
+        "11948133"
+    ],
+    "Epirus Region": [
+        "554424"
+    ],
+    "Imathia Regional Unit": [
+        "563225"
+    ],
+    "Drama Regional Unit": [
+        "938042"
+    ],
+    "Guatemala Department": [
+        "214704"
+    ],
+    "Jalapa Department": [
+        "214706"
+    ],
+    "Poland": [
+        "49715"
+    ],
+    "Žilina": [
+        "1859537"
+    ],
+    "Lviv Oblast": [
+        "72380"
+    ],
+    "Frýdek-Místek District": [
+        "442412"
+    ],
+    "Portugal": [
+        "295480"
+    ],
+    "Azores": [
+        "1629146"
+    ],
+    "Guinea-Bissau": [
+        "192776"
+    ],
+    "Sonsonate Department": [
+        "3624092"
+    ],
+    "Chalatenango Department": [
+        "3624440"
+    ],
+    "Ahuachapán Department": [
+        "3623374"
+    ],
+    "Santa Ana Department": [
+        "3624100"
+    ],
+    "La Libertad Department": [
+        "3624113",
+        "1967959"
+    ],
+    "Usulután Department": [
+        "3625389"
+    ],
+    "Cuscatlán Department": [
+        "3624439"
+    ],
+    "La Unión Department": [
+        "3625432"
+    ],
+    "San Salvador Department": [
+        "3624436"
+    ],
+    "Maine": [
+        "63512"
+    ],
+    "Iran": [
+        "304938"
+    ],
+    "Príncipe Autonomous Region": [
+        "4508349"
+    ],
+    "Afghanistan": [
+        "303427"
+    ],
+    "Canindeyú": [
+        "389888"
+    ],
+    "Amambay Department": [
+        "389886"
+    ],
+    "Guntur district": [
+        "2022220"
+    ],
+    "Sri Potti Sri Ramulu Nellore district": [
+        "2022291"
+    ],
+    "Prakasam district": [
+        "2022278"
+    ],
+    "Poluwat": [
+        "3823292"
+    ],
+    "Suchitepéquez Department": [
+        "214696"
+    ],
+    "Totonicapán Department": [
+        "214709"
+    ],
+    "Pichincha Province": [
+        "113722"
+    ],
+    "Peru": [
+        "288247"
+    ],
+    "Piura Department": [
+        "1986151"
+    ],
+    "Lambayeque Department": [
+        "1969722"
+    ],
+    "Chimborazo Province": [
+        "108860"
+    ],
+    "Los Ríos Province": [
+        "109248"
+    ],
+    "Jujuy Province": [
+        "153556"
+    ],
+    "Cochabamba Department": [
+        "393562"
+    ],
+    "Santiago del Estero Province": [
+        "153544"
+    ],
+    "Huancavelica Department": [
+        "1933551"
+    ],
+    "Arequipa Department": [
+        "1879287"
+    ],
+    "Puno Department": [
+        "1907899"
+    ],
+    "Moquegua Department": [
+        "1875889"
+    ],
+    "Imbabura Province": [
+        "113982"
+    ],
+    "Azuay Province": [
+        "107886"
+    ],
+    "El Oro Province": [
+        "958681"
+    ],
+    "Loja Province": [
+        "108088"
+    ],
+    "Zamora Chinchipe": [
+        "108326"
+    ],
+    "Ancash Department": [
+        "1953170"
+    ],
+    "Pacaraos": [
+        "1944776"
+    ],
+    "Corongo Province": [
+        "1953182"
+    ],
+    "Marañón Province": [
+        "1954501"
+    ],
+    "Cañar Province": [
+        "108720"
+    ],
+    "Khánh Hòa": [
+        "1887959"
+    ],
+    "Easter Island": [
+        "3538209"
+    ],
+    "Isla de Pascua": [
+        "1773341"
+    ],
+    "Cook Islands": [
+        "2184233"
+    ],
+    "Rapa Iti": [
+        "6075629"
+    ],
+    "Réunion": [
+        "1785276"
+    ],
+    "Kepahiang": [
+        "16196027"
+    ],
+    "Samburu County": [
+        "3495559"
+    ],
+    "Central Greece": [
+        "910915"
+    ],
+    "Evritania Prefecture": [
+        "959069"
+    ],
+    "Cesena": [
+        "42809"
+    ],
+    "Ravenna": [
+        "42955"
+    ],
+    "Forlì": [
+        "42907"
+    ],
+    "Rimini": [
+        "42791"
+    ],
+    "Imola": [
+        "43020"
+    ],
+    "Faenza": [
+        "43004"
+    ],
+    "Nador Province": [
+        "1719451"
+    ],
+    "Driouch Province": [
+        "2429544"
+    ],
+    "Manihiki": [
+        "618282942"
+    ],
+    "Rakahanga": [
+        "3830339"
+    ],
+    "Jalpaiguri District": [
+        "556150"
+    ],
+    "Maldah District": [
+        "1791397"
+    ],
+    "Sør-Trøndelag": [
+        "13209578"
+    ],
+    "Trøndelag": [
+        "406567"
+    ],
+    "Syunik Province": [
+        "364082"
+    ],
+    "Mersin Province": [
+        "223131"
+    ],
+    "Şanlıurfa Province": [
+        "223434"
+    ],
+    "Moldova": [
+        "58974"
+    ],
+    "Romania": [
+        "90689"
+    ],
+    "Rotuma": [
+        "7223650"
+    ],
+    "Nakasongola District": [
+        "3497981"
+    ],
+    "Prešov Region": [
+        "388271"
+    ],
+    "Burundi": [
+        "195269"
+    ],
+    "Primorje-Gorski Kotar County": [
+        "226452"
+    ],
+    "Korçë County": [
+        "1252589"
+    ],
+    "Grevena Regional Unit": [
+        "1379347"
+    ],
+    "Gjirokastër District": [
+        "1253915"
+    ],
+    "Kozani Regional Unit": [
+        "956726"
+    ],
+    "Ioannina Regional Unit": [
+        "558486"
+    ],
+    "Trikala Prefecture": [
+        "558521"
+    ],
+    "Fier County": [
+        "1251469"
+    ],
+    "Resen Municipality": [
+        "2598355"
+    ],
+    "Struga Municipality": [
+        "2603188"
+    ],
+    "Ohrid Municipality": [
+        "2601514"
+    ],
+    "Sveti Nikole Municipality": [
+        "2572599"
+    ],
+    "Vinica Municipality": [
+        "2583460"
+    ],
+    "Kastoria Municipality": [
+        "2249328"
+    ],
+    "Kilkis Regional Unit": [
+        "938063"
+    ],
+    "Pella Regional Unit": [
+        "956817"
+    ],
+    "Qakh District": [
+        "3764566"
+    ],
+    "Yaeyama Islands": [
+        "4559286"
+    ],
+    "Saada Governorate": [
+        "383904"
+    ],
+    "Lombok Island": [
+        "7219495"
+    ],
+    "Seram": [
+        "4096904"
+    ],
+    "Gampaha District": [
+        "5351775"
+    ],
+    "Badulla District": [
+        "5351720"
+    ],
+    "Nuwara Eliya District": [
+        "5351796"
+    ],
+    "Sicily": [
+        "39152"
+    ],
+    "Shetland Islands": [
+        "2235077"
+    ],
+    "Ulster": [
+        "278664"
+    ],
+    "Orkney Islands": [
+        "375982"
+    ],
+    "Scottish Borders": [
+        "1919950"
+    ],
+    "Sihanoukville Province": [
+        "3279394"
+    ],
+    "Wasit Governorate": [
+        "3244385"
+    ],
+    "Maysan Governorate": [
+        "3244382"
+    ],
+    "Misamis Occidental": [
+        "1513208"
+    ],
+    "Bomet County": [
+        "3338139"
+    ],
+    "Kericho County": [
+        "3486288"
+    ],
+    "Drâa-Tafilalet": [
+        "2424034"
+    ],
+    "Guelmim-Oued Noun": [
+        "2424040"
+    ],
+    "Marrakesh-Safi": [
+        "2424086"
+    ],
+    "Béni Mellal-Khénifra": [
+        "4734547"
+    ],
+    "Souss-Massa": [
+        "2424036"
+    ],
+    "Khenchela Province": [
+        "1280466"
+    ],
+    "Batna Province": [
+        "1278748"
+    ],
+    "Guelma Province": [
+        "1273369"
+    ],
+    "Souk Ahras Province": [
+        "1283457"
+    ],
+    "Tébessa Province": [
+        "1280465"
+    ],
+    "Biskra Province": [
+        "1280072"
+    ],
+    "Sri Lanka": [
+        "536807"
+    ],
+    "Ningi": [
+        "3722248"
+    ],
+    "Butnan District": [
+        "2060171"
+    ],
+    "Matruh Governorate": [
+        "3061826"
+    ],
+    "Kola Peninsula": [
+        "5868101"
+    ],
+    "Saltdal Municipality": [
+        "408203"
+    ],
+    "Norrbotten County": [
+        "52824"
+    ],
+    "Beiarn Municipality": [
+        "409039"
+    ],
+    "Arjeplog Municipality": [
+        "935425"
+    ],
+    "Tawi-Tawi": [
+        "1513298"
+    ],
+    "Al Hoceima Province": [
+        "1708846"
+    ],
+    "Nordland": [
+        "408105"
+    ],
+    "Sikka": [
+        "11228380"
+    ],
+    "Pemana Kecil Island": [
+        "24295776"
+    ],
+    "Bratislava Region": [
+        "388265"
+    ],
+    "Zala County": [
+        "22238"
+    ],
+    "Borsod-Abaúj-Zemplén County": [
+        "22271"
+    ],
+    "East Flores": [
+        "11228386"
+    ],
+    "Solor Island": [
+        "5183294"
+    ],
+    "Slovenia": [
+        "218657"
+    ],
+    "Province of Trieste": [
+        "179292"
+    ],
+    "Carinthia": [
+        "52345"
+    ],
+    "Styria": [
+        "35183"
+    ],
+    "Selayar Islands": [
+        "12574566"
+    ],
+    "Hedmark": [
+        "412436"
+    ],
+    "Nord-Trøndelag": [
+        "13209579"
+    ],
+    "Jämtland County": [
+        "52826"
+    ],
+    "Dalarna County": [
+        "52834"
+    ],
+    "Västerbotten County": [
+        "52825"
+    ],
+    "Bengo Province": [
+        "1802539"
+    ],
+    "Lapland": [
+        "1724359"
+    ],
+    "Batangas": [
+        "1504427"
+    ],
+    "Inari": [
+        "1724821"
+    ],
+    "Samoa": [
+        "1872673"
+    ],
+    "Simeulue": [
+        "8932307"
+    ],
+    "Sumbawa": [
+        "13263883"
+    ],
+    "West Sumbawa": [
+        "13263884"
+    ],
+    "Mataram": [
+        "14315479"
+    ],
+    "Zimbabwe": [
+        "195272"
+    ],
+    "Dakhlet Nouadhibou": [
+        "3395035"
+    ],
+    "Guidimaka Region": [
+        "3395244"
+    ],
+    "Matam": [
+        "3405492"
+    ],
+    "Nakhon Sawan": [
+        "1908791"
+    ],
+    "Suphan Buri": [
+        "1908824"
+    ],
+    "Djibouti": [
+        "192801"
+    ],
+    "Somalia": [
+        "192799"
+    ],
+    "Lesotho": [
+        "2093234"
+    ],
+    "Songkhla": [
+        "1908822"
+    ],
+    "Pattani": [
+        "1908798"
+    ],
+    "Surat Thani": [
+        "1908825"
+    ],
+    "Trang": [
+        "1908828"
+    ],
+    "Phatthalung": [
+        "1908800"
+    ],
+    "Prachuap Khiri Khan": [
+        "1908809"
+    ],
+    "Nakhon Si Thammarat": [
+        "1908792"
+    ],
+    "Chumphon": [
+        "1908774"
+    ],
+    "Sonsorol": [
+        "3825300"
+    ],
+    "Hatohobei": [
+        "3825289"
+    ],
+    "Suriname": [
+        "287082"
+    ],
+    "Serbia": [
+        "1741311"
+    ],
+    "Kisela Voda Municipality": [
+        "6966470"
+    ],
+    "Kriva Palanka Municipality": [
+        "2587615"
+    ],
+    "Gazi Baba Municipality": [
+        "2433366"
+    ],
+    "Saint-Louis": [
+        "3046921"
+    ],
+    "Diourbel Region": [
+        "2908186"
+    ],
+    "Fatick": [
+        "2908218"
+    ],
+    "Kaffrine": [
+        "3405262"
+    ],
+    "Nong Khai": [
+        "1908795"
+    ],
+    "Eswatini": [
+        "88210"
+    ],
+    "Tigray Region": [
+        "1707148"
+    ],
+    "Novosibirsk Oblast": [
+        "140294"
+    ],
+    "Geita Region": [
+        "3775212"
+    ],
+    "Saint Vincent and the Grenadines": [
+        "550725"
+    ],
+    "Sweden": [
+        "52822"
+    ],
+    "Kymenlaakso": [
+        "2102313"
+    ],
+    "Ostrobothnia": [
+        "2000320"
+    ],
+    "Nsanje District": [
+        "7347767"
+    ],
+    "Chikwawa District": [
+        "7347768"
+    ],
+    "Saxony-Anhalt": [
+        "62607"
+    ],
+    "Cachar district": [
+        "2025971"
+    ],
+    "Hailakandi district": [
+        "2026004"
+    ],
+    "Karimganj district": [
+        "2026005"
+    ],
+    "Moulvibazar District": [
+        "9514617"
+    ],
+    "Habiganj District": [
+        "9514616"
+    ],
+    "North Tripura District": [
+        "2026469"
+    ],
+    "Hojai district": [
+        "16701845"
+    ],
+    "Kampong Speu Province": [
+        "2215016"
+    ],
+    "Tahiti": [
+        "3992237"
+    ],
+    "Mannar District": [
+        "3237347"
+    ],
+    "Vavuniya District": [
+        "3237349"
+    ],
+    "Anuradhapura District": [
+        "5351719"
+    ],
+    "Galle District": [
+        "5337914"
+    ],
+    "Kandy District": [
+        "5351794"
+    ],
+    "Matale District": [
+        "5351795"
+    ],
+    "Batticaloa District": [
+        "5351721"
+    ],
+    "Polonnaruwa District": [
+        "5351723"
+    ],
+    "Jaffna District": [
+        "3237345"
+    ],
+    "Ratnapura district": [
+        "5351780"
+    ],
+    "Mullaitivu District": [
+        "3237348"
+    ],
+    "Kidal Region": [
+        "2096897"
+    ],
+    "Moscow": [
+        "102269"
+    ],
+    "Turks and Caicos Islands": [
+        "547479"
+    ],
+    "Maradi Region": [
+        "3218803"
+    ],
+    "Tahoua Region": [
+        "3218805"
+    ],
+    "East Berbice-Corentyne": [
+        "7109048"
+    ],
+    "Tomohon": [
+        "14907637"
+    ],
+    "Katakwi District": [
+        "3497397"
+    ],
+    "Halmahera": [
+        "4097656"
+    ],
+    "Tidore Island": [
+        "5684718"
+    ],
+    "Trinidad and Tobago": [
+        "555717"
+    ],
+    "Thailand": [
+        "2067731"
+    ],
+    "Ghat District": [
+        "2060173"
+    ],
+    "Murzuq District": [
+        "2060181"
+    ],
+    "Tamanrasset Province": [
+        "1279667"
+    ],
+    "Eritrea": [
+        "296961"
+    ],
+    "Tokelau": [
+        "2186600"
+    ],
+    "Tokunoshima": [
+        "4098979"
+    ],
+    "Taliabu Island": [
+        "7220471"
+    ],
+    "Yardimli District": [
+        "3764586"
+    ],
+    "Astara District": [
+        "3764535"
+    ],
+    "Lankaran District": [
+        "3772758"
+    ],
+    "Bilasuvar District": [
+        "3764545"
+    ],
+    "Jalilabad District": [
+        "3764547"
+    ],
+    "Masally District": [
+        "3764562"
+    ],
+    "Lerik District": [
+        "3764560"
+    ],
+    "Boyacá Department": [
+        "1390144"
+    ],
+    "Nkhotakota District": [
+        "7343221"
+    ],
+    "Rumphi District": [
+        "7342877"
+    ],
+    "Mzimba District": [
+        "7343189"
+    ],
+    "Nkhata Bay District": [
+        "7343188"
+    ],
+    "Mashonaland West Province": [
+        "3336978"
+    ],
+    "Tonga": [
+        "2186665"
+    ],
+    "Chattogram District": [
+        "3824577"
+    ],
+    "Papua New Guinea": [
+        "307866"
+    ],
+    "Lower Juba": [
+        "1720059"
+    ],
+    "Tel Aviv": [
+        "1382494"
+    ],
+    "Tel Aviv District": [
+        "1400916"
+    ],
+    "Chandpur District": [
+        "3824841"
+    ],
+    "Cumilla District": [
+        "3824842"
+    ],
+    "Mardin Province": [
+        "223436"
+    ],
+    "Şırnak Province": [
+        "223438"
+    ],
+    "Peloponnese": [
+        "5913779"
+    ],
+    "Arcadia Regional Unit": [
+        "937632"
+    ],
+    "Peloponnese Region": [
+        "957717"
+    ],
+    "Ionian Islands Region": [
+        "957830"
+    ],
+    "Pemagatshel District": [
+        "3899611"
+    ],
+    "Samdrup Jongkhar District": [
+        "3899613"
+    ],
+    "Kamwenge District": [
+        "6489998"
+    ],
+    "Turkmenistan": [
+        "223026"
+    ],
+    "Badghis Province": [
+        "1674811"
+    ],
+    "North Khorasan Province": [
+        "225444"
+    ],
+    "Jowzjan Province": [
+        "1674800"
+    ],
+    "Razavi Khorasan Province": [
+        "537657"
+    ],
+    "Chama District": [
+        "10695029"
+    ],
+    "Kasungu District": [
+        "7345529"
+    ],
+    "Isoka District": [
+        "10695331"
+    ],
+    "Tibesti Region": [
+        "2537732"
+    ],
+    "Cyprus": [
+        "3263726"
+    ],
+    "Haskovo": [
+        "1739545"
+    ],
+    "Burgas": [
+        "1739523"
+    ],
+    "Kardzhali": [
+        "1739529"
+    ],
+    "Smolyan": [
+        "1739541"
+    ],
+    "Tuvalu": [
+        "2177266"
+    ],
+    "Labuan": [
+        "1651689"
+    ],
+    "Tuva": [
+        "145195"
+    ],
+    "Vietnam": [
+        "49915"
+    ],
+    "Qabala District": [
+        "3764572"
+    ],
+    "Oghuz District": [
+        "3764564"
+    ],
+    "Central Papua": [
+        "14309178"
+    ],
+    "Ukraine": [
+        "60199"
+    ],
+    "Suceava County": [
+        "2077868"
+    ],
+    "Maramureș County": [
+        "72481"
+    ],
+    "Ulchsky District": [
+        "1651689"
+    ],
+    "Hyderabad": [
+        "7868535"
+    ],
+    "Province of Pordenone": [
+        "179293"
+    ],
+    "Gelderland": [
+        "47554"
+    ],
+    "Vologda Oblast": [
+        "115106"
+    ],
+    "United States Virgin Islands": [
+        "286898"
+    ],
+    "British Virgin Islands": [
+        "285454"
+    ],
+    "Virgin Islands": [
+        "11944638"
+    ],
+    "Jianping County": [
+        "2769826"
+    ],
+    "Bavaria": [
+        "2145268"
+    ],
+    "Thuringia": [
+        "62366"
+    ],
+    "Valais": [
+        "1686699"
+    ],
+    "Uri": [
+        "1693971"
+    ],
+    "Province of Novara": [
+        "1552704"
+    ],
+    "Vorarlberg": [
+        "74942"
+    ],
+    "Tyrol": [
+        "52343"
+    ],
+    "Triesenberg": [
+        "1155948"
+    ],
+    "Triesen": [
+        "1155945"
+    ],
+    "Wolayita Zone": [
+        "3306777"
+    ],
+    "Biliran": [
+        "1506424"
+    ],
+    "Eastern Samar": [
+        "1506373"
+    ],
+    "Essequibo Islands-West Demerara": [
+        "7105894"
+    ],
+    "Birnin Kudu": [
+        "3703240"
+    ],
+    "Pointe de Givet": [
+        "1336057"
+    ],
+    "Wallis": [
+        "22382439"
+    ],
+    "Shanghai": [
+        "913067"
+    ],
+    "Silesian Voivodeship": [
+        "224462"
+    ],
+    "Kalmykia": [
+        "108083"
+    ],
+    "Quthing District": [
+        "1252925"
+    ],
+    "Qacha's Nek District": [
+        "1252928"
+    ],
+    "Guria": [
+        "1995971"
+    ],
+    "Samegrelo-Zemo Svaneti": [
+        "1996076"
+    ],
+    "Tsageri Municipality": [
+        "1997286"
+    ],
+    "Manado": [
+        "14907638"
+    ],
+    "Salawati Island": [
+        "5217349"
+    ],
+    "Aswan Governorate": [
+        "3061757"
+    ],
+    "Jinja District": [
+        "3498111"
+    ],
+    "Namayingo District": [
+        "3501863"
+    ],
+    "Iganga District": [
+        "3498110"
+    ],
+    "Tasmania": [
+        "2369652"
+    ],
+    "Liberia": [
+        "192780"
+    ],
+    "Nahouri Province": [
+        "2868362"
+    ],
+    "Kunigami": [
+        "4533961"
+    ],
+    "Guárico": [
+        "272663"
+    ],
+    "Koubia Prefecture": [
+        "3308836"
+    ],
+    "Labé Region": [
+        "3308839"
+    ],
+    "Dinguiraye Prefecture": [
+        "12286515"
+    ],
+    "Mali Prefecture": [
+        "3212273"
+    ],
+    "Chiradzulu District": [
+        "7347099"
+    ],
+    "Mangochi District": [
+        "7345875"
+    ],
+    "Balaka District": [
+        "7345873"
+    ],
+    "Nizhnekolymsky District": [
+        "1399826"
+    ],
+    "Bakool": [
+        "1720052"
+    ],
+    "Hiran": [
+        "1720058"
+    ],
+    "Yonaguni": [
+        "4858174"
+    ],
+    "Cabinda Province": [
+        "422607"
+    ],
+    "Oyo State": [
+        "3720554"
+    ],
+    "Osun State": [
+        "3718720"
+    ],
+    "Yoronjima": [
+        "4098961"
+    ],
+    "Arkhangelsk Oblast": [
+        "140337"
+    ],
+    "Yucatán": [
+        "2614435"
+    ],
+    "Orange Walk District": [
+        "962355"
+    ],
+    "Corozal District": [
+        "962356"
+    ],
+    "Haut-Mbomou Prefecture": [
+        "2634528"
+    ],
+    "Jalpa de Méndez": [
+        "5961501"
+    ],
+    "Musandam Governorate": [
+        "3781315"
+    ]
+}
