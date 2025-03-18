@@ -1,0 +1,9 @@
+#map {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }

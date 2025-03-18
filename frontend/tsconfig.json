@@ -6,6 +6,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "esModuleInterop": true,
+ 
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -20,7 +21,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": ["node", "@testing-library/jest-dom"]
+   "types": ["node", "@testing-library/jest-dom", "react", "react-dom"]
   },
   "include": ["src"],
   "references": [
