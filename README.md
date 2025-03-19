@@ -3,8 +3,9 @@
 För att ladda in databasen 
 ladda ner och installera: 
 Mongodb, mongosh och mongotools
-https://www.mongodb.com/try/download/community
-https://www.mongodb.com/try/download/shell
+
+https://www.mongodb.com/try/download/community  
+https://www.mongodb.com/try/download/shell  
 https://www.mongodb.com/try/download/database-tools
 
 Sätt bin folder i PATH för mongodb och mongotools
