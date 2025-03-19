@@ -1,35 +1,18 @@
+import pymongo.errors
 import requests
 import json
 import time
 import os
+import simplekml
+import pymongo
+import random
+import xml.etree.ElementTree as ET
 from osm_data import region_codes_by_country, old_regions, new_region_codes, new_region_ids, non_region_tags
 # This file is planned to become a one-click-get-all-languages automating the wikidata sparql api but
 # need major refactoring. 
 
 # Pipeline: 
 # Dump all languages with iso_codes into json -> sort out bad-languages -> populate with meta-data -> clean data -> fetch coordinates/polygons -> minimize file size -> dump into a db or folder somewhere.  
-
-'''TODO: 
-Finish function replace_region_with_many() - ✔
-Better organize the osm_data.py - ✔
-Move the data into osm_data.py and import for readability - ✔
-Find all the offical languages and tag them
-Do something about the rest of the missing data - at the moment it looks like it needs to be done by hand
-Maybe move official lang into its own file
-Create main function and organize the full pipeline
-Remove all the json files
-Get full list of all regions and osm id's to be fetched - ✔
-Deal with regions having more than 1 osm id
-Remake the create_kml query and code for geojson
-Fetch data for all present osm ids -> save as singular data files for modularity
-Way of minimizing file size - Done (in a smaller scale)
-Fetch the geodata (polygons) for all countries
-Decide on the mongodb structure
-Could move the nepal function stuff into the replace_region_with_many() but why fix something thats not broken
-Refactor / increase readability I am becoming blind 
-Envariable plugg
-Be happy
-'''
 
 sparql_api_url = "https://query.wikidata.org/sparql"
 
@@ -758,32 +741,64 @@ def get_all_regions():
                  
     osm_id_list = []
     
-    # its not sorting them out correctly so the whole file breaks when loading it in
+    # its not sorting them out correctly so the whole file breaks when loading it in, maybe or its just the multipolygon formatting breaking
     for feature in region_gjson["features"]:
         if len(feature["properties"]["osm"]) == 1:  # skip the regions with multiple osm codes for now 
             osm_id_list.append(feature["properties"]["osm"][0])
  
-    osm_id_list = list(link_list_splitter(osm_id_list, 50))  # 46 lists = 46 queries
-   
+    osm_id_list = list(link_list_splitter(osm_id_list, 50))  # 47 lists = 47 queries
+    
+    all_kml = simplekml.Kml()
     total_batches = len(osm_id_list)
     for i in range(total_batches):
-        response_content = nomimantim_api_call(osm_id_list[i])
-        update_region_geometry(region_gjson, response_content)
-        
-        file_name = f"WikidataQuery/regiondump/allregions_part{i+1}.geojson"
-        with open(file_name, "w", encoding="utf-8") as f:
-            json.dump(region_gjson, f, separators=(',', ':'))
-            f.flush() # To not kill my ram, update: its still killing my ram something tells me json is not made for this amount of data
+        file_path2 = nomimantim_api_call(osm_id_list[i])
+
+        #update_region_geometry(region_gjson, response_content)
+
+        print(f"API data put in: [{file_path2}]")
+        add_kml_poly(file_path2, all_kml)
+
+        #file_name = f"WikidataQuery/regiondump/allregions_part{i+1}.geojson"
+       # with open(file_name, "w", encoding="utf-8") as f:
+        #    json.dump(region_gjson, f, separators=(',', ':'))
+        #    f.flush() # To not kill my ram, update: its still killing my ram something tells me json is not made for this amount of data
         
         print(f"Batch {i + 1}/{total_batches} done")
         print("Sleeping 2 sec")
         time.sleep(2)
+    output_folder = "KML_output"
+    os.makedirs(output_folder, exist_ok=True)
+    kml_file = "all.kml"
+    kml_path = os.path.join(output_folder, kml_file)
+    all_kml.save(kml_path)
+    print(f"New kml created of  in: [{kml_path}]")
     print("Finished fetching region data")
+
+def add_kml_poly(requestedKMLfile, kml):
+    tree = ET.parse(requestedKMLfile)
+    root = tree.getroot()
+    
+    for place in root.findall(".//place"):
+        place_name = place.get("osm_id", "Unknown region")
+        for coords_element in place.findall(".//Polygon/outerBoundaryIs/LinearRing/coordinates"):
+            coordinates_text = coords_element.text.strip()           
+            coords = []
+            for coord in coordinates_text.split():
+                lon, lat = map(float, coord.split(",")[:2])  
+                lon = round(lon, 5)
+                lat = round(lat, 5)
+                coords.append((lon, lat))
+
+            kml.newpolygon(
+                    name=place_name,
+                    outerboundaryis=coords
+                )
+            
 
 def nomimantim_api_call(osmid):
     # takes up to 50 ids at a time
     osm_ids = ",".join([f"R{id}" for id in osmid])
-    query = f"https://nominatim.openstreetmap.org/lookup?osm_ids={osm_ids}&format=geojson&polygon_geojson=1&polygon_threshold=0.01"
+    query = f"https://nominatim.openstreetmap.org/lookup?osm_ids={osm_ids}&polygon_kml=1&polygon_threshold=0.002"
     headers = {
         "User-Agent": "Testing for a school project - felixjon@net.chalmers.se" 
     }
@@ -791,8 +806,16 @@ def nomimantim_api_call(osmid):
     # dont need these
     apidata_folder = "RAW_output"
     os.makedirs(apidata_folder, exist_ok=True)   
+    
+    file_title = "raw.kml"
+    file_path = os.path.join(apidata_folder, file_title)
 
-    return response.json()
+    with open (file_path, "wb") as f:
+        f.write(response.content)
+
+    print(f"API data put in: [{file_path}]")
+
+    return file_path
 
 
 def update_region_geometry(region_geojson, response_content): # send in the response content as an argument
@@ -905,34 +928,125 @@ def update_nepal_regions(lang_data):
 #get_lang_data() # bka btx jhi krh with doublets get sorted out later 
 
 # psuedo api, this wont work well using only json files
-def get_one_language(input_lang):
+def remove_kml_decimals():
+    all_kml5dec = simplekml.Kml()
+    kml = "KML_output/all.kml"
+    NAMESPACE = {"kml": "http://www.opengis.net/kml/2.2"}
+    tree = ET.parse(kml)
+    root = tree.getroot()
+    
+    for place in root.findall(".//kml:Placemark", NAMESPACE):
+        element_name = place.find("kml:name", NAMESPACE)
+        place_name = element_name.text.strip()
+        for coords_element in place.findall(".//kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates", NAMESPACE):
+            coordinates_text = coords_element.text.strip()           
+            coords = []
+            for coord in coordinates_text.split():
+                lon, lat = map(float, coord.split(",")[:2])  
+                lon = round(lon, 5)
+                lat = round(lat, 5)
+                coords.append((lon, lat))
+
+            all_kml5dec.newpolygon(
+                    name=place_name,
+                    outerboundaryis=coords
+                )
+    output_folder = "KML_output"
+    os.makedirs(output_folder, exist_ok=True)
+    kml_file = "all_kml5dec.kml"
+    kml_path = os.path.join(output_folder, kml_file)
+    all_kml5dec.save(kml_path)
+    
+def populate_metadata_mongodb(mydb):
+    LanguageMetaData_col = mydb["LanguageMetaData"]
+    LanguageMetaData_col.create_index([("iso_code", pymongo.ASCENDING)], unique=True)
+
     with open("WikidataQuery/complete/languages.json", "r", encoding="utf-8") as f:
-        lang_data = json.load(f)
-    with open("WikidataQuery/regiondump0001/allregions_part47.geojson", "r", encoding="utf-8") as f:
-        region_gjson = json.load(f)
+        json_data = json.load(f)
     
-    for iso_code, languages in lang_data.items(): 
-        for language_name, details in languages.items():
-            if language_name == input_lang:
-                l_regions = details.get("RegionsOSM")
-    
-    lang_features = []
-    for feature in region_gjson["features"]:
-        f_osm = feature["properties"]["osm"][0]
+    for lang in json_data.items():
+        lang_entry = db_lang_formatting(lang)
+        try: 
+            LanguageMetaData_col.insert_one(lang_entry)
+        except pymongo.errors.DuplicateKeyError:
+            print("This language is already inserted")
 
-        #f_geometry = feature["geometry"]
-        if f_osm in l_regions:
-            lang_features.append(feature)
-            print("found")
+    print(f"Language count: {LanguageMetaData_col.count_documents({})}")
+    print("languagemetadata populated")
+   
+def db_lang_formatting(language):
+    iso_code = language[0]
 
-    new_langjson = {
-        "type": "FeatureCollection",
-        "features": [lang_features]
-    } 
+    new_format = {}
+    for lang_name, value in language[1].items():
+        for details_key, details_value in value.items():
+            if details_key == "Regions":
+                region_name_list = details_value
+                #print(f"This is the region name list: {region_name_list}")
+            if details_key == "RegionsOSM":
+                regions_osm_list = details_value
+                #print(f"This is the osm ids: {regions_osm_list}")
+            if details_key == "Countries":
+                country_list = details_value
+                #print(f"These are the countries: {country_list}")
+            if details_key == "Instances":
+                instance_list = details_value
+
+    regions = []
+    for i in range(len(region_name_list)):
+        r_name = region_name_list[i]
+        r_osm = regions_osm_list[i]
+        r_entry = {"name": r_name, "osm_id": r_osm}
+        regions.append(r_entry)  
     
-    with open(f"WikidataQuery/{input_lang}.geojson","w", encoding="utf-8") as f: 
-        json.dump(new_langjson, f, separators=(',', ':'))
-    
+    countries = []
+    for i in range(len(country_list)):
+        c_name = country_list[i]
+        c_entry = {"name": c_name} # add the id for country polygons here later 
+        countries.append(c_entry)
+
+    new_format.update({"Language": lang_name})
+    new_format.update({"iso_code": iso_code})
+    new_format.update({"Regions": regions})
+    new_format.update({"Countries": countries})
+    new_format.update({"Instances": instance_list})
+    return new_format
+
+def populate_regions_mongodb(mydb):
+    Regions_col = mydb["Regions"]
+    Regions_col.create_index([("osm_id", pymongo.ASCENDING)], unique=True)
+
+    kml = "WikidataQuery/KML_output/all_kml5dec.kml"
+    NAMESPACE = {"kml": "http://www.opengis.net/kml/2.2"}
+    tree = ET.parse(kml)
+    root = tree.getroot()
+   
+    for place in root.findall(".//kml:Placemark", NAMESPACE):
+        name_element = place.find("kml:name", NAMESPACE) # osm
+        place_osm = name_element.text.strip()
+        for coords_element in place.findall(".//kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates", NAMESPACE):
+            coordinates_text = coords_element.text.strip()           
+            coords = []
+            for coord in coordinates_text.split():
+                lon, lat = map(float, coord.split(",")[:2]) 
+                coords.append([lon, lat])
+
+        region_entry = db_reg_format(place_osm, coords)
+        try: 
+             Regions_col.insert_one(region_entry)
+        except pymongo.errors.DuplicateKeyError:
+            print("This language is already inserted")
+    print(f"region count: {Regions_col.count_documents({})}")
+    print("regions populated")
+
+def db_reg_format(osm, coords):
+    new_format = {}
+
+    new_format.update({"osm_id": osm})
+    new_format.update({"cordinates": coords})
+
+    return new_format
+
 
 def main():
     #filter_dialects_missing()
@@ -941,8 +1055,13 @@ def main():
     #print("Yearly update done")
     #help(update_nepal_regions)
     #get_all_regions()
-    input_lang = input("Input lang name: ")
-    get_one_language(input_lang)
+    #input_lang = input("Input lang name: ")
+    #remove_kml_decimals()
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["interactiveLanguageMap"]
+    #populate_metadata_mongodb(mydb)
+    populate_regions_mongodb(mydb)
 
 if __name__ == "__main__":
     main()
