@@ -1,13 +1,11 @@
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
-@Entity('languages') // Beroende på vad tabellen heter i databasen
+@Entity()
 export class Language {
   @PrimaryGeneratedColumn()
-  id: number;
+  id: number | undefined;
 
   @Column()
-  name: string;
+  name: string | undefined;
 
-  @Column({ nullable: true })
-  kmlUrl: string; 
 }

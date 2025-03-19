@@ -1,18 +1,19 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, Res, HttpException, HttpStatus } from '@nestjs/common';
 import { LanguageService } from './language.service';
-import { Language } from './language.entity';
+import { Response } from 'express';
 
-@Controller('languages') 
-export class LanguagesController {
+@Controller('language')
+export class LanguageController {
   constructor(private readonly languageService: LanguageService) {}
 
-  @Get() // Hämtar alla språk- men kanske inte komme gå
-  getAll(): Promise<Language[]> {
-    return this.languageService.findAll();
-  }
-
-  @Get(':id') // Hämtar ett specifikt språk med specifikt languageID
-  getOne(@Param('id') id: number): Promise<Language | null> {
-    return this.languageService.findOne(id);
+  @Get('kml/:language')
+  async getKml(@Param('language') language: string, @Res() res: Response) {
+    try {
+      const kmlContent = await this.languageService.createKml(language);
+      res.header('Content-Type', 'application/vnd.google-earth.kml+xml');
+      res.send(kmlContent);
+    } catch (error) {
+      throw new HttpException('Failed to create KML', HttpStatus.INTERNAL_SERVER_ERROR);
+    }
   }
 }

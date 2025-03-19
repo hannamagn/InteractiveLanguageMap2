@@ -6,13 +6,32 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
+    "@types/body-parser": "^1.19.5",
+    "@types/connect": "^3.4.38",
+    "@types/cookiejar": "^2.1.5",
+    "@types/eslint-scope": "^3.7.7",
+    "@types/express": "^5.0.0",
+    "@types/express-serve-static-core": "^5.0.6",
+    "@types/http-cache-semantics": "^4.0.4",
+    "@types/http-errors": "^2.0.4",
     "@types/jest": "^29.5.14",
-    "@types/testing-library__jest-dom": "^6.0.0",
+    "@types/methods": "^1.1.4",
+    "@types/mime": "^3.0.4",
+    "@types/qs": "^6.9.18",
+    "@types/range-parser": "^1.2.7",
+    "@types/send": "^0.17.4",
+    "@types/serve-static": "^1.15.7",
+    "@types/superagent": "^8.1.9",
+    "@types/supertest": "^6.0.2",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.22.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "jest-environment-jsdom": "^29.7.0",
     "ts-jest": "^29.2.6"
+  },
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch"
   }
 }
