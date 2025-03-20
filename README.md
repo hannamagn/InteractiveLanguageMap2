@@ -83,9 +83,19 @@ Make sure you have the following installed:
 
 2. download node.js
 
-3. cd frontend
-4.  npm install @mui/material @emotion/react @emotion/styled
+3. Navigate to the frontend directory:
+    ```sh
+    cd frontend
+
+4.  npm installs:
+
+    ```sh
+    npm install @mui/material @emotion/react @emotion/styled
     npm install maplibre-gl maplibre-gl-vector-text-protocol
     npm install
     npm install React, Vite
+
+5. run in dev: 
+    ```sh
     npm run dev
+ 
