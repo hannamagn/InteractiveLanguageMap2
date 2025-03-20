@@ -1,0 +1,2 @@
+1. Add languagecontext to communicate between map components
+2. Connect buttons to api
