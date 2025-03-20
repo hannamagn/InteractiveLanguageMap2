@@ -1,5 +1,3 @@
-# InteractiveLanguageMap2
-
 För att ladda in databasen 
 ladda ner och installera: 
 Mongodb, mongosh och mongotools
