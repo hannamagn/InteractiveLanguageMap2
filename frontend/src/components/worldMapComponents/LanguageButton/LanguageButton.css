@@ -1,4 +1,11 @@
-button{
-z-index: 1001;
+*{
+    margin: 0;
+    padding: 0;
+}
 
+button{
+    z-index: 1001;
+    width: 100%;
+    height: auto;
+    border: 3px solid rgb(13, 13, 129)
 }
