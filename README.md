@@ -1,7 +1,5 @@
 # InteractiveLanguageMap2
 
-# InteractiveLanguageMap2
-
 An interactive map application for exploring languages around the world.
 
 ## Table of Contents
