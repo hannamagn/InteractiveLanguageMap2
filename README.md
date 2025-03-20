@@ -28,6 +28,16 @@ Om detta visas borde det funkat:
 Languages in the db: 6609
 Regions in the db: 2285
 
+
+
+
+
+
+
+
+
+# InteractiveLanguageMap2
+
 An interactive map application for exploring languages around the world.
 
 ## Table of Contents
