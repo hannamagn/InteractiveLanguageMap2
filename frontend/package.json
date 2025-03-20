@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hannamagn.github.io/InteractiveLanguageMap2",
+  "homepage": "https://hannamagn.github.io/InteractiveLanguageMap2/InteractiveLanguageMap2/",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
@@ -17,8 +17,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
     "@tmcw/togeojson": "^7.0.0",
     "maplibre-gl": "^5.2.0",
+    "maplibre-gl-vector-text-protocol": "^0.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.3.0"
