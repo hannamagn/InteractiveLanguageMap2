@@ -1,15 +1,16 @@
 import Map from "../components/worldMapComponents/map/Map";
 import LanguageButtonContainer from "../components/worldMapComponents/LanguageButtonContainer/LanguageButtonContainer";
+import {LanguageProvider} from "../context/LanguageContext";
 
 import './worldmapPage.css'
 
 function worldmapPage() {
 
   return (
-    <>
-      <Map/>
-      <LanguageButtonContainer/>
-    </>
+    <LanguageProvider>
+      <LanguageButtonContainer />
+      <Map />
+    </LanguageProvider>
     
   )
 }
