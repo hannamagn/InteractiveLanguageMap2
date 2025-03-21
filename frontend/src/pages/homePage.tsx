@@ -1,16 +1,12 @@
 import './homePage.css'
+import WorldMapHeader from '../components/homeComponents/worldMap/worldMapHeader';
 
 function homePage() {
     return (
         <>
             <div className = "homePage">
-                <h1 className = "homePageH1">
-                    Home
-                </h1>
-                <p className = "homePageP">
-                    Boop
-                </p>
-        </div>
+                <WorldMapHeader/>
+            </div>
         </>
     )
 }

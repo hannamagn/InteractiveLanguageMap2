@@ -3,5 +3,8 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.8"
+  },
+  "devDependencies": {
+    "@types/testing-library__jest-dom": "^6.0.0"
   }
 }
