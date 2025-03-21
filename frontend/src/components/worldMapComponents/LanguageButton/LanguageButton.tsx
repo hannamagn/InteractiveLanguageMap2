@@ -1,10 +1,10 @@
 import Button from '@mui/material/Button';
 import './LanguageButton.css';
 
-interface LanguageButtonProps {
-    label: string;
-    onClick: () => void; // Add onClick handler to the props
-}
+// interface LanguageButtonProps {
+//     label: string;
+//     onClick: () => void; // Add onClick handler to the props
+// }
 
 function LanguageButton({label}: { label: string }) {
     const handleClick = () => {
