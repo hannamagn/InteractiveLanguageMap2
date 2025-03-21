@@ -15,9 +15,6 @@ function GlobalNav() {
         <>
             <nav className = "globalNav">
                 <div className = "globalNavDivLogo">
-                    <h1 className = "globalNavLogoH1">
-                        Hello there!
-                    </h1>
                 </div>
                 <div className = "globalNavDivLinks">
                     <ul className = "globalNavLinkList">

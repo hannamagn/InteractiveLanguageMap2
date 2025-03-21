@@ -1,0 +1,10 @@
+.worldMapHeader {
+    width: 50vw;
+    height: 50vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+    z-index: -10;
+    position: absolute;
+  }
