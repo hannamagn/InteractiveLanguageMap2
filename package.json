@@ -1,12 +1,16 @@
 {
   "dependencies": {
+    "@nestjs/mongoose": "^11.0.2",
+    "axios": "^1.8.4",
     "maplibre-gl": "^5.2.0",
+    "mongoose": "^8.12.1",
     "react": "^19.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@types/aria-query": "^5.0.4",
+    "@types/axios": "^0.9.36",
     "@types/body-parser": "^1.19.5",
     "@types/connect": "^3.4.38",
     "@types/cookiejar": "^2.1.5",
