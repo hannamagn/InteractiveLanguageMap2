@@ -17,8 +17,6 @@ Sätt pathen till MongoShell foldern i PATH
 ``mongosh --version``
 ``mongorestore --version`` 
 
-Gå in i "databas" branchen och pulla ner den senaste versionen
-
 Starta servern i InteractiveLanguageMap2 foldern i ett separat cmd/terminal fönster med
 ``cd din/path/till/repot/InteractiveLanguageMap2``
 ``mongod --port 27017 --dbpath database``
