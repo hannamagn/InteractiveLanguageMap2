@@ -1,24 +1,23 @@
 import Button from '@mui/material/Button';
 import './LanguageButton.css';
+import { useLanguage } from "../../../context/LanguageContext";
 
-// interface LanguageButtonProps {
-//     label: string;
-//     onClick: () => void; // Add onClick handler to the props
-// }
 
-function LanguageButton({label}: { label: string }) {
-    const handleClick = () => {
-        console.log('Button clicked! and we like ' + label );
-        // Add layer for language function
 
-        };
 
-    return (
-        <Button variant="contained" onClick={handleClick}>
-            {label}
-        </Button>
-        );
-
-  
+interface LanguageButtonProps {
+  label: string;
 }
-export default LanguageButton
+
+function LanguageButton({ label }: LanguageButtonProps) {
+  const { dispatch } = useLanguage();
+
+  const handleClick = () => {
+    console.log(`Adding language: ${label}`);
+    dispatch({ type: 'ADD_LANGUAGE', payload: label });
+  };
+
+  return <Button variant="contained" onClick={handleClick}>{label}</Button>;
+}
+
+export default LanguageButton;
