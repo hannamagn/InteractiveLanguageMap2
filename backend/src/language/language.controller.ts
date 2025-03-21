@@ -13,10 +13,8 @@ export class LanguageController {
       res.header('Content-Type', 'application/vnd.google-earth.kml+xml');
       res.send(kmlContent);
     } catch (error) {
-      // Log the error to the console for more details
       console.error('Error while creating KML:', error);
 
-      // Throw an HTTP exception with a custom message and status code
       throw new HttpException(
         error instanceof Error ? error.message : 'Failed to create KML',
         HttpStatus.INTERNAL_SERVER_ERROR
