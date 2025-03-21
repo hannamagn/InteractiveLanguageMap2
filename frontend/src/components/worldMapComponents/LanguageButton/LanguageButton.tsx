@@ -17,7 +17,10 @@ function LanguageButton({ label }: LanguageButtonProps) {
     dispatch({ type: 'ADD_LANGUAGE', payload: label });
   };
 
-  return <Button variant="contained" onClick={handleClick}>{label}</Button>;
+  return <Button  style={{
+    backgroundColor: "#574B60", marginTop: '6px'
+  }}
+   variant="contained" onClick={handleClick}>{label}</Button>;
 }
 
 export default LanguageButton;

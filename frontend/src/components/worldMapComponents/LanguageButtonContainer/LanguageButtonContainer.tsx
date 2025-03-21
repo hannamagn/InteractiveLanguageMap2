@@ -10,6 +10,7 @@ const allLanguages = [
   // ...add all your 100+ languages here
 ];
 
+
 function LanguageButtonContainer() {
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -19,15 +20,32 @@ function LanguageButtonContainer() {
   );
 
   return (
-    <div className="languageContainer">
+    <div className="languageContainer" 
+    >
       {/* <h2 className="selecth2">Select a Language</h2> */}
       <TextField
         id="outlined-basic"
         label="Search for a language"
-        variant="outlined"
-        fullWidth
+        variant="filled"
+      
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
+        sx={{
+          '& .MuiFilledInput-root': {
+            backgroundColor: '#FFFFFF', // base bg
+          },
+          '& .MuiFilledInput-root.Mui-focused': {
+            backgroundColor: '#FFFFFF', // color when focused
+          },
+          '& .MuiInputLabel-root.Mui-focused': {
+            color: '#A1A2A5', // label color when focused
+          },
+          '& .MuiFilledInput-underline:after': {
+            borderBottomColor: '#A1A2A5', // underline when focused
+          }
+        }}
+        inputProps={{style: {fontSize: 15}}} // font size of input text
+        InputLabelProps={{style: {fontSize: 15}}} // font size of input label
       />
 
       <div className="container">

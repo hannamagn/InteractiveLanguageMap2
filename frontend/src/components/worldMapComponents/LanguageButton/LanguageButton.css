@@ -3,10 +3,8 @@
     padding: 0;
 }
 
-button{
+Button{
     z-index: 1001;
-    width: 100%;
-    height: auto;
-    border: 3px solid rgb(13, 13, 129);
-    background-color: gray;
+    width: 90%;
+    height: 20px;
 }

@@ -21,10 +21,14 @@ background-color: rgb(118, 118, 196)
     height: 70vh;
     align-items: center;
     background-color: rgb(255, 255, 255);
-  
+    border: #574B60 solid 1px;
+    border-radius: 5px;
+
 
 
 }
+
+
 .container{
     margin-left: 10px;
     margin-right: 10px;
@@ -36,5 +40,11 @@ background-color: rgb(118, 118, 196)
     overflow:scroll;
     overflow-x:hidden;
     scrollbar-width: thin;
-    scrollbar-color: rgb(10, 10, 140) rgb(118, 118, 196);
+    scrollbar-color: #574B60 rgb(255, 255, 255);
+}
+
+LanguageButton{
+    margin-left: 10px;
+
+
 }

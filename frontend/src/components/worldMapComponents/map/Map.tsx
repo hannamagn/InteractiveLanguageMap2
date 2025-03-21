@@ -12,7 +12,7 @@ function Map() {
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainer.current!,
-      style: 'style2.json',
+      style: 'style3.json',
       center: [0, 0],
       zoom: 2,
       maxZoom: 5,
