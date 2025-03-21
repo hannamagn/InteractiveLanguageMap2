@@ -1,6 +1,5 @@
 # InteractiveLanguageMap2
 
-<<<<<<< HEAD
 För att ladda in databasen 
 ladda ner och installera: 
 Mongodb, mongosh och mongotools
@@ -41,8 +40,6 @@ Regions in the db: 2285
 
 # InteractiveLanguageMap2
 
-=======
->>>>>>> 3aeb9b7c (small changes)
 An interactive map application for exploring languages around the world.
 
 ## Table of Contents
