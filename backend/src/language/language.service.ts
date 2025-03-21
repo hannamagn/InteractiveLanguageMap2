@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import axios from 'axios';
 import * as fs from 'fs';
 import * as path from 'path';
-import { AxiosError } from 'axios';
 
 @Injectable()
 export class LanguageService {
@@ -47,6 +46,9 @@ export class LanguageService {
           },
           responseType: 'text',
         });
+        if (typeof response.data !== 'string') {
+          throw new Error('Unexpected response data type');
+        }
         const geokmlMatch = response.data.match(/<geokml>(.*?)<\/geokml>/);
         if (!geokmlMatch || geokmlMatch.length < 2) {
           console.error('OSM response does not contain valid geokml data:', response.data);
@@ -74,16 +76,14 @@ export class LanguageService {
         return newKml.trim();
 
       } catch (error: unknown) {
-        if (error instanceof AxiosError) {
-          console.error('Error fetching OSM data:', error.response ? error.response.data : error.message);
-        } else {
           console.error('Unknown error:', error);
         }
         throw new Error('Failed to fetch OSM data');
       }
-    } catch (error) {
+     catch (error) {
       console.error('Error while processing OSM response:', error); 
       throw new Error('Failed to process OSM data');
     }
   }
+
 }
