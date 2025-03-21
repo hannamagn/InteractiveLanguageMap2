@@ -1,3 +1,0 @@
-// the missing ids before removing dead and extinct ones
-syr
-npi
