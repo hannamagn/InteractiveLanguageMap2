@@ -1,22 +1,22 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 
-@Schema({ collection: 'LanguageMetaData' }) // Specify the collection name
+@Schema({ collection: 'LanguageMetaData' }) 
 export class Language extends Document {
   @Prop()
-  Language?: string;  // Mark as optional
+  Language?: string;  
 
   @Prop()
-  iso_code?: string;  // Mark as optional
+  iso_code?: string;  
 
   @Prop([Object])
-  Regions?: Array<{ name: string; osm_id: string }>; // Mark as optional
+  Regions?: Array<{ name: string; osm_id: string }>; 
 
   @Prop([Object])
-  Countries?: Array<{ name: string }>;  // Mark as optional
+  Countries?: Array<{ name: string }>;  
 
   @Prop([String])
-  Instances?: Array<string>;  // Mark as optional
+  Instances?: Array<string>; 
 }
 
 export const LanguageSchema = SchemaFactory.createForClass(Language);
