@@ -7,7 +7,7 @@ import { Language, LanguageSchema } from './language.schema';
 
 @Module({
   imports: [
-    MongooseModule.forFeature([{ name: Language.name, schema: LanguageSchema }]), // Register the schema here
+    MongooseModule.forFeature([{ name: Language.name, schema: LanguageSchema }]), 
   ],
   providers: [LanguageService],
   controllers: [LanguageController],

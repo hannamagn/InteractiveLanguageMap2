@@ -34,7 +34,6 @@ export class LanguageService {
       throw new Error(`No regions found for language: ${languageName}`);
     }
   
-    // Hämta KML-data för alla regioner
     const kmlFragments: string[] = [];
     for (const region of languageData.Regions) {
       const queryUrl = this.createOSMQuery(region.osm_id);
