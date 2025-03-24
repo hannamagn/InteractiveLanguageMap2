@@ -18,8 +18,9 @@ function LanguageButton({ label }: LanguageButtonProps) {
   };
 
   return <Button  style={{
-    backgroundColor: "#574B60", marginTop: '6px'
+    backgroundColor: "#574B60", marginTop: '6px', textTransform: "none"
   }}
+  
    variant="contained" onClick={handleClick}>{label}</Button>;
 }
 
