@@ -15,8 +15,10 @@ function Map() {
       style: 'style3.json',
       center: [0, 0],
       zoom: 2,
-      maxZoom: 5,
-      minZoom: 2
+      maxZoom: 8,
+      minZoom: 2,
+      pitchWithRotate: false,
+      dragRotate: false,
     });
 
     mapRef.current = map;
@@ -32,8 +34,9 @@ function Map() {
       if (map.getSource(sourceId)) return;
 
       try {
-        const response = await fetch(`https://your-api.com/languages/${lang}/kml`); // replace with your API
+        const response = await fetch(`..../testkml/sweden.kml`); // replace with your API
         console.log(`Loaded KML for ${lang}`);
+        
         const kmlText = await response.text();
         const kml = new DOMParser().parseFromString(kmlText, 'text/xml');
         const geojson = toGeoJSON.kml(kml);
@@ -43,6 +46,13 @@ function Map() {
           ...geojson,
           features: geojson.features.filter(feature => feature.geometry !== null),
         };
+
+        console.log("GeoJSON from KML:", geojson);
+        console.log(filteredGeojson.features.length);
+
+        if (!response.ok) {
+          console.error("KML fetch failed:", response.statusText);
+        }
 
         map.addSource(sourceId, {
           type: 'geojson',
