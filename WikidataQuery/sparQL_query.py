@@ -263,11 +263,6 @@ def populate_iso_array(empty_array, json_data):
 def array_to_string(iso_array):
     return "{ " + " ".join(f'"{iso_code}"' for iso_code in iso_array) + " }"
 
-def remove_retired_languages():
-    #get the array of iso codes in here
-
-    return
-
 def add_missing_region_osm(data):
     '''Replaces all the "Missing" in the json with their found osm id codes to 
        their respective region'''
@@ -284,7 +279,7 @@ def add_missing_region_osm(data):
                     util_replace_missingcodes(details, region_codes_by_country[country])
                 #util_update_osm_code(details, country, region_codes_by_country)
 
-def util_replace_missingcodes(details, osm_array,):
+def util_replace_missingcodes(details, osm_array):
     regions = details.get("Regions", [])
     regions_osm = details.get("RegionsOSM", [])
     print(regions)
@@ -1054,13 +1049,13 @@ def main():
     #find_entries_with_missing_regionsosm()
     #print("Yearly update done")
     #help(update_nepal_regions)
-    #get_all_regions()
+    get_all_regions()
     #input_lang = input("Input lang name: ")
     #remove_kml_decimals()
 
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")
     mydb = myclient["interactiveLanguageMap"]
-    #populate_metadata_mongodb(mydb)
+    populate_metadata_mongodb(mydb)
     populate_regions_mongodb(mydb)
 
 if __name__ == "__main__":

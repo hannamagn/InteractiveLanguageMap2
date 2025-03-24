@@ -187,7 +187,7 @@ region_codes_by_country = {
 
 
 '''Data for replace_region_with_many()'''  
-old_regions = {
+deprecated_regions = {
     "Achterhook": {"Aalten", "Berkelland", "Bronckhorst", "Brummen", "Doesburg", "Doetinchem", "Lochem", "Montferland", "Oost Gelre", "Oude IJsselstreek", "Winterswijk", "Zutphen"},
     "Ennedi Region": {"Ennedi-Est", "Ennedi-Ouest"},
     "North Bengal": {"Rajshahi Division", "Rangpur Division", "Jalpaiguri District", "Maldah District"},
@@ -197,7 +197,7 @@ old_regions = {
     #"Punjab": {}
 }
 
-new_region_codes = {
+replacement_region_codes = {
     "Aalten": "416892",
     "Berkelland": "416728",
     "Bronckhorst": "417454",
@@ -225,7 +225,7 @@ new_region_codes = {
     "West Darfur": "3774664" # fvr is getting a duplicate of this
 }
 
-new_region_ids = {
+replacement_region_ids = {
     "Aalten": "http://www.wikidata.org/entity/Q275909",
     "Berkelland": "http://www.wikidata.org/entity/Q47104",
     "Bronckhorst": "http://www.wikidata.org/entity/Q747999",
@@ -333,4 +333,29 @@ non_region_tags = [
     "language",
     "swamp",
     "river" # Gjersjøelva obviously know to be the native ground for Dzongkha speakers 
+]
+
+'''"Regions" that aren't regions and fell through the filtering for different reasons'''
+misfiltered_regions = [
+    "Lagunes region",
+    "Pribilof Islands",
+    "Americas",
+    "Kubu people",
+    "Kadu people",
+    "Kei people",
+    "Gouñhyàñ people",
+    "Chimbu people",
+    "Kurrama people",
+    "Kaohsiung County",
+    "Autonomous Region in Muslim Mindanao",
+    "Barakai",
+    "Ingria",
+    "Manchuria",
+    "Tainan County",
+    "Kasai-Oriental",
+    "Kasaï",
+    "Crimea",
+    "Jabodetabek",
+    "Azawad",
+    "Rupert's Land"
 ]

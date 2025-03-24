@@ -1,0 +1,128 @@
+import requests
+import json
+import util
+import time
+import os
+import xml.etree.ElementTree as ET
+import simplekml
+import query_cleaner
+
+
+sparql_api_url = "https://query.wikidata.org/sparql"
+headers = {
+        "User-Agent": "Testing for a school project - felixjon@net.chalmers.se" 
+    }
+
+def call_wikidata_api(query, output_file, timeout, dump_to_file):
+    response = requests.get(sparql_api_url, params={'query': query, 'format': 'json' }, headers=headers, timeout=timeout)
+    api_data = response.json()
+    # handle exceptions of response
+   
+    if dump_to_file:
+        with open(f"WikidataQuery/debug/{output_file}.json", "w", encoding="utf-8") as f:
+            json.dump(api_data, f, indent=4, ensure_ascii=False)
+    return api_data
+
+def get_lang_base(dump_to_file):
+    query_iso_lang_type = (
+        """
+        SELECT ?language ?languageLabel ?iso639_3 ?instanceOfLabel
+        WHERE
+        {
+            ?language wdt:P220 ?iso639_3 .
+            ?language wdt:P31 ?instanceOf .
+                                    
+            SERVICE wikibase:label { bd:serviceParam wikibase:language "en, [AUTO_LANGUAGE]" }
+        }
+        ORDER BY ASC(UCASE(str(?iso639_3)))
+        """)
+    api_data = call_wikidata_api(query_iso_lang_type, "wikidata_query", 30, dump_to_file)
+    return api_data
+
+def get_lang_metadata(lang_data):
+    all_iso_codes = list(lang_data.keys())
+    chunked_iso_codes = list(util.chunk_list(all_iso_codes, 200))
+    print(len(chunked_iso_codes))
+
+    for iso_list in chunked_iso_codes:
+        query_string = util.array_to_string(iso_list)
+
+        query = f'''
+        SELECT ?language ?languageLabel ?iso_code ?region ?regionLabel ?country ?countryLabel ?osm_id WHERE {{
+            VALUES ?iso_code {query_string}  # Add more ISO codes here
+
+            ?language wdt:P220 ?iso_code.  
+
+            OPTIONAL {{ ?language wdt:P17 ?country. }}
+            OPTIONAL {{ ?language wdt:P2341 ?region 
+                OPTIONAL {{ ?region wdt:P402 ?osm_id }}
+            }} 
+
+            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,[AUTO_LANGUAGE]". }}
+        }}'''
+
+        api_data = call_wikidata_api(query, "langmetadatachunk.json", 20, False)
+        lang_data = query_cleaner.populate_metadata(api_data, lang_data)
+        
+    with open(f"WikidataQuery/debug/langmetadata.json", "w", encoding="utf-8") as f:
+        json.dump(lang_data, f, indent=4, ensure_ascii=False)
+    return lang_data
+
+
+
+def call_nomimantim_api(osmid):
+    osm_ids = ",".join([f"R{id}" for id in osmid])
+    query = f"https://nominatim.openstreetmap.org/lookup?osm_ids={osm_ids}&polygon_kml=1&polygon_threshold=0.002"
+    response = requests.get(query, headers=headers)
+    
+    file_title = "raw.kml"
+    file_path = os.path.join("WikidataQuery/debug", file_title)
+    with open (file_path, "wb") as f:
+            f.write(response.content)
+    print(f"Temporarily putting API data put in: [{file_path}]")
+
+    return file_path
+
+def get_region_coords(lang_data):
+    osm_id_list = []
+    get_all_osm_id(lang_data, osm_id_list)
+    osm_id_list = list(util.chunk_list(osm_id_list, 50))  # 47 lists = 47 queries
+
+    all_kml = simplekml.Kml()
+    total_batches = len(osm_id_list)
+    for i in range(total_batches):
+        file_path = call_nomimantim_api(osm_id_list[i])
+        print(f"API data put in: [{file_path}]")
+        add_kml_poly(file_path, all_kml)
+
+        print(f"Batch {i + 1}/{total_batches} done")
+        print("Sleeping 2 sec")
+        time.sleep(2)
+
+    print("Finished fetching coordinates")
+    return all_kml
+
+def get_all_osm_id(lang_data, list):
+    for iso_code, languages in lang_data.items():
+        for language_name, data in languages.items():
+            
+
+def add_kml_poly(requestedKMLfile, kml):
+    tree = ET.parse(requestedKMLfile)
+    root = tree.getroot()
+    
+    for place in root.findall(".//place"):
+        place_name = place.get("osm_id", "Unknown region")
+        for coords_element in place.findall(".//Polygon/outerBoundaryIs/LinearRing/coordinates"):
+            coordinates_text = coords_element.text.strip()           
+            coords = []
+            for coord in coordinates_text.split():
+                lon, lat = map(float, coord.split(",")[:2])  
+                lon = round(lon, 5)
+                lat = round(lat, 5)
+                coords.append((lon, lat))
+
+            kml.newpolygon(
+                    name=place_name,
+                    outerboundaryis=coords
+                )
