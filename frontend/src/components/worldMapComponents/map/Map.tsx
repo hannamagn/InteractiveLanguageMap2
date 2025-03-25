@@ -39,6 +39,9 @@ function Map() {
         
         const kmlText = await response.text();
         const kml = new DOMParser().parseFromString(kmlText, 'text/xml');
+
+       
+        console.log("Parsed KML XML:", kml.documentElement.outerHTML);
         const geojson = toGeoJSON.kml(kml);
 
         // Filter out features with null geometries

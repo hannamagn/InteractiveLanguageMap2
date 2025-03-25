@@ -1,3 +1,4 @@
+import { selectClasses } from '@mui/material';
 import React, { createContext, useContext, useReducer } from 'react';
 
 type State = {
@@ -5,8 +6,8 @@ type State = {
 };
 
 type Action =
-  | { type: 'ADD_LANGUAGE'; payload: string }
-  | { type: 'REMOVE_LANGUAGE'; payload: string };
+  | { type: 'TOGGLE_LANGUAGE'; payload: string }
+
 
 const initialState: State = {
   selectedLanguages: [],
@@ -14,11 +15,15 @@ const initialState: State = {
 
 function languageReducer(state: State, action: Action): State {
   switch (action.type) {
-    case 'ADD_LANGUAGE':
-      if (state.selectedLanguages.includes(action.payload)) return state;
-      return { ...state, selectedLanguages: [...state.selectedLanguages, action.payload] };
-    case 'REMOVE_LANGUAGE':
-      return { ...state, selectedLanguages: state.selectedLanguages.filter(lang => lang !== action.payload) };
+    case 'TOGGLE_LANGUAGE': 
+      return {
+        ...state,
+        selectedLanguages: state.selectedLanguages.includes(action.payload)
+          ? state.selectedLanguages.filter(lang => lang !== action.payload) // Remove if already selected
+          : [...state.selectedLanguages, action.payload] // Add if not selected
+        
+      };
+
     default:
       return state;
   }
