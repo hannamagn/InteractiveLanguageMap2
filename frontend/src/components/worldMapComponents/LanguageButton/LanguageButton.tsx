@@ -1,13 +1,16 @@
 import Button from '@mui/material/Button';
 import './LanguageButton.css';
-import { useLanguage } from "../../../context/LanguageContext";
+import { useLanguage} from "../../../context/LanguageContext";
 
 
 
 
 interface LanguageButtonProps {
   label: string;
+  
 }
+
+
 
 function LanguageButton({ label }: LanguageButtonProps) {
   const { dispatch } = useLanguage();
