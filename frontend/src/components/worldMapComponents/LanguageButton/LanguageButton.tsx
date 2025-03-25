@@ -14,7 +14,7 @@ function LanguageButton({ label }: LanguageButtonProps) {
 
   const handleClick = () => {
     console.log(`Adding language: ${label}`);
-    dispatch({ type: 'ADD_LANGUAGE', payload: label });
+    dispatch({ type: 'TOGGLE_LANGUAGE', payload: label });
   };
 
   return <Button  style={{
