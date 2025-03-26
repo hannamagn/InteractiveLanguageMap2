@@ -1,20 +1,13 @@
 import { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
-import * as toGeoJSON from '@tmcw/togeojson';
-import './Map.css';
-import { useLanguage } from '../../../context/LanguageContext';
+import * as VectorTextProtocol from 'maplibre-gl-vector-text-protocol';
 
-interface MapProps {
-  disableScrollZoom?: boolean; // Optional prop to disable scroll zoom
-}
-
-function Map({ disableScrollZoom = false }: MapProps) {
+function Map() {
   const mapContainer = useRef(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
-  const { state } = useLanguage();
 
   useEffect(() => {
-    // Register the vector text protocol
+    VectorTextProtocol.addProtocols(maplibregl);
 
     const map = new maplibregl.Map({
       container: mapContainer.current!,
@@ -26,81 +19,50 @@ function Map({ disableScrollZoom = false }: MapProps) {
       pitchWithRotate: false,
       dragRotate: false,
     });
-    if (disableScrollZoom) {
-      map.scrollZoom.disable();
-    } else {
-        map.scrollZoom.enable();
-    }
 
     mapRef.current = map;
+
     return () => map.remove();
   }, []);
 
+  //Separate useEffect for style.load event
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
 
-    state.selectedLanguages.forEach(async (lang) => {
-      const sourceId = `kml-${lang}`;
-      if (map.getSource(sourceId)) return;
+    const onStyleLoad = () => {
+      console.log("Map style loaded, adding sources...");
 
-      try {
-        const response = await fetch(`..../testkml/sweden.kml`); // Replace with actual API
-        if (!response.ok) throw new Error(`KML fetch failed: ${response.statusText}`);
-
-        const kmlText = await response.text();
-        if (!kmlText.trim()) throw new Error('KML file is empty');
-
-        const parser = new DOMParser();
-        const kml = parser.parseFromString(kmlText, 'text/xml');
-
-        // Check for parsing errors
-        if (kml.querySelector('parsererror')) {
-          throw new Error(`XML Parsing Error: ${kml.querySelector('parsererror')?.textContent}`);
-        }
-
-        console.log("Parsed KML XML:", kml.documentElement.outerHTML);
-
-        const geojson = toGeoJSON.kml(kml);
-        const filteredGeojson = {
-          ...geojson,
-          features: geojson.features.filter(feature => feature.geometry !== null),
-        };
-
-        console.log("GeoJSON from KML:", filteredGeojson);
-
-        map.addSource(sourceId, {
+      if (!map.getSource('kml-data')) {
+        map.addSource('kml-data', {
           type: 'geojson',
-          data: filteredGeojson as GeoJSON.FeatureCollection<GeoJSON.Geometry>,
+          data: 'kml://..../testkml/sweden.kml',
         });
 
         map.addLayer({
-          id: `fill-${lang}`,
+          id: 'kml-fill',
           type: 'fill',
-          source: sourceId,
-          paint: {
-            'fill-color': '#ADD8E6',
-            'fill-opacity': 0.4,
-          },
+          source: 'kml-data',
+          paint: { 'fill-color': '#ADD8E6', 'fill-opacity': 0.4 },
         });
 
         map.addLayer({
-          id: `outline-${lang}`,
+          id: 'kml-outline',
           type: 'line',
-          source: sourceId,
-          paint: {
-            'line-color': '#0057B8',
-            'line-width': 2,
-          },
+          source: 'kml-data',
+          paint: { 'line-color': '#0057B8', 'line-width': 2 },
         });
-      } catch (error) {
-        console.error(`Failed to load KML for ${lang}:`, error);
       }
-    });
-  }, [state.selectedLanguages]);
+    };
 
-  return <div ref={mapContainer} id="map" style={{ height: '100%' }} />;
+    map.on('style.load', onStyleLoad);
+
+    return () => {
+      map.off('style.load', onStyleLoad);
+    };
+  }, []);
+
+  return <div ref={mapContainer} id="map" style={{ width: '100%', height: '100vh', position: 'absolute' }} />;
 }
 
 export default Map;
-
