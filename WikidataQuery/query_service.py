@@ -85,8 +85,14 @@ def get_region_coords(lang_data):
     
     # TODO try and directly feed the 50 done into the database every loop, might be better
    
-    response = call_nomimantim_api([3412620, 349036])   
-    format_response(response)
+    response = call_nomimantim_api([3412620, 349036])  
+
+    #returns a list of the regions queried with name data, osm id and polygondata in geojson format
+    formatted_response =format_response(response)
+
+    
+    with open(f"WikidataQuery/debug/testFORMATTED.geojson", "w", encoding="utf-8") as f:
+        json.dump(formatted_response, f, indent=4, ensure_ascii=False)   
 
     # response [features] -> formaterad response [features] -> MongoDB
 
@@ -121,20 +127,19 @@ def get_all_osm_id(lang_data, list):
     return list
 
 def format_response(response):
-    features = response.get("features")
+    features = response["features"]
+    regions = []
     for feature in features:
-        properties = feature.get("properties")
+        properties = feature["properties"]
         for property, value in properties.items():
             if property == "osm_id":
                 osm_id = value
-                print(osm_id)
-                print(f"proptery: {property}")
             if property == "address":
-                print(value)
                 address = value
-
-
-    return 
+        geometry = feature.get("geometry")
+        formatted_response = {"osm_id": osm_id, "address": address, "geometry": geometry}
+        regions.append(formatted_response)
+    return regions
 
 
 '''
