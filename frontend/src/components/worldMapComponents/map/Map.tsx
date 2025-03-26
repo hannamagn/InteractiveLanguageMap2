@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
+import { registerProtocol } from 'maplibre-gl-vector-text-protocol';
 import * as toGeoJSON from '@tmcw/togeojson';
 import './Map.css';
 import { useLanguage } from '../../../context/LanguageContext';
@@ -10,6 +11,9 @@ function Map() {
   const { state } = useLanguage();
 
   useEffect(() => {
+    // Register the vector text protocol
+    registerProtocol();
+
     const map = new maplibregl.Map({
       container: mapContainer.current!,
       style: 'style3.json',
@@ -34,28 +38,29 @@ function Map() {
       if (map.getSource(sourceId)) return;
 
       try {
-        const response = await fetch(`..../testkml/sweden.kml`); // replace with your API
-        console.log(`Loaded KML for ${lang}`);
-        
+        const response = await fetch(`..../testkml/sweden.kml`); // Replace with actual API
+        if (!response.ok) throw new Error(`KML fetch failed: ${response.statusText}`);
+
         const kmlText = await response.text();
-        const kml = new DOMParser().parseFromString(kmlText, 'text/xml');
+        if (!kmlText.trim()) throw new Error('KML file is empty');
 
-       
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmlText, 'text/xml');
+
+        // Check for parsing errors
+        if (kml.querySelector('parsererror')) {
+          throw new Error(`XML Parsing Error: ${kml.querySelector('parsererror')?.textContent}`);
+        }
+
         console.log("Parsed KML XML:", kml.documentElement.outerHTML);
-        const geojson = toGeoJSON.kml(kml);
 
-        // Filter out features with null geometries
+        const geojson = toGeoJSON.kml(kml);
         const filteredGeojson = {
           ...geojson,
           features: geojson.features.filter(feature => feature.geometry !== null),
         };
 
-        console.log("GeoJSON from KML:", geojson);
-        console.log(filteredGeojson.features.length);
-
-        if (!response.ok) {
-          console.error("KML fetch failed:", response.statusText);
-        }
+        console.log("GeoJSON from KML:", filteredGeojson);
 
         map.addSource(sourceId, {
           type: 'geojson',
@@ -91,3 +96,4 @@ function Map() {
 }
 
 export default Map;
+
