@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
-import { registerProtocol } from 'maplibre-gl-vector-text-protocol';
 import * as toGeoJSON from '@tmcw/togeojson';
 import './Map.css';
 import { useLanguage } from '../../../context/LanguageContext';
@@ -12,7 +11,6 @@ function Map() {
 
   useEffect(() => {
     // Register the vector text protocol
-    registerProtocol();
 
     const map = new maplibregl.Map({
       container: mapContainer.current!,
