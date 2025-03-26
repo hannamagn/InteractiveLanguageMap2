@@ -1,13 +1,18 @@
 import pymongo
 import xml.etree.ElementTree as ET
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-mydb = myclient["refactorTest"]
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+uri = "mongodb+srv://flixrolf:Pqhce9ePmiAEvpxb@languagemap.uqa8dcu.mongodb.net/?appName=LanguageMap"
+# Create a new client and connect to the server
+myclient = MongoClient(uri, server_api=ServerApi('1'))
+mydb = myclient["LangMap"]
 
 def populate_metadata_mongodb(data):
     LanguageMetaData_col = mydb["LanguageMetaData"]
     LanguageMetaData_col.create_index([("iso_code", pymongo.ASCENDING)], unique=True)
 
+    # TODO: missing any type of update when running again, I think
     for lang in data.items():
         lang_entry = db_lang_formatting(lang)
         try: 

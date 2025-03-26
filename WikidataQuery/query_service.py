@@ -69,7 +69,6 @@ def get_lang_metadata(lang_data):
     return lang_data
 
 
-
 def call_nomimantim_api(osmid):
     osm_ids = ",".join([f"R{id}" for id in osmid])
     query = f"https://nominatim.openstreetmap.org/lookup?osm_ids={osm_ids}&polygon_kml=1&polygon_threshold=0.002"
@@ -86,10 +85,17 @@ def call_nomimantim_api(osmid):
 def get_region_coords(lang_data):
     osm_id_list = []
     get_all_osm_id(lang_data, osm_id_list)
+    
     osm_id_list = list(util.chunk_list(osm_id_list, 50))  # 47 lists = 47 queries
-
+    
+    # TODO try and directly feed the 50 done into the database every loop, might be better
     all_kml = simplekml.Kml()
+    file_path = call_nomimantim_api([7226026])
+    add_kml_poly(file_path, all_kml)
+    return
+    add_kml_poly(file_path, all_kml)
     total_batches = len(osm_id_list)
+    '''  want to directly insert into the mongodb as a geojson structure probably, do 50 at a time and it wont overflow the memory
     for i in range(total_batches):
         file_path = call_nomimantim_api(osm_id_list[i])
         print(f"API data put in: [{file_path}]")
@@ -98,31 +104,63 @@ def get_region_coords(lang_data):
         print(f"Batch {i + 1}/{total_batches} done")
         print("Sleeping 2 sec")
         time.sleep(2)
-
+    '''
     print("Finished fetching coordinates")
     return all_kml
 
 def get_all_osm_id(lang_data, list):
     for iso_code, languages in lang_data.items():
         for language_name, data in languages.items():
-            
+            regionNames = data.get("Regions", [])
+            regionOSM = data.get("RegionsOSM", [])
+            for i in range(len(regionNames)): 
+                r_name = regionNames[i]
+                r_osm = regionOSM[i]
+                if r_name == "Missing" or r_osm == "Missing": # at this stage just skip anything missing so the api doesnt crash 
+                    continue
+                if r_osm not in list: 
+                    list.append(r_osm)
+    print(f"The nr# of all regions: {len(list)}")
+    return list
+
 
 def add_kml_poly(requestedKMLfile, kml):
+    # TODO this needs to accomadate
+    
     tree = ET.parse(requestedKMLfile)
     root = tree.getroot()
     
     for place in root.findall(".//place"):
         place_name = place.get("osm_id", "Unknown region")
-        for coords_element in place.findall(".//Polygon/outerBoundaryIs/LinearRing/coordinates"):
-            coordinates_text = coords_element.text.strip()           
-            coords = []
-            for coord in coordinates_text.split():
-                lon, lat = map(float, coord.split(",")[:2])  
-                lon = round(lon, 5)
-                lat = round(lat, 5)
-                coords.append((lon, lat))
+        multi_geometry = place.findall(".//MultiGeometry/Polygon/outerBoundaryIs/LinearRing/coordinates")
+        polygons = []
 
-            kml.newpolygon(
-                    name=place_name,
-                    outerboundaryis=coords
-                )
+        if multi_geometry:
+            print("Is a multigeom adding new")
+            for coords_element in multi_geometry:
+                coordinates_text = coords_element.text.strip()           
+                coords = []
+                for coord in coordinates_text.split():
+                    lon, lat = map(float, coord.split(",")[:2])  
+                    coords.append((round(lon, 5), round(lat, 5)))
+                polygons.append(coords)
+        else:
+            print("Is apolygon, adding new")
+            # normal polygon
+            for coords_element in place.findall(".//Polygon/outerBoundaryIs/LinearRing/coordinates"):
+                coordinates_text = coords_element.text.strip()           
+                coords = []
+                for coord in coordinates_text.split():
+                    lon, lat = map(float, coord.split(",")[:2])  
+                    coords.append((round(lon, 5), round(lat, 5)))
+                polygons.append(coords)
+
+        if len(polygons) > 1:
+            print("New multi made")
+            print(len(polygons))
+            geom = kml.newmultigeometry(name=place_name)
+            for poly in polygons:
+                geom.newpolygon(outerboundaryis=poly)
+        elif polygons:
+            print("new polygon added")
+            kml.newpolygon(name=place_name, outerboundaryis=polygons[0])

@@ -5,7 +5,7 @@ import query_service
 import query_cleaner
 import mongo_handler
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.DEBUG)
+#logging.basicConfig(level=logging.DEBUG)
 
 def main():
     fname = os.path.isfile("WikidataQuery/debug/langmetadata.json")
@@ -46,14 +46,25 @@ def main():
     logger.info("Filter out dialects, sign langauges and langauages missing all metadata")
     lang_data = query_cleaner.filter_lang_data(lang_data) # lang_data is now only language.json filtered out
 
-    # get the coordinates or kml 
-    logger.info("Fetching all polygons in kml format")
-    coordinate_filepath = query_service.get_region_coords(lang_data) # TODO look if the simplekml has a direct parser of the kml object
+    fname = os.path.isfile("WikidataQuery/Debug/savethisguy.kml")
+    if fname:
+        print("The region polygon data was last pulled at [time] in debug/dumpthisguy.kml")
+        refetch_me = input("Do you want to refetch it? y/n: ")
+        if refetch_me == "y":
+            # get the coordinates or kml 
+            logger.info("Fetching all polygons in kml format")
+            all_kml = query_service.get_region_coords(lang_data) # TODO look if the simplekml has a direct parser of the kml object
+            
+            # temp saving the complete kml to not have to refetch it 
+            # the raw.kml is a temp holder and should be deleted when get_region_coords is finished running
+            all_kml.save("WikidataQuery/Debug/savethisguy.kml")
+        else:
+            coordinate_filepath = "WikidataQuery/Debug/savethisguy.kml"
+            print("Continue")
 
-    logger.info("Populating mongodb database")
-    mongo_handler.populate_metadata_mongodb(lang_data)
-    mongo_handler.populate_regions_mongodb(coordinate_filepath)
-
+    #logger.info("Populating mongodb database")
+   # mongo_handler.populate_metadata_mongodb(lang_data)
+    #mongo_handler.populate_regions_mongodb(coordinate_filepath)
     
 if __name__ == "__main__":
     main()

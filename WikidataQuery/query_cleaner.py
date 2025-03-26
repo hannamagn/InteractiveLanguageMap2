@@ -194,7 +194,7 @@ def filter_non_regions(data, non_region_links):
 
             if regionLink in non_region_links:
                 groupName = regionNames[i]
-                print(f"   Removing group {groupName} regionIDLink: {regionLink} at index {i}")
+               # print(f"   Removing group {groupName} regionIDLink: {regionLink} at index {i}")
                 regionsIDs.pop(i)
                 regionNames.pop(i)
                 regionOSM.pop(i)
@@ -211,7 +211,7 @@ def remove_missing_region_name(data):
             region = regions[i]
             if region.startswith("Q") and region[1:].isdigit():
                 curOSM = osmCode[i]
-                print(f"Removing region: {region} and OSM code: {curOSM} at index {i}")
+               # print(f"Removing region: {region} and OSM code: {curOSM} at index {i}")
                 regions.pop(i)
                 osmCode.pop(i)
                 regionsLink.pop(i)
@@ -234,7 +234,7 @@ def add_missing_region_osm(data):
     
     for country in data.get("Countries", []):
         if country in region_codes_by_country:
-            print(f"-----{country}-------")
+          #  print(f"-----{country}-------")
             util.replace_missingcodes(data, region_codes_by_country[country])
 
 def replace_region_with_many(data): # consider splitting this out into a util
@@ -328,7 +328,7 @@ def update_nepal_regions(data):
                 regions[i] = new_region
                 regions_id[i] = new_region_id
                 regions_osm[i] = new_region_osm
-    print("Nepal zones update Done")
+    #print("Nepal zones update Done")
 
 def filter_lang_data(lang_data):
     languages_data = {}
