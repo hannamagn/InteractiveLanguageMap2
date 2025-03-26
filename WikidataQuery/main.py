@@ -67,4 +67,7 @@ def main():
     #mongo_handler.populate_regions_mongodb(coordinate_filepath)
     
 if __name__ == "__main__":
-    main()
+    #main()
+    with open("WikidataQuery/debug/langmetadata.json", "r", encoding="utf-8") as f:
+                lang_data = json.load(f)
+    query_service.get_region_coords(lang_data)
