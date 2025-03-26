@@ -4,7 +4,11 @@ import * as toGeoJSON from '@tmcw/togeojson';
 import './Map.css';
 import { useLanguage } from '../../../context/LanguageContext';
 
-function Map() {
+interface MapProps {
+  disableScrollZoom?: boolean; // Optional prop to disable scroll zoom
+}
+
+function Map({ disableScrollZoom = false }: MapProps) {
   const mapContainer = useRef(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const { state } = useLanguage();
@@ -22,6 +26,11 @@ function Map() {
       pitchWithRotate: false,
       dragRotate: false,
     });
+    if (disableScrollZoom) {
+      map.scrollZoom.disable();
+    } else {
+        map.scrollZoom.enable();
+    }
 
     mapRef.current = map;
     return () => map.remove();
