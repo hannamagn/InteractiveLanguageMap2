@@ -71,16 +71,11 @@ def get_lang_metadata(lang_data):
 
 def call_nomimantim_api(osmid):
     osm_ids = ",".join([f"R{id}" for id in osmid])
-    query = f"https://nominatim.openstreetmap.org/lookup?osm_ids={osm_ids}&polygon_kml=1&polygon_threshold=0.002"
+    query = f"https://nominatim.openstreetmap.org/lookup?osm_ids={osm_ids}&format=geojson&polygon_geojson=1&polygon_threshold=0.002"
     response = requests.get(query, headers=headers)
-    
-    file_title = "raw.kml"
-    file_path = os.path.join("WikidataQuery/debug", file_title)
-    with open (file_path, "wb") as f:
-            f.write(response.content)
-    print(f"Temporarily putting API data put in: [{file_path}]")
+    content = response.json()
 
-    return file_path
+    return content
 
 def get_region_coords(lang_data):
     osm_id_list = []
@@ -89,24 +84,26 @@ def get_region_coords(lang_data):
     osm_id_list = list(util.chunk_list(osm_id_list, 50))  # 47 lists = 47 queries
     
     # TODO try and directly feed the 50 done into the database every loop, might be better
-    all_kml = simplekml.Kml()
-    file_path = call_nomimantim_api([7226026])
-    add_kml_poly(file_path, all_kml)
-    return
-    add_kml_poly(file_path, all_kml)
-    total_batches = len(osm_id_list)
-    '''  want to directly insert into the mongodb as a geojson structure probably, do 50 at a time and it wont overflow the memory
+   
+    response = call_nomimantim_api([3412620, 349036])   
+    format_response(response)
+
+    # response [features] -> formaterad response [features] -> MongoDB
+
+    #total_batches = len(osm_id_list)
+    #want to directly insert into the mongodb as a geojson structure probably, do 50 at a time and it wont overflow the memory
+    '''
     for i in range(total_batches):
-        file_path = call_nomimantim_api(osm_id_list[i])
+        response = call_nomimantim_api(osm_id_list[i])
         print(f"API data put in: [{file_path}]")
-        add_kml_poly(file_path, all_kml)
+        
 
         print(f"Batch {i + 1}/{total_batches} done")
         print("Sleeping 2 sec")
         time.sleep(2)
     '''
     print("Finished fetching coordinates")
-    return all_kml
+    return 
 
 def get_all_osm_id(lang_data, list):
     for iso_code, languages in lang_data.items():
@@ -123,7 +120,24 @@ def get_all_osm_id(lang_data, list):
     print(f"The nr# of all regions: {len(list)}")
     return list
 
+def format_response(response):
+    features = response.get("features")
+    for feature in features:
+        properties = feature.get("properties")
+        for property, value in properties.items():
+            if property == "osm_id":
+                osm_id = value
+                print(osm_id)
+                print(f"proptery: {property}")
+            if property == "address":
+                print(value)
+                address = value
 
+
+    return 
+
+
+'''
 def add_kml_poly(requestedKMLfile, kml):
     # TODO this needs to accomadate
     
@@ -164,3 +178,4 @@ def add_kml_poly(requestedKMLfile, kml):
         elif polygons:
             print("new polygon added")
             kml.newpolygon(name=place_name, outerboundaryis=polygons[0])
+'''
