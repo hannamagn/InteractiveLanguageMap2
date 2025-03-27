@@ -85,17 +85,29 @@ def get_region_coords(lang_data):
     get_all_osm_id(lang_data, osm_id_list)
     
     osm_id_list = list(util.chunk_list(osm_id_list, 50))  # 47 lists = 47 queries
+    allResponses = []
+    total_batches = len(osm_id_list)
+    for i in range(total_batches):
+        response = call_nomimantim_api(osm_id_list[i])
+        allResponses.append(format_response(response))
+        print(f"Batch {i + 1}/{total_batches} done")
+        print("Sleeping 2 sec")
+        time.sleep(2)
+
+    #saves the regiondata in minified form
+    with open(f"WikidataQuery/debug/formattedRegionData.geojson", "w", encoding="utf-8") as f:
+         json.dump(allResponses, f, separators=(',', ':'), ensure_ascii=False)  
+
     
     # TODO try and directly feed the 50 done into the database every loop, might be better
    
-    response = call_nomimantim_api([3412620, 12350836, 365307])  
+    # response = call_nomimantim_api([41255]) 
+
+    # with open(f"WikidataQuery/debug/campobassoFormattedTest.geojson", "w", encoding="utf-8") as f:
+    #      json.dump(format_response(response), f, separators=(',', ':'), ensure_ascii=False)   
 
     #returns a list of the regions queried with name data, osm id and polygondata in geojson format
-    formatted_response =format_response(response)
-
-    
-    # with open(f"WikidataQuery/debug/testFORMATTED.geojson", "w", encoding="utf-8") as f:
-    #     json.dump(formatted_response, f, indent=4, ensure_ascii=False)   
+    #formatted_response =format_response(response)
 
     # response [features] -> formaterad response [features] -> MongoDB
 
@@ -130,9 +142,10 @@ def get_all_osm_id(lang_data, list):
     return list
 
 def format_response(response):
-    decimals = 5
+    decimals = 4
     features = response["features"]
     regions = []
+
     for feature in features:
         properties = feature["properties"]
         for property, value in properties.items():
@@ -140,22 +153,20 @@ def format_response(response):
                 osm_id = value
             if property == "address":
                 address = value
-                
         geometry = feature["geometry"]
         type = geometry["type"]
-        
+
         if type == "Polygon":
             polygon = geometry["coordinates"]
             newGeometry = {"geometry": {"type": "Polygon", "coordinates": []}}
             for linear_rings in polygon:
                 a_ring = []
                 for coordinates in linear_rings:
-                    # add all cords to a_border
                     rounded_cords = [round(coordinates[0], decimals), round(coordinates[1], decimals)]
                     a_ring.append(rounded_cords)
-                   
                 newGeometry["geometry"]["coordinates"].append(a_ring)
-                #print(newGeometry["geometry"]["coordinates"])
+            formatted_response = {"osm_id": osm_id, "address": address, "geometry": newGeometry["geometry"]}
+
         elif type == "MultiPolygon":
             polygons = geometry["coordinates"]
             newGeometry = {"geometry": {"type": "MultiPolygon", "coordinates": []}}
@@ -164,20 +175,16 @@ def format_response(response):
                 for linear_rings in polygon:
                     a_border = []
                     for coordinates in linear_rings:
-                        # add all cords to a_border
                         rounded_cords = [round(coordinates[0], decimals), round(coordinates[1], decimals)]
                         a_border.append(rounded_cords)
                     p_list.append(a_border)
-    
                 newGeometry["geometry"]["coordinates"].append(p_list)
-                #print(newGeometry["geometry"]["coordinates"])    
-            
-        # for subsection, value in geometry:
-        #     if subsection == "coordinates":
-        #         print(value)
+            formatted_response = {"osm_id": osm_id, "address": address, "geometry": newGeometry["geometry"]}
 
-        #formatted_response = {"osm_id": osm_id, "address": address, "geometry": geometry}
-        #regions.append(formatted_response)
+        regions.append(formatted_response)
+    # with open("WikidataQuery/debug/formattedTest1.geojson", "w", encoding="utf-8") as f:
+    #     json.dump(regions, f, indent=4, ensure_ascii=False)   
+     
     return regions
 
 
