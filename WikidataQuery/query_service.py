@@ -6,6 +6,7 @@ import os
 import xml.etree.ElementTree as ET
 import simplekml
 import query_cleaner
+import mongo_handler
 
 
 sparql_api_url = "https://query.wikidata.org/sparql"
@@ -85,18 +86,26 @@ def get_region_coords(lang_data):
     get_all_osm_id(lang_data, osm_id_list)
     
     osm_id_list = list(util.chunk_list(osm_id_list, 50))  # 47 lists = 47 queries
-    allResponses = []
+    # allResponses = []
     total_batches = len(osm_id_list)
     for i in range(total_batches):
         response = call_nomimantim_api(osm_id_list[i])
-        allResponses.append(format_response(response))
+        formattedResponse = format_response(response)
+        mongo_handler.populate_regions_mongodb(formattedResponse)
+
+        #can be saved for debug purposes
+        #allResponses.append(formattedResponse)
+
         print(f"Batch {i + 1}/{total_batches} done")
         print("Sleeping 2 sec")
         time.sleep(2)
+        
 
     #saves the regiondata in minified form
-    with open(f"WikidataQuery/debug/formattedRegionData.geojson", "w", encoding="utf-8") as f:
-         json.dump(allResponses, f, separators=(',', ':'), ensure_ascii=False)  
+    # with open(f"WikidataQuery/debug/formattedRegionData.geojson", "w", encoding="utf-8") as f:
+    #      json.dump(allResponses, f, separators=(',', ':'), ensure_ascii=False) 
+
+    
 
     
     # TODO try and directly feed the 50 done into the database every loop, might be better

@@ -61,3 +61,6 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 /backend/build/
 /backend/.env
 database/
+WikidataQuery/debug/formattedRegionDataTest.geojson
+WikidataQuery/debug/formattedRegionData.geojson
+WikidataQuery/debug/raw4.geojson

@@ -61,32 +61,55 @@ def db_lang_formatting(language):
     new_format.update({"Instances": instance_list})
     return new_format
 
-def populate_regions_mongodb(file_path):
+#Inserts regiondata from batches of regions 
+def populate_regions_mongodb_in_batches(regionList):
     Regions_col = mydb["Regions"]
-    Regions_col.create_index([("osm_id", pymongo.ASCENDING)], unique=True)
-
-    kml = file_path
-    NAMESPACE = {"kml": "http://www.opengis.net/kml/2.2"}
-    tree = ET.parse(kml)
-    root = tree.getroot()
-   
-    for place in root.findall(".//kml:Placemark", NAMESPACE):
-        name_element = place.find("kml:name", NAMESPACE) # osm
-        place_osm = name_element.text.strip()
-        for coords_element in place.findall(".//kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates", NAMESPACE):
-            coordinates_text = coords_element.text.strip()           
-            coords = []
-            for coord in coordinates_text.split():
-                lon, lat = map(float, coord.split(",")[:2]) 
-                coords.append([lon, lat])
-
-        region_entry = db_reg_format(place_osm, coords)
-        try: 
-             Regions_col.insert_one(region_entry)
-        except pymongo.errors.DuplicateKeyError:
-            print("This language is already inserted")
+    try: 
+        Regions_col.insert_many(regionList)
+    except pymongo.errors.DuplicateKeyError:
+        print("This region is already inserted")
     print(f"region count: {Regions_col.count_documents({})}")
     print("regions populated")
+
+#Inserts regiondata from full list of regions 
+def populate_regions_mongodb_from_full_list(data):
+    Regions_col = mydb["Regions"]
+    for regionList in data:
+        try: 
+            Regions_col.insert_many(regionList)
+        except pymongo.errors.DuplicateKeyError:
+            print("This region is already inserted")
+    print(f"region count: {Regions_col.count_documents({})}")
+    print("regions populated")
+
+#Old pupulate regions function
+
+# def populate_regions_mongodb(file_path):
+#     Regions_col = mydb["Regions"]
+#     Regions_col.create_index([("osm_id", pymongo.ASCENDING)], unique=True)
+
+#     kml = file_path
+#     NAMESPACE = {"kml": "http://www.opengis.net/kml/2.2"}
+#     tree = ET.parse(kml)
+#     root = tree.getroot()
+   
+#     for place in root.findall(".//kml:Placemark", NAMESPACE):
+#         name_element = place.find("kml:name", NAMESPACE) # osm
+#         place_osm = name_element.text.strip()
+#         for coords_element in place.findall(".//kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates", NAMESPACE):
+#             coordinates_text = coords_element.text.strip()           
+#             coords = []
+#             for coord in coordinates_text.split():
+#                 lon, lat = map(float, coord.split(",")[:2]) 
+#                 coords.append([lon, lat])
+
+#         region_entry = db_reg_format(place_osm, coords)
+#         try: 
+#              Regions_col.insert_one(region_entry)
+#         except pymongo.errors.DuplicateKeyError:
+#             print("This language is already inserted")
+#     print(f"region count: {Regions_col.count_documents({})}")
+#     print("regions populated")
 
 def db_reg_format(osm, coords):
     new_format = {}
