@@ -1,9 +1,14 @@
 import pymongo
-import xml.etree.ElementTree as ET
+import os 
+from dotenv import load_dotenv
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-uri = "mongodb+srv://flixrolf:Pqhce9ePmiAEvpxb@languagemap.uqa8dcu.mongodb.net/?appName=LanguageMap"
+
+load_dotenv() 
+mongoDB_key = os.getenv("MONGO_KEY")
+
+uri = f"mongodb+srv://{mongoDB_key}@languagemap.uqa8dcu.mongodb.net/?appName=LanguageMap"
 # Create a new client and connect to the server
 myclient = MongoClient(uri, server_api=ServerApi('1'))
 mydb = myclient["LangMap"]
@@ -82,39 +87,17 @@ def populate_regions_mongodb_from_full_list(data):
     print(f"region count: {Regions_col.count_documents({})}")
     print("regions populated")
 
-#Old pupulate regions function
-
-# def populate_regions_mongodb(file_path):
-#     Regions_col = mydb["Regions"]
-#     Regions_col.create_index([("osm_id", pymongo.ASCENDING)], unique=True)
-
-#     kml = file_path
-#     NAMESPACE = {"kml": "http://www.opengis.net/kml/2.2"}
-#     tree = ET.parse(kml)
-#     root = tree.getroot()
-   
-#     for place in root.findall(".//kml:Placemark", NAMESPACE):
-#         name_element = place.find("kml:name", NAMESPACE) # osm
-#         place_osm = name_element.text.strip()
-#         for coords_element in place.findall(".//kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates", NAMESPACE):
-#             coordinates_text = coords_element.text.strip()           
-#             coords = []
-#             for coord in coordinates_text.split():
-#                 lon, lat = map(float, coord.split(",")[:2]) 
-#                 coords.append([lon, lat])
-
-#         region_entry = db_reg_format(place_osm, coords)
-#         try: 
-#              Regions_col.insert_one(region_entry)
-#         except pymongo.errors.DuplicateKeyError:
-#             print("This language is already inserted")
-#     print(f"region count: {Regions_col.count_documents({})}")
-#     print("regions populated")
-
 def db_reg_format(osm, coords):
     new_format = {}
 
     new_format.update({"osm_id": osm})
     new_format.update({"cordinates": coords})
-
     return new_format
+
+def ping_collection():
+    Regions_col = mydb["Regions"]
+    count = Regions_col.count_documents({})
+    print(f"Number of regions in the regions collection: {count}")
+    if count > 1:
+        return True
+    else: False

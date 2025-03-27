@@ -38,34 +38,26 @@ def main():
             with open("WikidataQuery/debug/langmetadata.json", "r", encoding="utf-8") as f:
                 lang_data = json.load(f)
 
-    # try and fill/clean the missing data before splitting
-    # remove -> clean
     lang_data = query_cleaner.clean_missing_data(lang_data)
 
     # the complete langmetadata is saved to not accidentally overwrite the dialect/sign/missing language files 
     logger.info("Filter out dialects, sign langauges and langauages missing all metadata")
     lang_data = query_cleaner.filter_lang_data(lang_data) # lang_data is now only language.json filtered out
+    
 
-    fname = os.path.isfile("WikidataQuery/Debug/savethisguy.kml")
-    if fname:
-        print("The region polygon data was last pulled at [time] in debug/dumpthisguy.kml")
+    # TODO make the check towards the mongoDB server returning a bool or something that its filled with regions and exist
+    regions_isfilled = mongo_handler.ping_collection()
+    if regions_isfilled:
+        print("The region polygon data was last pulled at [time] in atlas")
         refetch_me = input("Do you want to refetch it? y/n: ")
         if refetch_me == "y":
-            # get the coordinates or kml 
-            logger.info("Fetching all polygons in kml format")
-            all_kml = query_service.get_region_coords(lang_data) # TODO look if the simplekml has a direct parser of the kml object
+             
+            logger.info("Fetching all polygons and populating mongodb")
+            query_service.get_regions(lang_data) # populates the database at the same time
             
-            # temp saving the complete kml to not have to refetch it 
-            # the raw.kml is a temp holder and should be deleted when get_region_coords is finished running
-            all_kml.save("WikidataQuery/Debug/savethisguy.kml")
-        else:
-            coordinate_filepath = "WikidataQuery/Debug/savethisguy.kml"
-            print("Continue")
+            logger.info("Populating mongodb database")
+            mongo_handler.populate_metadata_mongodb(lang_data)
 
-    #logger.info("Populating mongodb database")
-   # mongo_handler.populate_metadata_mongodb(lang_data)
-    #mongo_handler.populate_regions_mongodb(coordinate_filepath)
-    
 if __name__ == "__main__":
     main()
 

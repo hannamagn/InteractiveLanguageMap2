@@ -60,7 +60,7 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 /backend/dist/
 /backend/build/
 /backend/.env
-database/
-WikidataQuery/debug/formattedRegionDataTest.geojson
-WikidataQuery/debug/formattedRegionData.geojson
-WikidataQuery/debug/raw4.geojson
+
+# wikidata query python backend
+.env
+
