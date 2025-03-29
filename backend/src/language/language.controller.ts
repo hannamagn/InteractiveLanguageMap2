@@ -1,4 +1,3 @@
-// src/language/language.controller.ts
 import { Controller, Get, Param, Res, HttpException, HttpStatus } from '@nestjs/common';
 import { LanguageService } from './language.service';
 import { Response } from 'express';
@@ -7,18 +6,18 @@ import { Response } from 'express';
 export class LanguageController {
   constructor(private readonly languageService: LanguageService) {}
 
-  @Get('kml/:language')
-  async getKml(@Param('language') language: string, @Res() res: Response) {
+  @Get('geojson/:language')
+  async getGeoJson(@Param('language') language: string, @Res() res: Response) {
     try {
-      const kmlContent = await this.languageService.createKml(language);
+      const geoJsonContent = await this.languageService.createGeoJson(language);
 
-      res.header('Content-Type', 'application/vnd.google-earth.kml+xml');
-      res.send(kmlContent);
+      res.header('Content-Type', 'application/geo+json');
+      res.json(geoJsonContent);
     } catch (error) {
-      console.error('Error while creating KML:', error);
+      console.error('Error while creating GeoJSON:', error);
 
       throw new HttpException(
-        error instanceof Error ? error.message : 'Failed to create KML',
+        error instanceof Error ? error.message : 'Failed to create GeoJSON',
         HttpStatus.INTERNAL_SERVER_ERROR
       );
     }
