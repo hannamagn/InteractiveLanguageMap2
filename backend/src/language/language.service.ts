@@ -15,6 +15,20 @@ export class LanguageService {
       .exec();
   }
 
+  private validateCoordinates(coords: any): boolean {
+    return (
+      Array.isArray(coords) &&
+      coords.every(pair => 
+        Array.isArray(pair) &&
+        pair.length === 2 &&
+        typeof pair[0] === 'number' &&
+        typeof pair[1] === 'number' &&
+        pair[1] >= -90 && pair[1] <= 90 &&  
+        pair[0] >= -180 && pair[0] <= 180   
+      )
+    );
+  }
+
   async createGeoJson(languageName: string): Promise<object> {
     const languageData = await this.getLanguageDataFromDB(languageName);
     if (!languageData) {
@@ -22,7 +36,7 @@ export class LanguageService {
     }
 
     if (!languageData.Regions || languageData.Regions.length === 0) {
-      throw new Error(`No regions found for language: ${languageName}`);
+      throw new NotFoundException(`No regions found for language: ${languageName}`);
     }
 
     const geoJsonFeatures: any[] = [];
@@ -37,17 +51,25 @@ export class LanguageService {
       }
 
       let geometry = regionData.geometry;
+      
       if (!geometry && regionData.cordinates) {
+        const coordinates = regionData.cordinates;
+        
+        if (!this.validateCoordinates(coordinates)) {
+          console.warn(`Invalid coordinates for region: ${region.name}`, coordinates);
+          continue;
+        }
+
         geometry = {
           type: "Polygon",
-          coordinates: regionData.cordinates,
+          coordinates: [coordinates], 
         };
       }
-      
+
       if (!geometry) {
         continue;
       }
-    
+
       geoJsonFeatures.push({
         type: "Feature",
         properties: {
@@ -60,7 +82,7 @@ export class LanguageService {
     }
 
     if (geoJsonFeatures.length === 0) {
-      throw new Error('No valid GeoJSON data retrieved');
+      throw new NotFoundException('No valid GeoJSON data retrieved');
     }
 
     return {
