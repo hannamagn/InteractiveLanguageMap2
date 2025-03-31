@@ -1,18 +1,25 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, Res, HttpException, HttpStatus } from '@nestjs/common';
 import { LanguageService } from './language.service';
-import { Language } from './language.entity';
+import { Response } from 'express';
 
-@Controller('languages') 
-export class LanguagesController {
+@Controller('language')
+export class LanguageController {
   constructor(private readonly languageService: LanguageService) {}
 
-  @Get() // Hämtar alla språk- men kanske inte komme gå
-  getAll(): Promise<Language[]> {
-    return this.languageService.findAll();
-  }
+  @Get('geojson/:language')
+  async getGeoJson(@Param('language') language: string, @Res() res: Response) {
+    try {
+      const geoJsonContent = await this.languageService.createGeoJson(language);
 
-  @Get(':id') // Hämtar ett specifikt språk med specifikt languageID
-  getOne(@Param('id') id: number): Promise<Language | null> {
-    return this.languageService.findOne(id);
+      res.header('Content-Type', 'application/geo+json');
+      res.json(geoJsonContent);
+    } catch (error) {
+      console.error('Error while creating GeoJSON:', error);
+
+      throw new HttpException(
+        error instanceof Error ? error.message : 'Failed to create GeoJSON',
+        HttpStatus.INTERNAL_SERVER_ERROR
+      );
+    }
   }
 }

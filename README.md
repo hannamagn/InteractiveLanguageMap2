@@ -33,6 +33,24 @@ Regions in the db: 2285
 
 
 
+##To start the server: 
+
+- start mongodb according to the instructions above
+- Then run in the VSCode terminal:
+
+cd backend
+
+npm run start
+
+- Then in your browser type in:
+
+http://localhost:3000/language/kml/language
+
+
+lanuage= The language you will get a KML for. It will be downloaded on your computer if it works correctly!
+
+
+
 
 
 
