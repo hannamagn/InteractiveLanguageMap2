@@ -1,8 +1,11 @@
 import { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
 import * as VectorTextProtocol from 'maplibre-gl-vector-text-protocol';
+interface MapProps {
+  disableScrollZoom?: boolean; // Optional prop to disable scroll zoom
+}
 
-function Map() {
+function Map({ disableScrollZoom = false }: MapProps) {
   const mapContainer = useRef(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
 
@@ -19,6 +22,12 @@ function Map() {
       pitchWithRotate: false,
       dragRotate: false,
     });
+
+    if (disableScrollZoom) {
+      map.scrollZoom.disable();
+    } else {
+        map.scrollZoom.enable();
+    }
 
     mapRef.current = map;
 
