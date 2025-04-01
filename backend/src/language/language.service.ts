@@ -28,7 +28,6 @@ export class LanguageService {
       )
     );
   }
-
   async createGeoJson(languageName: string): Promise<object> {
     const languageData = await this.getLanguageDataFromDB(languageName);
     if (!languageData) {
@@ -39,7 +38,7 @@ export class LanguageService {
       throw new NotFoundException(`No regions found for language: ${languageName}`);
     }
   
-    const geoJsonFeatures: any[] = [];
+    const geoJsonFeatures: any[] = [];   
     const countries = languageData.Countries ?? [];
   
     for (const region of languageData.Regions) {
@@ -67,16 +66,15 @@ export class LanguageService {
       if (!geometry) {
         continue;
       }
-  
       const country = regionData.address?.country ||
-                      (countries.length > 0 ? countries.map(c => c.name).join(', ') : "Unknown");
-  
+      (countries.length > 0 ? countries.map(c => c.name).join(', ') : "Unknown");  
+      
       geoJsonFeatures.push({
         type: "Feature",
         properties: {
-          name: region.name,
+          region: region.name,
           country: country,
-          state: regionData.address?.state || "Unknown",
+          language: languageData.Language,
         },
         geometry,
       });
@@ -96,5 +94,4 @@ export class LanguageService {
       features: geoJsonFeatures,
     };
   }
-  
-}
+}  
