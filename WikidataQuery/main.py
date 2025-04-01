@@ -20,7 +20,7 @@ def main():
             # check agains the iso file put in debug 
             
             logger.info('Format the response data')
-            lang_data = query_cleaner.format_api_response(api_data, "formatted_api_response", False)
+            lang_data = query_cleaner.format_api_response(api_data, "formatted_api_response", True)
             logger.info(len(lang_data))    
 
             logger.info("Clean dead languages")

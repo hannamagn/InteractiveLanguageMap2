@@ -39,24 +39,62 @@ def format_api_response(api_data, output_file, dump_to_file):
         language_name = item["languageLabel"]["value"]
         language_id = item["language"]["value"]
         instanceOf = item["instanceOfLabel"]["value"]
+        if "immediate_language_family_Label" in item:
+            immediate_Language_Family = item["immediate_language_family_Label"]["value"]
+        else:
+            immediate_Language_Family = "Missing"
+    #       isApple = True if fruit == 'Apple' else False
+        if "number_of_speakers" in item:
+            number_of_speakers = item["number_of_speakers"]["value"]
 
+            if "nos_place_Label" in item:
+                nos_place = item["nos_place_Label"]["value"]
+            else:
+                nos_place = "Missing"
+            
+            if "nos_time" in item:
+                nos_time = item["nos_time"]["value"]
+            else:
+                nos_time = "Missing"
+
+            if "nos_applies_to_Label" in item: 
+                nos_applies_to = item["nos_applies_to_Label"]["value"]
+            else:
+                nos_applies_to = "Missing"
+        else:
+            number_of_speakers = "Missing"
+            nos_time = "Missing"
+            nos_place = "Missing"
+            nos_applies_to = "Missing"
+        
         if iso_code not in cleaned_query_json:
             cleaned_query_json[iso_code] = {}
 
         if language_name not in cleaned_query_json[iso_code]:  # adds a new entry in the output json 
             cleaned_query_json[iso_code][language_name] = {
                 "Language": language_name,
-                "LangugeID": language_id,
+                "LanguageID": language_id,
                 "Regions": [],
                 "RegionsID": [],
                 "RegionsOSM": [],
                 "Countries": [],
                 "CountriesID": [],
-                "Instances": []
+                "CountriesOSM": [],
+                "Instances": [],
+                "immediate_Language_Families": [],
+                "number_of_speakers": []
             }
         # squash the multiple entries adding all instances of a language in an array
         if instanceOf not in cleaned_query_json[iso_code][language_name]["Instances"]:
-             cleaned_query_json[iso_code][language_name]["Instances"].append(instanceOf)
+            cleaned_query_json[iso_code][language_name]["Instances"].append(instanceOf)
+
+        if immediate_Language_Family not in cleaned_query_json[iso_code][language_name]["immediate_Language_Families"]:
+            cleaned_query_json[iso_code][language_name]["immediate_Language_Families"].append(immediate_Language_Family)
+
+        number_of_speakers_dict = {"number": number_of_speakers, "place surveyed": nos_place, "number applies to": nos_applies_to, "time surveyed": nos_time}
+        if number_of_speakers_dict not in cleaned_query_json[iso_code][language_name]["number_of_speakers"]:
+            cleaned_query_json[iso_code][language_name]["number_of_speakers"].append(number_of_speakers_dict)
+        
     
     if dump_to_file:
         with open(f"WikidataQuery/debug/{output_file}.json", "w", encoding="utf-8") as f:
@@ -83,7 +121,7 @@ def clean_dead_lang(lang_data, output_file, dump_to_file):
     
             filtered_lang[language_name] = {
                 "Language": data["Language"],
-                "LangugeID": data["LangugeID"],
+                "LanguageID": data["LanguageID"],
                 "Regions": data["Regions"],
                 "RegionsID": data["RegionsID"],
                 "RegionsOSM": data["RegionsOSM"],
@@ -140,7 +178,7 @@ def populate_metadata(api_data, lang_data):
         if language not in lang_data[iso_code]:
             lang_data[iso_code][language] = {
                 "Language": language,
-                "LangugeID": entry["language"]["value"],  
+                "LanguageID": entry["language"]["value"],  
                 "Regions": [],
                 "RegionsID": [],
                 "RegionsOSM": [],

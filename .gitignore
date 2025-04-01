@@ -61,6 +61,12 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 /backend/build/
 /backend/.env
 
-# wikidata query python backend
+# Wikidata query python backend
 .env
 
+# python cache
+__pycache__
+
+# big debug files
+
+/WikidataQuery/debug/formatted_api_response.json
