@@ -1,16 +1,19 @@
 import { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
-import * as VectorTextProtocol from 'maplibre-gl-vector-text-protocol';
+import geojsonData from 'C:/Users/erikg/Documents/GitHub/adventofcode/InteractiveLanguageMap2/frontend/public/testgeojson/austria.json'; // Adjust the path as needed
+
+
+
 interface MapProps {
   disableScrollZoom?: boolean; // Optional prop to disable scroll zoom
 }
+
 
 function Map({ disableScrollZoom = false }: MapProps) {
   const mapContainer = useRef(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
 
   useEffect(() => {
-    VectorTextProtocol.addProtocols(maplibregl);
 
     const map = new maplibregl.Map({
       container: mapContainer.current!,
@@ -42,25 +45,35 @@ function Map({ disableScrollZoom = false }: MapProps) {
     const onStyleLoad = () => {
       console.log("Map style loaded, adding sources...");
 
-      if (!map.getSource('kml-data')) {
-        map.addSource('kml-data', {
+      if (!map.getSource('geojsondata')) {
+
+        map.addSource('geojsondata', {
           type: 'geojson',
-          data: 'kml://..../testkml/sweden.kml',
+          data: geojsonData as GeoJSON.FeatureCollection<GeoJSON.Geometry>,
         });
 
         map.addLayer({
-          id: 'kml-fill',
+          id: 'fill',
           type: 'fill',
-          source: 'kml-data',
+          source: 'geojsondata',
           paint: { 'fill-color': '#ADD8E6', 'fill-opacity': 0.4 },
         });
 
         map.addLayer({
-          id: 'kml-outline',
+          id: 'outline',
           type: 'line',
-          source: 'kml-data',
+          source: 'geojsondata',
           paint: { 'line-color': '#0057B8', 'line-width': 2 },
         });
+
+        map.on('click', 'fill',function(e) {
+          new maplibregl.Popup()
+            .setLngLat(e.lngLat)
+            .setHTML('<h3>Austria</h3>' + (e.features?.[0]?.properties?.name || 'Unknown') + '  <p>Vienna</p>')
+            .addTo(map);
+        });
+      
+
       }
     };
 
@@ -69,7 +82,10 @@ function Map({ disableScrollZoom = false }: MapProps) {
     return () => {
       map.off('style.load', onStyleLoad);
     };
-  }, []);
+  },
+  
+  []);
+ 
 
   return <div ref={mapContainer} id="map" style={{ width: '100%', height: '100vh', position: 'absolute' }} />;
 }
