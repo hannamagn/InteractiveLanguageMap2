@@ -78,3 +78,5 @@ WikidataQuery/debug/langmetadata.json
 WikidataQuery/debug/langmetadataOLD.json
 WikidataQuery/debug/signlanguage.json
 WikidataQuery/debug/languages.json
+WikidataQuery/debug/minifiedFormattedRegionData.geojson
+WikidataQuery/debug/raw4.geojson

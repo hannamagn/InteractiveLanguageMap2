@@ -106,19 +106,23 @@ def get_regions(lang_data):
     get_all_osm_id(lang_data, osm_id_list)
     
     osm_id_list = list(util.chunk_list(osm_id_list, 50))  # 47 lists = 47 queries
-    # allResponses = []
+    allResponses = []
     total_batches = len(osm_id_list)
     for i in range(total_batches):
         response = call_nomimantim_api(osm_id_list[i])
         formattedResponse = format_response(response)
-        mongo_handler.populate_regions_mongodb(formattedResponse)
+        #mongo_handler.populate_regions_mongodb_in_batches(formattedResponse)
 
         #can be saved for debug purposes
-        #allResponses.append(formattedResponse)
+        allResponses.append(formattedResponse)
 
         print(f"Batch {i + 1}/{total_batches} done")
         print("Sleeping 2 sec")
         time.sleep(2)
+
+    with open(f"WikidataQuery/debug/minifiedFormattedRegionData.geojson", "w", encoding="utf-8") as f:
+        json.dump(allResponses, f, separators=(',', ':'), ensure_ascii=False)
+
     print("Finished populating the mongodb regions collection")
     return 
 
@@ -127,6 +131,8 @@ def get_all_osm_id(lang_data, list):
         for language_name, data in languages.items():
             regionNames = data.get("Regions", [])
             regionOSM = data.get("RegionsOSM", [])
+            countryNames = data.get("Countries", [])
+            countryOSM = data.get("CountriesOSM", [])
             for i in range(len(regionNames)): 
                 r_name = regionNames[i]
                 r_osm = regionOSM[i]
@@ -134,6 +140,15 @@ def get_all_osm_id(lang_data, list):
                     continue
                 if r_osm not in list: 
                     list.append(r_osm)
+
+            for i in range(len(countryNames)): 
+                c_name = countryNames[i]
+                c_osm = countryOSM[i]
+                if c_name == "Missing" or c_osm == "Missing": # at this stage just skip anything missing so the api doesnt crash 
+                    continue
+                if c_osm not in list: 
+                    list.append(c_osm)
+           
     print(f"The nr# of all regions: {len(list)}")
     return list
 

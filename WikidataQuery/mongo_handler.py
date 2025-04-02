@@ -79,9 +79,9 @@ def db_lang_formatting(language):
     new_format.update({"number_of_speakers": number_of_speakers})
     return new_format
 
-#Inserts regiondata from batches of regions 
+#Inserts regiondata from batches of regions NOT WORKING AT THE MOMENT
 def populate_regions_mongodb_in_batches(regionList):
-    Regions_col = mydb["Regions"]
+    Regions_col = mydb["PolygonData"]
     try: 
         Regions_col.insert_many(regionList)
     except pymongo.errors.DuplicateKeyError:
@@ -91,7 +91,7 @@ def populate_regions_mongodb_in_batches(regionList):
 
 #Inserts regiondata from full list of regions 
 def populate_regions_mongodb_from_full_list(data):
-    Regions_col = mydb["Regions"]
+    Regions_col = mydb["PolygonData"]
     for regionList in data:
         try: 
             Regions_col.insert_many(regionList)

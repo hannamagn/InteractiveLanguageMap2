@@ -45,9 +45,8 @@ def main():
     lang_data = query_cleaner.filter_lang_data(lang_data) # lang_data is now only language.json filtered out
 
 
-
-    logger.info("Populating mongodb database")
-    mongo_handler.populate_metadata_mongodb(lang_data)
+    query_service.get_all_osm_id(lang_data, [])
+    #query_service.get_regions(lang_data)
     
 
     # TODO make the check towards the mongoDB server returning a bool or something that its filled with regions and exist
@@ -65,6 +64,10 @@ def main():
 
 if __name__ == "__main__":
     
+    # with open("WikidataQuery/debug/minifiedFormattedRegionData.geojson", "r", encoding="utf-8") as f:
+    #             lang_data = json.load(f)
+
+    # mongo_handler.populate_regions_mongodb_from_full_list(lang_data)
 
     main()
 
