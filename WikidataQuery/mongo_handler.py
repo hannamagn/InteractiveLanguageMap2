@@ -14,7 +14,7 @@ myclient = MongoClient(uri, server_api=ServerApi('1'))
 mydb = myclient["LangMap"]
 
 def populate_metadata_mongodb(data):
-    LanguageMetaData_col = mydb["LanguageMetaData"]
+    LanguageMetaData_col = mydb["LanguageMetaDataTest2"]
     LanguageMetaData_col.create_index([("iso_code", pymongo.ASCENDING)], unique=True)
 
     # TODO: missing any type of update when running again, I think
@@ -39,24 +39,35 @@ def db_lang_formatting(language):
                 #print(f"This is the region name list: {region_name_list}")
             if details_key == "RegionsOSM":
                 regions_osm_list = details_value
-                #print(f"This is the osm ids: {regions_osm_list}")
+                #print(f"This is the region osm id list: {regions_osm_list}")
             if details_key == "Countries":
                 country_list = details_value
-                #print(f"These are the countries: {country_list}")
+                #print(f"This is the country list: {country_list}")
+            if details_key == "CountriesOSM":
+                countries_osm_list = details_value
+                #print(f"This is the country osm id list: {countries_osm_list}")
             if details_key == "Instances":
                 instance_list = details_value
+                #print(f"This is the instance list: {instance_list}")
+            if details_key == "immediate_Language_Families":
+                language_families = details_value
+                #print(f"This is the language family list: {language_families}")
+            if details_key == "number_of_speakers":
+                number_of_speakers = details_value
+                #print(f"This is a list of recorded numbers of speakers: {number_of_speakers}")
 
     regions = []
     for i in range(len(region_name_list)):
         r_name = region_name_list[i]
         r_osm = regions_osm_list[i]
-        r_entry = {"name": r_name, "osm_id": r_osm}
+        r_entry = {"name": r_name, "region_osm_id": r_osm}
         regions.append(r_entry)  
     
     countries = []
     for i in range(len(country_list)):
         c_name = country_list[i]
-        c_entry = {"name": c_name} # add the id for country polygons here later 
+        c_osm = countries_osm_list[i]
+        c_entry = {"name": c_name, "country_osm_id": c_osm} 
         countries.append(c_entry)
 
     new_format.update({"Language": lang_name})
@@ -64,6 +75,8 @@ def db_lang_formatting(language):
     new_format.update({"Regions": regions})
     new_format.update({"Countries": countries})
     new_format.update({"Instances": instance_list})
+    new_format.update({"immediate_Language_Families": language_families})
+    new_format.update({"number_of_speakers": number_of_speakers})
     return new_format
 
 #Inserts regiondata from batches of regions 
@@ -100,4 +113,5 @@ def ping_collection():
     print(f"Number of regions in the regions collection: {count}")
     if count > 1:
         return True
-    else: False
+    else:
+        return False

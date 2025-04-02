@@ -43,23 +43,35 @@ def main():
     # the complete langmetadata is saved to not accidentally overwrite the dialect/sign/missing language files 
     logger.info("Filter out dialects, sign langauges and langauages missing all metadata")
     lang_data = query_cleaner.filter_lang_data(lang_data) # lang_data is now only language.json filtered out
+
+
+
+    logger.info("Populating mongodb database")
+    mongo_handler.populate_metadata_mongodb(lang_data)
     
 
     # TODO make the check towards the mongoDB server returning a bool or something that its filled with regions and exist
-    regions_isfilled = mongo_handler.ping_collection()
-    if regions_isfilled:
-        print("The region polygon data was last pulled at [time] in atlas")
-        refetch_me = input("Do you want to refetch it? y/n: ")
-        if refetch_me == "y":
+    # regions_isfilled = mongo_handler.ping_collection()
+    # if regions_isfilled:
+    #     print("The region polygon data was last pulled at [time] in atlas")
+    #     refetch_me = input("Do you want to refetch it? y/n: ")
+    #     if refetch_me == "y":
              
-            logger.info("Fetching all polygons and populating mongodb")
-            query_service.get_regions(lang_data) # populates the database at the same time
+    #         logger.info("Fetching all polygons and populating mongodb")
+    #         query_service.get_regions(lang_data) # populates the database at the same time
             
-            logger.info("Populating mongodb database")
-            mongo_handler.populate_metadata_mongodb(lang_data)
+    #         logger.info("Populating mongodb database")
+    #         mongo_handler.populate_metadata_mongodb(lang_data)
 
 if __name__ == "__main__":
+    
+
     main()
+
+    # with open("WikidataQuery/debug/cleaned_retired_lang.json", "r", encoding="utf-8") as f:
+    #             cleaned_retired_lang = json.load(f)
+    # query_service.get_lang_metadata(cleaned_retired_lang)
+    
 
     # with open("WikidataQuery/debug/formattedRegionData.geojson", "r", encoding="utf-8") as f:
     #             regionData = json.load(f)

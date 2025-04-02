@@ -127,7 +127,10 @@ def clean_dead_lang(lang_data, output_file, dump_to_file):
                 "RegionsOSM": data["RegionsOSM"],
                 "Countries": data["Countries"],
                 "CountriesID": data["CountriesID"],
-                "Instances": data["Instances"]
+                "CountriesOSM": data["CountriesOSM"],
+                "Instances": data["Instances"],
+                "immediate_Language_Families": data["immediate_Language_Families"],
+                "number_of_speakers": data["number_of_speakers"]
             }
             
         if filtered_lang: 
@@ -169,9 +172,10 @@ def populate_metadata(api_data, lang_data):
         language = entry["languageLabel"]["value"]
         region = entry["regionLabel"]["value"] if "regionLabel" in entry else "Missing"
         regionID = entry["region"]["value"] if "region" in entry else "Missing"
-        region_osm_id = entry["osm_id"]["value"] if "osm_id" in entry else "Missing"
+        region_osm_id = entry["region_osm_id"]["value"] if "region_osm_id" in entry else "Missing"
         country = entry["countryLabel"]["value"] if "countryLabel" in entry else "Missing"
         countryID = entry["country"]["value"] if "country" in entry else "Missing"
+        country_osm_id = entry["country_osm_id"]["value"] if "country_osm_id" in entry else "Missing"
         iso_code = entry["iso_code"]["value"] 
         
         # keep the old structure
@@ -184,7 +188,10 @@ def populate_metadata(api_data, lang_data):
                 "RegionsOSM": [],
                 "Countries": [],
                 "CountriesID": [],
-                "Instances": [] 
+                "CountriesOSM": [],
+                "Instances": [],
+                "immediate_Language_Families": [],
+                "number_of_speakers": [] 
             }
 
         if region not in lang_data[iso_code][language]["Regions"]:
@@ -196,6 +203,7 @@ def populate_metadata(api_data, lang_data):
             lang_data[iso_code][language]["Countries"].append(country)
         if countryID not in lang_data[iso_code][language]["CountriesID"]:
             lang_data[iso_code][language]["CountriesID"].append(countryID)
+            lang_data[iso_code][language]["CountriesOSM"].append(country_osm_id)
     print(f"200 done, sleeping for 1.5 seconds...") # get better logging
     time.sleep(1.5) 
     return lang_data

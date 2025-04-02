@@ -2,7 +2,7 @@
     "ads": {
         "Adamorobe Sign Language": {
             "Language": "Adamorobe Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q27709",
+            "LanguageID": "http://www.wikidata.org/entity/Q27709",
             "Regions": [
                 "Eastern Region"
             ],
@@ -18,17 +18,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q117"
             ],
+            "CountriesOSM": [
+                "192781"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "aed": {
         "Argentine Sign Language": {
             "Language": "Argentine Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3322073",
+            "LanguageID": "http://www.wikidata.org/entity/Q3322073",
             "Regions": [
                 "Missing"
             ],
@@ -44,16 +58,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q414"
             ],
+            "CountriesOSM": [
+                "286393"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "aen": {
         "Armenian Sign Language": {
             "Language": "Armenian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3446604",
+            "LanguageID": "http://www.wikidata.org/entity/Q3446604",
             "Regions": [
                 "Missing"
             ],
@@ -69,16 +97,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q399"
             ],
+            "CountriesOSM": [
+                "364066"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "afg": {
         "Afghan Sign Language": {
             "Language": "Afghan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q4689093",
+            "LanguageID": "http://www.wikidata.org/entity/Q4689093",
             "Regions": [
                 "Balkh Province",
                 "Bamyan Province",
@@ -121,16 +163,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q889"
             ],
+            "CountriesOSM": [
+                "303427"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ajs": {
         "Algerian Jewish Sign Language": {
             "Language": "Algerian Jewish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5555709",
+            "LanguageID": "http://www.wikidata.org/entity/Q5555709",
             "Regions": [
                 "Missing"
             ],
@@ -146,15 +202,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q262"
             ],
+            "CountriesOSM": [
+                "192756"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ase": {
         "American Sign Language": {
             "Language": "American Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q14759",
+            "LanguageID": "http://www.wikidata.org/entity/Q14759",
             "Regions": [
                 "Missing"
             ],
@@ -172,17 +242,32 @@
                 "http://www.wikidata.org/entity/Q30",
                 "http://www.wikidata.org/entity/Q16"
             ],
+            "CountriesOSM": [
+                "148838",
+                "1428125"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "250000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "1972-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "asf": {
         "Auslan": {
             "Language": "Auslan",
-            "LangugeID": "http://www.wikidata.org/entity/Q29525",
+            "LanguageID": "http://www.wikidata.org/entity/Q29525",
             "Regions": [
                 "New South Wales"
             ],
@@ -198,15 +283,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
             ],
+            "CountriesOSM": [
+                "80500"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "10100",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2016-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "asp": {
         "Algerian Sign Language": {
             "Language": "Algerian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3135421",
+            "LanguageID": "http://www.wikidata.org/entity/Q3135421",
             "Regions": [
                 "Missing"
             ],
@@ -222,17 +321,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q262"
             ],
+            "CountriesOSM": [
+                "192756"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "asq": {
         "Austrian Sign Language": {
             "Language": "Austrian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q36668",
+            "LanguageID": "http://www.wikidata.org/entity/Q36668",
             "Regions": [
                 "Missing"
             ],
@@ -248,15 +361,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q40"
             ],
+            "CountriesOSM": [
+                "16239"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "asw": {
         "Australian Aboriginal sign languages": {
             "Language": "Australian Aboriginal sign languages",
-            "LangugeID": "http://www.wikidata.org/entity/Q955216",
+            "LanguageID": "http://www.wikidata.org/entity/Q955216",
             "Regions": [
                 "Missing"
             ],
@@ -272,16 +399,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
             ],
+            "CountriesOSM": [
+                "80500"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bfi": {
         "British Sign Language": {
             "Language": "British Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q33000",
+            "LanguageID": "http://www.wikidata.org/entity/Q33000",
             "Regions": [
                 "Missing"
             ],
@@ -297,16 +438,36 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q145"
             ],
+            "CountriesOSM": [
+                "62149"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "77000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2014-01-01T00:00:00Z"
+                },
+                {
+                    "number": "327000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bfk": {
         "Ban Khor Sign Language": {
             "Language": "Ban Khor Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3441103",
+            "LanguageID": "http://www.wikidata.org/entity/Q3441103",
             "Regions": [
                 "Missing"
             ],
@@ -322,16 +483,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q869"
             ],
+            "CountriesOSM": [
+                "2067731"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bog": {
         "Bamako Sign Language": {
             "Language": "Bamako Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q4853284",
+            "LanguageID": "http://www.wikidata.org/entity/Q4853284",
             "Regions": [],
             "RegionsID": [],
             "RegionsOSM": [],
@@ -341,16 +516,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q912"
             ],
+            "CountriesOSM": [
+                "192785"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bqn": {
         "Bulgarian Sign Language": {
             "Language": "Bulgarian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3438325",
+            "LanguageID": "http://www.wikidata.org/entity/Q3438325",
             "Regions": [
                 "Missing"
             ],
@@ -366,16 +555,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q219"
             ],
+            "CountriesOSM": [
+                "186382"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "37000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2014-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "bqy": {
         "Kata Kolok": {
             "Language": "Kata Kolok",
-            "LangugeID": "http://www.wikidata.org/entity/Q3322119",
+            "LanguageID": "http://www.wikidata.org/entity/Q3322119",
             "Regions": [
                 "Java",
                 "Bali"
@@ -394,16 +597,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q252"
             ],
+            "CountriesOSM": [
+                "304751"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bvl": {
         "Bolivian Sign Language": {
             "Language": "Bolivian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q1783590",
+            "LanguageID": "http://www.wikidata.org/entity/Q1783590",
             "Regions": [
                 "Beni Department",
                 "Cochabamba Department",
@@ -428,15 +645,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q750"
             ],
+            "CountriesOSM": [
+                "252645"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bzs": {
         "Brazilian Sign Language": {
             "Language": "Brazilian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3436689",
+            "LanguageID": "http://www.wikidata.org/entity/Q3436689",
             "Regions": [
                 "Missing"
             ],
@@ -452,17 +683,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q155"
             ],
+            "CountriesOSM": [
+                "59470"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "3000000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2013-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "cds": {
         "Chadian Sign Language": {
             "Language": "Chadian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q10322099",
+            "LanguageID": "http://www.wikidata.org/entity/Q10322099",
             "Regions": [
                 "N'Djamena"
             ],
@@ -478,15 +723,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q657"
             ],
+            "CountriesOSM": [
+                "2361304"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "csc": {
         "Catalan Sign Language": {
             "Language": "Catalan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q35768",
+            "LanguageID": "http://www.wikidata.org/entity/Q35768",
             "Regions": [
                 "Catalonia"
             ],
@@ -502,17 +761,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q29"
             ],
+            "CountriesOSM": [
+                "1311341"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "csd": {
         "Chiangmai Sign Language": {
             "Language": "Chiangmai Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5095211",
+            "LanguageID": "http://www.wikidata.org/entity/Q5095211",
             "Regions": [
                 "Chiang Mai"
             ],
@@ -528,16 +801,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q869"
             ],
+            "CountriesOSM": [
+                "2067731"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cse": {
         "Czech Sign Language": {
             "Language": "Czech Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5201809",
+            "LanguageID": "http://www.wikidata.org/entity/Q5201809",
             "Regions": [
                 "Missing"
             ],
@@ -553,17 +840,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q213"
             ],
+            "CountriesOSM": [
+                "51684"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "csf": {
         "Cuban Sign Language": {
             "Language": "Cuban Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5192046",
+            "LanguageID": "http://www.wikidata.org/entity/Q5192046",
             "Regions": [
                 "Missing"
             ],
@@ -579,16 +880,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q241"
             ],
+            "CountriesOSM": [
+                "307833"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "csg": {
         "Chilean Sign Language": {
             "Language": "Chilean Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3322112",
+            "LanguageID": "http://www.wikidata.org/entity/Q3322112",
             "Regions": [
                 "Missing"
             ],
@@ -604,16 +919,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q298"
             ],
+            "CountriesOSM": [
+                "167454"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "21000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "csl": {
         "Chinese Sign Language": {
             "Language": "Chinese Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q1094190",
+            "LanguageID": "http://www.wikidata.org/entity/Q1094190",
             "Regions": [
                 "Missing"
             ],
@@ -629,15 +958,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q148"
             ],
+            "CountriesOSM": [
+                "270056"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "csn": {
         "Colombian Sign Language": {
             "Language": "Colombian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q2748229",
+            "LanguageID": "http://www.wikidata.org/entity/Q2748229",
             "Regions": [
                 "Missing"
             ],
@@ -653,16 +996,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q739"
             ],
+            "CountriesOSM": [
+                "120027"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "csq": {
         "Croatian Sign Language": {
             "Language": "Croatian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3507506",
+            "LanguageID": "http://www.wikidata.org/entity/Q3507506",
             "Regions": [
                 "Missing"
             ],
@@ -678,16 +1035,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q224"
             ],
+            "CountriesOSM": [
+                "214885"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "13000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2014-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "csr": {
         "Costa Rican Sign Language": {
             "Language": "Costa Rican Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5174901",
+            "LanguageID": "http://www.wikidata.org/entity/Q5174901",
             "Regions": [
                 "Missing"
             ],
@@ -703,16 +1074,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q800"
             ],
+            "CountriesOSM": [
+                "287667"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "csx": {
         "Cambodian Sign Language": {
             "Language": "Cambodian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q50934287",
+            "LanguageID": "http://www.wikidata.org/entity/Q50934287",
             "Regions": [
                 "Missing"
             ],
@@ -728,15 +1113,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q424"
             ],
+            "CountriesOSM": [
+                "49898"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "7500",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2015-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "doq": {
         "Dominican Sign Language": {
             "Language": "Dominican Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5290820",
+            "LanguageID": "http://www.wikidata.org/entity/Q5290820",
             "Regions": [
                 "Missing"
             ],
@@ -752,16 +1151,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q786"
             ],
+            "CountriesOSM": [
+                "307828"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dse": {
         "Dutch Sign Language": {
             "Language": "Dutch Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q2201099",
+            "LanguageID": "http://www.wikidata.org/entity/Q2201099",
             "Regions": [
                 "Missing"
             ],
@@ -779,15 +1192,30 @@
                 "http://www.wikidata.org/entity/Q29999",
                 "http://www.wikidata.org/entity/Q55"
             ],
+            "CountriesOSM": [
+                "2323309",
+                "47796"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "15000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2018-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "dsl": {
         "Danish Sign Language": {
             "Language": "Danish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q2605298",
+            "LanguageID": "http://www.wikidata.org/entity/Q2605298",
             "Regions": [
                 "Missing"
             ],
@@ -803,17 +1231,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q35"
             ],
+            "CountriesOSM": [
+                "50046"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dsz": {
         "Mardin Sign Language": {
             "Language": "Mardin Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6758681",
+            "LanguageID": "http://www.wikidata.org/entity/Q6758681",
             "Regions": [
                 "Mardin"
             ],
@@ -829,15 +1271,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q43"
             ],
+            "CountriesOSM": [
+                "174737"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ecs": {
         "Ecuadorian Sign Language": {
             "Language": "Ecuadorian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3436769",
+            "LanguageID": "http://www.wikidata.org/entity/Q3436769",
             "Regions": [
                 "Missing"
             ],
@@ -853,16 +1309,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q736"
             ],
+            "CountriesOSM": [
+                "108089"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ehs": {
         "Miyakubo Sign Language": {
             "Language": "Miyakubo Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q65056943",
+            "LanguageID": "http://www.wikidata.org/entity/Q65056943",
             "Regions": [
                 "Miyakubo"
             ],
@@ -878,16 +1348,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q17"
             ],
+            "CountriesOSM": [
+                "382313"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "70",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2020-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "esl": {
         "Egyptian Sign Language": {
             "Language": "Egyptian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5348443",
+            "LanguageID": "http://www.wikidata.org/entity/Q5348443",
             "Regions": [
                 "Missing"
             ],
@@ -903,16 +1387,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q79"
             ],
+            "CountriesOSM": [
+                "1473947"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "esn": {
         "Salvadoran Sign Language": {
             "Language": "Salvadoran Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7406492",
+            "LanguageID": "http://www.wikidata.org/entity/Q7406492",
             "Regions": [
                 "Missing"
             ],
@@ -928,16 +1426,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q792"
             ],
+            "CountriesOSM": [
+                "1520612"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "eso": {
         "Estonian Sign Language": {
             "Language": "Estonian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3196221",
+            "LanguageID": "http://www.wikidata.org/entity/Q3196221",
             "Regions": [
                 "Pärnu County"
             ],
@@ -953,17 +1465,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q191"
             ],
+            "CountriesOSM": [
+                "79510"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "1500",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2011-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "eth": {
         "Ethiopian Sign Language": {
             "Language": "Ethiopian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3501903",
+            "LanguageID": "http://www.wikidata.org/entity/Q3501903",
             "Regions": [
                 "Missing"
             ],
@@ -979,17 +1505,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q115"
             ],
+            "CountriesOSM": [
+                "192800"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "250000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2008-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "fcs": {
         "Quebec Sign Language": {
             "Language": "Quebec Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q13193",
+            "LanguageID": "http://www.wikidata.org/entity/Q13193",
             "Regions": [
                 "Quebec",
                 "Ontario",
@@ -1023,15 +1563,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q16"
             ],
+            "CountriesOSM": [
+                "1428125"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "50000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2010-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "fse": {
         "Finnish Sign Language": {
             "Language": "Finnish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q33225",
+            "LanguageID": "http://www.wikidata.org/entity/Q33225",
             "Regions": [
                 "Missing"
             ],
@@ -1047,17 +1601,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q33"
             ],
+            "CountriesOSM": [
+                "54224"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "15000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2006-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "fsl": {
         "French Sign Language": {
             "Language": "French Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q33302",
+            "LanguageID": "http://www.wikidata.org/entity/Q33302",
             "Regions": [
                 "Missing"
             ],
@@ -1073,17 +1641,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q142"
             ],
+            "CountriesOSM": [
+                "2202162"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "283000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2008-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "fss": {
         "Finland-Swedish Sign Language": {
             "Language": "Finland-Swedish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5450448",
+            "LanguageID": "http://www.wikidata.org/entity/Q5450448",
             "Regions": [
                 "Swedish-speaking population of Finland"
             ],
@@ -1099,15 +1681,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q33"
             ],
+            "CountriesOSM": [
+                "54224"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "300",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2014-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "gds": {
         "Ghandruk Sign Language": {
             "Language": "Ghandruk Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q15971577",
+            "LanguageID": "http://www.wikidata.org/entity/Q15971577",
             "Regions": [
                 "Gandaki Province"
             ],
@@ -1123,15 +1719,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q837"
             ],
+            "CountriesOSM": [
+                "184633"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "gse": {
         "Ghanaian Sign Language": {
             "Language": "Ghanaian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q35289",
+            "LanguageID": "http://www.wikidata.org/entity/Q35289",
             "Regions": [
                 "Ghana"
             ],
@@ -1147,16 +1757,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q117"
             ],
+            "CountriesOSM": [
+                "192781"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "gsg": {
         "German Sign Language": {
             "Language": "German Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q33282",
+            "LanguageID": "http://www.wikidata.org/entity/Q33282",
             "Regions": [
                 "Missing"
             ],
@@ -1176,16 +1800,32 @@
                 "http://www.wikidata.org/entity/Q32",
                 "http://www.wikidata.org/entity/Q31"
             ],
+            "CountriesOSM": [
+                "51477",
+                "2171347",
+                "52411"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "gsm": {
         "Guatemalan Sign Language": {
             "Language": "Guatemalan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q2886781",
+            "LanguageID": "http://www.wikidata.org/entity/Q2886781",
             "Regions": [
                 "Missing"
             ],
@@ -1201,15 +1841,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q774"
             ],
+            "CountriesOSM": [
+                "1521463"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "gss": {
         "Greek Sign Language": {
             "Language": "Greek Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3565084",
+            "LanguageID": "http://www.wikidata.org/entity/Q3565084",
             "Regions": [
                 "Missing"
             ],
@@ -1225,15 +1879,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q41"
             ],
+            "CountriesOSM": [
+                "192307"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "40600",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "1986-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "gus": {
         "Guinean Sign Language": {
             "Language": "Guinean Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q15983937",
+            "LanguageID": "http://www.wikidata.org/entity/Q15983937",
             "Regions": [
                 "Conakry"
             ],
@@ -1249,16 +1917,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1006"
             ],
+            "CountriesOSM": [
+                "192778"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hab": {
         "Hanoi Sign Language": {
             "Language": "Hanoi Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q12632107",
+            "LanguageID": "http://www.wikidata.org/entity/Q12632107",
             "Regions": [
                 "Missing"
             ],
@@ -1274,15 +1956,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q881"
             ],
+            "CountriesOSM": [
+                "49915"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Vietnamese sign languages"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "haf": {
         "Haiphong Sign Language": {
             "Language": "Haiphong Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q39868240",
+            "LanguageID": "http://www.wikidata.org/entity/Q39868240",
             "Regions": [
                 "Missing"
             ],
@@ -1298,16 +1994,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q881"
             ],
+            "CountriesOSM": [
+                "49915"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Vietnamese sign languages"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hds": {
         "Honduran Sign Language": {
             "Language": "Honduran Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915496",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915496",
             "Regions": [
                 "Missing"
             ],
@@ -1323,16 +2033,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q783"
             ],
+            "CountriesOSM": [
+                "287670"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hks": {
         "Hong Kong Sign Language": {
             "Language": "Hong Kong Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q17038844",
+            "LanguageID": "http://www.wikidata.org/entity/Q17038844",
             "Regions": [
                 "Hong Kong"
             ],
@@ -1348,15 +2072,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q148"
             ],
+            "CountriesOSM": [
+                "270056"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hos": {
         "Ho Chi Minh City Sign Language": {
             "Language": "Ho Chi Minh City Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q16111971",
+            "LanguageID": "http://www.wikidata.org/entity/Q16111971",
             "Regions": [
                 "Ho Chi Minh City"
             ],
@@ -1372,15 +2110,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q881"
             ],
+            "CountriesOSM": [
+                "49915"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Vietnamese sign languages"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hps": {
         "Hawaiʻi Sign Language": {
             "Language": "Hawaiʻi Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q33358",
+            "LanguageID": "http://www.wikidata.org/entity/Q33358",
             "Regions": [
                 "Hawaii"
             ],
@@ -1396,16 +2148,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q30"
             ],
+            "CountriesOSM": [
+                "148838"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hsh": {
         "Hungarian Sign Language": {
             "Language": "Hungarian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q13636869",
+            "LanguageID": "http://www.wikidata.org/entity/Q13636869",
             "Regions": [
                 "Missing"
             ],
@@ -1421,15 +2187,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q28"
             ],
+            "CountriesOSM": [
+                "21335"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "300000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hsl": {
         "Hausa Sign Language": {
             "Language": "Hausa Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915462",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915462",
             "Regions": [
                 "Hausa people",
                 "Niger State",
@@ -1451,16 +2231,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1033"
             ],
+            "CountriesOSM": [
+                "192787"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "icl": {
         "Icelandic Sign Language": {
             "Language": "Icelandic Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3436654",
+            "LanguageID": "http://www.wikidata.org/entity/Q3436654",
             "Regions": [
                 "Missing"
             ],
@@ -1476,16 +2270,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q189"
             ],
+            "CountriesOSM": [
+                "299133"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "iks": {
         "Inuit Sign Language": {
             "Language": "Inuit Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q13360244",
+            "LanguageID": "http://www.wikidata.org/entity/Q13360244",
             "Regions": [
                 "Nunavut"
             ],
@@ -1501,15 +2309,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q16"
             ],
+            "CountriesOSM": [
+                "1428125"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "inl": {
         "Indonesian Sign Language": {
             "Language": "Indonesian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915477",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915477",
             "Regions": [
                 "Java",
                 "Bali"
@@ -1528,17 +2350,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q252"
             ],
+            "CountriesOSM": [
+                "304751"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ins": {
         "Indian Sign Language": {
             "Language": "Indian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q113754817",
+            "LanguageID": "http://www.wikidata.org/entity/Q113754817",
             "Regions": [
                 "India"
             ],
@@ -1554,17 +2390,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q668"
             ],
+            "CountriesOSM": [
+                "304716"
+            ],
             "Instances": [
                 "sign language",
                 "regiolect",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ise": {
         "Italian Sign Language": {
             "Language": "Italian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q375619",
+            "LanguageID": "http://www.wikidata.org/entity/Q375619",
             "Regions": [
                 "Sicily",
                 "Sardinia"
@@ -1583,17 +2433,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q38"
             ],
+            "CountriesOSM": [
+                "365331"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "isg": {
         "Irish Sign Language": {
             "Language": "Irish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q14183",
+            "LanguageID": "http://www.wikidata.org/entity/Q14183",
             "Regions": [
                 "Missing"
             ],
@@ -1609,17 +2473,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q27"
             ],
+            "CountriesOSM": [
+                "62273"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "isr": {
         "Israeli Sign Language": {
             "Language": "Israeli Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q2911863",
+            "LanguageID": "http://www.wikidata.org/entity/Q2911863",
             "Regions": [
                 "Israel"
             ],
@@ -1635,16 +2513,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q801"
             ],
+            "CountriesOSM": [
+                "1473946"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Semitic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jcs": {
         "Jamaican Country Sign Language": {
             "Language": "Jamaican Country Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6127418",
+            "LanguageID": "http://www.wikidata.org/entity/Q6127418",
             "Regions": [
                 "Saint Elizabeth Parish"
             ],
@@ -1660,17 +2552,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q766"
             ],
+            "CountriesOSM": [
+                "555017"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jhs": {
         "Jhankot Sign Language": {
             "Language": "Jhankot Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6190889",
+            "LanguageID": "http://www.wikidata.org/entity/Q6190889",
             "Regions": [
                 "Karnali Province"
             ],
@@ -1686,16 +2592,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q837"
             ],
+            "CountriesOSM": [
+                "184633"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jks": {
         "Koniya Sign Language": {
             "Language": "Koniya Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q4739455",
+            "LanguageID": "http://www.wikidata.org/entity/Q4739455",
             "Regions": [
                 "Koniya"
             ],
@@ -1711,15 +2631,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q17"
             ],
+            "CountriesOSM": [
+                "382313"
+            ],
             "Instances": [
                 "village sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jls": {
         "Jamaican Sign Language": {
             "Language": "Jamaican Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6127433",
+            "LanguageID": "http://www.wikidata.org/entity/Q6127433",
             "Regions": [
                 "Missing"
             ],
@@ -1735,16 +2669,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q766"
             ],
+            "CountriesOSM": [
+                "555017"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jos": {
         "Jordanian Sign Language": {
             "Language": "Jordanian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q65320181",
+            "LanguageID": "http://www.wikidata.org/entity/Q65320181",
             "Regions": [
                 "Missing"
             ],
@@ -1760,15 +2708,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q810"
             ],
+            "CountriesOSM": [
+                "184818"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jsl": {
         "Japanese Sign Language": {
             "Language": "Japanese Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q35601",
+            "LanguageID": "http://www.wikidata.org/entity/Q35601",
             "Regions": [
                 "Japan"
             ],
@@ -1784,15 +2746,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q17"
             ],
+            "CountriesOSM": [
+                "382313"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jus": {
         "Jumla Sign Language": {
             "Language": "Jumla Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6310991",
+            "LanguageID": "http://www.wikidata.org/entity/Q6310991",
             "Regions": [
                 "Karnali Province"
             ],
@@ -1808,16 +2784,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q837"
             ],
+            "CountriesOSM": [
+                "184633"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "8",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2005-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "kgi": {
         "Selangor Sign Language": {
             "Language": "Selangor Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q33731",
+            "LanguageID": "http://www.wikidata.org/entity/Q33731",
             "Regions": [
                 "Selangor"
             ],
@@ -1833,16 +2823,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q833"
             ],
+            "CountriesOSM": [
+                "2108121"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kvk": {
         "Korean Sign Language": {
             "Language": "Korean Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3073428",
+            "LanguageID": "http://www.wikidata.org/entity/Q3073428",
             "Regions": [
                 "Missing"
             ],
@@ -1858,16 +2862,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q884"
             ],
+            "CountriesOSM": [
+                "307756"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "180000",
+                    "place surveyed": "Missing",
+                    "number applies to": "first language",
+                    "time surveyed": "2008-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "lbs": {
         "Libyan Sign Language": {
             "Language": "Libyan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q11775688",
+            "LanguageID": "http://www.wikidata.org/entity/Q11775688",
             "Regions": [
                 "Missing"
             ],
@@ -1883,15 +2901,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1016"
             ],
+            "CountriesOSM": [
+                "192758"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lgs": {
         "Guinea-Bissau Sign Language": {
             "Language": "Guinea-Bissau Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q5616441",
+            "LanguageID": "http://www.wikidata.org/entity/Q5616441",
             "Regions": [
                 "Missing"
             ],
@@ -1907,15 +2939,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1007"
             ],
+            "CountriesOSM": [
+                "192776"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lls": {
         "Lithuanian Sign Language": {
             "Language": "Lithuanian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915480",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915480",
             "Regions": [
                 "Missing"
             ],
@@ -1931,15 +2977,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q37"
             ],
+            "CountriesOSM": [
+                "72596"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lsb": {
         "Burundian Sign Language": {
             "Language": "Burundian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q105196488",
+            "LanguageID": "http://www.wikidata.org/entity/Q105196488",
             "Regions": [
                 "Missing"
             ],
@@ -1955,15 +3015,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q967"
             ],
+            "CountriesOSM": [
+                "195269"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lsc": {
         "Albarradas Sign Language": {
             "Language": "Albarradas Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q110736970",
+            "LanguageID": "http://www.wikidata.org/entity/Q110736970",
             "Regions": [
                 "Missing"
             ],
@@ -1979,15 +3053,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q96"
             ],
+            "CountriesOSM": [
+                "114686"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lsl": {
         "Latvian Sign Language": {
             "Language": "Latvian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6497414",
+            "LanguageID": "http://www.wikidata.org/entity/Q6497414",
             "Regions": [
                 "Missing"
             ],
@@ -2003,16 +3091,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q211"
             ],
+            "CountriesOSM": [
+                "72594"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lsn": {
         "Tibetan Sign Language": {
             "Language": "Tibetan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q15936110",
+            "LanguageID": "http://www.wikidata.org/entity/Q15936110",
             "Regions": [
                 "Xinjiang",
                 "Tibetan people"
@@ -2031,15 +3133,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q148"
             ],
+            "CountriesOSM": [
+                "270056"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "500",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2018-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "lso": {
         "Laos Sign Language": {
             "Language": "Laos Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6488022",
+            "LanguageID": "http://www.wikidata.org/entity/Q6488022",
             "Regions": [
                 "Missing"
             ],
@@ -2055,16 +3171,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q819"
             ],
+            "CountriesOSM": [
+                "49903"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lsp": {
         "Panamanian Sign Language": {
             "Language": "Panamanian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7129968",
+            "LanguageID": "http://www.wikidata.org/entity/Q7129968",
             "Regions": [
                 "Missing"
             ],
@@ -2080,16 +3210,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q804"
             ],
+            "CountriesOSM": [
+                "287668"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lst": {
         "Trinidadian Sign Language": {
             "Language": "Trinidadian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7842495",
+            "LanguageID": "http://www.wikidata.org/entity/Q7842495",
             "Regions": [
                 "Missing"
             ],
@@ -2105,16 +3249,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q754"
             ],
+            "CountriesOSM": [
+                "555717"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lsv": {
         "Sivia Sign Language": {
             "Language": "Sivia Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q55558911",
+            "LanguageID": "http://www.wikidata.org/entity/Q55558911",
             "Regions": [
                 "Missing"
             ],
@@ -2130,15 +3288,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q419"
             ],
+            "CountriesOSM": [
+                "288247"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "62",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lsw": {
         "Seychelles Sign Language": {
             "Language": "Seychelles Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q110721423",
+            "LanguageID": "http://www.wikidata.org/entity/Q110721423",
             "Regions": [
                 "Missing"
             ],
@@ -2154,15 +3326,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1042"
             ],
+            "CountriesOSM": [
+                "536765"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lsy": {
         "Mauritian Sign Language": {
             "Language": "Mauritian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6793754",
+            "LanguageID": "http://www.wikidata.org/entity/Q6793754",
             "Regions": [
                 "Missing"
             ],
@@ -2178,16 +3364,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1027"
             ],
+            "CountriesOSM": [
+                "535828"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lws": {
         "Malawian Sign Language": {
             "Language": "Malawian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q47522462",
+            "LanguageID": "http://www.wikidata.org/entity/Q47522462",
             "Regions": [
                 "Missing"
             ],
@@ -2203,15 +3403,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1020"
             ],
+            "CountriesOSM": [
+                "195290"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mdl": {
         "Maltese Sign Language": {
             "Language": "Maltese Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6744816",
+            "LanguageID": "http://www.wikidata.org/entity/Q6744816",
             "Regions": [
                 "Missing"
             ],
@@ -2227,16 +3441,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q233"
             ],
+            "CountriesOSM": [
+                "365307"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mfs": {
         "Mexican Sign Language": {
             "Language": "Mexican Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915511",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915511",
             "Regions": [
                 "Mexico"
             ],
@@ -2252,17 +3480,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q96"
             ],
+            "CountriesOSM": [
+                "114686"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "msd": {
         "Yucatec Maya Sign Language": {
             "Language": "Yucatec Maya Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q34281",
+            "LanguageID": "http://www.wikidata.org/entity/Q34281",
             "Regions": [
                 "Yucatán",
                 "Quintana Roo"
@@ -2281,15 +3523,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q96"
             ],
+            "CountriesOSM": [
+                "114686"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "msr": {
         "Mongolian Sign Language": {
             "Language": "Mongolian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915499",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915499",
             "Regions": [
                 "Missing"
             ],
@@ -2305,16 +3561,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q711"
             ],
+            "CountriesOSM": [
+                "161033"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mzc": {
         "Madagascar Sign Language": {
             "Language": "Madagascar Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q12715020",
+            "LanguageID": "http://www.wikidata.org/entity/Q12715020",
             "Regions": [
                 "Missing"
             ],
@@ -2330,15 +3600,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1019"
             ],
+            "CountriesOSM": [
+                "447325"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mzy": {
         "Mozambican Sign Language": {
             "Language": "Mozambican Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6927809",
+            "LanguageID": "http://www.wikidata.org/entity/Q6927809",
             "Regions": [
                 "Nampula Province"
             ],
@@ -2354,16 +3638,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1029"
             ],
+            "CountriesOSM": [
+                "195273"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nbs": {
         "Namibian Sign Language": {
             "Language": "Namibian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6961792",
+            "LanguageID": "http://www.wikidata.org/entity/Q6961792",
             "Regions": [
                 "Missing"
             ],
@@ -2379,16 +3677,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1030"
             ],
+            "CountriesOSM": [
+                "195266"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ncs": {
         "Nicaraguan Sign Language": {
             "Language": "Nicaraguan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q33765",
+            "LanguageID": "http://www.wikidata.org/entity/Q33765",
             "Regions": [
                 "Managua Department"
             ],
@@ -2404,17 +3716,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q811"
             ],
+            "CountriesOSM": [
+                "287666"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nsi": {
         "Nigerian Sign Language": {
             "Language": "Nigerian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7033021",
+            "LanguageID": "http://www.wikidata.org/entity/Q7033021",
             "Regions": [
                 "Federal Capital Territory"
             ],
@@ -2430,16 +3756,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1033"
             ],
+            "CountriesOSM": [
+                "192787"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nsl": {
         "Norwegian Sign Language": {
             "Language": "Norwegian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q1781613",
+            "LanguageID": "http://www.wikidata.org/entity/Q1781613",
             "Regions": [
                 "Missing"
             ],
@@ -2455,15 +3795,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q20"
             ],
+            "CountriesOSM": [
+                "1059668"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nsp": {
         "Nepali Sign Language": {
             "Language": "Nepali Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915492",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915492",
             "Regions": [
                 "Missing"
             ],
@@ -2479,16 +3833,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q837"
             ],
+            "CountriesOSM": [
+                "184633"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nsr": {
         "Maritime Sign Language": {
             "Language": "Maritime Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915483",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915483",
             "Regions": [
                 "Nova Scotia",
                 "New Brunswick",
@@ -2510,16 +3878,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q16"
             ],
+            "CountriesOSM": [
+                "1428125"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nzs": {
         "New Zealand Sign Language": {
             "Language": "New Zealand Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q36239",
+            "LanguageID": "http://www.wikidata.org/entity/Q36239",
             "Regions": [
                 "Missing"
             ],
@@ -2535,15 +3917,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q664"
             ],
+            "CountriesOSM": [
+                "556706"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "20200",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pgz": {
         "Papua New Guinean Sign Language": {
             "Language": "Papua New Guinean Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q25044405",
+            "LanguageID": "http://www.wikidata.org/entity/Q25044405",
             "Regions": [
                 "Missing"
             ],
@@ -2559,17 +3955,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q691"
             ],
+            "CountriesOSM": [
+                "307866"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pks": {
         "Pakistan Sign Language": {
             "Language": "Pakistan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q22964057",
+            "LanguageID": "http://www.wikidata.org/entity/Q22964057",
             "Regions": [
                 "Pakistan"
             ],
@@ -2585,15 +3995,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q843"
             ],
+            "CountriesOSM": [
+                "307573"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "prl": {
         "Peruvian Sign Language": {
             "Language": "Peruvian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915508",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915508",
             "Regions": [
                 "Missing"
             ],
@@ -2609,15 +4033,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q419"
             ],
+            "CountriesOSM": [
+                "288247"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "prz": {
         "Providence Island Sign Language": {
             "Language": "Providence Island Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3322084",
+            "LanguageID": "http://www.wikidata.org/entity/Q3322084",
             "Regions": [
                 "Missing"
             ],
@@ -2633,15 +4071,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q739"
             ],
+            "CountriesOSM": [
+                "120027"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "psc": {
         "Iranian Sign Language": {
             "Language": "Iranian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7170221",
+            "LanguageID": "http://www.wikidata.org/entity/Q7170221",
             "Regions": [
                 "Missing"
             ],
@@ -2657,16 +4109,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q794"
             ],
+            "CountriesOSM": [
+                "304938"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "psd": {
         "Plains Indian Sign Language": {
             "Language": "Plains Indian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q2380124",
+            "LanguageID": "http://www.wikidata.org/entity/Q2380124",
             "Regions": [
                 "Iowa",
                 "Kansas",
@@ -2690,18 +4156,39 @@
                 "http://www.wikidata.org/entity/Q30",
                 "http://www.wikidata.org/entity/Q16"
             ],
+            "CountriesOSM": [
+                "148838",
+                "1428125"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "endangered language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "1000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                },
+                {
+                    "number": "75",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2015-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "psg": {
         "Penang Sign Language": {
             "Language": "Penang Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q4924925",
+            "LanguageID": "http://www.wikidata.org/entity/Q4924925",
             "Regions": [
                 "Penang"
             ],
@@ -2717,16 +4204,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q833"
             ],
+            "CountriesOSM": [
+                "2108121"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "psl": {
         "Puerto Rican Sign Language": {
             "Language": "Puerto Rican Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7258608",
+            "LanguageID": "http://www.wikidata.org/entity/Q7258608",
             "Regions": [
                 "Missing"
             ],
@@ -2742,16 +4243,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q30"
             ],
+            "CountriesOSM": [
+                "148838"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pso": {
         "Polish Sign Language": {
             "Language": "Polish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915194",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915194",
             "Regions": [
                 "Missing"
             ],
@@ -2767,16 +4282,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q36"
             ],
+            "CountriesOSM": [
+                "49715"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "psp": {
         "Philippine Sign Language": {
             "Language": "Philippine Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3551357",
+            "LanguageID": "http://www.wikidata.org/entity/Q3551357",
             "Regions": [
                 "Missing"
             ],
@@ -2792,16 +4321,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q928"
             ],
+            "CountriesOSM": [
+                "443174"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "psr": {
         "Portuguese Sign Language": {
             "Language": "Portuguese Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915472",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915472",
             "Regions": [
                 "Azores",
                 "Madeira"
@@ -2820,17 +4363,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q45"
             ],
+            "CountriesOSM": [
+                "295480"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pys": {
         "Paraguayan Sign Language": {
             "Language": "Paraguayan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7134698",
+            "LanguageID": "http://www.wikidata.org/entity/Q7134698",
             "Regions": [
                 "Missing"
             ],
@@ -2846,16 +4403,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q733"
             ],
+            "CountriesOSM": [
+                "287077"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "rib": {
         "Bribri Sign Language": {
             "Language": "Bribri Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q4965830",
+            "LanguageID": "http://www.wikidata.org/entity/Q4965830",
             "Regions": [
                 "Missing"
             ],
@@ -2871,15 +4442,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q800"
             ],
+            "CountriesOSM": [
+                "287667"
+            ],
             "Instances": [
                 "village sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "rms": {
         "Romanian Sign Language": {
             "Language": "Romanian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7362575",
+            "LanguageID": "http://www.wikidata.org/entity/Q7362575",
             "Regions": [
                 "Missing"
             ],
@@ -2895,16 +4480,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q218"
             ],
+            "CountriesOSM": [
+                "90689"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "rnb": {
         "Brunca Sign Language": {
             "Language": "Brunca Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q4978850",
+            "LanguageID": "http://www.wikidata.org/entity/Q4978850",
             "Regions": [
                 "Boruca"
             ],
@@ -2920,15 +4519,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q800"
             ],
+            "CountriesOSM": [
+                "287667"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "rsl": {
         "Russian Sign Language": {
             "Language": "Russian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q13210",
+            "LanguageID": "http://www.wikidata.org/entity/Q13210",
             "Regions": [
                 "Moscow",
                 "Saint Petersburg"
@@ -2947,17 +4560,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q159"
             ],
+            "CountriesOSM": [
+                "60189"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "120000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2010-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "rsm": {
         "Miriwoong Sign Language": {
             "Language": "Miriwoong Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q24090240",
+            "LanguageID": "http://www.wikidata.org/entity/Q24090240",
             "Regions": [
                 "Western Australia"
             ],
@@ -2973,15 +4600,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
             ],
+            "CountriesOSM": [
+                "80500"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "rsn": {
         "Rwandan Sign Language": {
             "Language": "Rwandan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q25041935",
+            "LanguageID": "http://www.wikidata.org/entity/Q25041935",
             "Regions": [
                 "Missing"
             ],
@@ -2997,15 +4638,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1037"
             ],
+            "CountriesOSM": [
+                "171496"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sdl": {
         "Saudi Sign Language": {
             "Language": "Saudi Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3504160",
+            "LanguageID": "http://www.wikidata.org/entity/Q3504160",
             "Regions": [
                 "Missing"
             ],
@@ -3021,16 +4676,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q851"
             ],
+            "CountriesOSM": [
+                "307584"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sfb": {
         "French Belgian Sign Language": {
             "Language": "French Belgian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3217332",
+            "LanguageID": "http://www.wikidata.org/entity/Q3217332",
             "Regions": [
                 "French Community of Belgium"
             ],
@@ -3046,15 +4715,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q31"
             ],
+            "CountriesOSM": [
+                "52411"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sfs": {
         "South African Sign Language": {
             "Language": "South African Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3322093",
+            "LanguageID": "http://www.wikidata.org/entity/Q3322093",
             "Regions": [
                 "Missing"
             ],
@@ -3070,17 +4753,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q258"
             ],
+            "CountriesOSM": [
+                "87565"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sgg": {
         "Swiss-German Sign Language": {
             "Language": "Swiss-German Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q35150",
+            "LanguageID": "http://www.wikidata.org/entity/Q35150",
             "Regions": [
                 "Missing"
             ],
@@ -3098,15 +4795,30 @@
                 "http://www.wikidata.org/entity/Q347",
                 "http://www.wikidata.org/entity/Q39"
             ],
+            "CountriesOSM": [
+                "1155955",
+                "51701"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sgx": {
         "Sierra Leonean Sign Language": {
             "Language": "Sierra Leonean Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7511448",
+            "LanguageID": "http://www.wikidata.org/entity/Q7511448",
             "Regions": [
                 "Western Area"
             ],
@@ -3122,16 +4834,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1044"
             ],
+            "CountriesOSM": [
+                "192777"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "slf": {
         "Swiss-Italian Sign Language": {
             "Language": "Swiss-Italian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953479",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953479",
             "Regions": [
                 "Canton of the Grisons",
                 "Ticino"
@@ -3150,15 +4876,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q39"
             ],
+            "CountriesOSM": [
+                "51701"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "300",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2010-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "sls": {
         "Singapore Sign Language": {
             "Language": "Singapore Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7512563",
+            "LanguageID": "http://www.wikidata.org/entity/Q7512563",
             "Regions": [
                 "Singapore"
             ],
@@ -3174,16 +4914,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q334"
             ],
+            "CountriesOSM": [
+                "536780"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sqk": {
         "Albanian Sign Language": {
             "Language": "Albanian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q4709168",
+            "LanguageID": "http://www.wikidata.org/entity/Q4709168",
             "Regions": [
                 "Missing"
             ],
@@ -3199,16 +4953,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q222"
             ],
+            "CountriesOSM": [
+                "53292"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "3000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2007-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "sqs": {
         "Sri Lankan Sign Language": {
             "Language": "Sri Lankan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915466",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915466",
             "Regions": [
                 "Missing"
             ],
@@ -3224,16 +4992,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q854"
             ],
+            "CountriesOSM": [
+                "536807"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "12800",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "1986-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "sqx": {
         "Kafr Qasem Sign Language": {
             "Language": "Kafr Qasem Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q24910662",
+            "LanguageID": "http://www.wikidata.org/entity/Q24910662",
             "Regions": [
                 "Missing"
             ],
@@ -3249,15 +5031,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q801"
             ],
+            "CountriesOSM": [
+                "1473946"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ssp": {
         "Spanish Sign Language": {
             "Language": "Spanish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3100814",
+            "LanguageID": "http://www.wikidata.org/entity/Q3100814",
             "Regions": [
                 "Catalonia",
                 "Valencian Community"
@@ -3276,17 +5072,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q29"
             ],
+            "CountriesOSM": [
+                "1311341"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ssr": {
         "Swiss-French Sign Language": {
             "Language": "Swiss-French Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953483",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953483",
             "Regions": [
                 "Canton of Geneva",
                 "Canton of Fribourg",
@@ -3311,15 +5121,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q39"
             ],
+            "CountriesOSM": [
+                "51701"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "svk": {
         "Slovak Sign Language": {
             "Language": "Slovak Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7541557",
+            "LanguageID": "http://www.wikidata.org/entity/Q7541557",
             "Regions": [
                 "Missing"
             ],
@@ -3335,16 +5159,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q214"
             ],
+            "CountriesOSM": [
+                "14296"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "swl": {
         "Swedish Sign Language": {
             "Language": "Swedish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q36558",
+            "LanguageID": "http://www.wikidata.org/entity/Q36558",
             "Regions": [
                 "Missing"
             ],
@@ -3360,17 +5198,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q34"
             ],
+            "CountriesOSM": [
+                "52822"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "8000",
+                    "place surveyed": "Missing",
+                    "number applies to": "first language",
+                    "time surveyed": "2021-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "syy": {
         "Al-Sayyid Bedouin Sign Language": {
             "Language": "Al-Sayyid Bedouin Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q2915457",
+            "LanguageID": "http://www.wikidata.org/entity/Q2915457",
             "Regions": [
                 "Southern District"
             ],
@@ -3386,16 +5238,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q801"
             ],
+            "CountriesOSM": [
+                "1473946"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "szs": {
         "Solomon Islands Sign Language": {
             "Language": "Solomon Islands Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q26449924",
+            "LanguageID": "http://www.wikidata.org/entity/Q26449924",
             "Regions": [
                 "Missing"
             ],
@@ -3411,15 +5277,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q685"
             ],
+            "CountriesOSM": [
+                "1857436"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tse": {
         "Tunisian Sign Language": {
             "Language": "Tunisian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7853191",
+            "LanguageID": "http://www.wikidata.org/entity/Q7853191",
             "Regions": [
                 "Missing"
             ],
@@ -3435,17 +5315,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q948"
             ],
+            "CountriesOSM": [
+                "192757"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tsm": {
         "Turkish Sign Language": {
             "Language": "Turkish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q36885",
+            "LanguageID": "http://www.wikidata.org/entity/Q36885",
             "Regions": [
                 "Missing"
             ],
@@ -3461,16 +5355,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q43"
             ],
+            "CountriesOSM": [
+                "174737"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tsq": {
         "Thai Sign Language": {
             "Language": "Thai Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7709156",
+            "LanguageID": "http://www.wikidata.org/entity/Q7709156",
             "Regions": [
                 "Bangkok"
             ],
@@ -3486,17 +5394,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q869"
             ],
+            "CountriesOSM": [
+                "2067731"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tss": {
         "Taiwanese Sign Language": {
             "Language": "Taiwanese Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q34019",
+            "LanguageID": "http://www.wikidata.org/entity/Q34019",
             "Regions": [
                 "Missing"
             ],
@@ -3512,16 +5434,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q865"
             ],
+            "CountriesOSM": [
+                "449220"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tsy": {
         "Tebul Sign Language": {
             "Language": "Tebul Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7692090",
+            "LanguageID": "http://www.wikidata.org/entity/Q7692090",
             "Regions": [
                 "Mopti Region"
             ],
@@ -3537,16 +5473,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q912"
             ],
+            "CountriesOSM": [
+                "192785"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "500",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2007-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "tza": {
         "Tanzanian Sign Language": {
             "Language": "Tanzanian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7684177",
+            "LanguageID": "http://www.wikidata.org/entity/Q7684177",
             "Regions": [
                 "Missing"
             ],
@@ -3562,16 +5512,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q924"
             ],
+            "CountriesOSM": [
+                "195270"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "278000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2008-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "ugn": {
         "Ugandan Sign Language": {
             "Language": "Ugandan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7877677",
+            "LanguageID": "http://www.wikidata.org/entity/Q7877677",
             "Regions": [
                 "Missing"
             ],
@@ -3587,16 +5551,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1036"
             ],
+            "CountriesOSM": [
+                "192796"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ugy": {
         "Uruguayan Sign Language": {
             "Language": "Uruguayan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q7901470",
+            "LanguageID": "http://www.wikidata.org/entity/Q7901470",
             "Regions": [
                 "Missing"
             ],
@@ -3612,16 +5590,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q77"
             ],
+            "CountriesOSM": [
+                "287072"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ukl": {
         "Ukrainian Sign Language": {
             "Language": "Ukrainian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q10322106",
+            "LanguageID": "http://www.wikidata.org/entity/Q10322106",
             "Regions": [
                 "Ukraine"
             ],
@@ -3637,15 +5629,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q212"
             ],
+            "CountriesOSM": [
+                "60199"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "219000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "uks": {
         "Ka'apor Sign Language": {
             "Language": "Ka'apor Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3322101",
+            "LanguageID": "http://www.wikidata.org/entity/Q3322101",
             "Regions": [
                 "Pará",
                 "Maranhão"
@@ -3664,15 +5670,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q155"
             ],
+            "CountriesOSM": [
+                "59470"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "0",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "vgt": {
         "Flemish Sign Language": {
             "Language": "Flemish Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q2107617",
+            "LanguageID": "http://www.wikidata.org/entity/Q2107617",
             "Regions": [
                 "Flemish Community"
             ],
@@ -3688,15 +5708,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q31"
             ],
+            "CountriesOSM": [
+                "52411"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "vsi": {
         "Moldovan Sign Language": {
             "Language": "Moldovan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953478",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953478",
             "Regions": [
                 "Missing"
             ],
@@ -3712,15 +5746,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q217"
             ],
+            "CountriesOSM": [
+                "58974"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "vsl": {
         "Venezuelan Sign Language": {
             "Language": "Venezuelan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q3322064",
+            "LanguageID": "http://www.wikidata.org/entity/Q3322064",
             "Regions": [
                 "Missing"
             ],
@@ -3736,16 +5784,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q717"
             ],
+            "CountriesOSM": [
+                "272644"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "vsv": {
         "Valencian Sign Language": {
             "Language": "Valencian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q32663",
+            "LanguageID": "http://www.wikidata.org/entity/Q32663",
             "Regions": [
                 "Valencian Community"
             ],
@@ -3761,15 +5823,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q29"
             ],
+            "CountriesOSM": [
+                "1311341"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xki": {
         "Kenyan Sign Language": {
             "Language": "Kenyan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6392859",
+            "LanguageID": "http://www.wikidata.org/entity/Q6392859",
             "Regions": [
                 "Missing"
             ],
@@ -3785,16 +5861,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q114"
             ],
+            "CountriesOSM": [
+                "192798"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xml": {
         "Malaysian Sign Language": {
             "Language": "Malaysian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q33420",
+            "LanguageID": "http://www.wikidata.org/entity/Q33420",
             "Regions": [
                 "Missing"
             ],
@@ -3810,15 +5900,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q833"
             ],
+            "CountriesOSM": [
+                "2108121"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xms": {
         "Moroccan Sign Language": {
             "Language": "Moroccan Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q6913107",
+            "LanguageID": "http://www.wikidata.org/entity/Q6913107",
             "Regions": [
                 "Missing"
             ],
@@ -3834,16 +5938,30 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1028"
             ],
+            "CountriesOSM": [
+                "3630439"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ygs": {
         "Yolŋu Sign Language": {
             "Language": "Yolŋu Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q16211970",
+            "LanguageID": "http://www.wikidata.org/entity/Q16211970",
             "Regions": [
                 "Northern Territory"
             ],
@@ -3859,17 +5977,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
             ],
+            "CountriesOSM": [
+                "80500"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "yhs": {
         "Yan-nhaŋu Sign Language": {
             "Language": "Yan-nhaŋu Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q61951665",
+            "LanguageID": "http://www.wikidata.org/entity/Q61951665",
             "Regions": [
                 "Northern Territory"
             ],
@@ -3885,17 +6017,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
             ],
+            "CountriesOSM": [
+                "80500"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "10",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2014-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "ysl": {
         "Yugoslav Sign Language": {
             "Language": "Yugoslav Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q8060373",
+            "LanguageID": "http://www.wikidata.org/entity/Q8060373",
             "Regions": [
                 "Missing"
             ],
@@ -3913,16 +6059,31 @@
                 "http://www.wikidata.org/entity/Q403",
                 "http://www.wikidata.org/entity/Q215"
             ],
+            "CountriesOSM": [
+                "1741311",
+                "218657"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ysm": {
         "Burmese Sign Language": {
             "Language": "Burmese Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q17027255",
+            "LanguageID": "http://www.wikidata.org/entity/Q17027255",
             "Regions": [
                 "Missing"
             ],
@@ -3938,15 +6099,29 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q836"
             ],
+            "CountriesOSM": [
+                "50371"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "zib": {
         "Zimbabwe Sign Language": {
             "Language": "Zimbabwe Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q8072097",
+            "LanguageID": "http://www.wikidata.org/entity/Q8072097",
             "Regions": [
                 "Mashonaland Central Province"
             ],
@@ -3962,17 +6137,31 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q954"
             ],
+            "CountriesOSM": [
+                "195272"
+            ],
             "Instances": [
                 "sign language",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "280000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2008-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "zsl": {
         "Zambian Sign Language": {
             "Language": "Zambian Sign Language",
-            "LangugeID": "http://www.wikidata.org/entity/Q8065713",
+            "LanguageID": "http://www.wikidata.org/entity/Q8065713",
             "Regions": [
                 "Missing"
             ],
@@ -3988,9 +6177,23 @@
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q953"
             ],
+            "CountriesOSM": [
+                "195271"
+            ],
             "Instances": [
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     }

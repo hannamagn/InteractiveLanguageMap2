@@ -2,7 +2,7 @@
     "aam": {
         "Aramanik": {
             "Language": "Aramanik",
-            "LangugeID": "http://www.wikidata.org/entity/Q56541",
+            "LanguageID": "http://www.wikidata.org/entity/Q56541",
             "Regions": [
                 "Missing"
             ],
@@ -18,15 +18,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "aax": {
         "Mandobo Atas": {
             "Language": "Mandobo Atas",
-            "LangugeID": "http://www.wikidata.org/entity/Q12636156",
+            "LanguageID": "http://www.wikidata.org/entity/Q12636156",
             "Regions": [
                 "Missing"
             ],
@@ -42,16 +56,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "acc": {
         "Cubulco Achí": {
             "Language": "Cubulco Achí",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953347",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953347",
             "Regions": [
                 "Missing"
             ],
@@ -67,15 +95,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "agp": {
         "Paranan": {
             "Language": "Paranan",
-            "LangugeID": "http://www.wikidata.org/entity/Q12639299",
+            "LanguageID": "http://www.wikidata.org/entity/Q12639299",
             "Regions": [
                 "Missing"
             ],
@@ -91,15 +133,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ahe": {
         "Ahe": {
             "Language": "Ahe",
-            "LangugeID": "http://www.wikidata.org/entity/Q3330979",
+            "LanguageID": "http://www.wikidata.org/entity/Q3330979",
             "Regions": [
                 "Missing"
             ],
@@ -115,15 +171,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "arb": {
         "Standard Arabic": {
             "Language": "Standard Arabic",
-            "LangugeID": "http://www.wikidata.org/entity/Q122602987",
+            "LanguageID": "http://www.wikidata.org/entity/Q122602987",
             "Regions": [
                 "Missing"
             ],
@@ -139,15 +209,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bgm": {
         "Baga Mboteni": {
             "Language": "Baga Mboteni",
-            "LangugeID": "http://www.wikidata.org/entity/Q34875",
+            "LanguageID": "http://www.wikidata.org/entity/Q34875",
             "Regions": [
                 "Missing"
             ],
@@ -163,15 +247,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Naluic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bhk": {
         "Albay Bikol": {
             "Language": "Albay Bikol",
-            "LangugeID": "http://www.wikidata.org/entity/Q4709467",
+            "LanguageID": "http://www.wikidata.org/entity/Q4709467",
             "Regions": [
                 "Missing"
             ],
@@ -187,15 +285,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Bikol"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bjd": {
         "Bandjigali": {
             "Language": "Bandjigali",
-            "LangugeID": "http://www.wikidata.org/entity/Q10425920",
+            "LanguageID": "http://www.wikidata.org/entity/Q10425920",
             "Regions": [
                 "Missing"
             ],
@@ -211,15 +323,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bkb": {
         "Finallig": {
             "Language": "Finallig",
-            "LangugeID": "http://www.wikidata.org/entity/Q12631018",
+            "LanguageID": "http://www.wikidata.org/entity/Q12631018",
             "Regions": [
                 "Missing"
             ],
@@ -235,15 +361,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "blg": {
         "Balau": {
             "Language": "Balau",
-            "LangugeID": "http://www.wikidata.org/entity/Q4850134",
+            "LanguageID": "http://www.wikidata.org/entity/Q4850134",
             "Regions": [
                 "Missing"
             ],
@@ -259,16 +399,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Dayak"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "blu": {
         "Miao": {
             "Language": "Miao",
-            "LangugeID": "http://www.wikidata.org/entity/Q33813",
+            "LanguageID": "http://www.wikidata.org/entity/Q33813",
             "Regions": [
                 "Missing"
             ],
@@ -284,15 +438,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "West Hmongic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "4000000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bnc": {
         "Bontoc": {
             "Language": "Bontoc",
-            "LangugeID": "http://www.wikidata.org/entity/Q4942634",
+            "LanguageID": "http://www.wikidata.org/entity/Q4942634",
             "Regions": [
                 "Missing"
             ],
@@ -308,17 +476,31 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "macrolanguage",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Meso-Cordilleran"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "boc": {
         "Bakung Kenyah": {
             "Language": "Bakung Kenyah",
-            "LangugeID": "http://www.wikidata.org/entity/Q14697981",
+            "LanguageID": "http://www.wikidata.org/entity/Q14697981",
             "Regions": [
                 "Missing"
             ],
@@ -334,15 +516,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bqe": {
         "Navarro-Labourdin": {
             "Language": "Navarro-Labourdin",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953386",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953386",
             "Regions": [
                 "Missing"
             ],
@@ -358,16 +554,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect",
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bsd": {
         "Sarawak Bisaya": {
             "Language": "Sarawak Bisaya",
-            "LangugeID": "http://www.wikidata.org/entity/Q12641773",
+            "LanguageID": "http://www.wikidata.org/entity/Q12641773",
             "Regions": [
                 "Missing"
             ],
@@ -383,15 +593,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "bxt": {
         "Buxinhua": {
             "Language": "Buxinhua",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953415",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953415",
             "Regions": [
                 "Missing"
             ],
@@ -407,15 +631,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "byu": {
         "Buyang": {
             "Language": "Buyang",
-            "LangugeID": "http://www.wikidata.org/entity/Q1109927",
+            "LanguageID": "http://www.wikidata.org/entity/Q1109927",
             "Regions": [
                 "Missing"
             ],
@@ -431,15 +669,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Kra"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cbm": {
         "Yepocapa Southwestern Cakchiquel": {
             "Language": "Yepocapa Southwestern Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q12645389",
+            "LanguageID": "http://www.wikidata.org/entity/Q12645389",
             "Regions": [
                 "Missing"
             ],
@@ -455,15 +707,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ccq": {
         "Chaungtha": {
             "Language": "Chaungtha",
-            "LangugeID": "http://www.wikidata.org/entity/Q12628927",
+            "LanguageID": "http://www.wikidata.org/entity/Q12628927",
             "Regions": [
                 "Missing"
             ],
@@ -479,15 +745,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ccx": {
         "Northern Zhuang": {
             "Language": "Northern Zhuang",
-            "LangugeID": "http://www.wikidata.org/entity/Q3575458",
+            "LanguageID": "http://www.wikidata.org/entity/Q3575458",
             "Regions": [
                 "Missing"
             ],
@@ -503,15 +783,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Northern Tai"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ccy": {
         "Southern Zhuang": {
             "Language": "Southern Zhuang",
-            "LangugeID": "http://www.wikidata.org/entity/Q12954012",
+            "LanguageID": "http://www.wikidata.org/entity/Q12954012",
             "Regions": [
                 "Missing"
             ],
@@ -527,15 +821,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Kra–Dai"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cjr": {
         "Chorotega": {
             "Language": "Chorotega",
-            "LangugeID": "http://www.wikidata.org/entity/Q12645985",
+            "LanguageID": "http://www.wikidata.org/entity/Q12645985",
             "Regions": [
                 "Missing"
             ],
@@ -551,15 +859,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cka": {
         "Khumi Awa Chin": {
             "Language": "Khumi Awa Chin",
-            "LangugeID": "http://www.wikidata.org/entity/Q16114387",
+            "LanguageID": "http://www.wikidata.org/entity/Q16114387",
             "Regions": [
                 "Missing"
             ],
@@ -575,15 +897,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ckc": {
         "Northern Cakchiquel": {
             "Language": "Northern Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q12642167",
+            "LanguageID": "http://www.wikidata.org/entity/Q12642167",
             "Regions": [
                 "Missing"
             ],
@@ -599,15 +935,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ckd": {
         "South Central Cakchiquel": {
             "Language": "South Central Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559638",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559638",
             "Regions": [
                 "Missing"
             ],
@@ -623,15 +973,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cke": {
         "Eastern Cakchiquel": {
             "Language": "Eastern Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559647",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559647",
             "Regions": [
                 "Missing"
             ],
@@ -647,15 +1011,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ckf": {
         "Southern Cakchiquel": {
             "Language": "Southern Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559649",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559649",
             "Regions": [
                 "Missing"
             ],
@@ -671,15 +1049,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cki": {
         "Santa María De Jesús Cakchiquel": {
             "Language": "Santa María De Jesús Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953613",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953613",
             "Regions": [
                 "Missing"
             ],
@@ -695,15 +1087,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ckj": {
         "Santo Domingo Xenacoj Cakchiquel": {
             "Language": "Santo Domingo Xenacoj Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953614",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953614",
             "Regions": [
                 "Missing"
             ],
@@ -719,15 +1125,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ckk": {
         "Acatenango Southwestern Cakchiquel": {
             "Language": "Acatenango Southwestern Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559650",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559650",
             "Regions": [
                 "Missing"
             ],
@@ -743,15 +1163,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ckw": {
         "Western Cakchiquel": {
             "Language": "Western Cakchiquel",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559653",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559653",
             "Regions": [
                 "Missing"
             ],
@@ -767,15 +1201,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cls": {
         "Classical Sanskrit": {
             "Language": "Classical Sanskrit",
-            "LangugeID": "http://www.wikidata.org/entity/Q9333703",
+            "LanguageID": "http://www.wikidata.org/entity/Q9333703",
             "Regions": [
                 "Missing"
             ],
@@ -791,15 +1239,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "coy": {
         "Coyaima": {
             "Language": "Coyaima",
-            "LangugeID": "http://www.wikidata.org/entity/Q56450",
+            "LanguageID": "http://www.wikidata.org/entity/Q56450",
             "Regions": [
                 "Missing"
             ],
@@ -815,15 +1277,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cru": {
         "Carútana": {
             "Language": "Carútana",
-            "LangugeID": "http://www.wikidata.org/entity/Q12628715",
+            "LanguageID": "http://www.wikidata.org/entity/Q12628715",
             "Regions": [
                 "Missing"
             ],
@@ -839,15 +1315,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cti": {
         "Tila Chol": {
             "Language": "Tila Chol",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559605",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559605",
             "Regions": [
                 "Missing"
             ],
@@ -863,15 +1353,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cun": {
         "Cunén Quiché": {
             "Language": "Cunén Quiché",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953588",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953588",
             "Regions": [
                 "Missing"
             ],
@@ -887,15 +1391,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "cxh": {
         "Chaari": {
             "Language": "Chaari",
-            "LangugeID": "http://www.wikidata.org/entity/Q50934243",
+            "LanguageID": "http://www.wikidata.org/entity/Q50934243",
             "Regions": [
                 "Missing"
             ],
@@ -911,16 +1429,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect",
                 "natural language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dap": {
         "Nisi": {
             "Language": "Nisi",
-            "LangugeID": "http://www.wikidata.org/entity/Q12952961",
+            "LanguageID": "http://www.wikidata.org/entity/Q12952961",
             "Regions": [
                 "Missing"
             ],
@@ -936,15 +1468,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language group"
+            ],
+            "immediate_Language_Families": [
+                "Tani"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dat": {
         "Darang Deng": {
             "Language": "Darang Deng",
-            "LangugeID": "http://www.wikidata.org/entity/Q12952372",
+            "LanguageID": "http://www.wikidata.org/entity/Q12952372",
             "Regions": [
                 "Missing"
             ],
@@ -960,15 +1506,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dds": {
         "Donno So Dogon": {
             "Language": "Donno So Dogon",
-            "LangugeID": "http://www.wikidata.org/entity/Q111364656",
+            "LanguageID": "http://www.wikidata.org/entity/Q111364656",
             "Regions": [
                 "Missing"
             ],
@@ -984,16 +1544,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dih": {
         "Diegueño": {
             "Language": "Diegueño",
-            "LangugeID": "http://www.wikidata.org/entity/Q20064918",
+            "LanguageID": "http://www.wikidata.org/entity/Q20064918",
             "Regions": [
                 "Missing"
             ],
@@ -1009,15 +1583,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Yuman–Cochimí"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "diq": {
         "Southern Zazaki": {
             "Language": "Southern Zazaki",
-            "LangugeID": "http://www.wikidata.org/entity/Q3943996",
+            "LanguageID": "http://www.wikidata.org/entity/Q3943996",
             "Regions": [
                 "Missing"
             ],
@@ -1033,15 +1621,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dkl": {
         "Kolum So Dogon": {
             "Language": "Kolum So Dogon",
-            "LangugeID": "http://www.wikidata.org/entity/Q11006344",
+            "LanguageID": "http://www.wikidata.org/entity/Q11006344",
             "Regions": [
                 "Missing"
             ],
@@ -1057,15 +1659,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "doi": {
         "Dogri-Kangri-Bhateali": {
             "Language": "Dogri-Kangri-Bhateali",
-            "LangugeID": "http://www.wikidata.org/entity/Q5583349",
+            "LanguageID": "http://www.wikidata.org/entity/Q5583349",
             "Regions": [
                 "Missing"
             ],
@@ -1081,18 +1697,32 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language family",
                 "natural language",
                 "macrolanguage",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Northern Indo-Aryan"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "drh": {
         "Darkhad": {
             "Language": "Darkhad",
-            "LangugeID": "http://www.wikidata.org/entity/Q56555",
+            "LanguageID": "http://www.wikidata.org/entity/Q56555",
             "Regions": [
                 "Missing"
             ],
@@ -1108,15 +1738,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "drw": {
         "Darwazi": {
             "Language": "Darwazi",
-            "LangugeID": "http://www.wikidata.org/entity/Q4155022",
+            "LanguageID": "http://www.wikidata.org/entity/Q4155022",
             "Regions": [
                 "Missing"
             ],
@@ -1132,15 +1776,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dsk": {
         "Dokshi": {
             "Language": "Dokshi",
-            "LangugeID": "http://www.wikidata.org/entity/Q116450964",
+            "LanguageID": "http://www.wikidata.org/entity/Q116450964",
             "Regions": [
                 "Missing"
             ],
@@ -1156,15 +1814,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dwz": {
         "Danuwar": {
             "Language": "Danuwar",
-            "LangugeID": "http://www.wikidata.org/entity/Q62663667",
+            "LanguageID": "http://www.wikidata.org/entity/Q62663667",
             "Regions": [
                 "Missing"
             ],
@@ -1180,16 +1852,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Bihari"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "dyr": {
         "Dyarim": {
             "Language": "Dyarim",
-            "LangugeID": "http://www.wikidata.org/entity/Q52395140",
+            "LanguageID": "http://www.wikidata.org/entity/Q52395140",
             "Regions": [
                 "Missing"
             ],
@@ -1205,15 +1891,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "egm": {
         "Benamanga": {
             "Language": "Benamanga",
-            "LangugeID": "http://www.wikidata.org/entity/Q110736897",
+            "LanguageID": "http://www.wikidata.org/entity/Q110736897",
             "Regions": [
                 "Missing"
             ],
@@ -1229,15 +1929,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Bantoid"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "eni": {
         "Enim": {
             "Language": "Enim",
-            "LangugeID": "http://www.wikidata.org/entity/Q12952415",
+            "LanguageID": "http://www.wikidata.org/entity/Q12952415",
             "Regions": [
                 "Missing"
             ],
@@ -1253,15 +1967,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "eud": {
         "Eudeve": {
             "Language": "Eudeve",
-            "LangugeID": "http://www.wikidata.org/entity/Q7887299",
+            "LanguageID": "http://www.wikidata.org/entity/Q7887299",
             "Regions": [
                 "Missing"
             ],
@@ -1277,15 +2005,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ful": {
         "Fula": {
             "Language": "Fula",
-            "LangugeID": "http://www.wikidata.org/entity/Q33454",
+            "LanguageID": "http://www.wikidata.org/entity/Q33454",
             "Regions": [
                 "Missing"
             ],
@@ -1301,17 +2043,31 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "natural language",
                 "macrolanguage",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Senegambian"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "24000000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2007-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "gav": {
         "Gabutamon": {
             "Language": "Gabutamon",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559467",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559467",
             "Regions": [
                 "Missing"
             ],
@@ -1327,15 +2083,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ggn": {
         "Eastern Gurung": {
             "Language": "Eastern Gurung",
-            "LangugeID": "http://www.wikidata.org/entity/Q12952472",
+            "LanguageID": "http://www.wikidata.org/entity/Q12952472",
             "Regions": [
                 "Missing"
             ],
@@ -1351,15 +2121,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ggo": {
         "Southern Gondi": {
             "Language": "Southern Gondi",
-            "LangugeID": "http://www.wikidata.org/entity/Q12952462",
+            "LanguageID": "http://www.wikidata.org/entity/Q12952462",
             "Regions": [
                 "Missing"
             ],
@@ -1375,15 +2159,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "gie": {
         "Guébie": {
             "Language": "Guébie",
-            "LangugeID": "http://www.wikidata.org/entity/Q63140714",
+            "LanguageID": "http://www.wikidata.org/entity/Q63140714",
             "Regions": [
                 "Missing"
             ],
@@ -1399,16 +2197,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Kru"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "gti": {
         "Gbati-ri": {
             "Language": "Gbati-ri",
-            "LangugeID": "http://www.wikidata.org/entity/Q11006876",
+            "LanguageID": "http://www.wikidata.org/entity/Q11006876",
             "Regions": [
                 "Missing"
             ],
@@ -1424,15 +2236,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hnd": {
         "Southern Hindko": {
             "Language": "Southern Hindko",
-            "LangugeID": "http://www.wikidata.org/entity/Q111326242",
+            "LanguageID": "http://www.wikidata.org/entity/Q111326242",
             "Regions": [
                 "Missing"
             ],
@@ -1448,15 +2274,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect group"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hng": {
         "Hungu": {
             "Language": "Hungu",
-            "LangugeID": "http://www.wikidata.org/entity/Q116456373",
+            "LanguageID": "http://www.wikidata.org/entity/Q116456373",
             "Regions": [
                 "Missing"
             ],
@@ -1472,15 +2312,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hno": {
         "Northern Hindko": {
             "Language": "Northern Hindko",
-            "LangugeID": "http://www.wikidata.org/entity/Q112812073",
+            "LanguageID": "http://www.wikidata.org/entity/Q112812073",
             "Regions": [
                 "Missing"
             ],
@@ -1496,15 +2350,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect group"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hrr": {
         "Horuru": {
             "Language": "Horuru",
-            "LangugeID": "http://www.wikidata.org/entity/Q12632397",
+            "LanguageID": "http://www.wikidata.org/entity/Q12632397",
             "Regions": [
                 "Missing"
             ],
@@ -1520,15 +2388,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "hsf": {
         "Southeastern Huastec": {
             "Language": "Southeastern Huastec",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953569",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953569",
             "Regions": [
                 "Missing"
             ],
@@ -1544,15 +2426,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ibi": {
         "Ibilo": {
             "Language": "Ibilo",
-            "LangugeID": "http://www.wikidata.org/entity/Q11011534",
+            "LanguageID": "http://www.wikidata.org/entity/Q11011534",
             "Regions": [
                 "Missing"
             ],
@@ -1568,15 +2464,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ikt": {
         "Western Canadian Inuktitut": {
             "Language": "Western Canadian Inuktitut",
-            "LangugeID": "http://www.wikidata.org/entity/Q16653174",
+            "LanguageID": "http://www.wikidata.org/entity/Q16653174",
             "Regions": [
                 "Missing"
             ],
@@ -1590,19 +2500,33 @@
                 "Missing"
             ],
             "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
                 "Missing"
             ],
             "Instances": [
                 "natural language",
                 "dialect continuum",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ill": {
         "Iranun": {
             "Language": "Iranun",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953581",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953581",
             "Regions": [
                 "Missing"
             ],
@@ -1618,15 +2542,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Danao"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ils": {
         "International Sign": {
             "Language": "International Sign",
-            "LangugeID": "http://www.wikidata.org/entity/Q35754",
+            "LanguageID": "http://www.wikidata.org/entity/Q35754",
             "Regions": [
                 "Missing"
             ],
@@ -1640,19 +2578,33 @@
                 "Missing"
             ],
             "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
                 "Missing"
             ],
             "Instances": [
                 "pidgin",
                 "sign language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ilw": {
         "Talur": {
             "Language": "Talur",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953174",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953174",
             "Regions": [
                 "Missing"
             ],
@@ -1668,15 +2620,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "isv": {
         "Interslavic": {
             "Language": "Interslavic",
-            "LangugeID": "http://www.wikidata.org/entity/Q148971",
+            "LanguageID": "http://www.wikidata.org/entity/Q148971",
             "Regions": [
                 "Missing"
             ],
@@ -1690,19 +2656,39 @@
                 "Missing"
             ],
             "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
                 "Missing"
             ],
             "Instances": [
                 "pan-Slavic language",
                 "international auxiliary language",
                 "zonal auxiliary language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "2000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2017-01-01T00:00:00Z"
+                },
+                {
+                    "number": "7000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2020-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "itu": {
         "Itutang": {
             "Language": "Itutang",
-            "LangugeID": "http://www.wikidata.org/entity/Q11732253",
+            "LanguageID": "http://www.wikidata.org/entity/Q11732253",
             "Regions": [
                 "Missing"
             ],
@@ -1718,15 +2704,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ixj": {
         "Chajul Ixil": {
             "Language": "Chajul Ixil",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953591",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953591",
             "Regions": [
                 "Missing"
             ],
@@ -1742,15 +2742,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "izm": {
         "Kizamani": {
             "Language": "Kizamani",
-            "LangugeID": "http://www.wikidata.org/entity/Q116450533",
+            "LanguageID": "http://www.wikidata.org/entity/Q116450533",
             "Regions": [
                 "Missing"
             ],
@@ -1766,15 +2780,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jbo": {
         "Lojban": {
             "Language": "Lojban",
-            "LangugeID": "http://www.wikidata.org/entity/Q36350",
+            "LanguageID": "http://www.wikidata.org/entity/Q36350",
             "Regions": [
                 "Missing"
             ],
@@ -1790,16 +2818,36 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "logical language",
                 "engineered language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "0",
+                    "place surveyed": "Missing",
+                    "number applies to": "first language",
+                    "time surveyed": "2018-01-01T00:00:00Z"
+                },
+                {
+                    "number": "http://www.wikidata.org/.well-known/genid/7b92dc65a719c7658324709df03a3031",
+                    "place surveyed": "Missing",
+                    "number applies to": "second language",
+                    "time surveyed": "2018-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "jeg": {
         "Cheng": {
             "Language": "Cheng",
-            "LangugeID": "http://www.wikidata.org/entity/Q5091274",
+            "LanguageID": "http://www.wikidata.org/entity/Q5091274",
             "Regions": [
                 "Missing"
             ],
@@ -1815,15 +2863,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jms": {
         "Mashi": {
             "Language": "Mashi",
-            "LangugeID": "http://www.wikidata.org/entity/Q11028619",
+            "LanguageID": "http://www.wikidata.org/entity/Q11028619",
             "Regions": [
                 "Missing"
             ],
@@ -1839,16 +2901,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Beboid"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "jrb": {
         "Judeo-Arabic": {
             "Language": "Judeo-Arabic",
-            "LangugeID": "http://www.wikidata.org/entity/Q37733",
+            "LanguageID": "http://www.wikidata.org/entity/Q37733",
             "Regions": [
                 "Missing"
             ],
@@ -1862,19 +2938,33 @@
                 "Missing"
             ],
             "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
                 "Missing"
             ],
             "Instances": [
                 "language",
                 "macrolanguage",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kgc": {
         "Kasseng": {
             "Language": "Kasseng",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953621",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953621",
             "Regions": [
                 "Missing"
             ],
@@ -1890,15 +2980,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kgd": {
         "Kataang": {
             "Language": "Kataang",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953622",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953622",
             "Regions": [
                 "Missing"
             ],
@@ -1914,15 +3018,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Ta’Oi"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "koj": {
         "Sara Dunjo": {
             "Language": "Sara Dunjo",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559316",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559316",
             "Regions": [
                 "Missing"
             ],
@@ -1938,15 +3056,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kpp": {
         "Paku-Mobwa Karen": {
             "Language": "Paku-Mobwa Karen",
-            "LangugeID": "http://www.wikidata.org/entity/Q124987962",
+            "LanguageID": "http://www.wikidata.org/entity/Q124987962",
             "Regions": [
                 "Missing"
             ],
@@ -1962,15 +3094,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language group"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "krg": {
         "North Korowai": {
             "Language": "North Korowai",
-            "LangugeID": "http://www.wikidata.org/entity/Q12952661",
+            "LanguageID": "http://www.wikidata.org/entity/Q12952661",
             "Regions": [
                 "Missing"
             ],
@@ -1986,15 +3132,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "krq": {
         "Krui": {
             "Language": "Krui",
-            "LangugeID": "http://www.wikidata.org/entity/Q12634963",
+            "LanguageID": "http://www.wikidata.org/entity/Q12634963",
             "Regions": [
                 "Missing"
             ],
@@ -2010,15 +3170,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ktr": {
         "Kota Marudu Tinagas": {
             "Language": "Kota Marudu Tinagas",
-            "LangugeID": "http://www.wikidata.org/entity/Q18642280",
+            "LanguageID": "http://www.wikidata.org/entity/Q18642280",
             "Regions": [
                 "Missing"
             ],
@@ -2034,15 +3208,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Dusunic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kvs": {
         "Kunggara": {
             "Language": "Kunggara",
-            "LangugeID": "http://www.wikidata.org/entity/Q10550183",
+            "LanguageID": "http://www.wikidata.org/entity/Q10550183",
             "Regions": [
                 "Missing"
             ],
@@ -2058,15 +3246,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kwq": {
         "Kwak": {
             "Language": "Kwak",
-            "LangugeID": "http://www.wikidata.org/entity/Q11014183",
+            "LanguageID": "http://www.wikidata.org/entity/Q11014183",
             "Regions": [
                 "Missing"
             ],
@@ -2082,15 +3284,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kxe": {
         "Kakihum": {
             "Language": "Kakihum",
-            "LangugeID": "http://www.wikidata.org/entity/Q3914433",
+            "LanguageID": "http://www.wikidata.org/entity/Q3914433",
             "Regions": [
                 "Missing"
             ],
@@ -2106,15 +3322,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kxg": {
         "Katingan": {
             "Language": "Katingan",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559468",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559468",
             "Regions": [
                 "Missing"
             ],
@@ -2128,19 +3358,34 @@
                 "Missing"
             ],
             "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
                 "Missing"
             ],
             "Instances": [
                 "dialect",
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "South Barito",
+                "West Barito"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kzh": {
         "Kenuzi-Dongola": {
             "Language": "Kenuzi-Dongola",
-            "LangugeID": "http://www.wikidata.org/entity/Q5295991",
+            "LanguageID": "http://www.wikidata.org/entity/Q5295991",
             "Regions": [
                 "Missing"
             ],
@@ -2156,15 +3401,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Nubian"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "kzt": {
         "Tambunan Dusun": {
             "Language": "Tambunan Dusun",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953514",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953514",
             "Regions": [
                 "Missing"
             ],
@@ -2180,15 +3439,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lii": {
         "Lingkhim": {
             "Language": "Lingkhim",
-            "LangugeID": "http://www.wikidata.org/entity/Q12635536",
+            "LanguageID": "http://www.wikidata.org/entity/Q12635536",
             "Regions": [
                 "Missing"
             ],
@@ -2204,15 +3477,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lnt": {
         "Lintang": {
             "Language": "Lintang",
-            "LangugeID": "http://www.wikidata.org/entity/Q12952727",
+            "LanguageID": "http://www.wikidata.org/entity/Q12952727",
             "Regions": [
                 "Missing"
             ],
@@ -2228,15 +3515,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "lvl": {
         "Lwel": {
             "Language": "Lwel",
-            "LangugeID": "http://www.wikidata.org/entity/Q93936908",
+            "LanguageID": "http://www.wikidata.org/entity/Q93936908",
             "Regions": [
                 "Missing"
             ],
@@ -2252,15 +3553,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mbg": {
         "Northern Nambikuára": {
             "Language": "Northern Nambikuára",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953767",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953767",
             "Regions": [
                 "Missing"
             ],
@@ -2276,15 +3591,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language family"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "meg": {
         "Mea": {
             "Language": "Mea",
-            "LangugeID": "http://www.wikidata.org/entity/Q12952836",
+            "LanguageID": "http://www.wikidata.org/entity/Q12952836",
             "Regions": [
                 "Missing"
             ],
@@ -2300,15 +3629,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mgx": {
         "Omati": {
             "Language": "Omati",
-            "LangugeID": "http://www.wikidata.org/entity/Q7089905",
+            "LanguageID": "http://www.wikidata.org/entity/Q7089905",
             "Regions": [
                 "Missing"
             ],
@@ -2324,15 +3667,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "miv": {
         "Mimi": {
             "Language": "Mimi",
-            "LangugeID": "http://www.wikidata.org/entity/Q6862203",
+            "LanguageID": "http://www.wikidata.org/entity/Q6862203",
             "Regions": [
                 "Missing"
             ],
@@ -2348,15 +3705,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mnt": {
         "Maykulan": {
             "Language": "Maykulan",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915696",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915696",
             "Regions": [
                 "Missing"
             ],
@@ -2372,15 +3743,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Mayabic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mof": {
         "Mohegan-Montauk-Narragansett": {
             "Language": "Mohegan-Montauk-Narragansett",
-            "LangugeID": "http://www.wikidata.org/entity/Q16116122",
+            "LanguageID": "http://www.wikidata.org/entity/Q16116122",
             "Regions": [
                 "Missing"
             ],
@@ -2396,15 +3781,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Eastern Algonquian"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mpf": {
         "Tajumulco Mam": {
             "Language": "Tajumulco Mam",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953695",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953695",
             "Regions": [
                 "Missing"
             ],
@@ -2420,15 +3819,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mqd": {
         "Madang": {
             "Language": "Madang",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953683",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953683",
             "Regions": [
                 "Missing"
             ],
@@ -2444,15 +3857,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "mzg": {
         "Monastic sign languages": {
             "Language": "Monastic sign languages",
-            "LangugeID": "http://www.wikidata.org/entity/Q3217333",
+            "LanguageID": "http://www.wikidata.org/entity/Q3217333",
             "Regions": [
                 "Missing"
             ],
@@ -2468,15 +3895,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nad": {
         "Nijadali": {
             "Language": "Nijadali",
-            "LangugeID": "http://www.wikidata.org/entity/Q10600723",
+            "LanguageID": "http://www.wikidata.org/entity/Q10600723",
             "Regions": [
                 "Missing"
             ],
@@ -2492,15 +3933,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nbx": {
         "Ngura": {
             "Language": "Ngura",
-            "LangugeID": "http://www.wikidata.org/entity/Q13653138",
+            "LanguageID": "http://www.wikidata.org/entity/Q13653138",
             "Regions": [
                 "Missing"
             ],
@@ -2516,15 +3971,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language family"
+            ],
+            "immediate_Language_Families": [
+                "Karnic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nfg": {
         "Nyeng": {
             "Language": "Nyeng",
-            "LangugeID": "http://www.wikidata.org/entity/Q11152253",
+            "LanguageID": "http://www.wikidata.org/entity/Q11152253",
             "Regions": [
                 "Missing"
             ],
@@ -2540,15 +4009,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nfk": {
         "Shakara": {
             "Language": "Shakara",
-            "LangugeID": "http://www.wikidata.org/entity/Q11018949",
+            "LanguageID": "http://www.wikidata.org/entity/Q11018949",
             "Regions": [
                 "Missing"
             ],
@@ -2564,15 +4047,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nlm": {
         "Mankiyali": {
             "Language": "Mankiyali",
-            "LangugeID": "http://www.wikidata.org/entity/Q47522426",
+            "LanguageID": "http://www.wikidata.org/entity/Q47522426",
             "Regions": [
                 "Missing"
             ],
@@ -2588,16 +4085,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "natural language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nln": {
         "Mexicanero": {
             "Language": "Mexicanero",
-            "LangugeID": "http://www.wikidata.org/entity/Q2386361",
+            "LanguageID": "http://www.wikidata.org/entity/Q2386361",
             "Regions": [
                 "Missing"
             ],
@@ -2613,15 +4124,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nns": {
         "Ningye": {
             "Language": "Ningye",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915345",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915345",
             "Regions": [
                 "Missing"
             ],
@@ -2637,15 +4162,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nts": {
         "Natagaimas": {
             "Language": "Natagaimas",
-            "LangugeID": "http://www.wikidata.org/entity/Q6967931",
+            "LanguageID": "http://www.wikidata.org/entity/Q6967931",
             "Regions": [
                 "Missing"
             ],
@@ -2661,15 +4200,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nwx": {
         "Middle Newar": {
             "Language": "Middle Newar",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455877",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455877",
             "Regions": [
                 "Missing"
             ],
@@ -2685,15 +4238,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "nzr": {
         "Dir-Nyamzak-Mbarimi": {
             "Language": "Dir-Nyamzak-Mbarimi",
-            "LangugeID": "http://www.wikidata.org/entity/Q116450373",
+            "LanguageID": "http://www.wikidata.org/entity/Q116450373",
             "Regions": [
                 "Missing"
             ],
@@ -2709,15 +4276,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "oav": {
         "Old Avar": {
             "Language": "Old Avar",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455879",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455879",
             "Regions": [
                 "Missing"
             ],
@@ -2733,15 +4314,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ohu": {
         "Old Hungarian": {
             "Language": "Old Hungarian",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455880",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455880",
             "Regions": [
                 "Missing"
             ],
@@ -2757,15 +4352,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "oie": {
         "Okolie": {
             "Language": "Okolie",
-            "LangugeID": "http://www.wikidata.org/entity/Q110737051",
+            "LanguageID": "http://www.wikidata.org/entity/Q110737051",
             "Regions": [
                 "Missing"
             ],
@@ -2781,15 +4390,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Nilotic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "omp": {
         "Ancient Meitei": {
             "Language": "Ancient Meitei",
-            "LangugeID": "http://www.wikidata.org/entity/Q105953310",
+            "LanguageID": "http://www.wikidata.org/entity/Q105953310",
             "Regions": [
                 "Missing"
             ],
@@ -2805,15 +4428,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "omr": {
         "Old Marathi": {
             "Language": "Old Marathi",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455881",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455881",
             "Regions": [
                 "Missing"
             ],
@@ -2829,15 +4466,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "omx": {
         "Old Mon": {
             "Language": "Old Mon",
-            "LangugeID": "http://www.wikidata.org/entity/Q111364697",
+            "LanguageID": "http://www.wikidata.org/entity/Q111364697",
             "Regions": [
                 "Missing"
             ],
@@ -2853,15 +4504,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Monic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "oos": {
         "Old Ossetic": {
             "Language": "Old Ossetic",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455882",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455882",
             "Regions": [
                 "Missing"
             ],
@@ -2877,15 +4542,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ori": {
         "Oriya languages": {
             "Language": "Oriya languages",
-            "LangugeID": "http://www.wikidata.org/entity/Q7102899",
+            "LanguageID": "http://www.wikidata.org/entity/Q7102899",
             "Regions": [
                 "Missing"
             ],
@@ -2899,6 +4578,9 @@
                 "Missing"
             ],
             "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
                 "Missing"
             ],
             "Instances": [
@@ -2906,13 +4588,24 @@
                 "language",
                 "macrolanguage",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Eastern Indo-Aryan"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "paj": {
         "Ipeka-Tapuia": {
             "Language": "Ipeka-Tapuia",
-            "LangugeID": "http://www.wikidata.org/entity/Q12633016",
+            "LanguageID": "http://www.wikidata.org/entity/Q12633016",
             "Regions": [
                 "Missing"
             ],
@@ -2928,15 +4621,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pbm": {
         "Puebla Mazatec": {
             "Language": "Puebla Mazatec",
-            "LangugeID": "http://www.wikidata.org/entity/Q31102530",
+            "LanguageID": "http://www.wikidata.org/entity/Q31102530",
             "Regions": [
                 "Missing"
             ],
@@ -2952,16 +4659,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pcr": {
         "Panang": {
             "Language": "Panang",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953012",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953012",
             "Regions": [
                 "Missing"
             ],
@@ -2977,15 +4698,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language variety"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pec": {
         "Southern Pesisir": {
             "Language": "Southern Pesisir",
-            "LangugeID": "http://www.wikidata.org/entity/Q12634007",
+            "LanguageID": "http://www.wikidata.org/entity/Q12634007",
             "Regions": [
                 "Missing"
             ],
@@ -3001,15 +4736,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pgn": {
         "Paelignian": {
             "Language": "Paelignian",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455883",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455883",
             "Regions": [
                 "Missing"
             ],
@@ -3025,15 +4774,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pka": {
         "Ardhamagadhi Prakrit": {
             "Language": "Ardhamagadhi Prakrit",
-            "LangugeID": "http://www.wikidata.org/entity/Q35217",
+            "LanguageID": "http://www.wikidata.org/entity/Q35217",
             "Regions": [
                 "Missing"
             ],
@@ -3049,15 +4812,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "plz": {
         "Paluan": {
             "Language": "Paluan",
-            "LangugeID": "http://www.wikidata.org/entity/Q7128795",
+            "LanguageID": "http://www.wikidata.org/entity/Q7128795",
             "Regions": [
                 "Missing"
             ],
@@ -3073,16 +4850,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "natural language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pob": {
         "Western Pokomchí": {
             "Language": "Western Pokomchí",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953822",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953822",
             "Regions": [
                 "Missing"
             ],
@@ -3098,15 +4889,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "poj": {
         "Q25559323": {
             "Language": "Q25559323",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559323",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559323",
             "Regions": [
                 "Missing"
             ],
@@ -3122,15 +4927,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pry": {
         "Phray": {
             "Language": "Phray",
-            "LangugeID": "http://www.wikidata.org/entity/Q3401474",
+            "LanguageID": "http://www.wikidata.org/entity/Q3401474",
             "Regions": [
                 "Missing"
             ],
@@ -3146,15 +4965,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Khmuic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pun": {
         "Pubian": {
             "Language": "Pubian",
-            "LangugeID": "http://www.wikidata.org/entity/Q12640722",
+            "LanguageID": "http://www.wikidata.org/entity/Q12640722",
             "Regions": [
                 "Missing"
             ],
@@ -3170,15 +5003,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "puz": {
         "Purum Naga": {
             "Language": "Purum Naga",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559435",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559435",
             "Regions": [
                 "Missing"
             ],
@@ -3194,15 +5041,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "pze": {
         "Pesse": {
             "Language": "Pesse",
-            "LangugeID": "http://www.wikidata.org/entity/Q116450302",
+            "LanguageID": "http://www.wikidata.org/entity/Q116450302",
             "Regions": [
                 "Missing"
             ],
@@ -3218,15 +5079,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "quj": {
         "Joyabaj Quiché": {
             "Language": "Joyabaj Quiché",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953589",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953589",
             "Regions": [
                 "Missing"
             ],
@@ -3242,15 +5117,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "qut": {
         "West Central Quiché": {
             "Language": "West Central Quiché",
-            "LangugeID": "http://www.wikidata.org/entity/Q12628660",
+            "LanguageID": "http://www.wikidata.org/entity/Q12628660",
             "Regions": [
                 "Missing"
             ],
@@ -3266,15 +5155,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "quu": {
         "Eastern Quiché": {
             "Language": "Eastern Quiché",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953593",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953593",
             "Regions": [
                 "Missing"
             ],
@@ -3290,15 +5193,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "qxi": {
         "San Andrés Quiché": {
             "Language": "San Andrés Quiché",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953590",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953590",
             "Regions": [
                 "Missing"
             ],
@@ -3314,15 +5231,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "raj": {
         "Rajasthani": {
             "Language": "Rajasthani",
-            "LangugeID": "http://www.wikidata.org/entity/Q13196",
+            "LanguageID": "http://www.wikidata.org/entity/Q13196",
             "Regions": [
                 "Missing"
             ],
@@ -3336,6 +5267,9 @@
                 "Missing"
             ],
             "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
                 "Missing"
             ],
             "Instances": [
@@ -3343,13 +5277,37 @@
                 "macrolanguage",
                 "dialect cluster",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Indo-Aryan",
+                "Central Indo-Aryan"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "12370010",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                },
+                {
+                    "number": "36000000",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2001-01-01T00:00:00Z"
+                },
+                {
+                    "number": "19972883",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "rsw": {
         "Rishiwa": {
             "Language": "Rishiwa",
-            "LangugeID": "http://www.wikidata.org/entity/Q116450535",
+            "LanguageID": "http://www.wikidata.org/entity/Q116450535",
             "Regions": [
                 "Missing"
             ],
@@ -3365,15 +5323,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sdi": {
         "Sindang Kelingi": {
             "Language": "Sindang Kelingi",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559518",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559518",
             "Regions": [
                 "Missing"
             ],
@@ -3389,15 +5361,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sgl": {
         "Sanglechi-Ishkashimi": {
             "Language": "Sanglechi-Ishkashimi",
-            "LangugeID": "http://www.wikidata.org/entity/Q18711232",
+            "LanguageID": "http://www.wikidata.org/entity/Q18711232",
             "Regions": [
                 "Missing"
             ],
@@ -3413,15 +5399,56 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Pamir"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
+            ]
+        }
+    },
+    "siw": {
+        "Siwai": {
+            "Language": "Siwai",
+            "LanguageID": "http://www.wikidata.org/entity/Q7532519",
+            "Regions": [],
+            "RegionsID": [],
+            "RegionsOSM": [],
+            "Countries": [],
+            "CountriesID": [],
+            "CountriesOSM": [],
+            "Instances": [
+                "natural language",
+                "modern language"
+            ],
+            "immediate_Language_Families": [
+                "South Bougainville"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "skl": {
         "Selako Kanayatn": {
             "Language": "Selako Kanayatn",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559519",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559519",
             "Regions": [
                 "Missing"
             ],
@@ -3437,15 +5464,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "stc": {
         "Santa Cruz": {
             "Language": "Santa Cruz",
-            "LangugeID": "http://www.wikidata.org/entity/Q684979",
+            "LanguageID": "http://www.wikidata.org/entity/Q684979",
             "Regions": [
                 "Missing"
             ],
@@ -3461,15 +5502,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "suh": {
         "Suba": {
             "Language": "Suba",
-            "LangugeID": "http://www.wikidata.org/entity/Q33916",
+            "LanguageID": "http://www.wikidata.org/entity/Q33916",
             "Regions": [
                 "Missing"
             ],
@@ -3485,16 +5540,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Great Lakes Bantu"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "sxb": {
         "Suba": {
             "Language": "Suba",
-            "LangugeID": "http://www.wikidata.org/entity/Q33916",
+            "LanguageID": "http://www.wikidata.org/entity/Q33916",
             "Regions": [
                 "Missing"
             ],
@@ -3510,16 +5579,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Great Lakes Bantu"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "szk": {
         "Sizaki": {
             "Language": "Sizaki",
-            "LangugeID": "http://www.wikidata.org/entity/Q10998997",
+            "LanguageID": "http://www.wikidata.org/entity/Q10998997",
             "Regions": [
                 "Missing"
             ],
@@ -3535,15 +5618,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tdu": {
         "Tempasuk Dusun": {
             "Language": "Tempasuk Dusun",
-            "LangugeID": "http://www.wikidata.org/entity/Q3529155",
+            "LanguageID": "http://www.wikidata.org/entity/Q3529155",
             "Regions": [
                 "Missing"
             ],
@@ -3559,15 +5656,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tgg": {
         "Tangga": {
             "Language": "Tangga",
-            "LangugeID": "http://www.wikidata.org/entity/Q3515111",
+            "LanguageID": "http://www.wikidata.org/entity/Q3515111",
             "Regions": [
                 "Missing"
             ],
@@ -3583,15 +5694,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Meso-Melanesian"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "thc": {
         "Tai Hang Tong": {
             "Language": "Tai Hang Tong",
-            "LangugeID": "http://www.wikidata.org/entity/Q7675753",
+            "LanguageID": "http://www.wikidata.org/entity/Q7675753",
             "Regions": [
                 "Missing"
             ],
@@ -3607,15 +5732,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tle": {
         "Southern Marakwet": {
             "Language": "Southern Marakwet",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953173",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953173",
             "Regions": [
                 "Missing"
             ],
@@ -3631,15 +5770,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tlw": {
         "South Wemale": {
             "Language": "South Wemale",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953299",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953299",
             "Regions": [
                 "Missing"
             ],
@@ -3655,15 +5808,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tlz": {
         "Toala'": {
             "Language": "Toala'",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953924",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953924",
             "Regions": [
                 "Missing"
             ],
@@ -3679,15 +5846,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tmx": {
         "Tomyang": {
             "Language": "Tomyang",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953213",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953213",
             "Regions": [
                 "Missing"
             ],
@@ -3703,15 +5884,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tne": {
         "Tinoc Kallahan": {
             "Language": "Tinoc Kallahan",
-            "LangugeID": "http://www.wikidata.org/entity/Q3192219",
+            "LanguageID": "http://www.wikidata.org/entity/Q3192219",
             "Regions": [
                 "Missing"
             ],
@@ -3727,16 +5922,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect",
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tnj": {
         "Tanjong": {
             "Language": "Tanjong",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953907",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953907",
             "Regions": [
                 "Missing"
             ],
@@ -3752,15 +5961,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tok": {
         "Toki Pona": {
             "Language": "Toki Pona",
-            "LangugeID": "http://www.wikidata.org/entity/Q36846",
+            "LanguageID": "http://www.wikidata.org/entity/Q36846",
             "Regions": [
                 "Missing"
             ],
@@ -3774,6 +5997,9 @@
                 "Missing"
             ],
             "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
                 "Missing"
             ],
             "Instances": [
@@ -3781,13 +6007,36 @@
                 "artistic language",
                 "philosophical language",
                 "engineered language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "1696",
+                    "place surveyed": "Missing",
+                    "number applies to": "foreign language",
+                    "time surveyed": "2022-01-01T00:00:00Z"
+                },
+                {
+                    "number": "759",
+                    "place surveyed": "Missing",
+                    "number applies to": "foreign language",
+                    "time surveyed": "2021-01-01T00:00:00Z"
+                },
+                {
+                    "number": "3100",
+                    "place surveyed": "Missing",
+                    "number applies to": "foreign language",
+                    "time surveyed": "2016-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "tot": {
         "Patla-Chicontla Totonac": {
             "Language": "Patla-Chicontla Totonac",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953931",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953931",
             "Regions": [
                 "Missing"
             ],
@@ -3803,15 +6052,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language group"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tsf": {
         "Southwestern Tamang": {
             "Language": "Southwestern Tamang",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953176",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953176",
             "Regions": [
                 "Missing"
             ],
@@ -3827,15 +6090,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ttx": {
         "Tutong 1": {
             "Language": "Tutong 1",
-            "LangugeID": "http://www.wikidata.org/entity/Q12644012",
+            "LanguageID": "http://www.wikidata.org/entity/Q12644012",
             "Regions": [
                 "Missing"
             ],
@@ -3851,15 +6128,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tvi": {
         "Tulai": {
             "Language": "Tulai",
-            "LangugeID": "http://www.wikidata.org/entity/Q62130762",
+            "LanguageID": "http://www.wikidata.org/entity/Q62130762",
             "Regions": [
                 "Missing"
             ],
@@ -3875,15 +6166,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tzb": {
         "Bachajón Tzeltal": {
             "Language": "Bachajón Tzeltal",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953951",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953951",
             "Regions": [
                 "Missing"
             ],
@@ -3899,15 +6204,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tzc": {
         "Chamula Tzotzil": {
             "Language": "Chamula Tzotzil",
-            "LangugeID": "http://www.wikidata.org/entity/Q5070258",
+            "LanguageID": "http://www.wikidata.org/entity/Q5070258",
             "Regions": [
                 "Missing"
             ],
@@ -3923,15 +6242,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tze": {
         "Chenalhó Tzotzil": {
             "Language": "Chenalhó Tzotzil",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953947",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953947",
             "Regions": [
                 "Missing"
             ],
@@ -3947,15 +6280,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tzs": {
         "San Andrés Larrainzar Tzotzil": {
             "Language": "San Andrés Larrainzar Tzotzil",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953948",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953948",
             "Regions": [
                 "Missing"
             ],
@@ -3971,15 +6318,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tzt": {
         "Western Tz'utujil": {
             "Language": "Western Tz'utujil",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953946",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953946",
             "Regions": [
                 "Missing"
             ],
@@ -3995,15 +6356,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tzu": {
         "Huixtán Tzotzil": {
             "Language": "Huixtán Tzotzil",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953950",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953950",
             "Regions": [
                 "Missing"
             ],
@@ -4019,15 +6394,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "tzz": {
         "Zinacantán Tzotzil": {
             "Language": "Zinacantán Tzotzil",
-            "LangugeID": "http://www.wikidata.org/entity/Q12645731",
+            "LanguageID": "http://www.wikidata.org/entity/Q12645731",
             "Regions": [
                 "Missing"
             ],
@@ -4043,15 +6432,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ukk": {
         "Muak Sa-aak": {
             "Language": "Muak Sa-aak",
-            "LangugeID": "http://www.wikidata.org/entity/Q23807993",
+            "LanguageID": "http://www.wikidata.org/entity/Q23807993",
             "Regions": [
                 "Missing"
             ],
@@ -4067,16 +6470,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Angkuic"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "4500",
+                    "place surveyed": "Missing",
+                    "number applies to": "first language",
+                    "time surveyed": "2007-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "uly": {
         "Buli": {
             "Language": "Buli",
-            "LangugeID": "http://www.wikidata.org/entity/Q116450348",
+            "LanguageID": "http://www.wikidata.org/entity/Q116450348",
             "Regions": [
                 "Missing"
             ],
@@ -4092,15 +6509,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "uok": {
         "Uokha": {
             "Language": "Uokha",
-            "LangugeID": "http://www.wikidata.org/entity/Q3441216",
+            "LanguageID": "http://www.wikidata.org/entity/Q3441216",
             "Regions": [
                 "Missing"
             ],
@@ -4116,15 +6547,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "vjk": {
         "Bajjika": {
             "Language": "Bajjika",
-            "LangugeID": "http://www.wikidata.org/entity/Q3636001",
+            "LanguageID": "http://www.wikidata.org/entity/Q3636001",
             "Regions": [
                 "Missing"
             ],
@@ -4140,15 +6585,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "vky": {
         "Kayu Agung": {
             "Language": "Kayu Agung",
-            "LangugeID": "http://www.wikidata.org/entity/Q12634352",
+            "LanguageID": "http://www.wikidata.org/entity/Q12634352",
             "Regions": [
                 "Missing"
             ],
@@ -4164,15 +6623,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language variety"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "vlr": {
         "Vatrata": {
             "Language": "Vatrata",
-            "LangugeID": "http://www.wikidata.org/entity/Q57707719",
+            "LanguageID": "http://www.wikidata.org/entity/Q57707719",
             "Regions": [
                 "Missing"
             ],
@@ -4188,15 +6661,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "North and Central Vanuatu"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "vsn": {
         "Vedic Sanskrit": {
             "Language": "Vedic Sanskrit",
-            "LangugeID": "http://www.wikidata.org/entity/Q36858",
+            "LanguageID": "http://www.wikidata.org/entity/Q36858",
             "Regions": [],
             "RegionsID": [],
             "RegionsOSM": [],
@@ -4206,16 +6693,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "chronolect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "wgw": {
         "Wagawaga-Yaleba": {
             "Language": "Wagawaga-Yaleba",
-            "LangugeID": "http://www.wikidata.org/entity/Q16112427",
+            "LanguageID": "http://www.wikidata.org/entity/Q16112427",
             "Regions": [
                 "Missing"
             ],
@@ -4231,15 +6732,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "wit": {
         "Wintuan": {
             "Language": "Wintuan",
-            "LangugeID": "http://www.wikidata.org/entity/Q1294259",
+            "LanguageID": "http://www.wikidata.org/entity/Q1294259",
             "Regions": [
                 "Missing"
             ],
@@ -4255,15 +6770,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language family"
+            ],
+            "immediate_Language_Families": [
+                "Penutian"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "wtb": {
         "Matambwe": {
             "Language": "Matambwe",
-            "LangugeID": "http://www.wikidata.org/entity/Q116450240",
+            "LanguageID": "http://www.wikidata.org/entity/Q116450240",
             "Regions": [
                 "Missing"
             ],
@@ -4279,15 +6808,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xdo": {
         "Kwandu": {
             "Language": "Kwandu",
-            "LangugeID": "http://www.wikidata.org/entity/Q47495733",
+            "LanguageID": "http://www.wikidata.org/entity/Q47495733",
             "Regions": [
                 "Missing"
             ],
@@ -4303,16 +6846,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Southwest Bantu"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xkh": {
         "Karahawyana": {
             "Language": "Karahawyana",
-            "LangugeID": "http://www.wikidata.org/entity/Q3915656",
+            "LanguageID": "http://www.wikidata.org/entity/Q3915656",
             "Regions": [
                 "Missing"
             ],
@@ -4328,15 +6885,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xlb": {
         "Loup B": {
             "Language": "Loup B",
-            "LangugeID": "http://www.wikidata.org/entity/Q13108281",
+            "LanguageID": "http://www.wikidata.org/entity/Q13108281",
             "Regions": [
                 "Missing"
             ],
@@ -4352,16 +6923,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language group",
                 "dialect group"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xlo": {
         "Loup A": {
             "Language": "Loup A",
-            "LangugeID": "http://www.wikidata.org/entity/Q27921265",
+            "LanguageID": "http://www.wikidata.org/entity/Q27921265",
             "Regions": [
                 "Missing"
             ],
@@ -4377,16 +6962,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language group",
                 "dialect group"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xpp": {
         "Puyo-Paekche": {
             "Language": "Puyo-Paekche",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455887",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455887",
             "Regions": [
                 "Missing"
             ],
@@ -4402,15 +7001,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xtr": {
         "Early Tripuri": {
             "Language": "Early Tripuri",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455891",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455891",
             "Regions": [
                 "Missing"
             ],
@@ -4426,15 +7039,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xuf": {
         "Kunfal": {
             "Language": "Kunfal",
-            "LangugeID": "http://www.wikidata.org/entity/Q11102797",
+            "LanguageID": "http://www.wikidata.org/entity/Q11102797",
             "Regions": [
                 "Missing"
             ],
@@ -4450,15 +7077,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "xzp": {
         "Ancient Zapotec": {
             "Language": "Ancient Zapotec",
-            "LangugeID": "http://www.wikidata.org/entity/Q65455892",
+            "LanguageID": "http://www.wikidata.org/entity/Q65455892",
             "Regions": [
                 "Missing"
             ],
@@ -4474,15 +7115,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "yib": {
         "Yinglish": {
             "Language": "Yinglish",
-            "LangugeID": "http://www.wikidata.org/entity/Q2919292",
+            "LanguageID": "http://www.wikidata.org/entity/Q2919292",
             "Regions": [
                 "Missing"
             ],
@@ -4498,15 +7153,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "yio": {
         "Dayao Yi": {
             "Language": "Dayao Yi",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953335",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953335",
             "Regions": [
                 "Missing"
             ],
@@ -4522,15 +7191,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "yllll": {
         "Dhalwangu": {
             "Language": "Dhalwangu",
-            "LangugeID": "http://www.wikidata.org/entity/Q67331933",
+            "LanguageID": "http://www.wikidata.org/entity/Q67331933",
             "Regions": [
                 "Missing"
             ],
@@ -4546,15 +7229,53 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "100",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2005-01-01T00:00:00Z"
+                },
+                {
+                    "number": "53",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2006-01-01T00:00:00Z"
+                },
+                {
+                    "number": "62",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2016-01-01T00:00:00Z"
+                },
+                {
+                    "number": "38",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "2011-01-01T00:00:00Z"
+                },
+                {
+                    "number": "200",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "1990-01-01T00:00:00Z"
+                }
             ]
         }
     },
     "yma": {
         "Yamphe": {
             "Language": "Yamphe",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953311",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953311",
             "Regions": [
                 "Missing"
             ],
@@ -4570,15 +7291,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ymj": {
         "Muji Yi": {
             "Language": "Muji Yi",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559432",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559432",
             "Regions": [
                 "Missing"
             ],
@@ -4594,15 +7329,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "yos": {
         "Yos": {
             "Language": "Yos",
-            "LangugeID": "http://www.wikidata.org/entity/Q12953340",
+            "LanguageID": "http://www.wikidata.org/entity/Q12953340",
             "Regions": [
                 "Missing"
             ],
@@ -4618,15 +7367,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ypl": {
         "Pula Yi": {
             "Language": "Pula Yi",
-            "LangugeID": "http://www.wikidata.org/entity/Q12640742",
+            "LanguageID": "http://www.wikidata.org/entity/Q12640742",
             "Regions": [
                 "Missing"
             ],
@@ -4642,15 +7405,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "yus": {
         "Chan Santa Cruz Maya": {
             "Language": "Chan Santa Cruz Maya",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559637",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559637",
             "Regions": [
                 "Missing"
             ],
@@ -4666,15 +7443,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "yym": {
         "Yuanjiang-Mojiang Yi": {
             "Language": "Yuanjiang-Mojiang Yi",
-            "LangugeID": "http://www.wikidata.org/entity/Q25559455",
+            "LanguageID": "http://www.wikidata.org/entity/Q25559455",
             "Regions": [
                 "Missing"
             ],
@@ -4690,15 +7481,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "zbu": {
         "Zaranda": {
             "Language": "Zaranda",
-            "LangugeID": "http://www.wikidata.org/entity/Q52152004",
+            "LanguageID": "http://www.wikidata.org/entity/Q52152004",
             "Regions": [
                 "Missing"
             ],
@@ -4714,16 +7519,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "dialect",
                 "natural language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "zcd": {
         "Las Delicias Zapotec": {
             "Language": "Las Delicias Zapotec",
-            "LangugeID": "http://www.wikidata.org/entity/Q110737080",
+            "LanguageID": "http://www.wikidata.org/entity/Q110737080",
             "Regions": [
                 "Missing"
             ],
@@ -4739,15 +7558,29 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "zgh": {
         "Standard Moroccan Amazigh": {
             "Language": "Standard Moroccan Amazigh",
-            "LangugeID": "http://www.wikidata.org/entity/Q7598268",
+            "LanguageID": "http://www.wikidata.org/entity/Q7598268",
             "Regions": [
                 "Missing"
             ],
@@ -4763,16 +7596,30 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "standard language",
                 "modern language"
+            ],
+            "immediate_Language_Families": [
+                "Northern Berber"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     },
     "ztc": {
         "Lachirioag Zapotec": {
             "Language": "Lachirioag Zapotec",
-            "LangugeID": "http://www.wikidata.org/entity/Q14355034",
+            "LanguageID": "http://www.wikidata.org/entity/Q14355034",
             "Regions": [
                 "Missing"
             ],
@@ -4788,8 +7635,22 @@
             "CountriesID": [
                 "Missing"
             ],
+            "CountriesOSM": [
+                "Missing"
+            ],
             "Instances": [
                 "language"
+            ],
+            "immediate_Language_Families": [
+                "Villalta Zapotec"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
             ]
         }
     }
