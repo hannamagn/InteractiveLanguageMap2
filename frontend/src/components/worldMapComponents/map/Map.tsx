@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
-import geojsonData from 'C:/Users/erikg/Documents/GitHub/adventofcode/InteractiveLanguageMap2/frontend/public/testgeojson/austria.json'; // Adjust the path as needed
-
+import geojsonData from 'C:/Users/erikg/Documents/GitHub/adventofcode/InteractiveLanguageMap2/frontend/src/testgeojson/austria.json';
+import './Map.css';
 
 
 interface MapProps {
@@ -52,6 +52,10 @@ function Map({ disableScrollZoom = false }: MapProps) {
           data: geojsonData as GeoJSON.FeatureCollection<GeoJSON.Geometry>,
         });
 
+
+
+
+
         map.addLayer({
           id: 'fill',
           type: 'fill',
@@ -66,13 +70,30 @@ function Map({ disableScrollZoom = false }: MapProps) {
           paint: { 'line-color': '#0057B8', 'line-width': 2 },
         });
 
-        map.on('click', 'fill',function(e) {
-          new maplibregl.Popup()
+
+        map.on('click', 'fill',(e) => {
+          console.log(e.features?.[0]?.properties?.COUNTRY)
+          new maplibregl.Popup({
+
+            closeOnClick: true,  
+            closeButton: false, 
+            anchor: "bottom",     
+            offset: [0, -10],     
+          })
             .setLngLat(e.lngLat)
-            .setHTML('<h3>Austria</h3>' + (e.features?.[0]?.properties?.name || 'Unknown') + '  <p>Vienna</p>')
+            .setHTML('<div class = "popupbox">' + (e.features?.[0]?.properties?.COUNTRY || 'Unknown') + '</div>')
             .addTo(map);
+            
         });
       
+
+      map.on('mouseenter', 'fill', () => {
+          map.getCanvas().style.cursor = 'pointer';
+      });
+
+      map.on('mouseleave', 'fill', () => {
+          map.getCanvas().style.cursor = '';
+      });
 
       }
     };

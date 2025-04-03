@@ -7,3 +7,22 @@
     margin: 0;
     overflow: hidden;
   }
+
+.maplibregl-popup {
+  z-index: 1000;
+  height: 200px;
+  width: 150px;
+  margin-top: -105vh;
+  border-radius: 5px;
+  border: #574B60 solid 2px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+.popupbox{
+  display: flex;
+  justify-content: center;
+
+  border-bottom: #574B60 solid 1px;
+}
