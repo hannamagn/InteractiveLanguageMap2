@@ -1,97 +1,105 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable, NotFoundException, Logger } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Language } from './language.schema';
+import { PolygonData } from './polygon.schema';
 
 @Injectable()
 export class LanguageService {
+  private readonly logger = new Logger(LanguageService.name);
+
   constructor(
     @InjectModel(Language.name) private languageModel: Model<Language>,
+    @InjectModel(PolygonData.name) private polygonModel: Model<PolygonData>,
   ) {}
 
-  private async getLanguageDataFromDB(languageName: string) {
-    return this.languageModel
-      .findOne({ Language: { $regex: new RegExp(`^${languageName}$`, 'i') } })
+  private async getLanguageDataFromDB(languageName: string): Promise<Language | null> {
+    const result = await this.languageModel
+      .findOne({ Language: { $regex: `^${languageName}$`, $options: 'i' } })
       .exec();
+    return result;
+  }
+  
+
+  private async getPolygonData(osmId: string | number, name: string, type: 'region' | 'country') {
+    const query = { osm_id: typeof osmId === 'string' ? Number(osmId) : osmId };
+
+    const polygonData = await this.polygonModel.findOne(query).exec();
+
+    if (!polygonData) {
+      this.logger.warn(`No polygon data for ${type}: ${name}`);
+      return null;
+    }
+
+    if (polygonData.geometry) {
+      return polygonData.geometry;
+    }
+
+    return null;
   }
 
-  private validateCoordinates(coords: any): boolean {
-    return (
-      Array.isArray(coords) &&
-      coords.every(pair => 
-        Array.isArray(pair) &&
-        pair.length === 2 &&
-        typeof pair[0] === 'number' &&
-        typeof pair[1] === 'number' &&
-        pair[1] >= -90 && pair[1] <= 90 &&  
-        pair[0] >= -180 && pair[0] <= 180   
-      )
-    );
-  }
   async createGeoJson(languageName: string): Promise<object> {
     const languageData = await this.getLanguageDataFromDB(languageName);
     if (!languageData) {
       throw new NotFoundException(`Language "${languageName}" not found`);
     }
-  
-    if (!languageData.Regions || languageData.Regions.length === 0) {
-      throw new NotFoundException(`No regions found for language: ${languageName}`);
+
+    if ((!languageData.Regions || languageData.Regions.length === 0) &&
+        (!languageData.Countries || languageData.Countries.length === 0)) {
+      throw new NotFoundException(
+        `No countries or regions found for: ${languageName}`,
+      );
     }
-  
-    const geoJsonFeatures: any[] = [];   
-    const countries = languageData.Countries ?? [];
-  
-    for (const region of languageData.Regions) {
-      const regionData = await this.languageModel.db
-        .collection('Regions')
-        .findOne({ osm_id: region.osm_id });
-  
-      if (!regionData) {
-        continue;
-      }
-  
-      let geometry = regionData.geometry;
-      if (!geometry && regionData.cordinates) {
-        const coordinates = regionData.cordinates;
-        if (!this.validateCoordinates(coordinates)) {
-          console.warn(`Invalid coordinates for region: ${region.name}`, coordinates);
-          continue;
-        }
-        geometry = {
-          type: "Polygon",
-          coordinates: [coordinates],
-        };
-      }
-  
-      if (!geometry) {
-        continue;
-      }
-      const country = regionData.address?.country ||
-      (countries.length > 0 ? countries.map(c => c.name).join(', ') : "Unknown");  
-      
-      geoJsonFeatures.push({
-        type: "Feature",
+
+    const countryFeatures: any[] = [];
+    const regionFeatures: any[] = [];
+    
+    for (const country of languageData.Countries || []) {
+      const geometry = await this.getPolygonData(country.country_osm_id, country.name, 'country');
+      if (!geometry) continue;
+    
+      countryFeatures.push({
+        type: 'Feature',
         properties: {
-          region: region.name,
-          country: country,
+          country: country.name,
+          type: 'country',
           language: languageData.Language,
         },
         geometry,
       });
     }
-  
-    if (geoJsonFeatures.length === 0) {
-      throw new NotFoundException('No valid GeoJSON data retrieved');
+    
+    for (const region of languageData.Regions || []) {
+      const geometry = await this.getPolygonData(region.region_osm_id, region.name, 'region');
+      if (!geometry) continue;
+    
+      regionFeatures.push({
+        type: 'Feature',
+        properties: {
+          region: region.name,
+          type: 'region',
+          language: languageData.Language,
+        },
+        geometry,
+      });
     }
-  
+    
+    const geoJsonFeatures = [...countryFeatures, ...regionFeatures];
+    
+
+    if (geoJsonFeatures.length === 0) {
+      throw new NotFoundException('No valid GeoJSON-data found');
+    }
+
     return {
-      type: "FeatureCollection",
+      type: 'FeatureCollection',
       properties: {
         language: languageData.Language,
         iso_code: languageData.iso_code,
-        countries: (languageData.Countries ?? []).map(c => c.name),
+        regions: languageData.Regions ? languageData.Regions.map(r => r.name) : [],
+        countries: languageData.Countries ? languageData.Countries.map(c => c.name) : [],
       },
       features: geoJsonFeatures,
     };
   }
-}  
+}
