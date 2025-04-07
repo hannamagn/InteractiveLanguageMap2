@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+Button{
+    z-index: 1001;
+    width: 90%;
+    height: 20px;
+}
