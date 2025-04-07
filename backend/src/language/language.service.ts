@@ -17,6 +17,17 @@ export class LanguageService {
       .exec();
     return result;
   }
+  
+  async getAllLanguageNames(): Promise<string[]> {
+    const languages = await this.languageModel
+      .find({}, { Language: 1, _id: 0 })
+      .exec();
+  
+    return languages
+      .map(doc => doc.Language)
+      .filter((name): name is string => typeof name === 'string')
+      .sort((a, b) => a.localeCompare(b));
+  }  
 
 
   private async getPolygonData(osmId: string | number, name: string, type: 'region' | 'country') {
