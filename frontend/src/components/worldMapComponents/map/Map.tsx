@@ -54,7 +54,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
         console.log("FETCHEING:" +  lang);
 ;
         if (existingLanguages.has(lang))  return;
-          const response = await fetch(`${lang}`);
+          const response = await fetch(`http://localhost:3000/language/geojson/${lang}`);
 
           const geojson = await response.json();
 

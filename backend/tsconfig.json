@@ -17,7 +17,9 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
     "strictBindCallApply": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "types": ["@testing-library/jest-dom"]
+
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]

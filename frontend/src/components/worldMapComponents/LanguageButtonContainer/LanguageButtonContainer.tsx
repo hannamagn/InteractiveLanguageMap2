@@ -4,7 +4,7 @@ import LanguageButton from '../LanguageButton/LanguageButton';
 import TextField from '@mui/material/TextField';
 
 const allLanguages = [
-  'English', 'Spanish', 'French', 'German', 'Japanese',
+  'english', 'Spanish', 'French', 'German', 'Japanese',
   'Arabic', 'Mandarin', 'Portuguese', 'Hindi', 'Russian','Italian',
   'Korean', 'Turkish', 'Dutch', 'Polish', 'Swedish', 'Danish', 'Norwegian',
   // ...add all your 100+ languages here
