@@ -2,7 +2,6 @@ import { Injectable, NotFoundException, Logger } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Language } from './language.schema';
-import { PolygonData } from './polygon.schema';
 
 @Injectable()
 export class LanguageService {
@@ -10,7 +9,6 @@ export class LanguageService {
 
   constructor(
     @InjectModel(Language.name) private languageModel: Model<Language>,
-    @InjectModel(PolygonData.name) private polygonModel: Model<PolygonData>,
   ) {}
 
   private async getLanguageDataFromDB(languageName: string): Promise<Language | null> {
@@ -19,23 +17,29 @@ export class LanguageService {
       .exec();
     return result;
   }
-  
+
 
   private async getPolygonData(osmId: string | number, name: string, type: 'region' | 'country') {
     const query = { osm_id: typeof osmId === 'string' ? Number(osmId) : osmId };
-
-    const polygonData = await this.polygonModel.findOne(query).exec();
+    const polygonData = await this.languageModel.db
+      .collection('PolygonData')
+      .findOne(query);
 
     if (!polygonData) {
       this.logger.warn(`No polygon data for ${type}: ${name}`);
       return null;
     }
 
-    if (polygonData.geometry) {
-      return polygonData.geometry;
+    let geometry = polygonData.geometry;
+    if (!geometry && polygonData.cordinates) {
+      const coordinates = polygonData.cordinates;
+      geometry = {
+        type: 'Polygon',
+        coordinates: [coordinates],
+      };
     }
 
-    return null;
+    return geometry;
   }
 
   async createGeoJson(languageName: string): Promise<object> {
@@ -46,16 +50,15 @@ export class LanguageService {
 
     if ((!languageData.Regions || languageData.Regions.length === 0) &&
         (!languageData.Countries || languageData.Countries.length === 0)) {
-      throw new NotFoundException(
-        `No countries or regions found for: ${languageName}`,
-      );
+      throw new NotFoundException(`No countries or regions found for: ${languageName}`);
     }
 
     const countryFeatures: any[] = [];
     const regionFeatures: any[] = [];
     
     for (const country of languageData.Countries || []) {
-      const geometry = await this.getPolygonData(country.country_osm_id, country.name, 'country');
+      if (!country.country_osm_id && !country.osm_id) continue;
+      const geometry = await this.getPolygonData(country.country_osm_id || country.osm_id, country.name, 'country');
       if (!geometry) continue;
     
       countryFeatures.push({
@@ -70,13 +73,45 @@ export class LanguageService {
     }
     
     for (const region of languageData.Regions || []) {
-      const geometry = await this.getPolygonData(region.region_osm_id, region.name, 'region');
-      if (!geometry) continue;
-    
+      const rawId = region.region_osm_id ?? region.osm_id;
+      if (!rawId) {
+        this.logger.warn(`Skipping region with no ID: ${region.name}`);
+        continue;
+      }
+      const matchId = Number(rawId);
+      const polygonData = await this.languageModel.db
+        .collection('PolygonData')
+        .findOne({ osm_id: matchId });
+      
+      if (!polygonData) {
+        this.logger.warn(`No polygon data found for region osm_id: ${matchId}`);
+        continue;
+      }
+      
+      let geometry = polygonData.geometry;
+      if (!geometry && polygonData.cordinates) {
+        const coordinates = polygonData.cordinates;
+        geometry = {
+          type: 'Polygon',
+          coordinates: [coordinates],
+        };
+      }
+      
+      if (!geometry) {
+        this.logger.warn(`No valid geometry for region: ${region.name}`);
+        continue;
+      }
+      
+      const country = polygonData.address?.country ||
+        (languageData.Countries && languageData.Countries.length > 0
+          ? languageData.Countries.map(c => c.name).join(', ')
+          : 'Unknown');
+      
       regionFeatures.push({
         type: 'Feature',
         properties: {
           region: region.name,
+          country: country,
           type: 'region',
           language: languageData.Language,
         },
@@ -86,7 +121,6 @@ export class LanguageService {
     
     const geoJsonFeatures = [...countryFeatures, ...regionFeatures];
     
-
     if (geoJsonFeatures.length === 0) {
       throw new NotFoundException('No valid GeoJSON-data found');
     }

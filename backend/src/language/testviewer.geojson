@@ -85050,6 +85050,7 @@
       "type": "Feature",
       "properties": {
         "region": "Luxembourg",
+        "country": "Lëtzebuerg",
         "type": "region",
         "language": "French"
       },
@@ -85404,6 +85405,7 @@
       "type": "Feature",
       "properties": {
         "region": "France",
+        "country": "France",
         "type": "region",
         "language": "French"
       },
@@ -93960,6 +93962,7 @@
       "type": "Feature",
       "properties": {
         "region": "Brussels-Capital Region",
+        "country": "België / Belgique / Belgien",
         "type": "region",
         "language": "French"
       },
@@ -94027,6 +94030,7 @@
       "type": "Feature",
       "properties": {
         "region": "Flemish Brabant",
+        "country": "België / Belgique / Belgien",
         "type": "region",
         "language": "French"
       },
@@ -94507,6 +94511,7 @@
       "type": "Feature",
       "properties": {
         "region": "Walloon Brabant",
+        "country": "België / Belgique / Belgien",
         "type": "region",
         "language": "French"
       },
@@ -94798,6 +94803,7 @@
       "type": "Feature",
       "properties": {
         "region": "Province of Namur",
+        "country": "België / Belgique / Belgien",
         "type": "region",
         "language": "French"
       },
@@ -95334,6 +95340,7 @@
       "type": "Feature",
       "properties": {
         "region": "Province of Liege",
+        "country": "België / Belgique / Belgien",
         "type": "region",
         "language": "French"
       },
@@ -95917,6 +95924,7 @@
       "type": "Feature",
       "properties": {
         "region": "Hainaut",
+        "country": "België / Belgique / Belgien",
         "type": "region",
         "language": "French"
       },
@@ -96555,6 +96563,7 @@
       "type": "Feature",
       "properties": {
         "region": "Canton of Fribourg",
+        "country": "Schweiz/Suisse/Svizzera/Svizra",
         "type": "region",
         "language": "French"
       },
@@ -96953,6 +96962,7 @@
       "type": "Feature",
       "properties": {
         "region": "Neuchâtel",
+        "country": "Schweiz/Suisse/Svizzera/Svizra",
         "type": "region",
         "language": "French"
       },
@@ -97062,6 +97072,7 @@
       "type": "Feature",
       "properties": {
         "region": "Jura",
+        "country": "Schweiz/Suisse/Svizzera/Svizra",
         "type": "region",
         "language": "French"
       },
@@ -97257,6 +97268,7 @@
       "type": "Feature",
       "properties": {
         "region": "canton Vaud",
+        "country": "Schweiz/Suisse/Svizzera/Svizra",
         "type": "region",
         "language": "French"
       },

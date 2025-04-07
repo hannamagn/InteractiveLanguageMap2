@@ -4,7 +4,6 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { LanguageService } from './language/language.service';
 import { LanguageController } from './language/language.controller';
 import { Language, LanguageSchema } from './language/language.schema';
-import { PolygonData, PolygonDataSchema } from './language/polygon.schema';
 
 @Module({
   imports: [
@@ -18,7 +17,6 @@ import { PolygonData, PolygonDataSchema } from './language/polygon.schema';
     }),
     MongooseModule.forFeature([
       { name: Language.name, schema: LanguageSchema },
-      { name: PolygonData.name, schema: PolygonDataSchema },
     ]),
   ],
   controllers: [LanguageController],
