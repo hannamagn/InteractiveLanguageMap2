@@ -1,4 +1,4 @@
-// src/language/language.module.ts
+// language.module.ts
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { LanguageService } from './language.service';
@@ -7,7 +7,8 @@ import { Language, LanguageSchema } from './language.schema';
 
 @Module({
   imports: [
-    MongooseModule.forFeature([{ name: Language.name, schema: LanguageSchema }]), 
+    MongooseModule.forFeature([
+      { name: Language.name, schema: LanguageSchema },    ]),
   ],
   providers: [LanguageService],
   controllers: [LanguageController],

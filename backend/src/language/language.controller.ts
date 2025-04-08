@@ -22,4 +22,15 @@ export class LanguageController {
       );
     }
   }
+
+  @Get('all-names')
+  async getAllNames(@Res() res: Response) {
+    try {
+      const names = await this.languageService.getAllLanguageNames();
+      res.json(names);
+    } catch (error) {
+      console.error('Error fetching language names:', error);
+      throw new HttpException('Failed to fetch language names', HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+  }
 }
