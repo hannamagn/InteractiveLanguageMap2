@@ -14,7 +14,7 @@
 .globalNavDivLogo {
     display: flex;
     align-items: center;
-    background-color: #474747;
+    background-color: #574B60;
     height: 100%;
     width: 20%;
 }
@@ -26,7 +26,7 @@
 .globalNavDivLinks {
     display: flex;
     align-items: center;
-    background-color: #313131;
+    background-color: #574B60;
     height: 100%;
     width: 80%;
 
@@ -43,7 +43,7 @@
     text-decoration: none;
     flex-direction: row;
     justify-content: space-between;
-    color: #797878; 
+    color: #FFFFFF; 
     &:before, &:after { 
       content: ""; 
       display: table;
@@ -64,7 +64,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-size:20px;
     text-decoration:none;
-    color: #797878;
+    color: #FFFFFF;
     display: block;
     width: 100%;
     height: 100%;
@@ -73,7 +73,7 @@
 .globalNavLinkListElement a::after {
     height: 2px;
     width: 100%;
-    background: white;
+    background: #A1A2A5;
     content: "";
     position: absolute;
     left: 0px;
@@ -87,5 +87,5 @@
 }
 
 .globalNavLinkListElement a:hover {
-    color: white;
+    color: #A1A2A5;
 }

@@ -1,0 +1,2 @@
+1. Connect buttons to api
+2. Style website
