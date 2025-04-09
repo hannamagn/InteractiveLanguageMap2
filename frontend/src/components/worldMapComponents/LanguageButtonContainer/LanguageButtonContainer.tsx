@@ -3,12 +3,16 @@ import './LanguageButtonContainer.css';
 import LanguageButton from '../LanguageButton/LanguageButton';
 import TextField from '@mui/material/TextField';
 
-const allLanguages = [
-  'English', 'Spanish', 'French', 'German', 'Japanese',
-  'Arabic', 'Mandarin', 'Portuguese', 'Hindi', 'Russian','Italian',
-  'Korean', 'Turkish', 'Dutch', 'Polish', 'Swedish', 'Danish', 'Norwegian',
-  // ...add all your 100+ languages here
-];
+const response = await fetch('http://localhost:3000/language/all-names');
+
+if (!response.ok) {
+  throw new Error(`HTTP error! Status: ${response.status}`);
+}
+
+const allLanguages = await response.json();
+
+console.log(allLanguages);
+
 
 
 function LanguageButtonContainer() {
