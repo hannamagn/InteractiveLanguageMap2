@@ -22,8 +22,8 @@ function Map({ disableScrollZoom = false }: MapProps) {
       style: 'style3.json',
       center: [0, 0],
       zoom: 2,
-      maxZoom: 8,
-      minZoom: 2,
+      maxZoom: 10,
+      minZoom: 1.5,
       pitchWithRotate: false,
       dragRotate: false,
     });

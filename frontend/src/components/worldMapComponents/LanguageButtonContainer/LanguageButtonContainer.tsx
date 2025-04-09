@@ -2,6 +2,11 @@ import { useState } from 'react';
 import './LanguageButtonContainer.css';
 import LanguageButton from '../LanguageButton/LanguageButton';
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import { useLanguage } from '../../../context/LanguageContext'; // make sure the path matches your project
+import InputAdornment from '@mui/material/InputAdornment';
+import IconButton from '@mui/material/IconButton';
+import ClearIcon from '@mui/icons-material/Clear';
 
 const response = await fetch('http://localhost:3000/language/all-names');
 
@@ -11,46 +16,66 @@ if (!response.ok) {
 
 const allLanguages = await response.json();
 
-console.log(allLanguages);
-
-
-
 function LanguageButtonContainer() {
   const [searchQuery, setSearchQuery] = useState('');
+  const { state, dispatch } = useLanguage();
 
-  // Filter based on user input (case-insensitive)
   const filteredLanguages = allLanguages.filter(lang =>
     lang.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  const handleRemove = (lang: string) => {
+    dispatch({ type: 'TOGGLE_LANGUAGE', payload: lang });
+  };
+
   return (
-    <div className="languageContainer" 
-    >
-      {/* <h2 className="selecth2">Select a Language</h2> */}
+    <div className="languageContainer">
       <TextField
         id="outlined-basic"
         label="Search for a language"
         variant="filled"
-      
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
-        sx={{
-          '& .MuiFilledInput-root': {
-            backgroundColor: '#FFFFFF', // base bg
-          },
-          '& .MuiFilledInput-root.Mui-focused': {
-            backgroundColor: '#FFFFFF', // color when focused
-          },
-          '& .MuiInputLabel-root.Mui-focused': {
-            color: '#A1A2A5', // label color when focused
-          },
-          '& .MuiFilledInput-underline:after': {
-            borderBottomColor: '#A1A2A5', // underline when focused
-          }
+        InputProps={{
+          endAdornment: searchQuery && (
+            <InputAdornment position="end">
+              <IconButton
+                size="small"
+                onClick={() => setSearchQuery('')}
+                edge="end"
+              >
+                <ClearIcon fontSize="small" />
+              </IconButton>
+            </InputAdornment>
+          )
         }}
-        inputProps={{style: {fontSize: 15}}} // font size of input text
-        InputLabelProps={{style: {fontSize: 15}}} // font size of input label
+        sx={{
+          '& .MuiFilledInput-root': { backgroundColor: '#FFFFFF' },
+          '& .MuiFilledInput-root.Mui-focused': { backgroundColor: '#FFFFFF' },
+          '& .MuiInputLabel-root.Mui-focused': { color: '#A1A2A5' },
+          '& .MuiFilledInput-underline:after': { borderBottomColor: '#A1A2A5' }
+        }}
+        inputProps={{ style: { fontSize: 15 } }}
+        InputLabelProps={{ style: { fontSize: 15 } }}
       />
+
+      <div className="selectedcontainer">
+        {state.selectedLanguages.map((lang, index) => (
+          <Button
+            key={index}
+            variant="outlined"
+            onClick={() => handleRemove(lang)}
+            style={{
+              margin: '4px',
+              backgroundColor: '#A26769',
+              color: '#FFFFFF',
+              textTransform: 'none',
+            }}
+          >
+            {lang} ✕
+          </Button>
+        ))}
+      </div>
 
       <div className="container">
         {filteredLanguages.length > 0 ? (
@@ -58,7 +83,9 @@ function LanguageButtonContainer() {
             <LanguageButton key={index} label={lang} />
           ))
         ) : (
-          <p style={{ color: '#888', marginLeft: '10px' }}>No matching languages found</p>
+          <p style={{ color: '#888', marginLeft: '10px' }}>
+            No matching languages found
+          </p>
         )}
       </div>
     </div>
