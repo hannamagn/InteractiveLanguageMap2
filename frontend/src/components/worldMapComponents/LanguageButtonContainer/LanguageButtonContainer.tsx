@@ -16,6 +16,14 @@ if (!response.ok) {
 
 const allLanguages = await response.json();
 
+const debounce = (fn: Function, ms = 300) => {
+  let timeoutId: ReturnType<typeof setTimeout>;
+  return function (this: any, ...args: any[]) {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => fn.apply(this, args), ms);
+  };
+};
+
 function LanguageButtonContainer() {
   const [searchQuery, setSearchQuery] = useState('');
   const { state, dispatch } = useLanguage();
@@ -30,6 +38,7 @@ function LanguageButtonContainer() {
 
   return (
     <div className="languageContainer">
+
       <TextField
         id="outlined-basic"
         label="Search for a language"
@@ -58,6 +67,7 @@ function LanguageButtonContainer() {
         inputProps={{ style: { fontSize: 15 } }}
         InputLabelProps={{ style: { fontSize: 15 } }}
       />
+
 
       <div className="selectedcontainer">
         {state.selectedLanguages.map((lang, index) => (
