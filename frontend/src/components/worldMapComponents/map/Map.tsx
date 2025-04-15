@@ -100,24 +100,23 @@ function Map({ disableScrollZoom = false }: MapProps) {
             if (region == 'Region not specified') {
             data = `
             <div class="popupbox">
-              <strong>Language:</strong> ${lang}<br/>
+              <strong>Language: </strong> ${lang}<br/>
             </div>
-            <div>   
+            <div class="popup-content">   
               <strong>Country:</strong> ${country}<br/>
             </div>
           `;
             }else{
           data = `
             <div class="popupbox">
-              <strong>Language:</strong> ${lang}<br/>
+              <strong>Language: </strong> ${lang}<br/>
             </div>
-            <div>   
-              <strong>Country:</strong> ${country}<br/>
-              <strong>Region:</strong> ${region}
+            <div class="popup-content">   
+              <strong>Country: </strong> ${country}<br/>
+              <strong>Region: </strong> ${region}
             </div>
           `;
             }
-
             const popupHTML = data
 
 

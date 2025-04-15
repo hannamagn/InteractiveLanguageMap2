@@ -1,12 +1,14 @@
-import { useState, use } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './LanguageButtonContainer.css';
 import LanguageButton from '../LanguageButton/LanguageButton';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import { useLanguage } from '../../../context/LanguageContext'; // make sure the path matches your project
+import { useLanguage } from '../../../context/LanguageContext';
 import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';
 import ClearIcon from '@mui/icons-material/Clear';
+
+
 
 const response = await fetch('http://localhost:3000/language/all-names');
 
@@ -14,16 +16,65 @@ if (!response.ok) {
   throw new Error(`HTTP error! Status: ${response.status}`);
 }
 
-const allLanguages = await response.json();
+const debounce = (fn: Function, delay: number) => {
+  let timeoutId: ReturnType<typeof setTimeout>;
+  return (...args: any[]) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => fn(...args), delay);
+  };
+};
 
+const allLanguages = await response.json();
 
 function LanguageButtonContainer() {
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedQuery, setDebouncedQuery] = useState('');
   const { state, dispatch } = useLanguage();
+  const [renderCount, setRenderCount] = useState(100);
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  const filteredLanguages = allLanguages.filter(lang =>
-    lang.toLowerCase().includes(searchQuery.toLowerCase())
+  // Debounce effect
+  const debouncedSetQuery = useRef(
+    debounce((value: string) => {
+      setDebouncedQuery(value);
+    }, 200)
+  ).current;
+
+  useEffect(() => {
+    debouncedSetQuery(searchQuery);
+  }, [searchQuery, debouncedSetQuery]);
+
+
+  const filteredLanguages = allLanguages.filter((lang: string) =>
+    lang.toLowerCase().includes(debouncedQuery.toLowerCase())
   );
+  
+  // Only show a portion of the filtered list
+  const displayedLanguages = filteredLanguages.slice(0, renderCount);
+  
+  useEffect(() => {
+    const container = containerRef.current;
+  
+    const handleScroll = () => {
+      if (!container) return;
+  
+      const nearBottom =
+        container.scrollTop + container.clientHeight >= container.scrollHeight - 100;
+  
+      if (nearBottom && renderCount < filteredLanguages.length) {
+        setRenderCount(prev => prev + 100);
+      }
+    };
+  
+    container?.addEventListener('scroll', handleScroll);
+    return () => container?.removeEventListener('scroll', handleScroll);
+  }, [renderCount, filteredLanguages.length]);
+  
+  
+  useEffect(() => {
+    setRenderCount(100);
+  }, [debouncedQuery]);
+  
 
   const handleRemove = (lang: string) => {
     dispatch({ type: 'TOGGLE_LANGUAGE', payload: lang });
@@ -84,17 +135,18 @@ function LanguageButtonContainer() {
         ))}
       </div>
 
-      <div className="container">
-        {filteredLanguages.length > 0 ? (
-          filteredLanguages.map((lang, index) => (
-            <LanguageButton key={index} label={lang} />
-          ))
-        ) : (
-          <p style={{ color: '#888', marginLeft: '10px' }}>
-            No matching languages found
-          </p>
-        )}
-      </div>
+      <div className="container"  ref={containerRef}>
+      {displayedLanguages.length > 0 ? (
+        displayedLanguages.map((lang: string, index:number) => (
+          <LanguageButton key={index} label={lang} />
+        ))
+      ) : (
+        <p style={{ color: '#888', marginLeft: '10px' }}>
+          No matching languages found
+        </p>
+      )}
+    </div>
+
     </div>
   );
 }
