@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, use } from 'react';
 import './LanguageButtonContainer.css';
 import LanguageButton from '../LanguageButton/LanguageButton';
 import TextField from '@mui/material/TextField';
@@ -16,13 +16,6 @@ if (!response.ok) {
 
 const allLanguages = await response.json();
 
-const debounce = (fn: Function, ms = 300) => {
-  let timeoutId: ReturnType<typeof setTimeout>;
-  return function (this: any, ...args: any[]) {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => fn.apply(this, args), ms);
-  };
-};
 
 function LanguageButtonContainer() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -36,15 +29,19 @@ function LanguageButtonContainer() {
     dispatch({ type: 'TOGGLE_LANGUAGE', payload: lang });
   };
 
+
   return (
     <div className="languageContainer">
+
 
       <TextField
         id="outlined-basic"
         label="Search for a language"
         variant="filled"
         value={searchQuery}
+
         onChange={(e) => setSearchQuery(e.target.value)}
+        
         InputProps={{
           endAdornment: searchQuery && (
             <InputAdornment position="end">

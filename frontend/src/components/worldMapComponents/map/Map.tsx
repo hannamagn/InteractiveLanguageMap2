@@ -87,10 +87,43 @@ function Map({ disableScrollZoom = false }: MapProps) {
             },
           });
 
+
+
           map.on('click', fillId, (e) => {
+
+            const feature = e.features?.[0];
+            if (!feature) return;
+            const country = feature.properties.country;
+            const region = feature.properties.region || 'Region not specified';
+            var data = "";
+
+            if (region == 'Region not specified') {
+            data = `
+            <div class="popupbox">
+              <strong>Language:</strong> ${lang}<br/>
+            </div>
+            <div>   
+              <strong>Country:</strong> ${country}<br/>
+            </div>
+          `;
+            }else{
+          data = `
+            <div class="popupbox">
+              <strong>Language:</strong> ${lang}<br/>
+            </div>
+            <div>   
+              <strong>Country:</strong> ${country}<br/>
+              <strong>Region:</strong> ${region}
+            </div>
+          `;
+            }
+
+            const popupHTML = data
+
+
             new maplibregl.Popup({ closeOnClick: true, anchor: 'bottom' })
               .setLngLat(e.lngLat)
-              .setHTML(`<div class="popupbox">${lang}</div>`)
+              .setHTML(popupHTML)
               .addTo(map);
           });
 
