@@ -17,6 +17,8 @@
   border-radius: 5px;
   border: #574B60 solid 2px;
   background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
 
 }
 .maplibregl-popup strong{
@@ -25,9 +27,11 @@
 
 .popupbox{
   display: flex;
-  justify-content: center;
-  border-bottom: #574B60 solid 1px;
-  padding: 5px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+ 
+  width: 100%;
+
 }
 
 .popup-content{
@@ -36,3 +40,20 @@
   justify-content: left;
 
 }
+.line{
+width: 90%;
+height: 1px;
+border-bottom: #574B60 solid 1px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.closeButton{
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #574B60;
+    
+  }

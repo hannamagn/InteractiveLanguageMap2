@@ -21,6 +21,8 @@ function LanguageButton({ label }: LanguageButtonProps) {
   return (
     <Button
       style={{
+        height: 'auto',
+        minHeight: '20px',
         backgroundColor: isSelected ? selectedbuttoncolor : '#574B60', // Highlight if selected
         marginTop: '6px',
         textTransform: 'none',

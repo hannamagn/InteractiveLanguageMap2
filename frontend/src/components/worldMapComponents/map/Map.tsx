@@ -100,8 +100,11 @@ function Map({ disableScrollZoom = false }: MapProps) {
             if (region == 'Region not specified') {
             data = `
             <div class="popupbox">
-              <strong>Language: </strong> ${lang}<br/>
+            <button class="closeButton" onclick="this.parentElement.parentElement.parentElement.remove()">×</button>
+              ${lang}
+            <div> </div>
             </div>
+            <div class= "line"></div>
             <div class="popup-content">   
               <strong>Country:</strong> ${country}<br/>
             </div>
@@ -109,8 +112,11 @@ function Map({ disableScrollZoom = false }: MapProps) {
             }else{
           data = `
             <div class="popupbox">
-              <strong>Language: </strong> ${lang}<br/>
+            <button class="closeButton" onclick="this.parentElement.parentElement.parentElement.remove()">×</button>
+            ${lang}
+             <div> </div>
             </div>
+            <div class = "line"></div>
             <div class="popup-content">   
               <strong>Country: </strong> ${country}<br/>
               <strong>Region: </strong> ${region}
@@ -120,7 +126,8 @@ function Map({ disableScrollZoom = false }: MapProps) {
             const popupHTML = data
 
 
-            new maplibregl.Popup({ closeOnClick: true, anchor: 'bottom' })
+            new maplibregl.Popup({ closeOnClick: true,  closeButton: false, anchor: 'bottom' })
+            
               .setLngLat(e.lngLat)
               .setHTML(popupHTML)
               .addTo(map);

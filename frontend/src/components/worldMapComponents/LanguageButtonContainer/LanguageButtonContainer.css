@@ -43,6 +43,9 @@ Button{
     flex-direction: column;
     width: 100%; 
     height: auto;
+    max-height: 150px;
+    overflow:scroll;
+    overflow-x:hidden;
     align-items: center;
     scrollbar-color: #574B60 rgb(255, 255, 255);
     border-bottom: #574B60 solid 1px;   
