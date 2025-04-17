@@ -22,8 +22,8 @@ function Map({ disableScrollZoom = false }: MapProps) {
       style: 'style3.json',
       center: [0, 0],
       zoom: 2,
-      maxZoom: 8,
-      minZoom: 2,
+      maxZoom: 10,
+      minZoom: 1.5,
       pitchWithRotate: false,
       dragRotate: false,
     });
@@ -54,8 +54,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
         console.log("FETCHEING:" +  lang);
 ;
         if (existingLanguages.has(lang))  return;
-          const response = await fetch(`${lang}`);
-
+          const response = await fetch(`http://localhost:3000/language/geojson/${lang}`);
           const geojson = await response.json();
 
           const sourceId = `source-${lang}`;
@@ -88,10 +87,49 @@ function Map({ disableScrollZoom = false }: MapProps) {
             },
           });
 
+
+
           map.on('click', fillId, (e) => {
-            new maplibregl.Popup({ closeOnClick: true, anchor: 'bottom' })
+
+            const feature = e.features?.[0];
+            if (!feature) return;
+            const country = feature.properties.country;
+            const region = feature.properties.region || 'Region not specified';
+            var data = "";
+
+            if (region == 'Region not specified') {
+            data = `
+            <div class="popupbox">
+            <button class="closeButton" onclick="this.parentElement.parentElement.parentElement.remove()">×</button>
+              ${lang}
+            <div> </div>
+            </div>
+            <div class= "line"></div>
+            <div class="popup-content">   
+              <strong>Country:</strong> ${country}<br/>
+            </div>
+          `;
+            }else{
+          data = `
+            <div class="popupbox">
+            <button class="closeButton" onclick="this.parentElement.parentElement.parentElement.remove()">×</button>
+            ${lang}
+             <div> </div>
+            </div>
+            <div class = "line"></div>
+            <div class="popup-content">   
+              <strong>Country: </strong> ${country}<br/>
+              <strong>Region: </strong> ${region}
+            </div>
+          `;
+            }
+            const popupHTML = data
+
+
+            new maplibregl.Popup({ closeOnClick: true,  closeButton: false, anchor: 'bottom' })
+            
               .setLngLat(e.lngLat)
-              .setHTML(`<div class="popupbox">${lang}</div>`)
+              .setHTML(popupHTML)
               .addTo(map);
           });
 

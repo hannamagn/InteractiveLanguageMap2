@@ -1,30 +1,38 @@
 import Button from '@mui/material/Button';
 import './LanguageButton.css';
-import { useLanguage} from "../../../context/LanguageContext";
+import { useLanguage } from "../../../context/LanguageContext";
 
 
-
+const selectedbuttoncolor = '#A26769'
 
 interface LanguageButtonProps {
   label: string;
-  
 }
 
-
-
 function LanguageButton({ label }: LanguageButtonProps) {
-  const { dispatch } = useLanguage();
+  const { state, dispatch } = useLanguage();
+  const isSelected = state.selectedLanguages.includes(label);
 
   const handleClick = () => {
-    console.log(`Adding language: ${label}`);
+    console.log(`Toggling language: ${label}`);
     dispatch({ type: 'TOGGLE_LANGUAGE', payload: label });
   };
 
-  return <Button  style={{
-    backgroundColor: "#574B60", marginTop: '6px', textTransform: "none"
-  }}
-  
-   variant="contained" onClick={handleClick}>{label}</Button>;
+  return (
+    <Button
+      style={{
+        height: 'auto',
+        minHeight: '20px',
+        backgroundColor: isSelected ? selectedbuttoncolor : '#574B60', // Highlight if selected
+        marginTop: '6px',
+        textTransform: 'none',
+      }}
+      variant="contained"
+      onClick={handleClick}
+    >
+      {label}
+    </Button>
+  );
 }
 
 export default LanguageButton;

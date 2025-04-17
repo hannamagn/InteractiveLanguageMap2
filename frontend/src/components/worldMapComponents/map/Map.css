@@ -9,20 +9,51 @@
   }
 
 .maplibregl-popup {
-  z-index: 1000;
-  height: 200px;
+
+  min-height: 70px;
+  height: auto;
   width: 150px;
   margin-top: -105vh;
   border-radius: 5px;
   border: #574B60 solid 2px;
   background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
 
 }
-
+.maplibregl-popup strong{
+  color: #574B60;
+}
 
 .popupbox{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+ 
+  width: 100%;
 
-  border-bottom: #574B60 solid 1px;
 }
+
+.popup-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+}
+.line{
+width: 90%;
+height: 1px;
+border-bottom: #574B60 solid 1px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.closeButton{
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #574B60;
+    
+  }

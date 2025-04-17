@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.1",
+    "@mui/material": "^7.0.1",
     "@nestjs/mongoose": "^11.0.2",
     "axios": "^1.8.4",
     "maplibre-gl": "^5.2.0",
@@ -7,35 +11,7 @@
     "react": "^19.0.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@types/aria-query": "^5.0.4",
-    "@types/axios": "^0.9.36",
-    "@types/body-parser": "^1.19.5",
-    "@types/connect": "^3.4.38",
-    "@types/cookiejar": "^2.1.5",
-    "@types/eslint-scope": "^3.7.7",
-    "@types/express": "^5.0.0",
-    "@types/express-serve-static-core": "^5.0.6",
-    "@types/http-cache-semantics": "^4.0.4",
-    "@types/http-errors": "^2.0.4",
-    "@types/jest": "^29.5.14",
-    "@types/jsdom": "^21.1.7",
-    "@types/methods": "^1.1.4",
-    "@types/mime": "^3.0.4",
-    "@types/qs": "^6.9.18",
-    "@types/range-parser": "^1.2.7",
-    "@types/send": "^0.17.4",
-    "@types/serve-static": "^1.15.7",
-    "@types/superagent": "^8.1.9",
-    "@types/supertest": "^6.0.2",
-    "@types/tough-cookie": "^4.0.5",
-    "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.22.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "jest-environment-jsdom": "^29.7.0",
-    "ts-jest": "^29.2.6"
+    "@types/testing-library__jest-dom": "^6.0.0"
   },
   "scripts": {
     "start": "nest start",
@@ -47,8 +23,5 @@
     "maplibre-gl-vector-text-protocol": "^0.0.5",
     "react": "^19.1.0",
     "vite": "^6.2.5"
-  },
-  "devDependencies": {
-    "@types/testing-library__jest-dom": "^6.0.0"
   }
 }
