@@ -136,6 +136,20 @@ export class LanguageService {
       throw new NotFoundException('No valid GeoJSON-data found');
     }
 
+    const speakerInfo = (languageData.number_of_speakers ?? [])
+      .map(entry => {
+        const num = entry.number;
+        if (!num || num === 'Missing') return null;
+
+        return {
+          number: parseInt(num, 10),
+          placeSurveyed: entry['place surveyed'] !== 'Missing' ? entry['place surveyed'] : null,
+          appliesTo: entry['number applies to'] !== 'Missing' ? entry['number applies to'] : null,
+          timeSurveyed: entry['time surveyed'] || null,
+        };
+      })
+      .filter(entry => entry !== null);
+
     return {
       type: 'FeatureCollection',
       properties: {
@@ -143,6 +157,7 @@ export class LanguageService {
         iso_code: languageData.iso_code,
         regions: languageData.Regions ? languageData.Regions.map(r => r.name) : [],
         countries: languageData.Countries ? languageData.Countries.map(c => c.name) : [],
+        number_of_speakers: speakerInfo.length > 0 ? speakerInfo : "Missing data",
       },
       features: geoJsonFeatures,
     };
