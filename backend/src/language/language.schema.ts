@@ -21,6 +21,9 @@ export class Language extends Document {
   @Prop([String])
   Instances?: Array<string>; 
 
+  @Prop([String])
+  immediate_Language_Families?: Array<string>;
+
   @Prop([Object])
   number_of_speakers?: Array<{
     number?: string;

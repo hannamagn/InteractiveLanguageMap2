@@ -157,6 +157,7 @@ export class LanguageService {
         iso_code: languageData.iso_code,
         regions: languageData.Regions ? languageData.Regions.map(r => r.name) : [],
         countries: languageData.Countries ? languageData.Countries.map(c => c.name) : [],
+        language_family: languageData.immediate_Language_Families ?? [],
         number_of_speakers: speakerInfo.length > 0 ? speakerInfo : "Missing data",
       },
       features: geoJsonFeatures,
