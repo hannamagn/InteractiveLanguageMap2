@@ -41,11 +41,11 @@ def main():
     lang_data = query_cleaner.clean_missing_data(lang_data)
 
     # the complete langmetadata is saved to not accidentally overwrite the dialect/sign/missing language files 
-    logger.info("Filter out dialects, sign langauges and langauages missing all metadata")
+    logger.info("Filter out dialects, sign langauges and languages missing all metadata")
     lang_data = query_cleaner.filter_lang_data(lang_data) # lang_data is now only language.json filtered out
 
 
-    query_service.get_all_osm_id(lang_data, [])
+    #query_service.get_all_osm_id(lang_data, [])
     #query_service.get_regions(lang_data)
     
 
@@ -64,18 +64,8 @@ def main():
 
 if __name__ == "__main__":
     
-    # with open("WikidataQuery/debug/minifiedFormattedRegionData.geojson", "r", encoding="utf-8") as f:
+    # with open("WikidataQuery/debug/languages.json", "r", encoding="utf-8") as f:
     #             lang_data = json.load(f)
-
-    # mongo_handler.populate_regions_mongodb_from_full_list(lang_data)
+    # mongo_handler.populate_metadata_mongodb(lang_data)
 
     main()
-
-    # with open("WikidataQuery/debug/cleaned_retired_lang.json", "r", encoding="utf-8") as f:
-    #             cleaned_retired_lang = json.load(f)
-    # query_service.get_lang_metadata(cleaned_retired_lang)
-    
-
-    # with open("WikidataQuery/debug/formattedRegionData.geojson", "r", encoding="utf-8") as f:
-    #             regionData = json.load(f)
-    # mongo_handler.populate_regions_mongodb_from_full_list(regionData)

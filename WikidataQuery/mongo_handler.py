@@ -14,7 +14,7 @@ myclient = MongoClient(uri, server_api=ServerApi('1'))
 mydb = myclient["LangMap"]
 
 def populate_metadata_mongodb(data):
-    LanguageMetaData_col = mydb["LanguageMetaDataTest2"]
+    LanguageMetaData_col = mydb["LanguageMetaDataTest"]
     LanguageMetaData_col.create_index([("iso_code", pymongo.ASCENDING)], unique=True)
 
     # TODO: missing any type of update when running again, I think
@@ -65,9 +65,11 @@ def db_lang_formatting(language):
     
     countries = []
     for i in range(len(country_list)):
-        c_name = country_list[i]
+        countrydict = country_list[i]
+        c_name = countrydict.get("Country")
         c_osm = countries_osm_list[i]
-        c_entry = {"name": c_name, "country_osm_id": c_osm} 
+        c_isOfficialLanguage = countrydict.get("IsOfficialLanguage")
+        c_entry = {"name": c_name, "country_osm_id": c_osm, "is_official_language": c_isOfficialLanguage} 
         countries.append(c_entry)
 
     new_format.update({"Language": lang_name})

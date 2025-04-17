@@ -13,7 +13,10 @@
                 "3498733"
             ],
             "Countries": [
-                "Ghana"
+                {
+                    "Country": "Ghana",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q117"
@@ -53,7 +56,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Argentina"
+                {
+                    "Country": "Argentina",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q414"
@@ -92,7 +98,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Armenia"
+                {
+                    "Country": "Armenia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q399"
@@ -158,7 +167,10 @@
                 "1674876"
             ],
             "Countries": [
-                "Afghanistan"
+                {
+                    "Country": "Afghanistan",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q889"
@@ -197,7 +209,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Algeria"
+                {
+                    "Country": "Algeria",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q262"
@@ -235,8 +250,14 @@
                 "Missing"
             ],
             "Countries": [
-                "United States",
-                "Canada"
+                {
+                    "Country": "United States",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Canada",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q30",
@@ -278,7 +299,10 @@
                 "2316593"
             ],
             "Countries": [
-                "Australia"
+                {
+                    "Country": "Australia",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
@@ -316,7 +340,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Algeria"
+                {
+                    "Country": "Algeria",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q262"
@@ -356,7 +383,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Austria"
+                {
+                    "Country": "Austria",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q40"
@@ -394,7 +424,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Australia"
+                {
+                    "Country": "Australia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
@@ -433,7 +466,10 @@
                 "Missing"
             ],
             "Countries": [
-                "United Kingdom"
+                {
+                    "Country": "United Kingdom",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q145"
@@ -478,7 +514,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Thailand"
+                {
+                    "Country": "Thailand",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q869"
@@ -511,7 +550,10 @@
             "RegionsID": [],
             "RegionsOSM": [],
             "Countries": [
-                "Mali"
+                {
+                    "Country": "Mali",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q912"
@@ -550,7 +592,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Bulgaria"
+                {
+                    "Country": "Bulgaria",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q219"
@@ -592,7 +637,10 @@
                 "1615621"
             ],
             "Countries": [
-                "Indonesia"
+                {
+                    "Country": "Indonesia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q252"
@@ -640,7 +688,10 @@
                 "400473"
             ],
             "Countries": [
-                "Bolivia"
+                {
+                    "Country": "Bolivia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q750"
@@ -678,7 +729,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Brazil"
+                {
+                    "Country": "Brazil",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q155"
@@ -718,7 +772,10 @@
                 "3718330"
             ],
             "Countries": [
-                "Chad"
+                {
+                    "Country": "Chad",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q657"
@@ -756,7 +813,10 @@
                 "349053"
             ],
             "Countries": [
-                "Spain"
+                {
+                    "Country": "Spain",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q29"
@@ -796,7 +856,10 @@
                 "1908771"
             ],
             "Countries": [
-                "Thailand"
+                {
+                    "Country": "Thailand",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q869"
@@ -835,7 +898,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Czech Republic"
+                {
+                    "Country": "Czech Republic",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q213"
@@ -875,7 +941,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Cuba"
+                {
+                    "Country": "Cuba",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q241"
@@ -914,7 +983,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Chile"
+                {
+                    "Country": "Chile",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q298"
@@ -953,7 +1025,10 @@
                 "Missing"
             ],
             "Countries": [
-                "People's Republic of China"
+                {
+                    "Country": "People's Republic of China",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q148"
@@ -991,7 +1066,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Colombia"
+                {
+                    "Country": "Colombia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q739"
@@ -1030,7 +1108,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Croatia"
+                {
+                    "Country": "Croatia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q224"
@@ -1069,7 +1150,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Costa Rica"
+                {
+                    "Country": "Costa Rica",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q800"
@@ -1108,7 +1192,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Cambodia"
+                {
+                    "Country": "Cambodia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q424"
@@ -1146,7 +1233,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Dominican Republic"
+                {
+                    "Country": "Dominican Republic",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q786"
@@ -1185,8 +1275,14 @@
                 "Missing"
             ],
             "Countries": [
-                "Kingdom of the Netherlands",
-                "Netherlands"
+                {
+                    "Country": "Kingdom of the Netherlands",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Netherlands",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q29999",
@@ -1226,7 +1322,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Denmark"
+                {
+                    "Country": "Denmark",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q35"
@@ -1266,7 +1365,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Turkey"
+                {
+                    "Country": "Turkey",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q43"
@@ -1304,7 +1406,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Ecuador"
+                {
+                    "Country": "Ecuador",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q736"
@@ -1343,7 +1448,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Japan"
+                {
+                    "Country": "Japan",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q17"
@@ -1382,7 +1490,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Egypt"
+                {
+                    "Country": "Egypt",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q79"
@@ -1421,7 +1532,10 @@
                 "Missing"
             ],
             "Countries": [
-                "El Salvador"
+                {
+                    "Country": "El Salvador",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q792"
@@ -1460,7 +1574,10 @@
                 "350303"
             ],
             "Countries": [
-                "Estonia"
+                {
+                    "Country": "Estonia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q191"
@@ -1500,7 +1617,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Ethiopia"
+                {
+                    "Country": "Ethiopia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q115"
@@ -1558,7 +1678,10 @@
                 "390867"
             ],
             "Countries": [
-                "Canada"
+                {
+                    "Country": "Canada",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q16"
@@ -1596,7 +1719,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Finland"
+                {
+                    "Country": "Finland",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q33"
@@ -1636,7 +1762,10 @@
                 "Missing"
             ],
             "Countries": [
-                "France"
+                {
+                    "Country": "France",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q142"
@@ -1676,7 +1805,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Finland"
+                {
+                    "Country": "Finland",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q33"
@@ -1705,16 +1837,19 @@
             "Language": "Ghandruk Sign Language",
             "LanguageID": "http://www.wikidata.org/entity/Q15971577",
             "Regions": [
-                "Gandaki Province"
+                "Gandaki Zone"
             ],
             "RegionsID": [
-                "http://www.wikidata.org/entity/Q25104016"
+                "http://www.wikidata.org/entity/Q9133"
             ],
             "RegionsOSM": [
-                "10489605"
+                "Missing"
             ],
             "Countries": [
-                "Nepal"
+                {
+                    "Country": "Nepal",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q837"
@@ -1752,7 +1887,10 @@
                 "192781"
             ],
             "Countries": [
-                "Ghana"
+                {
+                    "Country": "Ghana",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q117"
@@ -1791,9 +1929,18 @@
                 "Missing"
             ],
             "Countries": [
-                "Germany",
-                "Luxembourg",
-                "Belgium"
+                {
+                    "Country": "Germany",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Luxembourg",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Belgium",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q183",
@@ -1836,7 +1983,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Guatemala"
+                {
+                    "Country": "Guatemala",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q774"
@@ -1874,7 +2024,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Greece"
+                {
+                    "Country": "Greece",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q41"
@@ -1912,7 +2065,10 @@
                 "3731500"
             ],
             "Countries": [
-                "Guinea"
+                {
+                    "Country": "Guinea",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1006"
@@ -1951,7 +2107,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Vietnam"
+                {
+                    "Country": "Vietnam",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q881"
@@ -1989,7 +2148,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Vietnam"
+                {
+                    "Country": "Vietnam",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q881"
@@ -2028,7 +2190,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Honduras"
+                {
+                    "Country": "Honduras",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q783"
@@ -2067,7 +2232,10 @@
                 "913110"
             ],
             "Countries": [
-                "People's Republic of China"
+                {
+                    "Country": "People's Republic of China",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q148"
@@ -2105,7 +2273,10 @@
                 "1973756"
             ],
             "Countries": [
-                "Vietnam"
+                {
+                    "Country": "Vietnam",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q881"
@@ -2143,7 +2314,10 @@
                 "166563"
             ],
             "Countries": [
-                "United States"
+                {
+                    "Country": "United States",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q30"
@@ -2182,7 +2356,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Hungary"
+                {
+                    "Country": "Hungary",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q28"
@@ -2226,7 +2403,10 @@
                 "3717259"
             ],
             "Countries": [
-                "Nigeria"
+                {
+                    "Country": "Nigeria",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1033"
@@ -2265,7 +2445,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Iceland"
+                {
+                    "Country": "Iceland",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q189"
@@ -2304,7 +2487,10 @@
                 "390840"
             ],
             "Countries": [
-                "Canada"
+                {
+                    "Country": "Canada",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q16"
@@ -2314,6 +2500,49 @@
             ],
             "Instances": [
                 "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
+            ]
+        }
+    },
+    "ils": {
+        "International Sign": {
+            "Language": "International Sign",
+            "LanguageID": "http://www.wikidata.org/entity/Q35754",
+            "Regions": [
+                "Missing"
+            ],
+            "RegionsID": [
+                "Missing"
+            ],
+            "RegionsOSM": [
+                "Missing"
+            ],
+            "Countries": [
+                {
+                    "Country": "Missing",
+                    "IsOfficialLanguage": "Missing"
+                }
+            ],
+            "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
+                "Missing"
+            ],
+            "Instances": [
+                "pidgin",
+                "sign language",
+                "modern language"
             ],
             "immediate_Language_Families": [
                 "Missing"
@@ -2345,7 +2574,10 @@
                 "1615621"
             ],
             "Countries": [
-                "Indonesia"
+                {
+                    "Country": "Indonesia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q252"
@@ -2385,7 +2617,10 @@
                 "304716"
             ],
             "Countries": [
-                "India"
+                {
+                    "Country": "India",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q668"
@@ -2428,7 +2663,10 @@
                 "7361997"
             ],
             "Countries": [
-                "Italy"
+                {
+                    "Country": "Italy",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q38"
@@ -2468,7 +2706,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Ireland"
+                {
+                    "Country": "Ireland",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q27"
@@ -2508,7 +2749,10 @@
                 "1473946"
             ],
             "Countries": [
-                "Israel"
+                {
+                    "Country": "Israel",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q801"
@@ -2547,7 +2791,10 @@
                 "319352"
             ],
             "Countries": [
-                "Jamaica"
+                {
+                    "Country": "Jamaica",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q766"
@@ -2578,16 +2825,19 @@
             "Language": "Jhankot Sign Language",
             "LanguageID": "http://www.wikidata.org/entity/Q6190889",
             "Regions": [
-                "Karnali Province"
+                "Karnali Zone"
             ],
             "RegionsID": [
-                "http://www.wikidata.org/entity/Q25104017"
+                "http://www.wikidata.org/entity/Q9164"
             ],
             "RegionsOSM": [
-                "10493723"
+                "Missing"
             ],
             "Countries": [
-                "Nepal"
+                {
+                    "Country": "Nepal",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q837"
@@ -2626,7 +2876,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Japan"
+                {
+                    "Country": "Japan",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q17"
@@ -2664,7 +2917,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Jamaica"
+                {
+                    "Country": "Jamaica",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q766"
@@ -2703,7 +2959,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Jordan"
+                {
+                    "Country": "Jordan",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q810"
@@ -2741,7 +3000,10 @@
                 "382313"
             ],
             "Countries": [
-                "Japan"
+                {
+                    "Country": "Japan",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q17"
@@ -2770,16 +3032,19 @@
             "Language": "Jumla Sign Language",
             "LanguageID": "http://www.wikidata.org/entity/Q6310991",
             "Regions": [
-                "Karnali Province"
+                "Karnali Zone"
             ],
             "RegionsID": [
-                "http://www.wikidata.org/entity/Q25104017"
+                "http://www.wikidata.org/entity/Q9164"
             ],
             "RegionsOSM": [
-                "10493723"
+                "Missing"
             ],
             "Countries": [
-                "Nepal"
+                {
+                    "Country": "Nepal",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q837"
@@ -2818,7 +3083,10 @@
                 "2932285"
             ],
             "Countries": [
-                "Malaysia"
+                {
+                    "Country": "Malaysia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q833"
@@ -2857,7 +3125,10 @@
                 "Missing"
             ],
             "Countries": [
-                "South Korea"
+                {
+                    "Country": "South Korea",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q884"
@@ -2896,7 +3167,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Libya"
+                {
+                    "Country": "Libya",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1016"
@@ -2934,7 +3208,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Guinea-Bissau"
+                {
+                    "Country": "Guinea-Bissau",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1007"
@@ -2972,7 +3249,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Lithuania"
+                {
+                    "Country": "Lithuania",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q37"
@@ -3010,7 +3290,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Burundi"
+                {
+                    "Country": "Burundi",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q967"
@@ -3048,7 +3331,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Mexico"
+                {
+                    "Country": "Mexico",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q96"
@@ -3086,7 +3372,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Latvia"
+                {
+                    "Country": "Latvia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q211"
@@ -3128,7 +3417,10 @@
                 "Missing"
             ],
             "Countries": [
-                "People's Republic of China"
+                {
+                    "Country": "People's Republic of China",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q148"
@@ -3166,7 +3458,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Laos"
+                {
+                    "Country": "Laos",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q819"
@@ -3205,7 +3500,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Panama"
+                {
+                    "Country": "Panama",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q804"
@@ -3244,7 +3542,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Trinidad and Tobago"
+                {
+                    "Country": "Trinidad and Tobago",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q754"
@@ -3283,7 +3584,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Peru"
+                {
+                    "Country": "Peru",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q419"
@@ -3321,7 +3625,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Seychelles"
+                {
+                    "Country": "Seychelles",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1042"
@@ -3359,7 +3666,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Mauritius"
+                {
+                    "Country": "Mauritius",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1027"
@@ -3398,7 +3708,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Malawi"
+                {
+                    "Country": "Malawi",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1020"
@@ -3436,7 +3749,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Malta"
+                {
+                    "Country": "Malta",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q233"
@@ -3475,7 +3791,10 @@
                 "114686"
             ],
             "Countries": [
-                "Mexico"
+                {
+                    "Country": "Mexico",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q96"
@@ -3518,7 +3837,10 @@
                 "2614434"
             ],
             "Countries": [
-                "Mexico"
+                {
+                    "Country": "Mexico",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q96"
@@ -3556,7 +3878,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Mongolia"
+                {
+                    "Country": "Mongolia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q711"
@@ -3595,13 +3920,57 @@
                 "Missing"
             ],
             "Countries": [
-                "Madagascar"
+                {
+                    "Country": "Madagascar",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1019"
             ],
             "CountriesOSM": [
                 "447325"
+            ],
+            "Instances": [
+                "sign language"
+            ],
+            "immediate_Language_Families": [
+                "Missing"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
+            ]
+        }
+    },
+    "mzg": {
+        "Monastic sign languages": {
+            "Language": "Monastic sign languages",
+            "LanguageID": "http://www.wikidata.org/entity/Q3217333",
+            "Regions": [
+                "Missing"
+            ],
+            "RegionsID": [
+                "Missing"
+            ],
+            "RegionsOSM": [
+                "Missing"
+            ],
+            "Countries": [
+                {
+                    "Country": "Missing",
+                    "IsOfficialLanguage": "Missing"
+                }
+            ],
+            "CountriesID": [
+                "Missing"
+            ],
+            "CountriesOSM": [
+                "Missing"
             ],
             "Instances": [
                 "sign language"
@@ -3633,7 +4002,10 @@
                 "2908365"
             ],
             "Countries": [
-                "Mozambique"
+                {
+                    "Country": "Mozambique",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1029"
@@ -3672,7 +4044,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Namibia"
+                {
+                    "Country": "Namibia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1030"
@@ -3711,7 +4086,10 @@
                 "2194897"
             ],
             "Countries": [
-                "Nicaragua"
+                {
+                    "Country": "Nicaragua",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q811"
@@ -3751,7 +4129,10 @@
                 "3717259"
             ],
             "Countries": [
-                "Nigeria"
+                {
+                    "Country": "Nigeria",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1033"
@@ -3790,7 +4171,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Norway"
+                {
+                    "Country": "Norway",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q20"
@@ -3828,7 +4212,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Nepal"
+                {
+                    "Country": "Nepal",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q837"
@@ -3873,7 +4260,10 @@
                 "391115"
             ],
             "Countries": [
-                "Canada"
+                {
+                    "Country": "Canada",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q16"
@@ -3912,7 +4302,10 @@
                 "Missing"
             ],
             "Countries": [
-                "New Zealand"
+                {
+                    "Country": "New Zealand",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q664"
@@ -3950,7 +4343,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Papua New Guinea"
+                {
+                    "Country": "Papua New Guinea",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q691"
@@ -3990,7 +4386,10 @@
                 "307573"
             ],
             "Countries": [
-                "Pakistan"
+                {
+                    "Country": "Pakistan",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q843"
@@ -4028,7 +4427,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Peru"
+                {
+                    "Country": "Peru",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q419"
@@ -4066,7 +4468,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Colombia"
+                {
+                    "Country": "Colombia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q739"
@@ -4104,7 +4509,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Iran"
+                {
+                    "Country": "Iran",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q794"
@@ -4149,8 +4557,14 @@
                 "Missing"
             ],
             "Countries": [
-                "United States",
-                "Canada"
+                {
+                    "Country": "United States",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Canada",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q30",
@@ -4199,7 +4613,10 @@
                 "4445131"
             ],
             "Countries": [
-                "Malaysia"
+                {
+                    "Country": "Malaysia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q833"
@@ -4238,7 +4655,10 @@
                 "Missing"
             ],
             "Countries": [
-                "United States"
+                {
+                    "Country": "United States",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q30"
@@ -4277,7 +4697,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Poland"
+                {
+                    "Country": "Poland",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q36"
@@ -4303,8 +4726,8 @@
         }
     },
     "psp": {
-        "Philippine Sign Language": {
-            "Language": "Philippine Sign Language",
+        "Filipino Sign Language": {
+            "Language": "Filipino Sign Language",
             "LanguageID": "http://www.wikidata.org/entity/Q3551357",
             "Regions": [
                 "Missing"
@@ -4316,7 +4739,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Philippines"
+                {
+                    "Country": "Philippines",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q928"
@@ -4358,7 +4784,10 @@
                 "1629145"
             ],
             "Countries": [
-                "Portugal"
+                {
+                    "Country": "Portugal",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q45"
@@ -4398,7 +4827,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Paraguay"
+                {
+                    "Country": "Paraguay",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q733"
@@ -4437,7 +4869,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Costa Rica"
+                {
+                    "Country": "Costa Rica",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q800"
@@ -4475,7 +4910,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Romania"
+                {
+                    "Country": "Romania",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q218"
@@ -4514,7 +4952,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Costa Rica"
+                {
+                    "Country": "Costa Rica",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q800"
@@ -4555,7 +4996,10 @@
                 "337422"
             ],
             "Countries": [
-                "Russia"
+                {
+                    "Country": "Russia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q159"
@@ -4595,7 +5039,10 @@
                 "2316598"
             ],
             "Countries": [
-                "Australia"
+                {
+                    "Country": "Australia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
@@ -4633,7 +5080,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Rwanda"
+                {
+                    "Country": "Rwanda",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1037"
@@ -4671,7 +5121,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Saudi Arabia"
+                {
+                    "Country": "Saudi Arabia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q851"
@@ -4710,7 +5163,10 @@
                 "78967"
             ],
             "Countries": [
-                "Belgium"
+                {
+                    "Country": "Belgium",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q31"
@@ -4748,7 +5204,10 @@
                 "Missing"
             ],
             "Countries": [
-                "South Africa"
+                {
+                    "Country": "South Africa",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q258"
@@ -4788,8 +5247,14 @@
                 "Missing"
             ],
             "Countries": [
-                "Liechtenstein",
-                "Switzerland"
+                {
+                    "Country": "Liechtenstein",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Switzerland",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q347",
@@ -4829,7 +5294,10 @@
                 "3242455"
             ],
             "Countries": [
-                "Sierra Leone"
+                {
+                    "Country": "Sierra Leone",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1044"
@@ -4871,7 +5339,10 @@
                 "1687730"
             ],
             "Countries": [
-                "Switzerland"
+                {
+                    "Country": "Switzerland",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q39"
@@ -4909,7 +5380,10 @@
                 "536780"
             ],
             "Countries": [
-                "Singapore"
+                {
+                    "Country": "Singapore",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q334"
@@ -4948,7 +5422,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Albania"
+                {
+                    "Country": "Albania",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q222"
@@ -4987,7 +5464,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Sri Lanka"
+                {
+                    "Country": "Sri Lanka",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q854"
@@ -5026,7 +5506,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Israel"
+                {
+                    "Country": "Israel",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q801"
@@ -5067,7 +5550,10 @@
                 "349043"
             ],
             "Countries": [
-                "Spain"
+                {
+                    "Country": "Spain",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q29"
@@ -5116,7 +5602,10 @@
                 "1702421"
             ],
             "Countries": [
-                "Switzerland"
+                {
+                    "Country": "Switzerland",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q39"
@@ -5154,7 +5643,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Slovakia"
+                {
+                    "Country": "Slovakia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q214"
@@ -5193,7 +5685,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Sweden"
+                {
+                    "Country": "Sweden",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q34"
@@ -5233,7 +5728,10 @@
                 "1473952"
             ],
             "Countries": [
-                "Israel"
+                {
+                    "Country": "Israel",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q801"
@@ -5272,7 +5770,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Solomon Islands"
+                {
+                    "Country": "Solomon Islands",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q685"
@@ -5310,7 +5811,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Tunisia"
+                {
+                    "Country": "Tunisia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q948"
@@ -5350,7 +5854,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Turkey"
+                {
+                    "Country": "Turkey",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q43"
@@ -5389,7 +5896,10 @@
                 "92277"
             ],
             "Countries": [
-                "Thailand"
+                {
+                    "Country": "Thailand",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q869"
@@ -5429,7 +5939,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Taiwan"
+                {
+                    "Country": "Taiwan",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q865"
@@ -5468,7 +5981,10 @@
                 "2096899"
             ],
             "Countries": [
-                "Mali"
+                {
+                    "Country": "Mali",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q912"
@@ -5507,7 +6023,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Tanzania"
+                {
+                    "Country": "Tanzania",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q924"
@@ -5546,7 +6065,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Uganda"
+                {
+                    "Country": "Uganda",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1036"
@@ -5585,7 +6107,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Uruguay"
+                {
+                    "Country": "Uruguay",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q77"
@@ -5624,7 +6149,10 @@
                 "60199"
             ],
             "Countries": [
-                "Ukraine"
+                {
+                    "Country": "Ukraine",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q212"
@@ -5665,7 +6193,10 @@
                 "332924"
             ],
             "Countries": [
-                "Brazil"
+                {
+                    "Country": "Brazil",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q155"
@@ -5703,7 +6234,10 @@
                 "53136"
             ],
             "Countries": [
-                "Belgium"
+                {
+                    "Country": "Belgium",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q31"
@@ -5741,7 +6275,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Moldova"
+                {
+                    "Country": "Moldova",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q217"
@@ -5779,7 +6316,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Venezuela"
+                {
+                    "Country": "Venezuela",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q717"
@@ -5818,7 +6358,10 @@
                 "349043"
             ],
             "Countries": [
-                "Spain"
+                {
+                    "Country": "Spain",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q29"
@@ -5856,7 +6399,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Kenya"
+                {
+                    "Country": "Kenya",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q114"
@@ -5895,7 +6441,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Malaysia"
+                {
+                    "Country": "Malaysia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q833"
@@ -5933,7 +6482,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Morocco"
+                {
+                    "Country": "Morocco",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q1028"
@@ -5972,7 +6524,10 @@
                 "2316594"
             ],
             "Countries": [
-                "Australia"
+                {
+                    "Country": "Australia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
@@ -6012,7 +6567,10 @@
                 "2316594"
             ],
             "Countries": [
-                "Australia"
+                {
+                    "Country": "Australia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q408"
@@ -6052,8 +6610,14 @@
                 "Missing"
             ],
             "Countries": [
-                "Serbia",
-                "Slovenia"
+                {
+                    "Country": "Serbia",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Slovenia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q403",
@@ -6094,7 +6658,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Myanmar"
+                {
+                    "Country": "Myanmar",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q836"
@@ -6132,7 +6699,10 @@
                 "3336976"
             ],
             "Countries": [
-                "Zimbabwe"
+                {
+                    "Country": "Zimbabwe",
+                    "IsOfficialLanguage": "true"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q954"
@@ -6172,7 +6742,10 @@
                 "Missing"
             ],
             "Countries": [
-                "Zambia"
+                {
+                    "Country": "Zambia",
+                    "IsOfficialLanguage": "false"
+                }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q953"

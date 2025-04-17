@@ -54,34 +54,37 @@ def get_lang_metadata(lang_data):
     for iso_list in chunked_iso_codes:
         query_string = util.array_to_string(iso_list)
 
+        # query = f'''
+        # SELECT ?language ?languageLabel ?iso_code ?region ?regionLabel ?country ?countryLabel ?region_osm_id ?country_osm_id WHERE {{
+        #     VALUES ?iso_code {query_string}  # Add more ISO codes here
+
+        #     ?language wdt:P220 ?iso_code.
+        #     OPTIONAL {{ ?language wdt:P17 ?country. 
+        #         OPTIONAL {{ ?country wdt:P402 ?country_osm_id }}
+        #     }}
+        #     OPTIONAL {{ ?language wdt:P2341 ?region 
+        #         OPTIONAL {{ ?region wdt:P402 ?region_osm_id }}
+        #     }} 
+
+        #     SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,[AUTO_LANGUAGE]". }}
+        # }}'''
+
         query = f'''
-        SELECT ?language ?languageLabel ?iso_code ?region ?regionLabel ?country ?countryLabel ?region_osm_id ?country_osm_id WHERE {{
+        SELECT ?language ?languageLabel ?iso_code ?region ?regionLabel ?country ?countryLabel ?region_osm_id ?country_osm_id ?isOfficial WHERE {{
             VALUES ?iso_code {query_string}  # Add more ISO codes here
 
             ?language wdt:P220 ?iso_code.
-            OPTIONAL {{ ?language wdt:P17 ?country. 
+            OPTIONAL {{ ?language wdt:P17 ?country.
+                OPTIONAL {{?country wdt:P37 ?official_lang.}}
                 OPTIONAL {{ ?country wdt:P402 ?country_osm_id }}
             }}
-            OPTIONAL {{ ?language wdt:P2341 ?region 
+            BIND( ?language = ?official_lang AS ?isOfficial )
+            OPTIONAL {{ ?language wdt:P2341 ?region. 
                 OPTIONAL {{ ?region wdt:P402 ?region_osm_id }}
             }} 
 
             SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,[AUTO_LANGUAGE]". }}
         }}'''
-
-        # query = f'''
-        # SELECT ?language ?languageLabel ?iso_code ?region ?regionLabel ?country ?countryLabel ?osm_id WHERE {{
-        #     VALUES ?iso_code {query_string}  # Add more ISO codes here
-
-        #     ?language wdt:P220 ?iso_code.  
-
-        #     OPTIONAL {{ ?language wdt:P17 ?country. }}
-        #     OPTIONAL {{ ?language wdt:P2341 ?region 
-        #         OPTIONAL {{ ?region wdt:P402 ?osm_id }}
-        #     }} 
-
-        #     SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,[AUTO_LANGUAGE]". }}
-        # }}'''
 
         api_data = call_wikidata_api(query, "langmetadatachunk.json", 20, False)
         lang_data = query_cleaner.populate_metadata(api_data, lang_data)

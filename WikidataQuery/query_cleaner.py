@@ -176,6 +176,7 @@ def populate_metadata(api_data, lang_data):
         country = entry["countryLabel"]["value"] if "countryLabel" in entry else "Missing"
         countryID = entry["country"]["value"] if "country" in entry else "Missing"
         country_osm_id = entry["country_osm_id"]["value"] if "country_osm_id" in entry else "Missing"
+        is_official_language_of_country = entry["isOfficial"]["value"] if "isOfficial" in entry else "Missing"
         iso_code = entry["iso_code"]["value"] 
         
         # keep the old structure
@@ -199,8 +200,22 @@ def populate_metadata(api_data, lang_data):
         if regionID not in lang_data[iso_code][language]["RegionsID"]:
             lang_data[iso_code][language]["RegionsID"].append(regionID)
             lang_data[iso_code][language]["RegionsOSM"].append(region_osm_id) # put in multiple missings of the regionosm id matching in placement to the region names
-        if country not in lang_data[iso_code][language]["Countries"]:
-            lang_data[iso_code][language]["Countries"].append(country)
+
+        country_info = {"Country": country, "IsOfficialLanguage": is_official_language_of_country}
+        if is_official_language_of_country == "true":
+            notOfficial = {"Country": country, "IsOfficialLanguage": "false"}
+            if notOfficial in lang_data[iso_code][language]["Countries"]:
+                lang_data[iso_code][language]["Countries"].remove(notOfficial)
+            if country_info not in lang_data[iso_code][language]["Countries"]:
+                lang_data[iso_code][language]["Countries"].append(country_info)      
+        elif is_official_language_of_country == "false":
+            official = {"Country": country, "IsOfficialLanguage": "true"}
+            if official not in lang_data[iso_code][language]["Countries"]:
+                if country_info not in lang_data[iso_code][language]["Countries"]:
+                    lang_data[iso_code][language]["Countries"].append(country_info)
+        elif country_info not in lang_data[iso_code][language]["Countries"]:
+            lang_data[iso_code][language]["Countries"].append(country_info)        
+                    
         if countryID not in lang_data[iso_code][language]["CountriesID"]:
             lang_data[iso_code][language]["CountriesID"].append(countryID)
             lang_data[iso_code][language]["CountriesOSM"].append(country_osm_id)
@@ -279,9 +294,9 @@ def add_missing_region_osm(data):
        their respective region'''
     
     for country in data.get("Countries", []):
-        if country in region_codes_by_country:
-          #  print(f"-----{country}-------")
-            util.replace_missingcodes(data, region_codes_by_country[country])
+        selected_country = country.get("Country")
+        if selected_country in region_codes_by_country:
+            util.replace_missingcodes(data, region_codes_by_country[selected_country])
 
 def replace_region_with_many(data): # consider splitting this out into a util
     '''Replace a single region missing osm id with the several smaller regions it 
