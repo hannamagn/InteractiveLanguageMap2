@@ -16,6 +16,7 @@ export class Language extends Document {
   Countries?: Array<{
     osm_id: any;
     country_osm_id: any; name: string 
+    is_official_language?: boolean | string;
 }>;  
 
   @Prop([String])

@@ -70,11 +70,19 @@ export class LanguageService {
     
     for (const country of languageData.Countries || []) {
       if (!country.country_osm_id && !country.osm_id) continue;
-
-      const isOfficialInCountry = country.is_official; 
-
-      const {geometry, color } = await this.getPolygonData(country.country_osm_id || country.osm_id, country.name, 'country', isOfficialInCountry);
-      if (!geometry) continue;
+    
+      const isOfficial = country.is_official_language === 'true' || country.is_official_language === true;
+    
+      const polygonResult = await this.getPolygonData(
+        country.country_osm_id || country.osm_id,
+        country.name,
+        'country',
+        isOfficial
+      );
+    
+      if (!polygonResult || !polygonResult.geometry) continue;
+    
+      const { geometry, color } = polygonResult;
     
       countryFeatures.push({
         type: 'Feature',
@@ -82,6 +90,7 @@ export class LanguageService {
           country: country.name,
           type: 'country',
           language: languageData.Language,
+          color,
         },
         geometry,
       });
