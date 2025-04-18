@@ -72,7 +72,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
             type: 'fill',
             source: sourceId,
             paint: {
-              'fill-color': '#ADD8E6',
+              'fill-color': ['get', 'color'],
               'fill-opacity': 0.4,
             },
           });

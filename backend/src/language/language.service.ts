@@ -49,7 +49,7 @@ export class LanguageService {
         coordinates: [coordinates],
       };
     }
-    const color = isOfficial ? 'green' : 'grey';
+    const color = isOfficial ? 'green' : 'yellow';
 
     return {geometry, color};
   }
