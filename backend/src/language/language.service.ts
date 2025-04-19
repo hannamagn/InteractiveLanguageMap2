@@ -30,7 +30,7 @@ export class LanguageService {
   }  
 
 
-  private async getPolygonData(osmId: string | number, name: string, type: 'region' | 'country') {
+  private async getPolygonData(osmId: string | number, name: string, type: 'region' | 'country', isOfficial: boolean) {
     const query = { osm_id: typeof osmId === 'string' ? Number(osmId) : osmId };
     const polygonData = await this.languageModel.db
       .collection('PolygonData')
@@ -49,8 +49,9 @@ export class LanguageService {
         coordinates: [coordinates],
       };
     }
+    const color = isOfficial ? 'green' : 'yellow';
 
-    return geometry;
+    return {geometry, color};
   }
 
   async createGeoJson(languageName: string): Promise<object> {
@@ -69,8 +70,19 @@ export class LanguageService {
     
     for (const country of languageData.Countries || []) {
       if (!country.country_osm_id && !country.osm_id) continue;
-      const geometry = await this.getPolygonData(country.country_osm_id || country.osm_id, country.name, 'country');
-      if (!geometry) continue;
+    
+      const isOfficial = country.is_official_language === 'true' || country.is_official_language === true;
+    
+      const polygonResult = await this.getPolygonData(
+        country.country_osm_id || country.osm_id,
+        country.name,
+        'country',
+        isOfficial
+      );
+    
+      if (!polygonResult || !polygonResult.geometry) continue;
+    
+      const { geometry, color } = polygonResult;
     
       countryFeatures.push({
         type: 'Feature',
@@ -78,6 +90,7 @@ export class LanguageService {
           country: country.name,
           type: 'country',
           language: languageData.Language,
+          color,
         },
         geometry,
       });
