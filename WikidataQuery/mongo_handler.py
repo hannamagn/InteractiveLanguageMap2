@@ -81,7 +81,7 @@ def db_lang_formatting(language):
     new_format.update({"number_of_speakers": number_of_speakers})
     return new_format
 
-#Inserts regiondata from batches of regions NOT WORKING AT THE MOMENT
+#Inserts regiondata from batches of regions NOT WORKING AT THE MOMENT, USE FUNCTION THAT TAKES FULL LIST
 def populate_regions_mongodb_in_batches(regionList):
     Regions_col = mydb["PolygonData"]
     try: 

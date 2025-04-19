@@ -54,21 +54,6 @@ def get_lang_metadata(lang_data):
     for iso_list in chunked_iso_codes:
         query_string = util.array_to_string(iso_list)
 
-        # query = f'''
-        # SELECT ?language ?languageLabel ?iso_code ?region ?regionLabel ?country ?countryLabel ?region_osm_id ?country_osm_id WHERE {{
-        #     VALUES ?iso_code {query_string}  # Add more ISO codes here
-
-        #     ?language wdt:P220 ?iso_code.
-        #     OPTIONAL {{ ?language wdt:P17 ?country. 
-        #         OPTIONAL {{ ?country wdt:P402 ?country_osm_id }}
-        #     }}
-        #     OPTIONAL {{ ?language wdt:P2341 ?region 
-        #         OPTIONAL {{ ?region wdt:P402 ?region_osm_id }}
-        #     }} 
-
-        #     SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,[AUTO_LANGUAGE]". }}
-        # }}'''
-
         query = f'''
         SELECT ?language ?languageLabel ?iso_code ?region ?regionLabel ?country ?countryLabel ?region_osm_id ?country_osm_id ?isOfficial WHERE {{
             VALUES ?iso_code {query_string}  # Add more ISO codes here
@@ -114,15 +99,13 @@ def get_regions(lang_data):
     for i in range(total_batches):
         response = call_nomimantim_api(osm_id_list[i])
         formattedResponse = format_response(response)
-        #mongo_handler.populate_regions_mongodb_in_batches(formattedResponse)
-
-        #can be saved for debug purposes
         allResponses.append(formattedResponse)
 
         print(f"Batch {i + 1}/{total_batches} done")
         print("Sleeping 2 sec")
         time.sleep(2)
 
+    #saves regions in minified format
     with open(f"WikidataQuery/debug/minifiedFormattedRegionData.geojson", "w", encoding="utf-8") as f:
         json.dump(allResponses, f, separators=(',', ':'), ensure_ascii=False)
 

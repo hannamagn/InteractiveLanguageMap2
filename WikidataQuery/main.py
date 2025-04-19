@@ -44,11 +44,19 @@ def main():
     logger.info("Filter out dialects, sign langauges and languages missing all metadata")
     lang_data = query_cleaner.filter_lang_data(lang_data) # lang_data is now only language.json filtered out
 
-
-    #query_service.get_all_osm_id(lang_data, [])
-    #query_service.get_regions(lang_data)
+    repopulate_metadata = input("Repopulate metadata into database? y/n: ")
+    if repopulate_metadata == "y":
+        logger.info("Populate metadata into the database")
+        mongo_handler.populate_metadata_mongodb(lang_data)
     
-
+    repopulate_regiondata = input("Repopulate regiondata into database? y/n: ")
+    if repopulate_regiondata == "y":
+        logger.info("Populate regiondata into the database")
+        query_service.get_regions(lang_data)
+        with open("WikidataQuery/debug/minifiedFormattedRegionData.geojson", "r", encoding="utf-8") as f:
+            minified_Region_Data = json.load(f)
+        mongo_handler.populate_regions_mongodb_from_full_list(minified_Region_Data)
+    
     # TODO make the check towards the mongoDB server returning a bool or something that its filled with regions and exist
     # regions_isfilled = mongo_handler.ping_collection()
     # if regions_isfilled:
@@ -63,9 +71,5 @@ def main():
     #         mongo_handler.populate_metadata_mongodb(lang_data)
 
 if __name__ == "__main__":
-    
-    # with open("WikidataQuery/debug/languages.json", "r", encoding="utf-8") as f:
-    #             lang_data = json.load(f)
-    # mongo_handler.populate_metadata_mongodb(lang_data)
 
     main()
