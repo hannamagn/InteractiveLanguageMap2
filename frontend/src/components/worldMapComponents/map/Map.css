@@ -1,36 +1,34 @@
 #map {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -10;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-  }
-
-.maplibregl-popup {
-
-  min-height: 70px;
-  height: auto;
-  width: 150px;
-  margin-top: -105vh;
-  border-radius: 5px;
-  border: #574B60 solid 2px;
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -10;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
-.maplibregl-popup strong{
-  color: #574B60;
+.maplibregl-popup,
+.maplibregl-popup * {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.maplibregl-popup {
+  min-height: 70px;
+  width: 240px;
+  border-radius: 5px;
+  border: #574B60 solid 2px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: -105vh;
 }
 
 .popupbox {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6px 10px;
+  padding: 10px 12px 4px 12px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -39,33 +37,32 @@
   font-size: 16px;
   font-weight: 600;
   color: #574B60;
-  font-family: 'Roboto Condensed', sans-serif;
-  margin-left: 10px;
-  line-height: 1.3;
+  white-space: normal;
+  overflow-wrap: break-word;
+  flex: 1;
+  margin-right: 10px;
 }
 
-.maplibregl-popup,
-.maplibregl-popup * {
-  font-family: 'Roboto Condensed', sans-serif;
+.line {
+  width: 90%;
+  height: 1px;
+  border-bottom: #574B60 solid 1px;
+  margin: 0 auto 6px auto;
 }
 
 .popup-content {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  padding: 0 10px 8px 10px;
-  margin-left: 10px;
+  padding: 0 12px 10px 12px;
   font-size: 13.5px;
   line-height: 1.4;
   color: #333;
 }
 
-.line{
-width: 90%;
-height: 1px;
-border-bottom: #574B60 solid 1px;
-margin-right: auto;
-margin-left: auto;
+.popup-content div {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .closeButton {

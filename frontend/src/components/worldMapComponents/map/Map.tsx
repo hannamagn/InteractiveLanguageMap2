@@ -47,8 +47,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
 
     toAdd.forEach(async (lang) => {
       try {
-        console.log("FETCHING:" + lang);
-
+        console.log("FETCHING:", lang);
         if (existingLanguages.has(lang)) return;
 
         const response = await fetch(`http://localhost:3000/language/geojson/${lang}`);
@@ -90,8 +89,13 @@ function Map({ disableScrollZoom = false }: MapProps) {
 
             const country = feature.properties.country || 'Unknown';
             const region = feature.properties.region || null;
-            const languageFamily = feature.properties.language_family ?? [];
-            const speakers = feature.properties.number_of_speakers ?? [];
+
+            const metadata = geojson.properties || {};
+            const languageFamily = metadata.language_family ?? [];
+            const speakers = metadata.number_of_speakers ?? [];
+
+            console.log("Clicked feature:", feature);
+            console.log("GeoJSON metadata:", metadata);
 
             const languageFamilyStr =
               Array.isArray(languageFamily) && languageFamily.length > 0
@@ -101,18 +105,23 @@ function Map({ disableScrollZoom = false }: MapProps) {
             let speakersStr = '–';
             if (Array.isArray(speakers) && speakers.length > 0) {
               const speakerList = speakers.map((s: any) => {
-                let line = `<li>${s.number.toLocaleString()}`;
+                const num = s.number ? s.number.toLocaleString?.() ?? s.number : null;
+                if (!num) return null;
+                let line = `<li>${num}`;
                 if (s.placeSurveyed) line += ` in ${s.placeSurveyed}`;
-                if (s.timeSurveyed) line += ` (${s.timeSurveyed})`;
+                if (s.timeSurveyed) {
+                  const year = new Date(s.timeSurveyed).getFullYear();
+                  if (!isNaN(year)) line += ` (${year})`;
+                }                
                 if (s.appliesTo) line += ` – ${s.appliesTo}`;
                 return line + `</li>`;
-              }).join('');
+              }).filter(Boolean).join('');
               speakersStr = `<ul>${speakerList}</ul>`;
             }
 
             const popupHTML = `
               <div class="popupbox">
-                <div class="popup-title"><strong>${lang}</strong></div>
+                <div class="popup-title">${lang}</div>
                 <button class="closeButton">×</button>
               </div>
               <div class="line"></div>
