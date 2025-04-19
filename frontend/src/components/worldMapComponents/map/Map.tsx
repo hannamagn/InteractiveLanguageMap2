@@ -15,7 +15,6 @@ function Map({ disableScrollZoom = false }: MapProps) {
 
   const loadedLanguagesRef = useRef<Set<string>>(new Set());
 
-
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainer.current!,
@@ -46,20 +45,17 @@ function Map({ disableScrollZoom = false }: MapProps) {
     const toAdd = selectedLanguages.filter(lang => !existingLanguages.has(lang));
     const toRemove = Array.from(existingLanguages).filter(lang => !selectedLanguages.includes(lang));
 
-
-
     toAdd.forEach(async (lang) => {
       try {
-        // fetcher function 
-        console.log("FETCHEING:" +  lang);
-;
-        if (existingLanguages.has(lang))  return;
-          const response = await fetch(`http://localhost:3000/language/geojson/${lang}`);
-          const geojson = await response.json();
+        console.log("FETCHING:", lang);
+        if (existingLanguages.has(lang)) return;
 
-          const sourceId = `source-${lang}`;
-          const fillId = `fill-${lang}`;
-          const outlineId = `outline-${lang}`;
+        const response = await fetch(`http://localhost:3000/language/geojson/${lang}`);
+        const geojson = await response.json();
+
+        const sourceId = `source-${lang}`;
+        const fillId = `fill-${lang}`;
+        const outlineId = `outline-${lang}`;
 
         if (!map.getSource(sourceId)) {
           map.addSource(sourceId, {
@@ -87,50 +83,69 @@ function Map({ disableScrollZoom = false }: MapProps) {
             },
           });
 
-
-
           map.on('click', fillId, (e) => {
-
             const feature = e.features?.[0];
             if (!feature) return;
-            const country = feature.properties.country;
-            const region = feature.properties.region || 'Region not specified';
-            var data = "";
 
-            if (region == 'Region not specified') {
-            data = `
-            <div class="popupbox">
-            <button class="closeButton" onclick="this.parentElement.parentElement.parentElement.remove()">×</button>
-              ${lang}
-            <div> </div>
-            </div>
-            <div class= "line"></div>
-            <div class="popup-content">   
-              <strong>Country:</strong> ${country}<br/>
-            </div>
-          `;
-            }else{
-          data = `
-            <div class="popupbox">
-            <button class="closeButton" onclick="this.parentElement.parentElement.parentElement.remove()">×</button>
-            ${lang}
-             <div> </div>
-            </div>
-            <div class = "line"></div>
-            <div class="popup-content">   
-              <strong>Country: </strong> ${country}<br/>
-              <strong>Region: </strong> ${region}
-            </div>
-          `;
+            const country = feature.properties.country || 'Unknown';
+            const region = feature.properties.region || null;
+
+            const metadata = geojson.properties || {};
+            const languageFamily = metadata.language_family ?? [];
+            const speakers = metadata.number_of_speakers ?? [];
+
+            console.log("Clicked feature:", feature);
+            console.log("GeoJSON metadata:", metadata);
+
+            const languageFamilyStr =
+              Array.isArray(languageFamily) && languageFamily.length > 0
+                ? languageFamily.join(', ')
+                : '–';
+
+            let speakersStr = '–';
+            if (Array.isArray(speakers) && speakers.length > 0) {
+              const speakerList = speakers.map((s: any) => {
+                const num = s.number ? s.number.toLocaleString?.() ?? s.number : null;
+                if (!num) return null;
+                let line = `<li>${num}`;
+                if (s.placeSurveyed) line += ` in ${s.placeSurveyed}`;
+                if (s.timeSurveyed) {
+                  const year = new Date(s.timeSurveyed).getFullYear();
+                  if (!isNaN(year)) line += ` (${year})`;
+                }                
+                if (s.appliesTo) line += ` – ${s.appliesTo}`;
+                return line + `</li>`;
+              }).filter(Boolean).join('');
+              speakersStr = `<ul>${speakerList}</ul>`;
             }
-            const popupHTML = data
 
+            const popupHTML = `
+              <div class="popupbox">
+                <div class="popup-title">${lang}</div>
+                <button class="closeButton">×</button>
+              </div>
+              <div class="line"></div>
+              <div class="popup-content">
+                <div><strong>Country:</strong> ${country}</div>
+                ${region ? `<div><strong>Region:</strong> ${region}</div>` : ''}
+                <div><strong>Language Family:</strong> ${languageFamilyStr}</div>
+                <div><strong>Number of Speakers:</strong> ${speakersStr}</div>
+              </div>
+            `;
 
-            new maplibregl.Popup({ closeOnClick: true,  closeButton: false, anchor: 'bottom' })
-            
+            const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, anchor: 'bottom' })
               .setLngLat(e.lngLat)
               .setHTML(popupHTML)
               .addTo(map);
+
+            setTimeout(() => {
+              const closeBtn = document.querySelector('.popupbox .closeButton');
+              if (closeBtn) {
+                closeBtn.addEventListener('click', () => {
+                  popup.remove();
+                });
+              }
+            }, 0);
           });
 
           existingLanguages.add(lang);
@@ -151,7 +166,6 @@ function Map({ disableScrollZoom = false }: MapProps) {
 
       existingLanguages.delete(lang);
     });
-
   }, [selectedLanguages]);
 
   return (
