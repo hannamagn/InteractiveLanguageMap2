@@ -117,17 +117,28 @@ export class LanguageService {
     }
 
     const regionFeatures: any[] = [];
+    const countryNamesSet = new Set(
+      (languageData.Countries || []).map(c => (c.name))
+    );
+    
     for (const region of languageData.Regions || []) {
+      const regionName = region.name;
+      if (!regionName) continue;
+    
+      if (countryNamesSet.has((regionName))) {
+        continue;
+      }
+    
       const rawId = region.region_osm_id ?? region.osm_id;
       if (!rawId) continue;
-
+    
       const matchId = Number(rawId);
       const polygonData = await this.languageModel.db
         .collection('PolygonData')
         .findOne({ osm_id: matchId });
-
+    
       if (!polygonData) continue;
-
+    
       let geometry = polygonData.geometry;
       if (!geometry && polygonData.cordinates) {
         geometry = {
@@ -135,19 +146,19 @@ export class LanguageService {
           coordinates: [polygonData.cordinates],
         };
       }
-
+    
       if (!geometry) continue;
-
+    
       const country =
         polygonData.address?.country ||
         (languageData.Countries && languageData.Countries.length > 0
           ? languageData.Countries.map(c => c.name).join(', ')
           : 'Unknown');
-
+    
       regionFeatures.push({
         type: 'Feature',
         properties: {
-          region: region.name,
+          region: regionName,
           country,
           type: 'region',
           language: languageData.Language,
