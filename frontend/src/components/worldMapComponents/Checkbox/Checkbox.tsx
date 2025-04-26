@@ -11,7 +11,16 @@ interface CountryCheckBoxProps {
 const CountryCheckBox: React.FC<CountryCheckBoxProps> = ({ filter, onFilterChange }) => {
   return (
     <div className="filter-container">
-      <label>
+      <div className="legend">
+        <div className="legend-item">
+          <span className="legend-color official" /> Official language
+        </div>
+        <div className="legend-item">
+          <span className="legend-color unofficial" /> Spoken language
+        </div>
+      </div>
+
+      <label className="filter-label">
         <input
           type="radio"
           name="viewFilter"
@@ -20,7 +29,7 @@ const CountryCheckBox: React.FC<CountryCheckBoxProps> = ({ filter, onFilterChang
         />
         All
       </label>
-      <label>
+      <label className="filter-label">
         <input
           type="radio"
           name="viewFilter"
@@ -29,7 +38,7 @@ const CountryCheckBox: React.FC<CountryCheckBoxProps> = ({ filter, onFilterChang
         />
         Countries
       </label>
-      <label>
+      <label className="filter-label">
         <input
           type="radio"
           name="viewFilter"
