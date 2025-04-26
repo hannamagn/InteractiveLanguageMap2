@@ -7,6 +7,27 @@ interface MapProps {
   disableScrollZoom?: boolean;
 }
 
+function stringToColor(str: string): string {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const r = (hash >> 0) & 0xFF;
+  const g = (hash >> 8) & 0xFF;
+  const b = (hash >> 16) & 0xFF;
+
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
+function darkenColor(rgbString: string, factor = 0.6): string {
+  const [r, g, b] = rgbString
+    .replace(/[^\d,]/g, '')
+    .split(',')
+    .map(Number)
+    .map(v => Math.floor(v * factor));
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
 function Map({ disableScrollZoom = false }: MapProps) {
   const mapContainer = useRef(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -62,26 +83,34 @@ function Map({ disableScrollZoom = false }: MapProps) {
             type: 'geojson',
             data: geojson,
           });
-
+          
           map.addLayer({
             id: fillId,
             type: 'fill',
             source: sourceId,
             paint: {
-              'fill-color': ['get', 'color'],
-              'fill-opacity': 0.4,
+              'fill-color': [
+                'case',
+                ['==', ['get', 'official'], true],
+                '#2ecc71',
+                '#f1c40f'
+              ],
+              'fill-opacity': 0.6,
             },
           });
-
+          
+          const baseColor = stringToColor(lang);
+          const outlineColor = darkenColor(baseColor);
+          
           map.addLayer({
             id: outlineId,
             type: 'line',
             source: sourceId,
             paint: {
-              'line-color': '#0057B8',
-              'line-width': 2,
+              'line-color': outlineColor,
+              'line-width': 2.5,
             },
-          });
+          });     
 
           map.on('click', fillId, (e) => {
             const feature = e.features?.[0];
