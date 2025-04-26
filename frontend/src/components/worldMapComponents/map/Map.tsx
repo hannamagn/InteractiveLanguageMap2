@@ -37,6 +37,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
   const loadedLanguagesRef = useRef<Set<string>>(new Set());
   const [viewFilter, setViewFilter] = useState<ViewFilter>('all');
 
+
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainer.current!,
@@ -88,7 +89,13 @@ function Map({ disableScrollZoom = false }: MapProps) {
             ],
             'fill-opacity': 0.6,
           },
+          filter: viewFilter === 'country'
+            ? ['!', ['has', 'region']]
+            : viewFilter === 'region'
+            ? ['has', 'region']
+            : undefined,
         });
+
         const baseColor = stringToColor(lang);
         const outlineColor = darkenColor(baseColor);
         map.addLayer({
@@ -99,6 +106,11 @@ function Map({ disableScrollZoom = false }: MapProps) {
             'line-color': outlineColor,
             'line-width': 2.5,
           },
+          filter: viewFilter === 'country'
+            ? ['!', ['has', 'region']]
+            : viewFilter === 'region'
+            ? ['has', 'region']
+            : undefined,
         });
 
         map.on('click', fillId, e => {
