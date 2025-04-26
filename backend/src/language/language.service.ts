@@ -51,9 +51,7 @@ export class LanguageService {
         coordinates: [polygonData.cordinates],
       };
     }
-
-    const color = isOfficial ? 'green' : 'yellow';
-    return { geometry, color };
+    return { geometry };
   }
 
   async createGeoJson(languageName: string): Promise<object> {
@@ -102,7 +100,7 @@ export class LanguageService {
 
       if (!polygonResult || !polygonResult.geometry) continue;
 
-      const { geometry, color } = polygonResult;
+      const { geometry} = polygonResult;
 
       countryFeatures.push({
         type: 'Feature',
@@ -110,7 +108,7 @@ export class LanguageService {
           country: country.name,
           type: 'country',
           language: languageData.Language,
-          color,
+          official: isOfficial,
         },
         geometry,
       });
@@ -162,6 +160,7 @@ export class LanguageService {
           country,
           type: 'region',
           language: languageData.Language,
+          official: false
         },
         geometry,
       });
