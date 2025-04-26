@@ -110,7 +110,7 @@ export class LanguageService {
           country: country.name,
           type: 'country',
           language: languageData.Language,
-          color,
+          official: isOfficial,
         },
         geometry,
       });
@@ -162,6 +162,7 @@ export class LanguageService {
           country,
           type: 'region',
           language: languageData.Language,
+          official: false
         },
         geometry,
       });
