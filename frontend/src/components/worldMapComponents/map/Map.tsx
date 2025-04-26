@@ -145,24 +145,25 @@ function Map({ disableScrollZoom = false }: MapProps) {
               }
           
               const speakerList = ['first language', 'second language']
-                .map(type => latestSpeakers[type])
-                .filter(Boolean)
-                .map((s: any) => {
+                .map(type => {
+                  const s = latestSpeakers[type];
+                  if (!s) return null;
                   const num = s.number ? s.number.toLocaleString?.() ?? s.number : null;
                   if (!num) return null;
-                  let line = `<li>${num}`;
+                  let line = `${num}`;
                   if (s.placeSurveyed) line += ` in ${s.placeSurveyed}`;
                   if (s.timeSurveyed) {
                     const year = new Date(s.timeSurveyed).getFullYear();
                     if (!isNaN(year)) line += ` (${year})`;
                   }
-                  if (s.appliesTo) line += ` – ${s.appliesTo}`;
-                  return line + `</li>`;
+                  line += ` – ${type}`;
+                  return `<div>${line}</div>`;
                 })
+                .filter(Boolean)
                 .join('');
           
               if (speakerList) {
-                speakersStr = `<ul>${speakerList}</ul>`;
+                speakersStr = speakerList;
               }
             }
           
@@ -193,7 +194,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 });
               }
             }, 0);
-          });               
+          });                        
 
           existingLanguages.add(lang);
         }
