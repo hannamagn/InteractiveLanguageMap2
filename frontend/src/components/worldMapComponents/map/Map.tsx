@@ -1,6 +1,7 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
 import { useLanguage } from '../../../context/LanguageContext';
+import CountryCheckBox, { ViewFilter } from '../Checkbox/Checkbox';
 import './Map.css';
 
 interface MapProps {
@@ -12,10 +13,9 @@ function stringToColor(str: string): string {
   for (let i = 0; i < str.length; i++) {
     hash = str.charCodeAt(i) + ((hash << 5) - hash);
   }
-  const r = (hash >> 0) & 0xFF;
-  const g = (hash >> 8) & 0xFF;
-  const b = (hash >> 16) & 0xFF;
-
+  const r = (hash >> 0) & 0xff;
+  const g = (hash >> 8) & 0xff;
+  const b = (hash >> 16) & 0xff;
   return `rgb(${r}, ${g}, ${b})`;
 }
 
@@ -24,16 +24,17 @@ function darkenColor(rgbString: string, factor = 0.6): string {
     .replace(/[^\d,]/g, '')
     .split(',')
     .map(Number)
-    .map(v => Math.floor(v * factor));
+    .map((v) => Math.floor(v * factor));
   return `rgb(${r}, ${g}, ${b})`;
 }
 
 function Map({ disableScrollZoom = false }: MapProps) {
-  const mapContainer = useRef(null);
+  const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const { state } = useLanguage();
   const selectedLanguages = state.selectedLanguages;
 
+  const [filter, setFilter] = useState<ViewFilter>('all');
   const loadedLanguagesRef = useRef<Set<string>>(new Set());
 
   useEffect(() => {
@@ -63,8 +64,8 @@ function Map({ disableScrollZoom = false }: MapProps) {
 
     const existingLanguages = loadedLanguagesRef.current;
 
-    const toAdd = selectedLanguages.filter(lang => !existingLanguages.has(lang));
-    const toRemove = Array.from(existingLanguages).filter(lang => !selectedLanguages.includes(lang));
+    const toAdd = selectedLanguages.filter((lang) => !existingLanguages.has(lang));
+    const toRemove = Array.from(existingLanguages).filter((lang) => !selectedLanguages.includes(lang));
 
     toAdd.forEach(async (lang) => {
       try {
@@ -83,7 +84,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
             type: 'geojson',
             data: geojson,
           });
-          
+
           map.addLayer({
             id: fillId,
             type: 'fill',
@@ -93,15 +94,16 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 'case',
                 ['==', ['get', 'official'], true],
                 '#2ecc71',
-                '#f1c40f'
+                '#f1c40f',
               ],
               'fill-opacity': 0.6,
             },
+            filter: getFilterExpression(filter),
           });
-          
+
           const baseColor = stringToColor(lang);
           const outlineColor = darkenColor(baseColor);
-          
+
           map.addLayer({
             id: outlineId,
             type: 'line',
@@ -110,28 +112,24 @@ function Map({ disableScrollZoom = false }: MapProps) {
               'line-color': outlineColor,
               'line-width': 2.5,
             },
-          });     
+          });
 
           map.on('click', fillId, (e) => {
             const feature = e.features?.[0];
             if (!feature) return;
           
-            const country = feature.properties.country || 'Unknown';
-            const region = feature.properties.region || null;
-          
+            const country = feature.properties?.country || 'Unknown';
+            const region = feature.properties?.region || null;
             const metadata = geojson.properties || {};
             const languageFamily = metadata.language_family ?? [];
             const speakers = metadata.number_of_speakers ?? [];
           
-            console.log("Clicked feature:", feature);
-            console.log("GeoJSON metadata:", metadata);
-          
-            const languageFamilyStr =
-              Array.isArray(languageFamily) && languageFamily.length > 0
-                ? languageFamily.join(', ')
-                : '–';
-          
+            const languageFamilyStr = Array.isArray(languageFamily) && languageFamily.length > 0
+              ? languageFamily.join(', ')
+              : '–';
+            
             let speakersStr = '–';
+          
             if (Array.isArray(speakers) && speakers.length > 0) {
               const latestSpeakers: { [key: string]: any } = {};
           
@@ -194,7 +192,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 });
               }
             }, 0);
-          });                        
+          });
 
           existingLanguages.add(lang);
         }
@@ -214,14 +212,31 @@ function Map({ disableScrollZoom = false }: MapProps) {
 
       existingLanguages.delete(lang);
     });
-  }, [selectedLanguages]);
+  }, [selectedLanguages, filter]); 
+
+  function getFilterExpression(filter: ViewFilter): any {
+    switch (filter) {
+      case 'country':
+        return ['==', ['get', 'region'], null];
+      case 'region':
+        return ['!=', ['get', 'region'], null];
+      case 'all':
+      default:
+        return true;
+    }
+  }
 
   return (
-    <div
-      ref={mapContainer}
-      id="map"
-      style={{ width: '100%', height: '100vh', position: 'absolute' }}
-    />
+    <>
+      <div
+        ref={mapContainer}
+        id="map"
+        style={{ width: '100%', height: '100vh', position: 'absolute' }}
+      />
+      <div style={{ position: 'absolute', top: 20, left: 20, zIndex: 1 }}>
+      </div>
+      <CountryCheckBox filter={filter} onFilterChange={setFilter} />
+    </>
   );
 }
 
