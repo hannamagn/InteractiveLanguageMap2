@@ -117,29 +117,33 @@ function Map({ disableScrollZoom = false }: MapProps) {
           map.on('click', fillId, (e) => {
             const feature = e.features?.[0];
             if (!feature) return;
-
+          
             const country = feature.properties?.country || 'Unknown';
             const region = feature.properties?.region || null;
             const metadata = geojson.properties || {};
             const languageFamily = metadata.language_family ?? [];
             const speakers = metadata.number_of_speakers ?? [];
-
-            const languageFamilyStr = Array.isArray(languageFamily) && languageFamily.length > 0 ? languageFamily.join(', ') : '–';
+          
+            const languageFamilyStr = Array.isArray(languageFamily) && languageFamily.length > 0
+              ? languageFamily.join(', ')
+              : '–';
+            
             let speakersStr = '–';
-
+          
             if (Array.isArray(speakers) && speakers.length > 0) {
               const latestSpeakers: { [key: string]: any } = {};
-
+          
               for (const s of speakers) {
                 const appliesTo = s.appliesTo || 'unknown';
                 const year = s.timeSurveyed ? new Date(s.timeSurveyed).getFullYear() : 0;
+          
                 if (!latestSpeakers[appliesTo] || (year > (new Date(latestSpeakers[appliesTo].timeSurveyed).getFullYear() || 0))) {
                   latestSpeakers[appliesTo] = s;
                 }
               }
-
+          
               const speakerList = ['first language', 'second language']
-                .map((type) => {
+                .map(type => {
                   const s = latestSpeakers[type];
                   if (!s) return null;
                   const num = s.number ? s.number.toLocaleString?.() ?? s.number : null;
@@ -155,12 +159,12 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 })
                 .filter(Boolean)
                 .join('');
-
+          
               if (speakerList) {
                 speakersStr = speakerList;
               }
             }
-
+          
             const popupHTML = `
               <div class="popupbox">
                 <div class="popup-title">${lang}</div>
@@ -174,12 +178,12 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 <div><strong>Number of Speakers:</strong> ${speakersStr}</div>
               </div>
             `;
-
+          
             const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, anchor: 'bottom' })
               .setLngLat(e.lngLat)
               .setHTML(popupHTML)
               .addTo(map);
-
+          
             setTimeout(() => {
               const closeBtn = document.querySelector('.popupbox .closeButton');
               if (closeBtn) {
