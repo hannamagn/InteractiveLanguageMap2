@@ -83,7 +83,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
             type: 'geojson',
             data: geojson,
           });
-          
+
           map.addLayer({
             id: fillId,
             type: 'fill',
@@ -98,52 +98,65 @@ function Map({ disableScrollZoom = false }: MapProps) {
               'fill-opacity': 0.6,
             },
           });
-          
+
           const baseColor = stringToColor(lang);
           const outlineColor = darkenColor(baseColor);
-          
+
           map.addLayer({
-            id: outlineId,
+            id: `${outlineId}-country`,
             type: 'line',
             source: sourceId,
+            filter: ['!has', 'region'],
             paint: {
               'line-color': outlineColor,
               'line-width': 2.5,
             },
-          });     
+          });
+
+          map.addLayer({
+            id: `${outlineId}-region`,
+            type: 'line',
+            source: sourceId,
+            filter: ['has', 'region'],
+            paint: {
+              'line-color': outlineColor,
+              'line-width': 2.5,
+              'line-dasharray': [1, 1.5]
+            },
+          });
 
           map.on('click', fillId, (e) => {
             const feature = e.features?.[0];
             if (!feature) return;
-          
+
             const country = feature.properties.country || 'Unknown';
             const region = feature.properties.region || null;
-          
+
             const metadata = geojson.properties || {};
             const languageFamily = metadata.language_family ?? [];
             const speakers = metadata.number_of_speakers ?? [];
-          
+
             console.log("Clicked feature:", feature);
             console.log("GeoJSON metadata:", metadata);
-          
+
             const languageFamilyStr =
               Array.isArray(languageFamily) && languageFamily.length > 0
                 ? languageFamily.join(', ')
                 : '–';
-          
+
             let speakersStr = '–';
             if (Array.isArray(speakers) && speakers.length > 0) {
               const latestSpeakers: { [key: string]: any } = {};
-          
+
               for (const s of speakers) {
                 const appliesTo = s.appliesTo || 'unknown';
                 const year = s.timeSurveyed ? new Date(s.timeSurveyed).getFullYear() : 0;
-          
+
                 if (!latestSpeakers[appliesTo] || (year > (new Date(latestSpeakers[appliesTo].timeSurveyed).getFullYear() || 0))) {
                   latestSpeakers[appliesTo] = s;
                 }
               }
-          
+
               const speakerList = ['first language', 'second language']
                 .map(type => {
                   const s = latestSpeakers[type];
@@ -161,12 +174,12 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 })
                 .filter(Boolean)
                 .join('');
-          
+
               if (speakerList) {
                 speakersStr = speakerList;
               }
             }
-          
+
             const popupHTML = `
               <div class="popupbox">
                 <div class="popup-title">${lang}</div>
@@ -180,12 +193,12 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 <div><strong>Number of Speakers:</strong> ${speakersStr}</div>
               </div>
             `;
-          
+
             const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, anchor: 'bottom' })
               .setLngLat(e.lngLat)
               .setHTML(popupHTML)
               .addTo(map);
-          
+
             setTimeout(() => {
               const closeBtn = document.querySelector('.popupbox .closeButton');
               if (closeBtn) {
@@ -194,7 +207,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 });
               }
             }, 0);
-          });                        
+          });
 
           existingLanguages.add(lang);
         }
@@ -209,7 +222,8 @@ function Map({ disableScrollZoom = false }: MapProps) {
       const outlineId = `outline-${lang}`;
 
       if (map.getLayer(fillId)) map.removeLayer(fillId);
-      if (map.getLayer(outlineId)) map.removeLayer(outlineId);
+      if (map.getLayer(`${outlineId}-country`)) map.removeLayer(`${outlineId}-country`);
+      if (map.getLayer(`${outlineId}-region`)) map.removeLayer(`${outlineId}-region`);
       if (map.getSource(sourceId)) map.removeSource(sourceId);
 
       existingLanguages.delete(lang);
