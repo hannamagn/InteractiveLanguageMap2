@@ -115,39 +115,58 @@ function Map({ disableScrollZoom = false }: MapProps) {
           map.on('click', fillId, (e) => {
             const feature = e.features?.[0];
             if (!feature) return;
-
+          
             const country = feature.properties.country || 'Unknown';
             const region = feature.properties.region || null;
-
+          
             const metadata = geojson.properties || {};
             const languageFamily = metadata.language_family ?? [];
             const speakers = metadata.number_of_speakers ?? [];
-
+          
             console.log("Clicked feature:", feature);
             console.log("GeoJSON metadata:", metadata);
-
+          
             const languageFamilyStr =
               Array.isArray(languageFamily) && languageFamily.length > 0
                 ? languageFamily.join(', ')
                 : '–';
-
+          
             let speakersStr = '–';
             if (Array.isArray(speakers) && speakers.length > 0) {
-              const speakerList = speakers.map((s: any) => {
-                const num = s.number ? s.number.toLocaleString?.() ?? s.number : null;
-                if (!num) return null;
-                let line = `<li>${num}`;
-                if (s.placeSurveyed) line += ` in ${s.placeSurveyed}`;
-                if (s.timeSurveyed) {
-                  const year = new Date(s.timeSurveyed).getFullYear();
-                  if (!isNaN(year)) line += ` (${year})`;
-                }                
-                if (s.appliesTo) line += ` – ${s.appliesTo}`;
-                return line + `</li>`;
-              }).filter(Boolean).join('');
-              speakersStr = `<ul>${speakerList}</ul>`;
+              const latestSpeakers: { [key: string]: any } = {};
+          
+              for (const s of speakers) {
+                const appliesTo = s.appliesTo || 'unknown';
+                const year = s.timeSurveyed ? new Date(s.timeSurveyed).getFullYear() : 0;
+          
+                if (!latestSpeakers[appliesTo] || (year > (new Date(latestSpeakers[appliesTo].timeSurveyed).getFullYear() || 0))) {
+                  latestSpeakers[appliesTo] = s;
+                }
+              }
+          
+              const speakerList = ['first language', 'second language']
+                .map(type => {
+                  const s = latestSpeakers[type];
+                  if (!s) return null;
+                  const num = s.number ? s.number.toLocaleString?.() ?? s.number : null;
+                  if (!num) return null;
+                  let line = `${num}`;
+                  if (s.placeSurveyed) line += ` in ${s.placeSurveyed}`;
+                  if (s.timeSurveyed) {
+                    const year = new Date(s.timeSurveyed).getFullYear();
+                    if (!isNaN(year)) line += ` (${year})`;
+                  }
+                  line += ` – ${type}`;
+                  return `<div>${line}</div>`;
+                })
+                .filter(Boolean)
+                .join('');
+          
+              if (speakerList) {
+                speakersStr = speakerList;
+              }
             }
-
+          
             const popupHTML = `
               <div class="popupbox">
                 <div class="popup-title">${lang}</div>
@@ -161,12 +180,12 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 <div><strong>Number of Speakers:</strong> ${speakersStr}</div>
               </div>
             `;
-
+          
             const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, anchor: 'bottom' })
               .setLngLat(e.lngLat)
               .setHTML(popupHTML)
               .addTo(map);
-
+          
             setTimeout(() => {
               const closeBtn = document.querySelector('.popupbox .closeButton');
               if (closeBtn) {
@@ -175,7 +194,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 });
               }
             }, 0);
-          });
+          });                        
 
           existingLanguages.add(lang);
         }
