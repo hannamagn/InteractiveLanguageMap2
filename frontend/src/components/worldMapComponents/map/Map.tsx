@@ -1,9 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
 import { useLanguage } from '../../../context/LanguageContext';
-import CheckBox, { ViewFilter } from '../Checkbox/Checkbox';
+import CountryCheckBox, { ViewFilter } from '../Checkbox/Checkbox';
 import './Map.css';
-import '../Checkbox/Checkbox.css';
 
 interface MapProps {
   disableScrollZoom?: boolean;
@@ -25,7 +24,7 @@ function darkenColor(rgbString: string, factor = 0.6): string {
     .replace(/[^\d,]/g, '')
     .split(',')
     .map(Number)
-    .map(v => Math.floor(v * factor));
+    .map((v) => Math.floor(v * factor));
   return `rgb(${r}, ${g}, ${b})`;
 }
 
@@ -34,9 +33,9 @@ function Map({ disableScrollZoom = false }: MapProps) {
   const mapRef = useRef<maplibregl.Map | null>(null);
   const { state } = useLanguage();
   const selectedLanguages = state.selectedLanguages;
-  const loadedLanguagesRef = useRef<Set<string>>(new Set());
-  const [viewFilter, setViewFilter] = useState<ViewFilter>('all');
 
+  const [filter, setFilter] = useState<ViewFilter>('all');
+  const loadedLanguagesRef = useRef<Set<string>>(new Set());
 
   useEffect(() => {
     const map = new maplibregl.Map({
@@ -55,149 +54,173 @@ function Map({ disableScrollZoom = false }: MapProps) {
     }
 
     mapRef.current = map;
+
     return () => map.remove();
-  }, [disableScrollZoom]);
+  }, []);
 
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !map.isStyleLoaded()) return;
 
-    const existing = loadedLanguagesRef.current;
-    const toAdd = selectedLanguages.filter(l => !existing.has(l));
-    const toRemove = Array.from(existing).filter(l => !selectedLanguages.includes(l));
+    const existingLanguages = loadedLanguagesRef.current;
 
-    toAdd.forEach(async lang => {
-      if (existing.has(lang)) return;
+    const toAdd = selectedLanguages.filter((lang) => !existingLanguages.has(lang));
+    const toRemove = Array.from(existingLanguages).filter((lang) => !selectedLanguages.includes(lang));
+
+    toAdd.forEach(async (lang) => {
       try {
-        const res = await fetch(`http://localhost:3000/language/geojson/${lang}`);
-        const geojson = await res.json();
+        console.log("FETCHING:", lang);
+        if (existingLanguages.has(lang)) return;
+
+        const response = await fetch(`http://localhost:3000/language/geojson/${lang}`);
+        const geojson = await response.json();
+
         const sourceId = `source-${lang}`;
         const fillId = `fill-${lang}`;
         const outlineId = `outline-${lang}`;
 
-        map.addSource(sourceId, { type: 'geojson', data: geojson });
-        map.addLayer({
-          id: fillId,
-          type: 'fill',
-          source: sourceId,
-          paint: {
-            'fill-color': [
-              'case',
-              ['==', ['get', 'official'], true],
-              '#2ecc71',
-              '#f1c40f',
-            ],
-            'fill-opacity': 0.6,
-          },
-          filter: viewFilter === 'country'
-            ? ['!', ['has', 'region']]
-            : viewFilter === 'region'
-            ? ['has', 'region']
-            : undefined,
-        });
+        if (!map.getSource(sourceId)) {
+          map.addSource(sourceId, {
+            type: 'geojson',
+            data: geojson,
+          });
 
-        const baseColor = stringToColor(lang);
-        const outlineColor = darkenColor(baseColor);
-        map.addLayer({
-          id: outlineId,
-          type: 'line',
-          source: sourceId,
-          paint: {
-            'line-color': outlineColor,
-            'line-width': 2.5,
-          },
-          filter: viewFilter === 'country'
-            ? ['!', ['has', 'region']]
-            : viewFilter === 'region'
-            ? ['has', 'region']
-            : undefined,
-        });
+          map.addLayer({
+            id: fillId,
+            type: 'fill',
+            source: sourceId,
+            paint: {
+              'fill-color': [
+                'case',
+                ['==', ['get', 'official'], true],
+                '#2ecc71',
+                '#f1c40f',
+              ],
+              'fill-opacity': 0.6,
+            },
+            filter: getFilterExpression(filter),
+          });
 
-        map.on('click', fillId, e => {
-          const feat = e.features?.[0];
-          if (!feat) return;
-          const country = feat.properties.country || 'Unknown';
-          const region = feat.properties.region || null;
-          const md = geojson.properties || {};
-          const fam = md.language_family ?? [];
-          const sp = md.number_of_speakers ?? [];
+          const baseColor = stringToColor(lang);
+          const outlineColor = darkenColor(baseColor);
 
-          const famStr = Array.isArray(fam) && fam.length ? fam.join(', ') : '–';
-          let spStr = '–';
-          if (Array.isArray(sp) && sp.length) {
-            const ul = sp
-              .map((s: any) => {
-                let num = s.number ? s.number.toLocaleString?.() ?? s.number : null;
-                if (!num) return null;
-                let li = `<li>${num}`;
-                if (s.placeSurveyed) li += ` in ${s.placeSurveyed}`;
-                if (s.timeSurveyed) {
-                  const year = new Date(s.timeSurveyed).getFullYear();
-                  if (!isNaN(year)) li += ` (${year})`;
+          map.addLayer({
+            id: outlineId,
+            type: 'line',
+            source: sourceId,
+            paint: {
+              'line-color': outlineColor,
+              'line-width': 2.5,
+            },
+          });
+
+          map.on('click', fillId, (e) => {
+            const feature = e.features?.[0];
+            if (!feature) return;
+
+            const country = feature.properties?.country || 'Unknown';
+            const region = feature.properties?.region || null;
+            const metadata = geojson.properties || {};
+            const languageFamily = metadata.language_family ?? [];
+            const speakers = metadata.number_of_speakers ?? [];
+
+            const languageFamilyStr = Array.isArray(languageFamily) && languageFamily.length > 0 ? languageFamily.join(', ') : '–';
+            let speakersStr = '–';
+
+            if (Array.isArray(speakers) && speakers.length > 0) {
+              const latestSpeakers: { [key: string]: any } = {};
+
+              for (const s of speakers) {
+                const appliesTo = s.appliesTo || 'unknown';
+                const year = s.timeSurveyed ? new Date(s.timeSurveyed).getFullYear() : 0;
+                if (!latestSpeakers[appliesTo] || (year > (new Date(latestSpeakers[appliesTo].timeSurveyed).getFullYear() || 0))) {
+                  latestSpeakers[appliesTo] = s;
                 }
-                if (s.appliesTo) li += ` – ${s.appliesTo}`;
-                return li + `</li>`;
-              })
-              .filter(Boolean)
-              .join('');
-            spStr = `<ul>${ul}</ul>`;
-          }
+              }
 
-          const popupHTML = `
-            <div class="popupbox">
-              <div class="popup-title">${lang}</div>
-              <button class="closeButton">×</button>
-            </div>
-            <div class="line"></div>
-            <div class="popup-content">
-              <div><strong>Country:</strong> ${country}</div>
-              ${region ? `<div><strong>Region:</strong> ${region}</div>` : ''}
-              <div><strong>Language Family:</strong> ${famStr}</div>
-              <div><strong>Number of Speakers:</strong> ${spStr}</div>
-            </div>
-          `;
+              const speakerList = ['first language', 'second language']
+                .map((type) => {
+                  const s = latestSpeakers[type];
+                  if (!s) return null;
+                  const num = s.number ? s.number.toLocaleString?.() ?? s.number : null;
+                  if (!num) return null;
+                  let line = `${num}`;
+                  if (s.placeSurveyed) line += ` in ${s.placeSurveyed}`;
+                  if (s.timeSurveyed) {
+                    const year = new Date(s.timeSurveyed).getFullYear();
+                    if (!isNaN(year)) line += ` (${year})`;
+                  }
+                  line += ` – ${type}`;
+                  return `<div>${line}</div>`;
+                })
+                .filter(Boolean)
+                .join('');
 
-          const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, anchor: 'bottom' })
-            .setLngLat(e.lngLat)
-            .setHTML(popupHTML)
-            .addTo(map);
+              if (speakerList) {
+                speakersStr = speakerList;
+              }
+            }
 
-          setTimeout(() => {
-            const btn = document.querySelector('.popupbox .closeButton');
-            if (btn) btn.addEventListener('click', () => popup.remove());
-          }, 0);
-        });
+            const popupHTML = `
+              <div class="popupbox">
+                <div class="popup-title">${lang}</div>
+                <button class="closeButton">×</button>
+              </div>
+              <div class="line"></div>
+              <div class="popup-content">
+                <div><strong>Country:</strong> ${country}</div>
+                ${region ? `<div><strong>Region:</strong> ${region}</div>` : ''}
+                <div><strong>Language Family:</strong> ${languageFamilyStr}</div>
+                <div><strong>Number of Speakers:</strong> ${speakersStr}</div>
+              </div>
+            `;
 
-        existing.add(lang);
-      } catch (err) {
-        console.error(`Error fetching ${lang}`, err);
+            const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, anchor: 'bottom' })
+              .setLngLat(e.lngLat)
+              .setHTML(popupHTML)
+              .addTo(map);
+
+            setTimeout(() => {
+              const closeBtn = document.querySelector('.popupbox .closeButton');
+              if (closeBtn) {
+                closeBtn.addEventListener('click', () => {
+                  popup.remove();
+                });
+              }
+            }, 0);
+          });
+
+          existingLanguages.add(lang);
+        }
+      } catch (error) {
+        console.error(`Error fetching GeoJSON for ${lang}:`, error);
       }
     });
 
-    toRemove.forEach(lang => {
-      const src = `source-${lang}`;
-      const fill = `fill-${lang}`;
-      const out = `outline-${lang}`;
-      if (map.getLayer(fill)) map.removeLayer(fill);
-      if (map.getLayer(out)) map.removeLayer(out);
-      if (map.getSource(src)) map.removeSource(src);
-      existing.delete(lang);
-    });
-  }, [selectedLanguages]);
+    toRemove.forEach((lang) => {
+      const sourceId = `source-${lang}`;
+      const fillId = `fill-${lang}`;
+      const outlineId = `outline-${lang}`;
 
-  useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
-    loadedLanguagesRef.current.forEach(lang => {
-      const fill = `fill-${lang}`;
-      const outline = `outline-${lang}`;
-      let expr: maplibregl.FilterSpecification | undefined;
-      if (viewFilter === 'country') expr = ['!', ['has', 'region']];
-      else if (viewFilter === 'region') expr = ['has', 'region'];
-      map.setFilter(fill, expr);
-      map.setFilter(outline, expr);
+      if (map.getLayer(fillId)) map.removeLayer(fillId);
+      if (map.getLayer(outlineId)) map.removeLayer(outlineId);
+      if (map.getSource(sourceId)) map.removeSource(sourceId);
+
+      existingLanguages.delete(lang);
     });
-  }, [viewFilter]);
+  }, [selectedLanguages, filter]); 
+
+  function getFilterExpression(filter: ViewFilter): any {
+    switch (filter) {
+      case 'country':
+        return ['==', ['get', 'region'], null];
+      case 'region':
+        return ['!=', ['get', 'region'], null];
+      case 'all':
+      default:
+        return true;
+    }
+  }
 
   return (
     <>
@@ -206,7 +229,9 @@ function Map({ disableScrollZoom = false }: MapProps) {
         id="map"
         style={{ width: '100%', height: '100vh', position: 'absolute' }}
       />
-      <CheckBox filter={viewFilter} onFilterChange={setViewFilter} />
+      <div style={{ position: 'absolute', top: 20, left: 20, zIndex: 1 }}>
+      </div>
+      <CountryCheckBox filter={filter} onFilterChange={setFilter} />
     </>
   );
 }
