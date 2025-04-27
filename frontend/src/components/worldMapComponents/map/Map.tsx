@@ -35,6 +35,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
   const selectedLanguages = state.selectedLanguages;
 
   const loadedLanguagesRef = useRef<Set<string>>(new Set());
+  const hoveredFeatureIdRef = useRef<number | null>(null); // << Added
 
   useEffect(() => {
     const map = new maplibregl.Map({
@@ -78,12 +79,17 @@ function Map({ disableScrollZoom = false }: MapProps) {
         const fillId = `fill-${lang}`;
         const outlineId = `outline-${lang}`;
 
+        geojson.features = geojson.features.map((feature: any, index: number) => {
+          if (!feature.id) feature.id = index;
+          return feature;
+        });
+
         if (!map.getSource(sourceId)) {
           map.addSource(sourceId, {
             type: 'geojson',
             data: geojson,
           });
-          
+
           map.addLayer({
             id: fillId,
             type: 'fill',
@@ -95,13 +101,18 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 '#2ecc71',
                 '#f1c40f'
               ],
-              'fill-opacity': 0.6,
+              'fill-opacity': [
+                'case',
+                ['boolean', ['feature-state', 'hover'], false],
+                0.7, 
+                0.4 
+              ],
             },
           });
-          
+
           const baseColor = stringToColor(lang);
           const outlineColor = darkenColor(baseColor);
-          
+
           map.addLayer({
             id: outlineId,
             type: 'line',
@@ -110,40 +121,68 @@ function Map({ disableScrollZoom = false }: MapProps) {
               'line-color': outlineColor,
               'line-width': 2.5,
             },
-          });     
+          });
+
+          
+          map.on('mousemove', fillId, (e) => {
+            if (e.features?.length) {
+              const featureId = e.features[0].id as number;
+
+              if (hoveredFeatureIdRef.current !== null) {
+                map.setFeatureState(
+                  { source: sourceId, id: hoveredFeatureIdRef.current },
+                  { hover: false }
+                );
+              }
+
+              hoveredFeatureIdRef.current = featureId;
+
+              map.setFeatureState(
+                { source: sourceId, id: featureId },
+                { hover: true }
+              );
+            }
+          });
+
+          map.on('mouseleave', fillId, () => {
+            if (hoveredFeatureIdRef.current !== null) {
+              map.setFeatureState(
+                { source: sourceId, id: hoveredFeatureIdRef.current },
+                { hover: false }
+              );
+              hoveredFeatureIdRef.current = null;
+            }
+          });
 
           map.on('click', fillId, (e) => {
             const feature = e.features?.[0];
             if (!feature) return;
-          
+
             const country = feature.properties.country || 'Unknown';
             const region = feature.properties.region || null;
-          
+
             const metadata = geojson.properties || {};
             const languageFamily = metadata.language_family ?? [];
             const speakers = metadata.number_of_speakers ?? [];
-          
-            console.log("Clicked feature:", feature);
-            console.log("GeoJSON metadata:", metadata);
-          
+
             const languageFamilyStr =
               Array.isArray(languageFamily) && languageFamily.length > 0
                 ? languageFamily.join(', ')
                 : '–';
-          
+
             let speakersStr = '–';
             if (Array.isArray(speakers) && speakers.length > 0) {
               const latestSpeakers: { [key: string]: any } = {};
-          
+
               for (const s of speakers) {
                 const appliesTo = s.appliesTo || 'unknown';
                 const year = s.timeSurveyed ? new Date(s.timeSurveyed).getFullYear() : 0;
-          
+
                 if (!latestSpeakers[appliesTo] || (year > (new Date(latestSpeakers[appliesTo].timeSurveyed).getFullYear() || 0))) {
                   latestSpeakers[appliesTo] = s;
                 }
               }
-          
+
               const speakerList = ['first language', 'second language']
                 .map(type => {
                   const s = latestSpeakers[type];
@@ -161,12 +200,12 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 })
                 .filter(Boolean)
                 .join('');
-          
+
               if (speakerList) {
                 speakersStr = speakerList;
               }
             }
-          
+
             const popupHTML = `
               <div class="popupbox">
                 <div class="popup-title">${lang}</div>
@@ -180,12 +219,12 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 <div><strong>Number of Speakers:</strong> ${speakersStr}</div>
               </div>
             `;
-          
+
             const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, anchor: 'bottom' })
               .setLngLat(e.lngLat)
               .setHTML(popupHTML)
               .addTo(map);
-          
+
             setTimeout(() => {
               const closeBtn = document.querySelector('.popupbox .closeButton');
               if (closeBtn) {
@@ -194,7 +233,7 @@ function Map({ disableScrollZoom = false }: MapProps) {
                 });
               }
             }, 0);
-          });                        
+          });
 
           existingLanguages.add(lang);
         }
