@@ -7,6 +7,7 @@ import '../Checkbox/Checkbox.css';
 
 interface MapProps {
   disableScrollZoom?: boolean;
+  showFilterCheckbox?: boolean;
 }
 
 function stringToColor(str: string): string {
@@ -17,10 +18,8 @@ function stringToColor(str: string): string {
   const r = (hash >> 0) & 0xFF;
   const g = (hash >> 8) & 0xFF;
   const b = (hash >> 16) & 0xFF;
-
   return `rgb(${r}, ${g}, ${b})`;
 }
-
 
 function darkenColor(rgbString: string, factor = 0.6): string {
   const [r, g, b] = rgbString
@@ -30,7 +29,8 @@ function darkenColor(rgbString: string, factor = 0.6): string {
     .map(v => Math.floor(v * factor));
   return `rgb(${r}, ${g}, ${b})`;
 }
-const Map: React.FC<MapProps> = ({ disableScrollZoom = false }) => {
+
+const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox = true }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const { state } = useLanguage();
@@ -92,10 +92,10 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false }) => {
               'fill-opacity': 0.6,
             },
           });
-          
+
           const baseColor = stringToColor(lang);
           const outlineColor = darkenColor(baseColor);
-          
+
           map.addLayer({
             id: outlineId,
             type: 'line',
@@ -104,7 +104,7 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false }) => {
               'line-color': outlineColor,
               'line-width': 2.5,
             },
-          });     
+          });
 
           let expr: maplibregl.FilterSpecification | undefined;
           if (viewFilter === 'country') expr = ['!', ['has', 'region']];
@@ -222,7 +222,9 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false }) => {
         id="map"
         style={{ width: '100%', height: '100vh', position: 'absolute' }}
       />
-      <CheckBox filter={viewFilter} onFilterChange={setViewFilter} />
+      {showFilterCheckbox && (
+        <CheckBox filter={viewFilter} onFilterChange={setViewFilter} />
+      )}
     </>
   );
 };
