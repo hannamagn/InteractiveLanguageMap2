@@ -9,13 +9,11 @@ function capitalizeWords(str: string) {
 function GlobalNav() {
 
     let navList = [
-        {name: "home", link: "/InteractiveLanguageMap2/"}, "world_map", "database", "credits"]
+        {name: "home", link: "/InteractiveLanguageMap2/"}, "world_map", "credits"]
 
     return (
         <>
             <nav className = "globalNav">
-                <div className = "globalNavDivLogo">
-                </div>
                 <div className = "globalNavDivLinks">
                 <ul className="globalNavLinkList">
                     {navList.map((item) => (
