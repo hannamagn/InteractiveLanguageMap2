@@ -224,6 +224,33 @@ replacement_region_codes = {
     "South Darfur": "3774662", 
     "West Darfur": "3774664" # fvr is getting a duplicate of this
 }
+replacement_region_countries = {
+    "Aalten": "Netherlands",
+    "Berkelland": "Netherlands",
+    "Bronckhorst": "Netherlands",
+    "Brummen": "Netherlands",
+    "Doesburg": "Netherlands",
+    "Doetinchem": "Netherlands",
+    "Lochem": "Netherlands",
+    "Montferland": "Netherlands",
+    "Oost Gelre": "Netherlands",
+    "Oude IJsselstreek": "Netherlands",
+    "Winterswijk": "Netherlands",
+    "Zutphen": "Netherlands",
+    "Ennedi-Est": "Chad",
+    "Ennedi-Ouest": "Chad",
+    "Rajshahi Division": "Bangladesh", 
+    "Rangpur Division": "Bangladesh",
+    "Jalpaiguri District": "India",
+    "Maldah District": "India",
+    "Racha-Lechkhumi and Kvemo Svaneti": "Georgia",
+    "Mestia Municipality": "Georgia",
+    "Central Darfur": "Sudan", 
+    "East Darfur": "Sudan", 
+    "North Darfur": "Sudan", 
+    "South Darfur": "Sudan", 
+    "West Darfur": "Sudan"
+}
 
 replacement_region_ids = {
     "Aalten": "http://www.wikidata.org/entity/Q275909",

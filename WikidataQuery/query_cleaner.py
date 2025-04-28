@@ -1,7 +1,7 @@
 import json
 import time 
 import util
-from osm_data import non_region_tags, misfiltered_regions, region_codes_by_country, deprecated_regions, replacement_region_codes, replacement_region_ids
+from osm_data import non_region_tags, misfiltered_regions, region_codes_by_country, deprecated_regions, replacement_region_codes, replacement_region_ids, replacement_region_countries
 
 
 ## by going from using filters in the query to pulling every single lang we get only 2 missing ids vs the 500 or so with
@@ -75,6 +75,7 @@ def format_api_response(api_data, output_file, dump_to_file):
                 "Language": language_name,
                 "LanguageID": language_id,
                 "Regions": [],
+                "RegionsCountry": [],
                 "RegionsID": [],
                 "RegionsOSM": [],
                 "Countries": [],
@@ -123,6 +124,7 @@ def clean_dead_lang(lang_data, output_file, dump_to_file):
                 "Language": data["Language"],
                 "LanguageID": data["LanguageID"],
                 "Regions": data["Regions"],
+                "RegionsCountry": [],
                 "RegionsID": data["RegionsID"],
                 "RegionsOSM": data["RegionsOSM"],
                 "Countries": data["Countries"],
@@ -172,6 +174,7 @@ def populate_metadata(api_data, lang_data):
         language = entry["languageLabel"]["value"]
         region = entry["regionLabel"]["value"] if "regionLabel" in entry else "Missing"
         regionID = entry["region"]["value"] if "region" in entry else "Missing"
+        regionCountry = entry["country_of_regionLabel"]["value"] if "country_of_regionLabel" in entry else "Missing"
         region_osm_id = entry["region_osm_id"]["value"] if "region_osm_id" in entry else "Missing"
         country = entry["countryLabel"]["value"] if "countryLabel" in entry else "Missing"
         countryID = entry["country"]["value"] if "country" in entry else "Missing"
@@ -185,6 +188,7 @@ def populate_metadata(api_data, lang_data):
                 "Language": language,
                 "LanguageID": entry["language"]["value"],  
                 "Regions": [],
+                "RegionsCountry": [],
                 "RegionsID": [],
                 "RegionsOSM": [],
                 "Countries": [],
@@ -195,11 +199,15 @@ def populate_metadata(api_data, lang_data):
                 "number_of_speakers": [] 
             }
 
+
+        region_info = {"Region": region, "RegionCountry": regionCountry}
         if region not in lang_data[iso_code][language]["Regions"]:
             lang_data[iso_code][language]["Regions"].append(region)
+        
         if regionID not in lang_data[iso_code][language]["RegionsID"]:
             lang_data[iso_code][language]["RegionsID"].append(regionID)
             lang_data[iso_code][language]["RegionsOSM"].append(region_osm_id) # put in multiple missings of the regionosm id matching in placement to the region names
+            lang_data[iso_code][language]["RegionsCountry"].append(regionCountry)
 
         country_info = {"Country": country, "IsOfficialLanguage": is_official_language_of_country}
         if is_official_language_of_country == "true":
@@ -245,6 +253,7 @@ def filter_non_regions(data, non_region_links):
        regionID aka the wikidata link'''
 
     regionsIDs = data.get("RegionsID", [])
+    regionsCountries = data.get("RegionsCountry", [])
     regionNames = data.get("Regions", [])
     regionOSM = data.get("RegionsOSM", [])
     if any(regionid in non_region_links for regionid in regionsIDs):
@@ -256,6 +265,7 @@ def filter_non_regions(data, non_region_links):
             if regionLink in non_region_links:
                 groupName = regionNames[i]
                # print(f"   Removing group {groupName} regionIDLink: {regionLink} at index {i}")
+                regionsCountries.pop(i)
                 regionsIDs.pop(i)
                 regionNames.pop(i)
                 regionOSM.pop(i)
@@ -267,12 +277,14 @@ def remove_missing_region_name(data):
         osmCode = data.get("RegionsOSM", [])
         regionsLink = data.get("RegionsID", [])
         regions = data.get("Regions", [])
+        regionsCountries = data.get("RegionsCountry", [])
 
         for i in reversed(range(len(regions))): # traverse reverse order
             region = regions[i]
             if region.startswith("Q") and region[1:].isdigit():
                 curOSM = osmCode[i]
                # print(f"Removing region: {region} and OSM code: {curOSM} at index {i}")
+                regionsCountries.pop(i)
                 regions.pop(i)
                 osmCode.pop(i)
                 regionsLink.pop(i)
@@ -306,10 +318,12 @@ def replace_region_with_many(data): # consider splitting this out into a util
     regions = data.get("Regions", [])
     regions_osm = data.get("RegionsOSM", [])
     regions_id = data.get("RegionsID", [])
+    regions_country = data.get("RegionsCountry", [])
     
     updated_regions = []
     updated_region_osm = []
     updated_region_id = []
+    updated_regions_country = []
     for i, region in enumerate(regions):
         if region in deprecated_regions:
             updated_regions.extend(deprecated_regions[region])
@@ -319,13 +333,19 @@ def replace_region_with_many(data): # consider splitting this out into a util
 
             id_list = map(replacement_region_ids.get, deprecated_regions[region])
             updated_region_id.extend(id_list)
+
+            regions_country_list = map(replacement_region_countries.get, deprecated_regions[region])
+            updated_regions_country.extend(regions_country_list)
         else: 
             updated_regions.append(region)
             updated_region_osm.append(regions_osm[i])
             updated_region_id.append(regions_id[i])
+            updated_regions_country.append(regions_country[i])
+
     data["Regions"] = updated_regions
     data["RegionsOSM"] = updated_region_osm
     data["RegionsID"] = updated_region_id
+    data["RegionsCountry"] = updated_regions_country
 
 def update_nepal_regions(data):
     '''Unique function just for nepal to fully replace all their zones with the new provinces
@@ -374,6 +394,7 @@ def update_nepal_regions(data):
         regions = data.get("Regions", [])
         regions_id = data.get("RegionsID", [])
         regions_osm = data.get("RegionsOSM", [])
+        regionsCountries = data.get("RegionsCountry", [])
 
         for i in range(len(regions)):
             old_region = regions[i]
@@ -384,11 +405,13 @@ def update_nepal_regions(data):
                 new_region = zone_to_province[old_region]
                 new_region_id = province_wikidataID[new_region]
                 new_region_osm = province_osm[new_region]
+                new_regionsCountries = new_region
                 #print(f"   replacement: {new_region}, {new_region_osm}, {new_region_id}")
                 
                 regions[i] = new_region
                 regions_id[i] = new_region_id
                 regions_osm[i] = new_region_osm
+                regionsCountries[i] = new_regionsCountries
     #print("Nepal zones update Done")
 
 def filter_lang_data(lang_data):

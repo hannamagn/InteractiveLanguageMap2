@@ -15,6 +15,18 @@
                 "Province of Catanzaro",
                 "Province of Palermo"
             ],
+            "RegionsCountry": [
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1438",
                 "http://www.wikidata.org/entity/Q1443",
@@ -75,6 +87,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -120,6 +135,12 @@
                 "Central Greece Region",
                 "Arvanites",
                 "Attica Region"
+            ],
+            "RegionsCountry": [
+                "Greece",
+                "Greece",
+                "Greece",
+                "Greece"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q166919",
@@ -170,6 +191,9 @@
             "Regions": [
                 "Quebec"
             ],
+            "RegionsCountry": [
+                "Canada"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q176"
             ],
@@ -211,6 +235,9 @@
             "Language": "Tajiki Arabic",
             "LanguageID": "http://www.wikidata.org/entity/Q56833",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -267,6 +294,10 @@
             "Regions": [
                 "Bushehr Province",
                 "Khuzestan Province"
+            ],
+            "RegionsCountry": [
+                "Iran",
+                "Iran"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q132945",
@@ -325,6 +356,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -373,6 +407,11 @@
                 "Kyrenia District",
                 "Nicosia District",
                 "Limassol District"
+            ],
+            "RegionsCountry": [
+                "Cyprus",
+                "Cyprus",
+                "Cyprus"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q59146",
@@ -423,6 +462,10 @@
                 "Northern Territory",
                 "Queensland"
             ],
+            "RegionsCountry": [
+                "Australia",
+                "Australia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3235",
                 "http://www.wikidata.org/entity/Q36074"
@@ -466,6 +509,9 @@
             "Language": "Tunisian Arabic",
             "LanguageID": "http://www.wikidata.org/entity/Q56240",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -517,6 +563,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -560,6 +609,9 @@
             "Regions": [
                 "Northern Territory"
             ],
+            "RegionsCountry": [
+                "Australia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3235"
             ],
@@ -601,6 +653,9 @@
             "Language": "Gulf Arabic",
             "LanguageID": "http://www.wikidata.org/entity/Q56385",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -688,6 +743,9 @@
             "Regions": [
                 "Coahuila"
             ],
+            "RegionsCountry": [
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q53079"
             ],
@@ -732,6 +790,11 @@
                 "Federal Capital Territory",
                 "Nasarawa State",
                 "Kaduna State"
+            ],
+            "RegionsCountry": [
+                "Nigeria",
+                "Nigeria",
+                "Nigeria"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q509300",
@@ -784,6 +847,14 @@
                 "Kirkuk Governorate",
                 "Basra Governorate",
                 "Erbil Governorate"
+            ],
+            "RegionsCountry": [
+                "Iraq",
+                "Iraq",
+                "Iraq",
+                "Iraq",
+                "Iraq",
+                "Iraq"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q189352",
@@ -860,6 +931,13 @@
                 "Herat Province",
                 "Ghor Province"
             ],
+            "RegionsCountry": [
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q172052",
                 "http://www.wikidata.org/entity/Q173830",
@@ -914,6 +992,12 @@
                 "Palestine",
                 "Northern District",
                 "Southern Levant"
+            ],
+            "RegionsCountry": [
+                "Jordan",
+                "Israel",
+                "Israel",
+                "Jordan"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q810",
@@ -985,6 +1069,20 @@
                 "Gazi Baba Municipality",
                 "Kumanovo Municipality",
                 "Tetovo Municipality"
+            ],
+            "RegionsCountry": [
+                "Montenegro",
+                "North Macedonia",
+                "North Macedonia",
+                "North Macedonia",
+                "Serbia",
+                "Serbia",
+                "North Macedonia",
+                "North Macedonia",
+                "Serbia",
+                "North Macedonia",
+                "North Macedonia",
+                "North Macedonia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q236",
@@ -1069,6 +1167,9 @@
             "Regions": [
                 "Epirus Region"
             ],
+            "RegionsCountry": [
+                "Greece"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q180484"
             ],
@@ -1117,6 +1218,9 @@
             "Regions": [
                 "Northern Territory"
             ],
+            "RegionsCountry": [
+                "Australia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3235"
             ],
@@ -1159,6 +1263,10 @@
             "Language": "Sudanese Arabic",
             "LanguageID": "http://www.wikidata.org/entity/Q56573",
             "Regions": [
+                "South Sudan",
+                "Sudan"
+            ],
+            "RegionsCountry": [
                 "South Sudan",
                 "Sudan"
             ],
@@ -1213,6 +1321,9 @@
             "Regions": [
                 "West New Britain Province"
             ],
+            "RegionsCountry": [
+                "Papua New Guinea"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q667468"
             ],
@@ -1256,6 +1367,9 @@
             "Regions": [
                 "Maluku"
             ],
+            "RegionsCountry": [
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5093"
             ],
@@ -1297,6 +1411,9 @@
             "Language": "Algerian Arabic",
             "LanguageID": "http://www.wikidata.org/entity/Q56499",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -1342,6 +1459,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -1350,27 +1470,27 @@
             ],
             "Countries": [
                 {
-                    "Country": "Algeria",
-                    "IsOfficialLanguage": "false"
-                },
-                {
                     "Country": "Western Sahara",
                     "IsOfficialLanguage": "Missing"
                 },
                 {
                     "Country": "Morocco",
                     "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Algeria",
+                    "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
-                "http://www.wikidata.org/entity/Q262",
                 "http://www.wikidata.org/entity/Q6250",
-                "http://www.wikidata.org/entity/Q1028"
+                "http://www.wikidata.org/entity/Q1028",
+                "http://www.wikidata.org/entity/Q262"
             ],
             "CountriesOSM": [
-                "192756",
                 "2559126",
-                "3630439"
+                "3630439",
+                "192756"
             ],
             "Instances": [
                 "dialect",
@@ -1395,6 +1515,9 @@
             "Language": "Egyptian Arabic",
             "LanguageID": "http://www.wikidata.org/entity/Q29919",
             "Regions": [
+                "Egypt"
+            ],
+            "RegionsCountry": [
                 "Egypt"
             ],
             "RegionsID": [
@@ -1449,6 +1572,12 @@
                 "Zamora Province",
                 "León Province"
             ],
+            "RegionsCountry": [
+                "Spain",
+                "Spain",
+                "Spain",
+                "Spain"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3934",
                 "http://www.wikidata.org/entity/Q3946",
@@ -1480,9 +1609,9 @@
                 "1311341"
             ],
             "Instances": [
+                "modern language",
                 "dialect",
-                "natural language",
-                "modern language"
+                "natural language"
             ],
             "immediate_Language_Families": [
                 "Missing"
@@ -1521,6 +1650,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q16113158",
             "Regions": [
                 "Papua"
+            ],
+            "RegionsCountry": [
+                "Indonesia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5095"
@@ -1565,6 +1697,10 @@
             "Regions": [
                 "Cordillera Administrative Region",
                 "Apayao"
+            ],
+            "RegionsCountry": [
+                "Philippines",
+                "Philippines"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q13606",
@@ -1612,6 +1748,10 @@
                 "Cagayan Valley",
                 "Cagayan"
             ],
+            "RegionsCountry": [
+                "Philippines",
+                "Philippines"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q13615",
                 "http://www.wikidata.org/entity/Q13759"
@@ -1657,6 +1797,9 @@
             "Regions": [
                 "Papua"
             ],
+            "RegionsCountry": [
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5095"
             ],
@@ -1698,6 +1841,9 @@
             "Language": "Auvergnat",
             "LanguageID": "http://www.wikidata.org/entity/Q35359",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -1742,6 +1888,11 @@
                 "Bukhara Region",
                 "Navoiy Region",
                 "Qashqadaryo Region"
+            ],
+            "RegionsCountry": [
+                "Uzbekistan",
+                "Uzbekistan",
+                "Uzbekistan"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q487372",
@@ -1791,6 +1942,11 @@
                 "Bethlehem Governorate",
                 "Jericho Governorate",
                 "Quds Governorate"
+            ],
+            "RegionsCountry": [
+                "State of Palestine",
+                "State of Palestine",
+                "State of Palestine"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q247037",
@@ -1865,6 +2021,11 @@
                 "Agadez Region",
                 "Diffa Region"
             ],
+            "RegionsCountry": [
+                "Niger",
+                "Niger",
+                "Niger"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q204367",
                 "http://www.wikidata.org/entity/Q389944",
@@ -1924,6 +2085,9 @@
             "Regions": [
                 "Sanaa"
             ],
+            "RegionsCountry": [
+                "Yemen"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q2471"
             ],
@@ -1969,6 +2133,12 @@
                 "Samtskhe–Javakheti",
                 "Kakheti",
                 "Kvemo Kartli"
+            ],
+            "RegionsCountry": [
+                "Azerbaijan",
+                "Georgia",
+                "Georgia",
+                "Georgia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q227",
@@ -2036,6 +2206,15 @@
                 "Lower Austria",
                 "Burgenland",
                 "Salzburg"
+            ],
+            "RegionsCountry": [
+                "Germany",
+                "Italy",
+                "Austria",
+                "Austria",
+                "Austria",
+                "Austria",
+                "Austria"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q980",
@@ -2106,6 +2285,10 @@
                 "Yunnan",
                 "Guizhou"
             ],
+            "RegionsCountry": [
+                "People's Republic of China",
+                "People's Republic of China"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q43194",
                 "http://www.wikidata.org/entity/Q47097"
@@ -2155,6 +2338,12 @@
                 "Balochistan",
                 "Kerman Province",
                 "Hormozgan Province"
+            ],
+            "RegionsCountry": [
+                "Pakistan",
+                "Pakistan",
+                "Iran",
+                "Iran"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q37211",
@@ -2209,6 +2398,9 @@
             "Regions": [
                 "Yunnan"
             ],
+            "RegionsCountry": [
+                "People's Republic of China"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q43194"
             ],
@@ -2251,6 +2443,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12952250",
             "Regions": [
                 "Yunnan"
+            ],
+            "RegionsCountry": [
+                "People's Republic of China"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q43194"
@@ -2296,6 +2491,10 @@
             "Regions": [
                 "Himachal Pradesh",
                 "Uttarakhand"
+            ],
+            "RegionsCountry": [
+                "India",
+                "India"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1177",
@@ -2346,6 +2545,14 @@
                 "Kandahar Province",
                 "Helmand Province",
                 "Nimruz Province"
+            ],
+            "RegionsCountry": [
+                "Pakistan",
+                "Pakistan",
+                "Iran",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q37211",
@@ -2412,6 +2619,11 @@
                 "Sindh",
                 "Balochistan"
             ],
+            "RegionsCountry": [
+                "Pakistan",
+                "Pakistan",
+                "Pakistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q4478",
                 "http://www.wikidata.org/entity/Q37211",
@@ -2458,6 +2670,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q2360396",
             "Regions": [
                 "Edirne Province"
+            ],
+            "RegionsCountry": [
+                "Turkey"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q83102"
@@ -2515,6 +2730,11 @@
                 "Tel Aviv",
                 "Central District",
                 "Tel Aviv District"
+            ],
+            "RegionsCountry": [
+                "Israel",
+                "Israel",
+                "Israel"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q33935",
@@ -2589,6 +2809,11 @@
                 "Jammu and Kashmir",
                 "Punjab"
             ],
+            "RegionsCountry": [
+                "India",
+                "India",
+                "India"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1177",
                 "http://www.wikidata.org/entity/Q1180",
@@ -2612,9 +2837,9 @@
                 "304716"
             ],
             "Instances": [
+                "dialect",
                 "natural language",
-                "modern language",
-                "dialect"
+                "modern language"
             ],
             "immediate_Language_Families": [
                 "Dogri-Kangri-Bhateali"
@@ -2636,6 +2861,10 @@
             "Regions": [
                 "Northern Region",
                 "Upper East Region"
+            ],
+            "RegionsCountry": [
+                "Ghana",
+                "Ghana"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q502215",
@@ -2682,6 +2911,9 @@
             "Regions": [
                 "Uttar Pradesh"
             ],
+            "RegionsCountry": [
+                "India"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1498"
             ],
@@ -2726,6 +2958,9 @@
             "Regions": [
                 "Sédhiou"
             ],
+            "RegionsCountry": [
+                "Senegal"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q589848"
             ],
@@ -2769,6 +3004,10 @@
             "Regions": [
                 "Abra",
                 "Kalinga"
+            ],
+            "RegionsCountry": [
+                "Philippines",
+                "Philippines"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q13711",
@@ -2815,6 +3054,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -2857,6 +3099,9 @@
             "Language": "Balanta-Kentohe",
             "LanguageID": "http://www.wikidata.org/entity/Q56789",
             "Regions": [
+                "Guinea-Bissau"
+            ],
+            "RegionsCountry": [
                 "Guinea-Bissau"
             ],
             "RegionsID": [
@@ -2902,6 +3147,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -2942,6 +3190,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q11207813",
             "Regions": [
                 "Papua"
+            ],
+            "RegionsCountry": [
+                "Indonesia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5095"
@@ -2984,6 +3235,9 @@
             "Language": "Navarro-Labourdin",
             "LanguageID": "http://www.wikidata.org/entity/Q12953386",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -3032,6 +3286,14 @@
                 "Rajasthan",
                 "Uttar Pradesh",
                 "Braj"
+            ],
+            "RegionsCountry": [
+                "India",
+                "India",
+                "India",
+                "India",
+                "India",
+                "India"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1165",
@@ -3086,6 +3348,9 @@
             "Regions": [
                 "Soule"
             ],
+            "RegionsCountry": [
+                "France"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q673040"
             ],
@@ -3128,6 +3393,11 @@
                 "Sassandra-Marahoué District",
                 "Bas-Sassandra District",
                 "Gôh-Djiboua District"
+            ],
+            "RegionsCountry": [
+                "Ivory Coast",
+                "Ivory Coast",
+                "Ivory Coast"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q20365127",
@@ -3174,24 +3444,31 @@
             "Language": "Bacanese Malay",
             "LanguageID": "http://www.wikidata.org/entity/Q8828608",
             "Regions": [
+                "Bacan",
                 "Maluku",
                 "North Maluku",
                 "Bacan islands",
-                "Bacan Island",
-                "Bacan"
+                "Bacan Island"
+            ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q26241178",
                 "http://www.wikidata.org/entity/Q5093",
                 "http://www.wikidata.org/entity/Q5094",
                 "http://www.wikidata.org/entity/Q798019",
-                "http://www.wikidata.org/entity/Q13405341",
-                "http://www.wikidata.org/entity/Q26241178"
+                "http://www.wikidata.org/entity/Q13405341"
             ],
             "RegionsOSM": [
+                "7176719",
                 "2396795",
                 "2396796",
                 "Missing",
-                "7176719",
                 "7176719"
             ],
             "Countries": [
@@ -3230,6 +3507,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q5150795",
             "Regions": [
                 "Mayotte"
+            ],
+            "RegionsCountry": [
+                "France"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q17063"
@@ -3274,6 +3554,9 @@
             "Regions": [
                 "Maluku"
             ],
+            "RegionsCountry": [
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5093"
             ],
@@ -3317,6 +3600,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -3356,6 +3642,9 @@
             "Language": "Tîrî",
             "LanguageID": "http://www.wikidata.org/entity/Q7862281",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -3405,6 +3694,14 @@
                 "Kampong Thom Province",
                 "Kratié Province",
                 "Kampong Chhnang Province"
+            ],
+            "RegionsCountry": [
+                "Vietnam",
+                "Vietnam",
+                "Vietnam",
+                "Cambodia",
+                "Cambodia",
+                "Cambodia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1854",
@@ -3468,6 +3765,12 @@
                 "Bình Thuận",
                 "Ninh Thuận"
             ],
+            "RegionsCountry": [
+                "Vietnam",
+                "Vietnam",
+                "Vietnam",
+                "Vietnam"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1854",
                 "http://www.wikidata.org/entity/Q33271",
@@ -3517,6 +3820,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -3556,6 +3862,9 @@
             "Language": "South Central Cakchiquel",
             "LanguageID": "http://www.wikidata.org/entity/Q25559638",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -3599,6 +3908,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -3638,6 +3950,9 @@
             "Language": "Southern Cakchiquel",
             "LanguageID": "http://www.wikidata.org/entity/Q25559649",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -3681,6 +3996,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -3720,6 +4038,9 @@
             "Language": "Santo Domingo Xenacoj Cakchiquel",
             "LanguageID": "http://www.wikidata.org/entity/Q12953614",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -3763,6 +4084,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -3804,6 +4128,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -3843,6 +4170,9 @@
             "Language": "Putonghua",
             "LanguageID": "http://www.wikidata.org/entity/Q24841726",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -3890,6 +4220,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -3931,6 +4264,10 @@
             "Regions": [
                 "Christmas Island",
                 "Cocos (Keeling) Islands"
+            ],
+            "RegionsCountry": [
+                "Australia",
+                "Australia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q31063",
@@ -3976,6 +4313,9 @@
             "Regions": [
                 "Nayarit"
             ],
+            "RegionsCountry": [
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q79920"
             ],
@@ -4019,6 +4359,9 @@
             "Regions": [
                 "Capiz"
             ],
+            "RegionsCountry": [
+                "Philippines"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q13772"
             ],
@@ -4059,6 +4402,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12953454",
             "Regions": [
                 "Nayarit"
+            ],
+            "RegionsCountry": [
+                "Mexico"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q79920"
@@ -4103,6 +4449,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -4143,6 +4492,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q56696",
             "Regions": [
                 "Manitoba"
+            ],
+            "RegionsCountry": [
+                "Canada"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1948"
@@ -4187,6 +4539,9 @@
             "Regions": [
                 "Oaxaca"
             ],
+            "RegionsCountry": [
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q34110"
             ],
@@ -4229,6 +4584,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q20527242",
             "Regions": [
                 "Oaxaca"
+            ],
+            "RegionsCountry": [
+                "Mexico"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q34110"
@@ -4273,6 +4631,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -4315,6 +4676,9 @@
             "Regions": [
                 "Rajasthan"
             ],
+            "RegionsCountry": [
+                "India"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1437"
             ],
@@ -4356,6 +4720,9 @@
             "Language": "South Central Dinka",
             "LanguageID": "http://www.wikidata.org/entity/Q35154",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -4402,6 +4769,10 @@
                 "Lagunes District",
                 "Gôh-Djiboua District"
             ],
+            "RegionsCountry": [
+                "Ivory Coast",
+                "Ivory Coast"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q20980365",
                 "http://www.wikidata.org/entity/Q21003640"
@@ -4447,6 +4818,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -4488,6 +4862,9 @@
             "Language": "Northeastern Dinka",
             "LanguageID": "http://www.wikidata.org/entity/Q36246",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -4533,6 +4910,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -4572,6 +4952,9 @@
             "Language": "Northwestern Dinka",
             "LanguageID": "http://www.wikidata.org/entity/Q36249",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -4617,6 +5000,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -4660,6 +5046,10 @@
             "Regions": [
                 "Drenthe",
                 "Overijssel"
+            ],
+            "RegionsCountry": [
+                "Netherlands",
+                "Netherlands"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q772",
@@ -4713,6 +5103,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -4753,6 +5146,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q20050850",
             "Regions": [
                 "Northern Territory"
+            ],
+            "RegionsCountry": [
+                "Australia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3235"
@@ -4797,6 +5193,9 @@
             "Regions": [
                 "Northern Territory"
             ],
+            "RegionsCountry": [
+                "Australia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3235"
             ],
@@ -4840,6 +5239,10 @@
             "Regions": [
                 "Bandundu Province",
                 "Plateaux Department"
+            ],
+            "RegionsCountry": [
+                "Democratic Republic of the Congo",
+                "Republic of the Congo"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q671442",
@@ -4902,6 +5305,19 @@
                 "Province of Reggio Emilia",
                 "Metropolitan City of Bologna",
                 "Metropolitan City of Rome"
+            ],
+            "RegionsCountry": [
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy",
+                "Italy"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1216",
@@ -4967,6 +5383,9 @@
             "Regions": [
                 "Krasnoyarsk Krai"
             ],
+            "RegionsCountry": [
+                "Russia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q6563"
             ],
@@ -5010,6 +5429,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -5050,6 +5472,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q25559714",
             "Regions": [
                 "Alaska"
+            ],
+            "RegionsCountry": [
+                "United States"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q797"
@@ -5094,6 +5519,9 @@
             "Regions": [
                 "Greater Iran"
             ],
+            "RegionsCountry": [
+                "Russia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q25763"
             ],
@@ -5101,14 +5529,6 @@
                 "Missing"
             ],
             "Countries": [
-                {
-                    "Country": "Afghanistan",
-                    "IsOfficialLanguage": "false"
-                },
-                {
-                    "Country": "United Arab Emirates",
-                    "IsOfficialLanguage": "false"
-                },
                 {
                     "Country": "Tajikistan",
                     "IsOfficialLanguage": "false"
@@ -5130,6 +5550,14 @@
                     "IsOfficialLanguage": "true"
                 },
                 {
+                    "Country": "Afghanistan",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "United Arab Emirates",
+                    "IsOfficialLanguage": "false"
+                },
+                {
                     "Country": "Bahrain",
                     "IsOfficialLanguage": "false"
                 },
@@ -5143,25 +5571,25 @@
                 }
             ],
             "CountriesID": [
-                "http://www.wikidata.org/entity/Q889",
-                "http://www.wikidata.org/entity/Q878",
                 "http://www.wikidata.org/entity/Q863",
                 "http://www.wikidata.org/entity/Q843",
                 "http://www.wikidata.org/entity/Q817",
                 "http://www.wikidata.org/entity/Q796",
                 "http://www.wikidata.org/entity/Q794",
+                "http://www.wikidata.org/entity/Q889",
+                "http://www.wikidata.org/entity/Q878",
                 "http://www.wikidata.org/entity/Q398",
                 "http://www.wikidata.org/entity/Q265",
                 "http://www.wikidata.org/entity/Q159"
             ],
             "CountriesOSM": [
-                "303427",
-                "307763",
                 "214626",
                 "307573",
                 "305099",
                 "304934",
                 "304938",
+                "303427",
+                "307763",
                 "378734",
                 "196240",
                 "60189"
@@ -5210,6 +5638,12 @@
                 "Norrbotten County",
                 "Norrland",
                 "Torne Valley"
+            ],
+            "RegionsCountry": [
+                "Finland",
+                "Sweden",
+                "Sweden",
+                "Finland"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5700",
@@ -5274,6 +5708,10 @@
                 "Kerman Province",
                 "Yazd Province"
             ],
+            "RegionsCountry": [
+                "Iran",
+                "Iran"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q165352",
                 "http://www.wikidata.org/entity/Q170568"
@@ -5328,6 +5766,19 @@
                 "British Columbia",
                 "Saskatchewan",
                 "Hutterite"
+            ],
+            "RegionsCountry": [
+                "United States",
+                "United States",
+                "United States",
+                "United States",
+                "United States",
+                "United States",
+                "Canada",
+                "Canada",
+                "Canada",
+                "Canada",
+                "Canada"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q824",
@@ -5399,6 +5850,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -5439,6 +5893,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12952457",
             "Regions": [
                 "West New Britain Province"
+            ],
+            "RegionsCountry": [
+                "Papua New Guinea"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q667468"
@@ -5483,6 +5940,10 @@
             "Regions": [
                 "Oro Province",
                 "Morobe Province"
+            ],
+            "RegionsCountry": [
+                "Papua New Guinea",
+                "Papua New Guinea"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q753686",
@@ -5531,6 +5992,12 @@
                 "Karnataka",
                 "Kerala",
                 "Maharashtra"
+            ],
+            "RegionsCountry": [
+                "India",
+                "India",
+                "India",
+                "India"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1171",
@@ -5582,6 +6049,10 @@
                 "Groningen",
                 "Drenthe"
             ],
+            "RegionsCountry": [
+                "Netherlands",
+                "Netherlands"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q752",
                 "http://www.wikidata.org/entity/Q772"
@@ -5623,6 +6094,9 @@
             "Language": "Gascon",
             "LanguageID": "http://www.wikidata.org/entity/Q35735",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -5678,6 +6152,16 @@
                 "Vorarlberg",
                 "German-speaking Switzerland",
                 "Colonia Tovar"
+            ],
+            "RegionsCountry": [
+                "Liechtenstein",
+                "Germany",
+                "France",
+                "Italy",
+                "Italy",
+                "Austria",
+                "Switzerland",
+                "Venezuela"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q347",
@@ -5773,6 +6257,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -5814,6 +6301,10 @@
             "Regions": [
                 "Lagunes District",
                 "Gôh-Djiboua District"
+            ],
+            "RegionsCountry": [
+                "Ivory Coast",
+                "Ivory Coast"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q20980365",
@@ -5860,6 +6351,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -5903,6 +6397,10 @@
             "Regions": [
                 "Pará",
                 "Maranhão"
+            ],
+            "RegionsCountry": [
+                "Brazil",
+                "Brazil"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q39517",
@@ -5950,6 +6448,10 @@
                 "Bas-Sassandra District",
                 "Montagnes District"
             ],
+            "RegionsCountry": [
+                "Ivory Coast",
+                "Ivory Coast"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q20980352",
                 "http://www.wikidata.org/entity/Q20980366"
@@ -5995,6 +6497,9 @@
             "Regions": [
                 "British Columbia"
             ],
+            "RegionsCountry": [
+                "Canada"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1973"
             ],
@@ -6038,6 +6543,10 @@
             "Regions": [
                 "Alaska",
                 "British Columbia"
+            ],
+            "RegionsCountry": [
+                "United States",
+                "Canada"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q797",
@@ -6091,6 +6600,10 @@
                 "Guangxi",
                 "Guizhou"
             ],
+            "RegionsCountry": [
+                "People's Republic of China",
+                "People's Republic of China"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q15176",
                 "http://www.wikidata.org/entity/Q47097"
@@ -6136,6 +6649,9 @@
             "Regions": [
                 "Guizhou"
             ],
+            "RegionsCountry": [
+                "People's Republic of China"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q47097"
             ],
@@ -6179,6 +6695,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -6220,6 +6739,9 @@
             "Regions": [
                 "Hainan"
             ],
+            "RegionsCountry": [
+                "People's Republic of China"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q42200"
             ],
@@ -6227,6 +6749,10 @@
                 "2128285"
             ],
             "Countries": [
+                {
+                    "Country": "Hong Kong",
+                    "IsOfficialLanguage": "false"
+                },
                 {
                     "Country": "Taiwan",
                     "IsOfficialLanguage": "false"
@@ -6238,23 +6764,19 @@
                 {
                     "Country": "Singapore",
                     "IsOfficialLanguage": "false"
-                },
-                {
-                    "Country": "Hong Kong",
-                    "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
+                "http://www.wikidata.org/entity/Q8646",
                 "http://www.wikidata.org/entity/Q865",
                 "http://www.wikidata.org/entity/Q833",
-                "http://www.wikidata.org/entity/Q334",
-                "http://www.wikidata.org/entity/Q8646"
+                "http://www.wikidata.org/entity/Q334"
             ],
             "CountriesOSM": [
+                "913110",
                 "449220",
                 "2108121",
-                "536780",
-                "913110"
+                "536780"
             ],
             "Instances": [
                 "dialect",
@@ -6278,6 +6800,9 @@
             "Language": "Northern Hindko",
             "LanguageID": "http://www.wikidata.org/entity/Q112812073",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -6321,6 +6846,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -6360,6 +6888,9 @@
             "Language": "Hunsrik",
             "LanguageID": "http://www.wikidata.org/entity/Q304049",
             "Regions": [
+                "Brazil"
+            ],
+            "RegionsCountry": [
                 "Brazil"
             ],
             "RegionsID": [
@@ -6405,6 +6936,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -6445,6 +6979,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12954031",
             "Regions": [
                 "Oaxaca"
+            ],
+            "RegionsCountry": [
+                "Mexico"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q34110"
@@ -6489,6 +7026,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -6497,33 +7037,33 @@
             ],
             "Countries": [
                 {
-                    "Country": "Armenia",
-                    "IsOfficialLanguage": "false"
-                },
-                {
-                    "Country": "Turkey",
-                    "IsOfficialLanguage": "false"
-                },
-                {
                     "Country": "Syria",
                     "IsOfficialLanguage": "false"
                 },
                 {
                     "Country": "Lebanon",
                     "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Armenia",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Turkey",
+                    "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
-                "http://www.wikidata.org/entity/Q399",
-                "http://www.wikidata.org/entity/Q43",
                 "http://www.wikidata.org/entity/Q858",
-                "http://www.wikidata.org/entity/Q822"
+                "http://www.wikidata.org/entity/Q822",
+                "http://www.wikidata.org/entity/Q399",
+                "http://www.wikidata.org/entity/Q43"
             ],
             "CountriesOSM": [
-                "364066",
-                "174737",
                 "184840",
-                "184843"
+                "184843",
+                "364066",
+                "174737"
             ],
             "Instances": [
                 "dialect",
@@ -6548,6 +7088,9 @@
             "Language": "Ibilo",
             "LanguageID": "http://www.wikidata.org/entity/Q11011534",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -6591,6 +7134,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -6631,6 +7177,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12632895",
             "Regions": [
                 "Southern Highlands Province"
+            ],
+            "RegionsCountry": [
+                "Papua New Guinea"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q849801"
@@ -6675,6 +7224,9 @@
             "Regions": [
                 "Maluku"
             ],
+            "RegionsCountry": [
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5093"
             ],
@@ -6717,6 +7269,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12953584",
             "Regions": [
                 "Abra"
+            ],
+            "RegionsCountry": [
+                "Philippines"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q13711"
@@ -6762,6 +7317,11 @@
                 "Kalimantan",
                 "North Kalimantan",
                 "Tidung"
+            ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Indonesia",
+                "Missing"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3795",
@@ -6811,6 +7371,9 @@
             "Regions": [
                 "Abra"
             ],
+            "RegionsCountry": [
+                "Philippines"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q13711"
             ],
@@ -6854,6 +7417,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -6893,6 +7459,9 @@
             "Language": "New Caledonian Javanese",
             "LanguageID": "http://www.wikidata.org/entity/Q12953527",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -6936,6 +7505,9 @@
             "Language": "Jambi Malay",
             "LanguageID": "http://www.wikidata.org/entity/Q3915769",
             "Regions": [
+                "Indonesia"
+            ],
+            "RegionsCountry": [
                 "Indonesia"
             ],
             "RegionsID": [
@@ -6982,6 +7554,10 @@
                 "Sindh",
                 "Balochistan"
             ],
+            "RegionsCountry": [
+                "Pakistan",
+                "Pakistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q37211",
                 "http://www.wikidata.org/entity/Q163239"
@@ -6992,27 +7568,27 @@
             ],
             "Countries": [
                 {
+                    "Country": "Pakistan",
+                    "IsOfficialLanguage": "false"
+                },
+                {
                     "Country": "Oman",
                     "IsOfficialLanguage": "false"
                 },
                 {
                     "Country": "Iran",
                     "IsOfficialLanguage": "false"
-                },
-                {
-                    "Country": "Pakistan",
-                    "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
+                "http://www.wikidata.org/entity/Q843",
                 "http://www.wikidata.org/entity/Q842",
-                "http://www.wikidata.org/entity/Q794",
-                "http://www.wikidata.org/entity/Q843"
+                "http://www.wikidata.org/entity/Q794"
             ],
             "CountriesOSM": [
+                "307573",
                 "305138",
-                "304938",
-                "307573"
+                "304938"
             ],
             "Instances": [
                 "dialect"
@@ -7040,6 +7616,13 @@
                 "North Ossetia–Alania",
                 "Kabardino-Balkaria",
                 "Mountain Jews"
+            ],
+            "RegionsCountry": [
+                "Russia",
+                "Russia",
+                "Russia",
+                "Russia",
+                "Canada"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5118",
@@ -7125,6 +7708,9 @@
             "Regions": [
                 "Yunnan"
             ],
+            "RegionsCountry": [
+                "People's Republic of China"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q43194"
             ],
@@ -7167,6 +7753,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12952528",
             "Regions": [
                 "Yunnan"
+            ],
+            "RegionsCountry": [
+                "People's Republic of China"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q43194"
@@ -7212,6 +7801,11 @@
                 "Adamawa State",
                 "Bauchi State",
                 "Federal Capital Territory"
+            ],
+            "RegionsCountry": [
+                "Nigeria",
+                "Nigeria",
+                "Nigeria"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q337514",
@@ -7263,6 +7857,12 @@
                 "Northern District",
                 "Jerusalem District"
             ],
+            "RegionsCountry": [
+                "People's Republic of China",
+                "Israel",
+                "Israel",
+                "Israel"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q27275",
                 "http://www.wikidata.org/entity/Q188781",
@@ -7281,14 +7881,6 @@
                     "IsOfficialLanguage": "false"
                 },
                 {
-                    "Country": "Tajikistan",
-                    "IsOfficialLanguage": "false"
-                },
-                {
-                    "Country": "Israel",
-                    "IsOfficialLanguage": "false"
-                },
-                {
                     "Country": "Iran",
                     "IsOfficialLanguage": "false"
                 },
@@ -7303,25 +7895,33 @@
                 {
                     "Country": "Russia",
                     "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Tajikistan",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Israel",
+                    "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
                 "http://www.wikidata.org/entity/Q889",
-                "http://www.wikidata.org/entity/Q863",
-                "http://www.wikidata.org/entity/Q801",
                 "http://www.wikidata.org/entity/Q794",
                 "http://www.wikidata.org/entity/Q265",
                 "http://www.wikidata.org/entity/Q227",
-                "http://www.wikidata.org/entity/Q159"
+                "http://www.wikidata.org/entity/Q159",
+                "http://www.wikidata.org/entity/Q863",
+                "http://www.wikidata.org/entity/Q801"
             ],
             "CountriesOSM": [
                 "303427",
-                "214626",
-                "1473946",
                 "304938",
                 "196240",
                 "364110",
-                "60189"
+                "60189",
+                "214626",
+                "1473946"
             ],
             "Instances": [
                 "language",
@@ -7347,6 +7947,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q11732256",
             "Regions": [
                 "Commewijne District"
+            ],
+            "RegionsCountry": [
+                "Suriname"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q952510"
@@ -7391,6 +7994,9 @@
             "Regions": [
                 "Acre"
             ],
+            "RegionsCountry": [
+                "Brazil"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q40780"
             ],
@@ -7433,6 +8039,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q7442316",
             "Regions": [
                 "Katanga Province"
+            ],
+            "RegionsCountry": [
+                "Democratic Republic of the Congo"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q217242"
@@ -7481,40 +8090,52 @@
             "Language": "Kutchi language",
             "LanguageID": "http://www.wikidata.org/entity/Q56487",
             "Regions": [
-                "Gujarat",
-                "Andhra Pradesh",
-                "Assam",
-                "Karnataka",
                 "Kerala",
                 "Madhya Pradesh",
                 "Maharashtra",
                 "Tamil Nadu",
                 "Uttar Pradesh",
-                "Odisha"
+                "Odisha",
+                "Gujarat",
+                "Andhra Pradesh",
+                "Assam",
+                "Karnataka"
+            ],
+            "RegionsCountry": [
+                "India",
+                "India",
+                "India",
+                "India",
+                "India",
+                "India",
+                "India",
+                "India",
+                "India",
+                "India"
             ],
             "RegionsID": [
-                "http://www.wikidata.org/entity/Q1061",
-                "http://www.wikidata.org/entity/Q1159",
-                "http://www.wikidata.org/entity/Q1164",
-                "http://www.wikidata.org/entity/Q1185",
                 "http://www.wikidata.org/entity/Q1186",
                 "http://www.wikidata.org/entity/Q1188",
                 "http://www.wikidata.org/entity/Q1191",
                 "http://www.wikidata.org/entity/Q1445",
                 "http://www.wikidata.org/entity/Q1498",
-                "http://www.wikidata.org/entity/Q22048"
+                "http://www.wikidata.org/entity/Q22048",
+                "http://www.wikidata.org/entity/Q1061",
+                "http://www.wikidata.org/entity/Q1159",
+                "http://www.wikidata.org/entity/Q1164",
+                "http://www.wikidata.org/entity/Q1185"
             ],
             "RegionsOSM": [
-                "1949080",
-                "2022095",
-                "2025886",
-                "2019939",
                 "2018151",
                 "1950071",
                 "1950884",
                 "96905",
                 "1942587",
-                "1984022"
+                "1984022",
+                "1949080",
+                "2022095",
+                "2025886",
+                "2019939"
             ],
             "Countries": [
                 {
@@ -7556,6 +8177,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q6399808",
             "Regions": [
                 "Buryatia"
+            ],
+            "RegionsCountry": [
+                "Russia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q6809"
@@ -7613,6 +8237,17 @@
                 "Sivas Province",
                 "Erzincan Province",
                 "Tunceli Province"
+            ],
+            "RegionsCountry": [
+                "Turkey",
+                "Turkey",
+                "Turkey",
+                "Turkey",
+                "Turkey",
+                "Turkey",
+                "Turkey",
+                "Turkey",
+                "Turkey"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q83081",
@@ -7673,6 +8308,9 @@
             "Regions": [
                 "Kalinga"
             ],
+            "RegionsCountry": [
+                "Philippines"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q13827"
             ],
@@ -7718,6 +8356,12 @@
                 "Erongo Region",
                 "Khomas Region",
                 "Otjozondjupa Region"
+            ],
+            "RegionsCountry": [
+                "Botswana",
+                "Namibia",
+                "Namibia",
+                "Namibia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q57571",
@@ -7774,6 +8418,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -7819,6 +8466,14 @@
                 "Macenta Prefecture",
                 "Eastern Province",
                 "Kissidougou Prefecture"
+            ],
+            "RegionsCountry": [
+                "Guinea",
+                "Guinea",
+                "Sierra Leone",
+                "Guinea",
+                "Sierra Leone",
+                "Guinea"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q870146",
@@ -7879,6 +8534,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -7919,6 +8577,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q4624",
             "Regions": [
                 "Cologne"
+            ],
+            "RegionsCountry": [
+                "Germany"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q365"
@@ -7961,6 +8622,10 @@
             "Regions": [
                 "Lofa County",
                 "Eastern Province"
+            ],
+            "RegionsCountry": [
+                "Liberia",
+                "Sierra Leone"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q870130",
@@ -8013,6 +8678,9 @@
             "Regions": [
                 "Gandaki Zone"
             ],
+            "RegionsCountry": [
+                "Nepal"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q9133"
             ],
@@ -8055,6 +8723,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q3775265",
             "Regions": [
                 "Fars Province"
+            ],
+            "RegionsCountry": [
+                "Iran"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1004666"
@@ -8104,6 +8775,15 @@
                 "Ohangwena Region",
                 "Oshikoto Region",
                 "Kavango West Region"
+            ],
+            "RegionsCountry": [
+                "Angola",
+                "Namibia",
+                "Namibia",
+                "Namibia",
+                "Namibia",
+                "Namibia",
+                "Namibia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q216987",
@@ -8166,6 +8846,9 @@
             "Regions": [
                 "Rondônia"
             ],
+            "RegionsCountry": [
+                "Brazil"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q43235"
             ],
@@ -8214,6 +8897,15 @@
                 "Southwest",
                 "Far North",
                 "South"
+            ],
+            "RegionsCountry": [
+                "Cameroon",
+                "Nigeria",
+                "Cameroon",
+                "Nigeria",
+                "Cameroon",
+                "Cameroon",
+                "Cameroon"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q165784",
@@ -8276,6 +8968,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -8317,6 +9012,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -8356,6 +9054,9 @@
             "Language": "Katingan",
             "LanguageID": "http://www.wikidata.org/entity/Q25559468",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -8401,6 +9102,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q11031321",
             "Regions": [
                 "Zanzan District"
+            ],
+            "RegionsCountry": [
+                "Ivory Coast"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q21003689"
@@ -8451,6 +9155,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -8491,6 +9198,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q6480756",
             "Regions": [
                 "Yunnan"
+            ],
+            "RegionsCountry": [
+                "People's Republic of China"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q43194"
@@ -8533,16 +9243,20 @@
             "Language": "Laari",
             "LanguageID": "http://www.wikidata.org/entity/Q3217917",
             "Regions": [
-                "Bouenza Department",
-                "Pool Department"
+                "Pool Department",
+                "Bouenza Department"
+            ],
+            "RegionsCountry": [
+                "Republic of the Congo",
+                "Republic of the Congo"
             ],
             "RegionsID": [
-                "http://www.wikidata.org/entity/Q827015",
-                "http://www.wikidata.org/entity/Q864647"
+                "http://www.wikidata.org/entity/Q864647",
+                "http://www.wikidata.org/entity/Q827015"
             ],
             "RegionsOSM": [
-                "3220587",
-                "3220595"
+                "3220595",
+                "3220587"
             ],
             "Countries": [
                 {
@@ -8579,6 +9293,9 @@
             "Language": "Lingkhim",
             "LanguageID": "http://www.wikidata.org/entity/Q12635536",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -8622,6 +9339,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -8661,6 +9381,9 @@
             "Language": "Lintang",
             "LanguageID": "http://www.wikidata.org/entity/Q12952727",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -8703,6 +9426,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q11002185",
             "Regions": [
                 "Bandundu Province"
+            ],
+            "RegionsCountry": [
+                "Democratic Republic of the Congo"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q671442"
@@ -8754,6 +9480,17 @@
                 "Hormozgan Province",
                 "Fars Province",
                 "Achomi people"
+            ],
+            "RegionsCountry": [
+                "Bahrain",
+                "Iran",
+                "Iran",
+                "Iran",
+                "Iran",
+                "Missing",
+                "Iran",
+                "Iran",
+                "Iran"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q398",
@@ -8845,6 +9582,11 @@
                 "East Nusa Tenggara",
                 "Larantuka"
             ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Indonesia",
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3803",
                 "http://www.wikidata.org/entity/Q5061",
@@ -8892,6 +9634,9 @@
             "Regions": [
                 "Balochistan"
             ],
+            "RegionsCountry": [
+                "Pakistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q163239"
             ],
@@ -8934,6 +9679,11 @@
                 "Latgale",
                 "Daugavpils Municipality",
                 "Balvi Municipality"
+            ],
+            "RegionsCountry": [
+                "Latvia",
+                "Latvia",
+                "Latvia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q208113",
@@ -8988,6 +9738,9 @@
             "Regions": [
                 "Leizhou Peninsula"
             ],
+            "RegionsCountry": [
+                "People's Republic of China"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q875712"
             ],
@@ -9030,6 +9783,10 @@
             "Regions": [
                 "Lesser Sunda Islands",
                 "East Nusa Tenggara"
+            ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Indonesia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3803",
@@ -9076,6 +9833,10 @@
             "Regions": [
                 "Ucayali Department",
                 "Madre de Dios Department"
+            ],
+            "RegionsCountry": [
+                "Peru",
+                "Peru"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q207424",
@@ -9126,6 +9887,13 @@
                 "North",
                 "Northwest",
                 "East"
+            ],
+            "RegionsCountry": [
+                "Cameroon",
+                "Cameroon",
+                "Cameroon",
+                "Cameroon",
+                "Cameroon"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q165784",
@@ -9178,6 +9946,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -9224,6 +9995,14 @@
                 "Yala",
                 "Narathiwat"
             ],
+            "RegionsCountry": [
+                "Malaysia",
+                "Malaysia",
+                "Thailand",
+                "Thailand",
+                "Thailand",
+                "Thailand"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q185944",
                 "http://www.wikidata.org/entity/Q189701",
@@ -9244,13 +10023,19 @@
                 {
                     "Country": "Thailand",
                     "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "Malaysia",
+                    "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
-                "http://www.wikidata.org/entity/Q869"
+                "http://www.wikidata.org/entity/Q869",
+                "http://www.wikidata.org/entity/Q833"
             ],
             "CountriesOSM": [
-                "2067731"
+                "2067731",
+                "2108121"
             ],
             "Instances": [
                 "dialect",
@@ -9285,6 +10070,12 @@
                 "Centre",
                 "Centre-Est Region",
                 "Est Region"
+            ],
+            "RegionsCountry": [
+                "Togo",
+                "Burkina Faso",
+                "Burkina Faso",
+                "Burkina Faso"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q279945",
@@ -9345,6 +10136,13 @@
                 "Nampula Province",
                 "Niassa Province"
             ],
+            "RegionsCountry": [
+                "Tanzania",
+                "Mozambique",
+                "Tanzania",
+                "Mozambique",
+                "Mozambique"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q115318",
                 "http://www.wikidata.org/entity/Q466538",
@@ -9404,6 +10202,12 @@
                 "Perm Krai",
                 "Mari El",
                 "Sverdlovsk Oblast"
+            ],
+            "RegionsCountry": [
+                "Russia",
+                "Russia",
+                "Russia",
+                "Russia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5387",
@@ -9466,6 +10270,9 @@
             "Regions": [
                 "Oaxaca"
             ],
+            "RegionsCountry": [
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q34110"
             ],
@@ -9510,6 +10317,10 @@
                 "Timor-Leste",
                 "Lautém Municipality"
             ],
+            "RegionsCountry": [
+                "Timor-Leste",
+                "Timor-Leste"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q574",
                 "http://www.wikidata.org/entity/Q686554"
@@ -9553,6 +10364,7 @@
             "Language": "Malay Aklanon",
             "LanguageID": "http://www.wikidata.org/entity/Q18755512",
             "Regions": [],
+            "RegionsCountry": [],
             "RegionsID": [],
             "RegionsOSM": [],
             "Countries": [
@@ -9588,6 +10400,9 @@
             "Language": "Southern Mam",
             "LanguageID": "http://www.wikidata.org/entity/Q25559621",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -9637,6 +10452,16 @@
                 "Kadatua Island",
                 "Siompu Island",
                 "Muna Tribe"
+            ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3812",
@@ -9701,6 +10526,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -9740,6 +10568,9 @@
             "Language": "South Marquesan",
             "LanguageID": "http://www.wikidata.org/entity/Q19694214",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -9786,6 +10617,11 @@
                 "Mari El",
                 "Yurinsky District",
                 "Gornomariysky District"
+            ],
+            "RegionsCountry": [
+                "Russia",
+                "Russia",
+                "Russia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5446",
@@ -9840,6 +10676,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -9883,6 +10722,10 @@
             "Regions": [
                 "Tawi-Tawi",
                 "Sabah"
+            ],
+            "RegionsCountry": [
+                "Philippines",
+                "Malaysia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q13893",
@@ -9928,6 +10771,9 @@
             "Regions": [
                 "Karnali Zone"
             ],
+            "RegionsCountry": [
+                "Nepal"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q9164"
             ],
@@ -9971,6 +10817,9 @@
             "Regions": [
                 "San Marcos Department"
             ],
+            "RegionsCountry": [
+                "Guatemala"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q883907"
             ],
@@ -10010,6 +10859,9 @@
             "Language": "Maligo",
             "LanguageID": "http://www.wikidata.org/entity/Q3832941",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -10053,6 +10905,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q3317286",
             "Regions": [
                 "Oaxaca"
+            ],
+            "RegionsCountry": [
+                "Mexico"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q34110"
@@ -10098,6 +10953,11 @@
                 "Manicaland Province",
                 "Tete Province",
                 "Manica Province"
+            ],
+            "RegionsCountry": [
+                "Zimbabwe",
+                "Mozambique",
+                "Mozambique"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q465847",
@@ -10153,6 +11013,10 @@
                 "Amazonas",
                 "Pirahã"
             ],
+            "RegionsCountry": [
+                "Brazil",
+                "Brazil"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q40040",
                 "http://www.wikidata.org/entity/Q11443101"
@@ -10199,6 +11063,11 @@
                 "Taraba State",
                 "Plateau State",
                 "Federal Capital Territory"
+            ],
+            "RegionsCountry": [
+                "Nigeria",
+                "Nigeria",
+                "Nigeria"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q463959",
@@ -10250,6 +11119,13 @@
                 "Kunene Region",
                 "Ohangwena Region",
                 "Oshikoto Region"
+            ],
+            "RegionsCountry": [
+                "Namibia",
+                "Namibia",
+                "Namibia",
+                "Namibia",
+                "Namibia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q534528",
@@ -10306,6 +11182,14 @@
                 "Westphalia",
                 "Rio Grande do Sul",
                 "Espírito Santo"
+            ],
+            "RegionsCountry": [
+                "Germany",
+                "Germany",
+                "Germany",
+                "Germany",
+                "Brazil",
+                "Brazil"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1194",
@@ -10370,6 +11254,14 @@
                 "Santa Catarina",
                 "Mato Grosso do Sul",
                 "Misiones Province"
+            ],
+            "RegionsCountry": [
+                "Brazil",
+                "Brazil",
+                "Brazil",
+                "Brazil",
+                "Brazil",
+                "Argentina"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q175",
@@ -10438,6 +11330,11 @@
                 "Morelos",
                 "Hidalgo"
             ],
+            "RegionsCountry": [
+                "Mexico",
+                "Mexico",
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q60130",
                 "http://www.wikidata.org/entity/Q66117",
@@ -10486,6 +11383,10 @@
                 "Veracruz",
                 "State of Mexico"
             ],
+            "RegionsCountry": [
+                "Mexico",
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q60130",
                 "http://www.wikidata.org/entity/Q82112"
@@ -10531,6 +11432,9 @@
             "Regions": [
                 "Veracruz"
             ],
+            "RegionsCountry": [
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q60130"
             ],
@@ -10573,6 +11477,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q6983793",
             "Regions": [
                 "Lindi Region"
+            ],
+            "RegionsCountry": [
+                "Tanzania"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q309339"
@@ -10617,6 +11524,9 @@
             "Regions": [
                 "Papua"
             ],
+            "RegionsCountry": [
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5095"
             ],
@@ -10660,6 +11570,9 @@
             "Regions": [
                 "Western Province"
             ],
+            "RegionsCountry": [
+                "Papua New Guinea"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q849790"
             ],
@@ -10702,6 +11615,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q20668241",
             "Regions": [
                 "Zanzan District"
+            ],
+            "RegionsCountry": [
+                "Ivory Coast"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q21003689"
@@ -10748,6 +11664,12 @@
                 "Cuvette Department",
                 "Ogooué-Lolo Province",
                 "Ogooué-Ivindo Province"
+            ],
+            "RegionsCountry": [
+                "Republic of the Congo",
+                "Republic of the Congo",
+                "Gabon",
+                "Gabon"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q125711",
@@ -10806,6 +11728,11 @@
                 "Normandy",
                 "Guernsey"
             ],
+            "RegionsCountry": [
+                "United Kingdom",
+                "France",
+                "United Kingdom"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q785",
                 "http://www.wikidata.org/entity/Q15878",
@@ -10853,6 +11780,9 @@
             "Regions": [
                 "North Kalimantan"
             ],
+            "RegionsCountry": [
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3903"
             ],
@@ -10898,6 +11828,10 @@
                 "Chihuahua",
                 "Sinaloa"
             ],
+            "RegionsCountry": [
+                "Mexico",
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q655",
                 "http://www.wikidata.org/entity/Q80252"
@@ -10936,6 +11870,65 @@
             ]
         }
     },
+    "oak": {
+        "Noakhailla": {
+            "Language": "Noakhailla",
+            "LanguageID": "http://www.wikidata.org/entity/Q107548681",
+            "Regions": [
+                "Tripura",
+                "Noakhali District",
+                "Chattogram Division"
+            ],
+            "RegionsCountry": [
+                "India",
+                "Bangladesh",
+                "Bangladesh"
+            ],
+            "RegionsID": [
+                "http://www.wikidata.org/entity/Q1363",
+                "http://www.wikidata.org/entity/Q68585",
+                "http://www.wikidata.org/entity/Q158087"
+            ],
+            "RegionsOSM": [
+                "2026458",
+                "3824792",
+                "3824588"
+            ],
+            "Countries": [
+                {
+                    "Country": "Bangladesh",
+                    "IsOfficialLanguage": "false"
+                },
+                {
+                    "Country": "India",
+                    "IsOfficialLanguage": "false"
+                }
+            ],
+            "CountriesID": [
+                "http://www.wikidata.org/entity/Q902",
+                "http://www.wikidata.org/entity/Q668"
+            ],
+            "CountriesOSM": [
+                "184640",
+                "304716"
+            ],
+            "Instances": [
+                "dialect",
+                "language"
+            ],
+            "immediate_Language_Families": [
+                "Indo-Aryan"
+            ],
+            "number_of_speakers": [
+                {
+                    "number": "Missing",
+                    "place surveyed": "Missing",
+                    "number applies to": "Missing",
+                    "time surveyed": "Missing"
+                }
+            ]
+        }
+    },
     "ogn": {
         "Ogan": {
             "Language": "Ogan",
@@ -10948,6 +11941,15 @@
                 "Ogan Komering Ilir",
                 "Ogan Komering Ulu",
                 "Ogan people"
+            ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Missing"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q8117",
@@ -11004,6 +12006,10 @@
                 "Michigan",
                 "Ontario"
             ],
+            "RegionsCountry": [
+                "United States",
+                "Canada"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1166",
                 "http://www.wikidata.org/entity/Q1904"
@@ -11055,6 +12061,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -11094,6 +12103,9 @@
             "Language": "Ipeka-Tapuia",
             "LanguageID": "http://www.wikidata.org/entity/Q12633016",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -11146,6 +12158,19 @@
                 "Uruzgan Province",
                 "Razavi Khorasan Province",
                 "Khatlon Province"
+            ],
+            "RegionsCountry": [
+                "Afghanistan",
+                "Iran",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Iran",
+                "Tajikistan"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q139126",
@@ -11227,6 +12252,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -11276,6 +12304,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -11315,6 +12346,9 @@
             "Language": "Penesak",
             "LanguageID": "http://www.wikidata.org/entity/Q12953030",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -11357,6 +12391,9 @@
             "Language": "Pahari-Pothohari",
             "LanguageID": "http://www.wikidata.org/entity/Q115823263",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -11402,6 +12439,9 @@
             "Regions": [
                 "Karim Kushta"
             ],
+            "RegionsCountry": [
+                "Afghanistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q127418850"
             ],
@@ -11445,6 +12485,9 @@
             "Regions": [
                 "Kosi Zone"
             ],
+            "RegionsCountry": [
+                "Nepal"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q9170"
             ],
@@ -11486,6 +12529,9 @@
             "Language": "Plateau Malagasy",
             "LanguageID": "http://www.wikidata.org/entity/Q15069308",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -11531,6 +12577,9 @@
             "Regions": [
                 "Mirpur Division"
             ],
+            "RegionsCountry": [
+                "Pakistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q24054518"
             ],
@@ -11570,6 +12619,9 @@
             "Language": "Eastern Pokomam",
             "LanguageID": "http://www.wikidata.org/entity/Q25559633",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -11613,6 +12665,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -11653,6 +12708,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q11029738",
             "Regions": [
                 "Bandundu Province"
+            ],
+            "RegionsCountry": [
+                "Democratic Republic of the Congo"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q671442"
@@ -11697,6 +12755,10 @@
             "Regions": [
                 "Kapisa Province",
                 "Kabul Province"
+            ],
+            "RegionsCountry": [
+                "Afghanistan",
+                "Afghanistan"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q173816",
@@ -11743,6 +12805,9 @@
             "Regions": [
                 "Sandaun Province"
             ],
+            "RegionsCountry": [
+                "Papua New Guinea"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q753689"
             ],
@@ -11788,6 +12853,12 @@
                 "Balochistan",
                 "Khyber Pakhtunkhwa",
                 "Federally Administered Tribal Areas"
+            ],
+            "RegionsCountry": [
+                "Pakistan",
+                "Pakistan",
+                "Pakistan",
+                "Pakistan"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q4478",
@@ -11837,6 +12908,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -11876,6 +12950,9 @@
             "Language": "Joyabaj Quiché",
             "LanguageID": "http://www.wikidata.org/entity/Q12953589",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -11919,6 +12996,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -11958,6 +13038,9 @@
             "Language": "Eastern Quiché",
             "LanguageID": "http://www.wikidata.org/entity/Q12953593",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -12001,6 +13084,10 @@
             "Regions": [
                 "Huancayo Province",
                 "Chupaca Province"
+            ],
+            "RegionsCountry": [
+                "Peru",
+                "Peru"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1777621",
@@ -12046,6 +13133,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -12089,6 +13179,12 @@
                 "Arequipa Department",
                 "Puno Department",
                 "Moquegua Department"
+            ],
+            "RegionsCountry": [
+                "Peru",
+                "Peru",
+                "Peru",
+                "Peru"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q205057",
@@ -12141,6 +13237,11 @@
                 "Lima province",
                 "Jauja Province"
             ],
+            "RegionsCountry": [
+                "Peru",
+                "Peru",
+                "Peru"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q211795",
                 "http://www.wikidata.org/entity/Q579240",
@@ -12187,6 +13288,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -12228,6 +13332,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q2936334",
             "Regions": [
                 "Maranhão"
+            ],
+            "RegionsCountry": [
+                "Brazil"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q42362"
@@ -12271,6 +13378,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12953072",
             "Regions": [
                 "Zanjan Province"
+            ],
+            "RegionsCountry": [
+                "Iran"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q146726"
@@ -12317,6 +13427,12 @@
                 "Chattogram Division",
                 "Barisal Division",
                 "Patuakhali District"
+            ],
+            "RegionsCountry": [
+                "Myanmar",
+                "Bangladesh",
+                "Bangladesh",
+                "Bangladesh"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q836",
@@ -12379,6 +13495,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -12428,6 +13547,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -12469,6 +13591,9 @@
             "Language": "Baltic Romani",
             "LanguageID": "http://www.wikidata.org/entity/Q513736",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -12550,6 +13675,9 @@
             "Regions": [
                 "Balkans"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q23522"
             ],
@@ -12596,6 +13724,13 @@
                 "Belgrade",
                 "Pirot District",
                 "Jablanica District"
+            ],
+            "RegionsCountry": [
+                "Germany",
+                "Kosovo",
+                "Serbia",
+                "Serbia",
+                "Serbia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1055",
@@ -12654,6 +13789,9 @@
             "Regions": [
                 "Norrbotten County"
             ],
+            "RegionsCountry": [
+                "Sweden"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q103686"
             ],
@@ -12695,6 +13833,9 @@
             "Language": "Welsh Romani",
             "LanguageID": "http://www.wikidata.org/entity/Q2097387",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -12739,6 +13880,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q2669199",
             "Regions": [
                 "Dolj County"
+            ],
+            "RegionsCountry": [
+                "Romania"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q191065"
@@ -12940,6 +14084,10 @@
                 "Indonesia",
                 "Rawas people"
             ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Missing"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q252",
                 "http://www.wikidata.org/entity/Q3420444"
@@ -12984,6 +14132,9 @@
             "Regions": [
                 "Sindh"
             ],
+            "RegionsCountry": [
+                "Pakistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q37211"
             ],
@@ -13026,6 +14177,9 @@
             "Regions": [
                 "Semendo"
             ],
+            "RegionsCountry": [
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q19752719"
             ],
@@ -13067,6 +14221,10 @@
             "Regions": [
                 "Province of Nuoro",
                 "Province of Sassari"
+            ],
+            "RegionsCountry": [
+                "Italy",
+                "Italy"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q16220",
@@ -13114,6 +14272,9 @@
             "Regions": [
                 "Chad"
             ],
+            "RegionsCountry": [
+                "Chad"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q657"
             ],
@@ -13121,6 +14282,10 @@
                 "2361304"
             ],
             "Countries": [
+                {
+                    "Country": "Central African Republic",
+                    "IsOfficialLanguage": "false"
+                },
                 {
                     "Country": "Sudan",
                     "IsOfficialLanguage": "false"
@@ -13142,30 +14307,26 @@
                     "IsOfficialLanguage": "false"
                 },
                 {
-                    "Country": "Central African Republic",
-                    "IsOfficialLanguage": "false"
-                },
-                {
                     "Country": "Chad",
                     "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
+                "http://www.wikidata.org/entity/Q929",
                 "http://www.wikidata.org/entity/Q1049",
                 "http://www.wikidata.org/entity/Q1033",
                 "http://www.wikidata.org/entity/Q1032",
                 "http://www.wikidata.org/entity/Q1009",
                 "http://www.wikidata.org/entity/Q958",
-                "http://www.wikidata.org/entity/Q929",
                 "http://www.wikidata.org/entity/Q657"
             ],
             "CountriesOSM": [
+                "192790",
                 "192789",
                 "192787",
                 "192786",
                 "192830",
                 "1656678",
-                "192790",
                 "2361304"
             ],
             "Instances": [
@@ -13193,6 +14354,10 @@
             "Regions": [
                 "Pará",
                 "Sipaliwini District"
+            ],
+            "RegionsCountry": [
+                "Brazil",
+                "Suriname"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q39517",
@@ -13245,6 +14410,9 @@
             "Regions": [
                 "Washington"
             ],
+            "RegionsCountry": [
+                "United States"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1223"
             ],
@@ -13286,6 +14454,9 @@
             "Language": "Sok",
             "LanguageID": "http://www.wikidata.org/entity/Q12953887",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -13330,6 +14501,9 @@
             "Regions": [
                 "Washington"
             ],
+            "RegionsCountry": [
+                "United States"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1223"
             ],
@@ -13371,6 +14545,9 @@
             "Language": "Silesian German",
             "LanguageID": "http://www.wikidata.org/entity/Q152965",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -13434,6 +14611,9 @@
             "Regions": [
                 "Sarawak"
             ],
+            "RegionsCountry": [
+                "Malaysia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q170462"
             ],
@@ -13475,6 +14655,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q25559662",
             "Regions": [
                 "Washington"
+            ],
+            "RegionsCountry": [
+                "United States"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1223"
@@ -13519,6 +14702,10 @@
             "Regions": [
                 "Loreto Department",
                 "Ucayali Department"
+            ],
+            "RegionsCountry": [
+                "Peru",
+                "Peru"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q200938",
@@ -13565,6 +14752,10 @@
             "Regions": [
                 "Himachal Pradesh",
                 "Jammu and Kashmir"
+            ],
+            "RegionsCountry": [
+                "India",
+                "India"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1177",
@@ -13614,6 +14805,12 @@
                 "South Bengkulu",
                 "Palembang"
             ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Indonesia",
+                "Indonesia",
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1890",
                 "http://www.wikidata.org/entity/Q2271",
@@ -13660,6 +14857,9 @@
             "Language": "Shihhi Arabic",
             "LanguageID": "http://www.wikidata.org/entity/Q56571",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -13713,6 +14913,12 @@
                 "Đắk Nông",
                 "Mondulkiri Province",
                 "Kratié Province"
+            ],
+            "RegionsCountry": [
+                "Vietnam",
+                "Vietnam",
+                "Cambodia",
+                "Cambodia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q36672",
@@ -13769,6 +14975,9 @@
             "Regions": [
                 "Friesland"
             ],
+            "RegionsCountry": [
+                "Netherlands"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q770"
             ],
@@ -13812,6 +15021,10 @@
             "Regions": [
                 "Lower Saxony",
                 "Saterland"
+            ],
+            "RegionsCountry": [
+                "Germany",
+                "Germany"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1197",
@@ -13858,6 +15071,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -13900,6 +15116,11 @@
                 "Molise",
                 "province of Campobasso",
                 "Molise Croats"
+            ],
+            "RegionsCountry": [
+                "Italy",
+                "Italy",
+                "Missing"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1443",
@@ -13947,6 +15168,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q34075",
             "Regions": [
                 "Mayotte"
+            ],
+            "RegionsCountry": [
+                "France"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q17063"
@@ -13997,6 +15221,16 @@
                 "Tanganyika Province",
                 "Lualaba Province",
                 "Ituri Province"
+            ],
+            "RegionsCountry": [
+                "Democratic Republic of the Congo",
+                "Democratic Republic of the Congo",
+                "Democratic Republic of the Congo",
+                "Democratic Republic of the Congo",
+                "Democratic Republic of the Congo",
+                "Democratic Republic of the Congo",
+                "Democratic Republic of the Congo",
+                "Democratic Republic of the Congo"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q130268",
@@ -14069,6 +15303,11 @@
                 "Baden-Württemberg",
                 "Swabia"
             ],
+            "RegionsCountry": [
+                "Germany",
+                "Germany",
+                "Germany"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q980",
                 "http://www.wikidata.org/entity/Q985",
@@ -14119,6 +15358,13 @@
                 "Lower Juba",
                 "Garissa County",
                 "Lamu County"
+            ],
+            "RegionsCountry": [
+                "Tanzania",
+                "Mozambique",
+                "Somalia",
+                "Kenya",
+                "Kenya"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q924",
@@ -14208,6 +15454,9 @@
             "Regions": [
                 "Chihuahua"
             ],
+            "RegionsCountry": [
+                "Mexico"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q655"
             ],
@@ -14250,6 +15499,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q20090009",
             "Regions": [
                 "Chihuahua"
+            ],
+            "RegionsCountry": [
+                "Mexico"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q655"
@@ -14294,6 +15546,10 @@
             "Regions": [
                 "Mahafaly people",
                 "Antandroy"
+            ],
+            "RegionsCountry": [
+                "Madagascar",
+                "Missing"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q218808",
@@ -14341,6 +15597,10 @@
                 "North Kalimantan",
                 "Nunukan"
             ],
+            "RegionsCountry": [
+                "Indonesia",
+                "Indonesia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3903",
                 "http://www.wikidata.org/entity/Q14481"
@@ -14384,6 +15644,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -14423,6 +15686,9 @@
             "Language": "Tjupany",
             "LanguageID": "http://www.wikidata.org/entity/Q63311956",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -14468,6 +15734,9 @@
             "Regions": [
                 "Antaisaka people"
             ],
+            "RegionsCountry": [
+                "Madagascar"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q2579734"
             ],
@@ -14510,6 +15779,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q7852006",
             "Regions": [
                 "Maluku"
+            ],
+            "RegionsCountry": [
+                "Indonesia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5093"
@@ -14554,6 +15826,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -14594,6 +15869,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12643315",
             "Regions": [
                 "Papua"
+            ],
+            "RegionsCountry": [
+                "Indonesia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5095"
@@ -14638,6 +15916,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -14679,6 +15960,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -14718,6 +16002,9 @@
             "Language": "Tinoc Kallahan",
             "LanguageID": "http://www.wikidata.org/entity/Q3192219",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -14762,6 +16049,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -14802,6 +16092,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q3397371",
             "Regions": [
                 "Tanapag"
+            ],
+            "RegionsCountry": [
+                "United States"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q15443649"
@@ -14844,30 +16137,39 @@
             "Language": "Tat",
             "LanguageID": "http://www.wikidata.org/entity/Q56489",
             "Regions": [
+                "Balaxanı",
                 "Azerbaijan",
                 "Moscow",
                 "Dagestan",
                 "Gilan Province",
                 "Qazvin Province",
-                "Lahıc",
-                "Balaxanı"
+                "Lahıc"
+            ],
+            "RegionsCountry": [
+                "Russian Empire",
+                "Azerbaijan",
+                "Russia",
+                "Russia",
+                "Iran",
+                "Iran",
+                "Azerbaijan"
             ],
             "RegionsID": [
+                "http://www.wikidata.org/entity/Q2081104",
                 "http://www.wikidata.org/entity/Q227",
                 "http://www.wikidata.org/entity/Q649",
                 "http://www.wikidata.org/entity/Q5118",
                 "http://www.wikidata.org/entity/Q928828",
                 "http://www.wikidata.org/entity/Q1105893",
-                "http://www.wikidata.org/entity/Q1800656",
-                "http://www.wikidata.org/entity/Q2081104"
+                "http://www.wikidata.org/entity/Q1800656"
             ],
             "RegionsOSM": [
+                "Missing",
                 "364110",
                 "102269",
                 "109876",
                 "241472",
                 "241471",
-                "Missing",
                 "Missing"
             ],
             "Countries": [
@@ -14926,6 +16228,10 @@
                 "Azerbaijan",
                 "Dagestan"
             ],
+            "RegionsCountry": [
+                "Azerbaijan",
+                "Russia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q227",
                 "http://www.wikidata.org/entity/Q5118"
@@ -14980,6 +16286,9 @@
             "Regions": [
                 "Overijssel"
             ],
+            "RegionsCountry": [
+                "Netherlands"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q773"
             ],
@@ -15021,6 +16330,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q2852610",
             "Regions": [
                 "Antanosy people"
+            ],
+            "RegionsCountry": [
+                "Madagascar"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1099108"
@@ -15065,6 +16377,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -15104,6 +16419,9 @@
             "Language": "Chamula Tzotzil",
             "LanguageID": "http://www.wikidata.org/entity/Q5070258",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -15147,6 +16465,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -15186,6 +16507,9 @@
             "Language": "Central Atlas Tamazight",
             "LanguageID": "http://www.wikidata.org/entity/Q49741",
             "Regions": [
+                "Morocco"
+            ],
+            "RegionsCountry": [
                 "Morocco"
             ],
             "RegionsID": [
@@ -15231,6 +16555,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -15270,6 +16597,9 @@
             "Language": "Western Tz'utujil",
             "LanguageID": "http://www.wikidata.org/entity/Q12953946",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -15313,6 +16643,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -15352,6 +16685,9 @@
             "Language": "Zinacantán Tzotzil",
             "LanguageID": "http://www.wikidata.org/entity/Q12645731",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -15395,6 +16731,10 @@
             "Regions": [
                 "Paraná",
                 "Rondônia"
+            ],
+            "RegionsCountry": [
+                "Brazil",
+                "Brazil"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q15499",
@@ -15444,6 +16784,12 @@
                 "Daşoguz Region",
                 "Khatlon Province"
             ],
+            "RegionsCountry": [
+                "Uzbekistan",
+                "Tajikistan",
+                "Turkmenistan",
+                "Tajikistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q265",
                 "http://www.wikidata.org/entity/Q241582",
@@ -15458,27 +16804,27 @@
             ],
             "Countries": [
                 {
+                    "Country": "Uzbekistan",
+                    "IsOfficialLanguage": "false"
+                },
+                {
                     "Country": "Turkmenistan",
                     "IsOfficialLanguage": "false"
                 },
                 {
                     "Country": "Tajikistan",
                     "IsOfficialLanguage": "false"
-                },
-                {
-                    "Country": "Uzbekistan",
-                    "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
+                "http://www.wikidata.org/entity/Q265",
                 "http://www.wikidata.org/entity/Q874",
-                "http://www.wikidata.org/entity/Q863",
-                "http://www.wikidata.org/entity/Q265"
+                "http://www.wikidata.org/entity/Q863"
             ],
             "CountriesOSM": [
+                "196240",
                 "223026",
-                "214626",
-                "196240"
+                "214626"
             ],
             "Instances": [
                 "dialect"
@@ -15515,6 +16861,15 @@
                 "Jowzjan Province",
                 "Takhar Province"
             ],
+            "RegionsCountry": [
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan",
+                "Afghanistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q121104",
                 "http://www.wikidata.org/entity/Q170309",
@@ -15535,6 +16890,10 @@
             ],
             "Countries": [
                 {
+                    "Country": "Uzbekistan",
+                    "IsOfficialLanguage": "false"
+                },
+                {
                     "Country": "Afghanistan",
                     "IsOfficialLanguage": "false"
                 },
@@ -15545,23 +16904,19 @@
                 {
                     "Country": "Tajikistan",
                     "IsOfficialLanguage": "false"
-                },
-                {
-                    "Country": "Uzbekistan",
-                    "IsOfficialLanguage": "false"
                 }
             ],
             "CountriesID": [
+                "http://www.wikidata.org/entity/Q265",
                 "http://www.wikidata.org/entity/Q889",
                 "http://www.wikidata.org/entity/Q874",
-                "http://www.wikidata.org/entity/Q863",
-                "http://www.wikidata.org/entity/Q265"
+                "http://www.wikidata.org/entity/Q863"
             ],
             "CountriesOSM": [
+                "196240",
                 "303427",
                 "223026",
-                "214626",
-                "196240"
+                "214626"
             ],
             "Instances": [
                 "dialect",
@@ -15586,6 +16941,9 @@
             "Language": "Bajjika",
             "LanguageID": "http://www.wikidata.org/entity/Q3636001",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -15629,6 +16987,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -15669,6 +17030,9 @@
             "Language": "West Bengal Sign Language",
             "LanguageID": "http://www.wikidata.org/entity/Q32096511",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -15715,6 +17079,9 @@
             "Regions": [
                 "Montagnes District"
             ],
+            "RegionsCountry": [
+                "Ivory Coast"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q20980366"
             ],
@@ -15757,6 +17124,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12953035",
             "Regions": [
                 "Maluku"
+            ],
+            "RegionsCountry": [
+                "Indonesia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5093"
@@ -15801,6 +17171,9 @@
             "Regions": [
                 "Mohéli"
             ],
+            "RegionsCountry": [
+                "Comoros"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q271797"
             ],
@@ -15844,6 +17217,9 @@
             "Regions": [
                 "Balochistan"
             ],
+            "RegionsCountry": [
+                "Pakistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q163239"
             ],
@@ -15886,6 +17262,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q2850262",
             "Regions": [
                 "Anjouan"
+            ],
+            "RegionsCountry": [
+                "Comoros"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q231324"
@@ -15931,6 +17310,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -15971,6 +17353,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q31752631",
             "Regions": [
                 "Queensland"
+            ],
+            "RegionsCountry": [
+                "Australia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q36074"
@@ -16015,6 +17400,9 @@
             "Regions": [
                 "Balochistan"
             ],
+            "RegionsCountry": [
+                "Pakistan"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q163239"
             ],
@@ -16058,6 +17446,10 @@
             "Regions": [
                 "Quảng Bình",
                 "Khammouane Province"
+            ],
+            "RegionsCountry": [
+                "Vietnam",
+                "Laos"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q23533",
@@ -16110,6 +17502,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -16152,6 +17547,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -16191,6 +17589,9 @@
             "Language": "Loup B",
             "LanguageID": "http://www.wikidata.org/entity/Q13108281",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -16235,6 +17636,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -16276,6 +17680,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q2167573",
             "Regions": [
                 "Antankarana"
+            ],
+            "RegionsCountry": [
+                "Madagascar"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q2717794"
@@ -16320,6 +17727,9 @@
             "Regions": [
                 "Tsimihety people"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q2526495"
             ],
@@ -16363,6 +17773,10 @@
             "Regions": [
                 "Maranhão",
                 "Tocantins"
+            ],
+            "RegionsCountry": [
+                "Brazil",
+                "Brazil"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q42362",
@@ -16410,6 +17824,10 @@
                 "Pará",
                 "Maranhão"
             ],
+            "RegionsCountry": [
+                "Brazil",
+                "Brazil"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q39517",
                 "http://www.wikidata.org/entity/Q42362"
@@ -16455,6 +17873,9 @@
             "Regions": [
                 "Maranhão"
             ],
+            "RegionsCountry": [
+                "Brazil"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q42362"
             ],
@@ -16499,6 +17920,11 @@
                 "Alberta",
                 "British Columbia",
                 "Northwest Territories"
+            ],
+            "RegionsCountry": [
+                "Canada",
+                "Canada",
+                "Canada"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q1951",
@@ -16547,6 +17973,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -16587,6 +18016,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q2599826",
             "Regions": [
                 "Western Province"
+            ],
+            "RegionsCountry": [
+                "Zambia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q748486"
@@ -16637,6 +18069,9 @@
             "Regions": [
                 "Rakhine State"
             ],
+            "RegionsCountry": [
+                "Myanmar"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q233838"
             ],
@@ -16678,6 +18113,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -16715,10 +18153,13 @@
         }
     },
     "yib": {
-        "Yinglish": {
-            "Language": "Yinglish",
+        "Hebronics": {
+            "Language": "Hebronics",
             "LanguageID": "http://www.wikidata.org/entity/Q2919292",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -16762,6 +18203,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -16801,6 +18245,9 @@
             "Language": "Dhalwangu",
             "LanguageID": "http://www.wikidata.org/entity/Q67331933",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -16868,6 +18315,9 @@
             "Regions": [
                 "Queensland"
             ],
+            "RegionsCountry": [
+                "Australia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q36074"
             ],
@@ -16912,6 +18362,11 @@
                 "Tel Aviv",
                 "Central District",
                 "Tel Aviv District"
+            ],
+            "RegionsCountry": [
+                "Israel",
+                "Israel",
+                "Israel"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q33935",
@@ -16959,6 +18414,9 @@
             "Regions": [
                 "Missing"
             ],
+            "RegionsCountry": [
+                "Missing"
+            ],
             "RegionsID": [
                 "Missing"
             ],
@@ -16998,6 +18456,9 @@
             "Language": "Zaranda",
             "LanguageID": "http://www.wikidata.org/entity/Q52152004",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -17042,6 +18503,9 @@
             "Regions": [
                 "Grande Comore"
             ],
+            "RegionsCountry": [
+                "Comoros"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q244978"
             ],
@@ -17085,6 +18549,10 @@
             "Regions": [
                 "South Holland",
                 "Zeeland"
+            ],
+            "RegionsCountry": [
+                "Netherlands",
+                "Netherlands"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q694",
@@ -17131,6 +18599,9 @@
             "Regions": [
                 "Guangdong"
             ],
+            "RegionsCountry": [
+                "People's Republic of China"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q15175"
             ],
@@ -17172,6 +18643,9 @@
             "Language": "Nong Zhuang",
             "LanguageID": "http://www.wikidata.org/entity/Q7049385",
             "Regions": [
+                "Missing"
+            ],
+            "RegionsCountry": [
                 "Missing"
             ],
             "RegionsID": [
@@ -17218,6 +18692,10 @@
                 "Siberia",
                 "Koibal people"
             ],
+            "RegionsCountry": [
+                "Russia",
+                "Missing"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q5428",
                 "http://www.wikidata.org/entity/Q339591"
@@ -17261,6 +18739,9 @@
             "Regions": [
                 "Sagaing Region"
             ],
+            "RegionsCountry": [
+                "Myanmar"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q847289"
             ],
@@ -17303,6 +18784,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12636082",
             "Regions": [
                 "Malay Archipelago"
+            ],
+            "RegionsCountry": [
+                "Indonesia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q208643"
@@ -17366,6 +18850,9 @@
             "Regions": [
                 "Northern Territory"
             ],
+            "RegionsCountry": [
+                "Australia"
+            ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q3235"
             ],
@@ -17408,6 +18895,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q3915909",
             "Regions": [
                 "Negeri Sembilan"
+            ],
+            "RegionsCountry": [
+                "Malaysia"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q213893"
@@ -17457,6 +18947,9 @@
             "LanguageID": "http://www.wikidata.org/entity/Q12954017",
             "Regions": [
                 "Chiapas"
+            ],
+            "RegionsCountry": [
+                "Mexico"
             ],
             "RegionsID": [
                 "http://www.wikidata.org/entity/Q60123"
