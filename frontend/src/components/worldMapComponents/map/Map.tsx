@@ -38,6 +38,8 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
   const loadedLanguagesRef = useRef<Set<string>>(new Set());
   const hoveredFeatureIdRef = useRef<number | null>(null);
   const [viewFilter, setViewFilter] = useState<ViewFilter>('all');
+  const activePopupRef = useRef<maplibregl.Popup | null>(null);
+
 
   useEffect(() => {
     const map = new maplibregl.Map({
@@ -100,8 +102,8 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
               'fill-opacity': [
                 'case',
                 ['boolean', ['feature-state', 'hover'], false],
-                0.8, // opacity on hover
-                0.6  // default opacity
+                0.8, 
+                0.4 
               ],
             },
           });
@@ -119,7 +121,6 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
             },
           });
 
-          // Hover interaction
           map.on('mousemove', fillId, (e) => {
             if (e.features?.length) {
               const featureId = e.features[0].id as number;
@@ -150,7 +151,7 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
             }
           });
 
-          // Click Popup
+        
           map.on('click', fillId, e => {
             const feature = e.features?.[0];
             if (!feature) return;
@@ -208,6 +209,7 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
               .setLngLat(e.lngLat)
               .setHTML(popupHTML)
               .addTo(map);
+              activePopupRef.current = popup;
 
             setTimeout(() => {
               const btn = document.querySelector('.popupbox .closeButton');
@@ -229,6 +231,16 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
         if (map.getLayer(outline)) map.removeLayer(outline);
         if (map.getSource(src)) map.removeSource(src);
         loadedLanguagesRef.current.delete(lang);
+
+
+        if (activePopupRef.current) {
+          const popupContent = activePopupRef.current.getElement()?.innerHTML;
+          if (popupContent?.includes(`<div class="popup-title">${lang}</div>`)) {
+            activePopupRef.current.remove();
+            activePopupRef.current = null;
+          }
+        }
+
       }
     };
 
