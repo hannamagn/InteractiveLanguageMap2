@@ -139,31 +139,33 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
                 }
               }
               speakersHTML = ['first language', 'second language']
-                .map(type => {
-                  const s = latest[type];
-                  if (!s || !s.number) return null;
-                  let text = `${s.number.toLocaleString()} – ${type}`;
-                  if (s.placeSurveyed) text += ` in ${s.placeSurveyed}`;
-                  if (s.timeSurveyed) text += ` (${new Date(s.timeSurveyed).getFullYear()})`;
-                  return `<div>${text}</div>`;
-                })
-                .filter(Boolean)
-                .join('');
+              .map(type => {
+                const s = latest[type];
+                if (!s || !s.number) return null;
+                let text = `${s.number.toLocaleString()} – ${type}`;
+                if (s.placeSurveyed) text += ` in ${s.placeSurveyed}`;
+                if (s.timeSurveyed) text += ` (${new Date(s.timeSurveyed).getFullYear()})`;
+                return text;
+              })
+              .filter(Boolean)
+              .join('<br>');
+                       
             }
 
             const popupHTML = `
-              <div class="popupbox">
-                <div class="popup-title">${lang}</div>
-                <button class="closeButton">×</button>
-              </div>
-              <div class="line"></div>
-              <div class="popup-content">
-                <div><strong>Country:</strong> ${country}</div>
-                ${region ? `<div><strong>Region:</strong> ${region}</div>` : ''}
-                <div><strong>Language Family:</strong> ${familyStr}</div>
-                <div><strong>Number of Speakers:</strong> ${speakersHTML}</div>
-              </div>
-            `;
+            <div class="popupbox">
+              <div class="popup-title">${lang}</div>
+              <button class="closeButton">×</button>
+            </div>
+            <div class="line"></div>
+            <div class="popup-content">
+              <div><strong>Country:</strong> ${country}</div>
+              ${region ? `<div><strong>Region:</strong> ${region}</div>` : ''}
+              <div><strong>Language Family:</strong> ${familyStr}</div>
+              <div><strong>Global Number of Speakers:</strong></div>
+              ${speakersHTML ? `<ul class="speakers-list">${speakersHTML}</ul>` : '<div>–</div>'}
+            </div>
+          `;          
 
             const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, anchor: 'bottom' })
               .setLngLat(e.lngLat)
