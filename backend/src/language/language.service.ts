@@ -3,6 +3,13 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Language } from './language.schema';
 
+interface Region {
+  name: string;
+  region_Country?: string;
+  region_osm_id?: string;
+  osm_id?: string;
+}
+
 @Injectable()
 export class LanguageService {
   private readonly logger = new Logger(LanguageService.name);
@@ -119,11 +126,11 @@ export class LanguageService {
       (languageData.Countries || []).map(c => (c.name))
     );
     
-    for (const region of languageData.Regions || []) {
+    for (const region of (languageData.Regions as Region[]) || []) {
       const regionName = region.name;
       if (!regionName) continue;
     
-      if (countryNamesSet.has((regionName))) {
+      if (countryNamesSet.has(regionName)) {
         continue;
       }
     
@@ -147,11 +154,7 @@ export class LanguageService {
     
       if (!geometry) continue;
     
-      const country =
-        polygonData.address?.country ||
-        (languageData.Countries && languageData.Countries.length > 0
-          ? languageData.Countries.map(c => c.name).join(', ')
-          : 'Unknown');
+      const country = region.region_Country || 'Unknown';
     
       regionFeatures.push({
         type: 'Feature',
@@ -164,7 +167,7 @@ export class LanguageService {
         },
         geometry,
       });
-    }
+    }       
 
     const geoJsonFeatures = [...countryFeatures, ...regionFeatures];
 
