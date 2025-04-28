@@ -15,9 +15,9 @@ function stringToColor(str: string): string {
   for (let i = 0; i < str.length; i++) {
     hash = str.charCodeAt(i) + ((hash << 5) - hash);
   }
-  const r = (hash >> 0) & 0xFF;
-  const g = (hash >> 8) & 0xFF;
-  const b = (hash >> 16) & 0xFF;
+  const r = (hash >> 0) & 0xff;
+  const g = (hash >> 8) & 0xff;
+  const b = (hash >> 16) & 0xff;
   return `rgb(${r}, ${g}, ${b})`;
 }
 
@@ -36,6 +36,7 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
   const { state } = useLanguage();
   const selectedLanguages = state.selectedLanguages;
   const loadedLanguagesRef = useRef<Set<string>>(new Set());
+  const hoveredFeatureIdRef = useRef<number | null>(null);
   const [viewFilter, setViewFilter] = useState<ViewFilter>('all');
 
   useEffect(() => {
@@ -77,7 +78,14 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
           const fillId = `fill-${lang}`;
           const outlineId = `outline-${lang}`;
 
+          // Ensure feature IDs
+          geojson.features = geojson.features.map((feature: any, index: number) => {
+            if (feature.id == null) feature.id = index;
+            return feature;
+          });
+
           map.addSource(sourceId, { type: 'geojson', data: geojson });
+
           map.addLayer({
             id: fillId,
             type: 'fill',
@@ -89,7 +97,12 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
                 '#2ecc71',
                 '#f1c40f'
               ],
-              'fill-opacity': 0.6,
+              'fill-opacity': [
+                'case',
+                ['boolean', ['feature-state', 'hover'], false],
+                0.8, // opacity on hover
+                0.6  // default opacity
+              ],
             },
           });
 
@@ -106,12 +119,38 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
             },
           });
 
-          let expr: maplibregl.FilterSpecification | undefined;
-          if (viewFilter === 'country') expr = ['!', ['has', 'region']];
-          else if (viewFilter === 'region') expr = ['has', 'region'];
-          map.setFilter(fillId, expr);
-          map.setFilter(outlineId, expr);
+          // Hover interaction
+          map.on('mousemove', fillId, (e) => {
+            if (e.features?.length) {
+              const featureId = e.features[0].id as number;
 
+              if (hoveredFeatureIdRef.current !== null) {
+                map.setFeatureState(
+                  { source: sourceId, id: hoveredFeatureIdRef.current },
+                  { hover: false }
+                );
+              }
+
+              hoveredFeatureIdRef.current = featureId;
+
+              map.setFeatureState(
+                { source: sourceId, id: featureId },
+                { hover: true }
+              );
+            }
+          });
+
+          map.on('mouseleave', fillId, () => {
+            if (hoveredFeatureIdRef.current !== null) {
+              map.setFeatureState(
+                { source: sourceId, id: hoveredFeatureIdRef.current },
+                { hover: false }
+              );
+              hoveredFeatureIdRef.current = null;
+            }
+          });
+
+          // Click Popup
           map.on('click', fillId, e => {
             const feature = e.features?.[0];
             if (!feature) return;
