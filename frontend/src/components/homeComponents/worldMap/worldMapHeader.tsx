@@ -30,8 +30,8 @@ function WorldMapHeader() {
                         </Button>
                     </Link>
                 </div>
-                <Map disableScrollZoom={true}/>
-            
+                <Map disableScrollZoom={true} showFilterCheckbox={false} />
+
             </div>
             {/* <header className = "worldMapHeader">
                 <div className = "worldMapHeaderDiv">
