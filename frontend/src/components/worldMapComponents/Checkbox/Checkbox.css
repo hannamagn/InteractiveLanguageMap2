@@ -13,6 +13,7 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     font-size: 14px;
     z-index: 10;
+    border: 2px solid #574B60;
   }
   
   .legend {
@@ -20,12 +21,14 @@
     flex-direction: column;
     gap: 6px;
     margin-bottom: 4px;
+    
   }
   
   .legend-item {
     display: flex;
     align-items: center;
     gap: 6px;
+    
   }
   
   .legend-color {
@@ -33,23 +36,32 @@
     width: 14px;
     height: 14px;
     border-radius: 2px;
+    
   }
   
   .legend-color.official {
     background-color: #2ecc71;
+    border: 1px solid #574B60;
   }
   
   .legend-color.unofficial {
     background-color: #f1c40f;
+    border: 1px solid #574B60;
   }
   
   .filter-label {
     display: flex;
     align-items: center;
     cursor: pointer;
+    
   }
   
   .filter-label input {
     margin-right: 6px;
+    
+    
+    
   }
+
+ 
   
