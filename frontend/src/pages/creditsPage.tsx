@@ -97,13 +97,7 @@ function creditsPage() {
                     <img src="" alt="Erik" className='personimg' /> 
                         <div className="personText">
                             <h3>Erik Green Blomroos</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
-                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
-                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
-                                e iste mollitia facere aliquam, reiciendis cumque id 
-                                commodi natus sunt ipsum vel! Molestias ipsam neque 
-                                dolores ad.
+                            <p>Jag har jobbat mest med frontend med fokus på kartan och många av dess functioner. Dessutom har jag...
                             </p>
                         </div>
 
