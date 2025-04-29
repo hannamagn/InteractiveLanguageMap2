@@ -31,13 +31,8 @@ function creditsPage() {
                     <img src="" alt="Pontus" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Pontus Wikström</h3>
-                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
-                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
-                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
-                                e iste mollitia facere aliquam, reiciendis cumque id 
-                                commodi natus sunt ipsum vel! Molestias ipsam neque 
-                                dolores ad.
+                            <p className = "personP">
+                                I have mostly worked with the frontend and setting up the environment for the whole project. Primarly, I have done the following things: done the global components for the website, worked on the home page and credits page, made the website coherent and responsive using CSS, and made sure that the website looks good in general. 
                             </p>
                         </div>
 
@@ -97,10 +92,10 @@ function creditsPage() {
                     <img src="public/img/ErikBild.png" alt="Erik" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Erik Green Blomroos</h3>
-                            <p className = "personP">I have worked mostly with the frotend and the world map page especially.
-                                 Some of the things I have done is: Creating the language selector, popup and components used in the world map page.
-                                  I have also connected the API to the frontend and made sure that the data is displayed correctly. 
-                                  Another think i have worked with is the CSS and made sure that the website looks good and is responsive. 
+                            <p className = "personP"> I have worked mostly with the frontend and the world map page especially.
+                                Some of the things I have done is: Creating the language selector, popup and components used in the world map page.
+                                I have also connected the API to the frontend and made sure that the data is displayed correctly. 
+                                Another thing I have worked with is the CSS and made sure that the website looks good and is responsive. 
                             </p>
                         </div>
 
