@@ -13,10 +13,10 @@ function creditsPage() {
                 <div className = "personpage">
 
                     <div className="person">
-                        <img src="" alt="Emma" className='personimg' /> 
+                        <img src="" alt="Emma" className='personImg' /> 
                         <div className="personText">
-                            <h3>Emma Axelsson</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            <h3 className = "personH3">Emma Axelsson</h3>
+                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 Voluptate dolorem, sapiente nisi quas commodi impedit odio
                                 dolorum maiores illo libero nemo, nesciunt quae reprehenderi
                                 ipsum dolores minima alias quo. Aut laudantium fuga dolor
@@ -28,44 +28,10 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                    <img src="" alt="Pontus" className='personimg' /> 
+                    <img src="" alt="Pontus" className='personImg' /> 
                         <div className="personText">
-                            <h3>Pontus Wikström</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
-                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
-                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
-                                e iste mollitia facere aliquam, reiciendis cumque id 
-                                commodi natus sunt ipsum vel! Molestias ipsam neque 
-                                dolores ad.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div className="person" >
-
-                    <img src="" alt="Felix" className='personimg' /> 
-                        <div className="personText">
-                            <h3>Felix Gustavsson Jonsson</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
-                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
-                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
-                                e iste mollitia facere aliquam, reiciendis cumque id 
-                                commodi natus sunt ipsum vel! Molestias ipsam neque 
-                                dolores ad.
-                            </p>
-                        </div>
-
-                    </div>
-
-
-                    <div className="person" >
-
-                    <img src="" alt="Hanna" className='personimg' /> 
-                        <div className="personText">
-                            <h3>Hanna Magnusson</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            <h3 className = "personH3">Pontus Wikström</h3>
+                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 Voluptate dolorem, sapiente nisi quas commodi impedit odio
                                 dolorum maiores illo libero nemo, nesciunt quae reprehenderi
                                 ipsum dolores minima alias quo. Aut laudantium fuga dolor
@@ -78,10 +44,28 @@ function creditsPage() {
                     </div>
                     <div className="person" >
 
-                    <img src="" alt="Benjamin" className='personimg' /> 
+                    <img src="" alt="Felix" className='personImg' /> 
                         <div className="personText">
-                            <h3>Benjamin Eld</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            <h3 className = "personH3">Felix Gustavsson Jonsson</h3>
+                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
+                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
+                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
+                                e iste mollitia facere aliquam, reiciendis cumque id 
+                                commodi natus sunt ipsum vel! Molestias ipsam neque 
+                                dolores ad.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div className="person" >
+
+                    <img src="" alt="Hanna" className='personImg' /> 
+                        <div className="personText">
+                            <h3 className = "personH3">Hanna Magnusson</h3>
+                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 Voluptate dolorem, sapiente nisi quas commodi impedit odio
                                 dolorum maiores illo libero nemo, nesciunt quae reprehenderi
                                 ipsum dolores minima alias quo. Aut laudantium fuga dolor
@@ -94,10 +78,26 @@ function creditsPage() {
                     </div>
                     <div className="person" >
 
-                    <img src="" alt="Erik" className='personimg' /> 
+                    <img src="" alt="Benjamin" className='personImg' /> 
                         <div className="personText">
-                            <h3>Erik Green Blomroos</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            <h3 className = "personH3">Benjamin Eld</h3>
+                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
+                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
+                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
+                                e iste mollitia facere aliquam, reiciendis cumque id 
+                                commodi natus sunt ipsum vel! Molestias ipsam neque 
+                                dolores ad.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div className="person" >
+
+                    <img src="" alt="Erik" className='personImg' /> 
+                        <div className="personText">
+                            <h3 className = "personH3">Erik Green Blomroos</h3>
+                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 Voluptate dolorem, sapiente nisi quas commodi impedit odio
                                 dolorum maiores illo libero nemo, nesciunt quae reprehenderi
                                 ipsum dolores minima alias quo. Aut laudantium fuga dolor
