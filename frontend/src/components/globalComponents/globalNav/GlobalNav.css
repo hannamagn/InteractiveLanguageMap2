@@ -78,6 +78,15 @@
     transform: scaleX(1);
 }
 
+.globalNavLinkListElement.active a {
+    color: #A1A2A5; /* Set the font color for the active link */
+}
+
+/* Ensure hover styles do not override active styles */
+.globalNavLinkListElement.active a:hover {
+    color: #A1A2A5; /* Keep the active color on hover */
+}
+
 .globalNavLinkListElement a:hover {
     color: #A1A2A5;
 }
