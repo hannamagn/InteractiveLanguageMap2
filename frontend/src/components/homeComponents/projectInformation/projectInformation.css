@@ -1,7 +1,8 @@
 .projectInformation {
     height: 200vh;
     width: 100%;
-    background: linear-gradient(to left, #574B60 -50%, #A1A2A5 50%, #574B60 150%);
+    background: linear-gradient(to left, #574B60 -50%, #A1A2A5 50%, #574B60 150%),
+                linear-gradient(to bottom, #574B60 0%, #A1A2A5 100%);
     margin-top: auto;
     z-index: 1;
 }

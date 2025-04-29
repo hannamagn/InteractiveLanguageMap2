@@ -25,10 +25,11 @@ function ProjectInformation() {
                 <div className = "infoMainFeatures">
                     <h2 className = "mainFeaturesH2">Main Features</h2>
                     <ul className = "mainFeaturesList">
-                        <li className = "mainFeaturesListElement">Search functionality to find specific languages</li>
-                        <li className = "mainFeaturesListElement">Filter to only see regions or countries when searching</li>
-                        <li className = "mainFeaturesListElement">Interactive map with clickable regions and countries</li>
-                        <li className = "mainFeaturesListElement">Information about languages spoken in each region through metadata</li>
+                        <li className = "mainFeaturesListElement">Search functionality to find specific languages.</li>
+                        <li className = "mainFeaturesListElement">Filter to only see regions or countries when searching.</li>
+                        <li className = "mainFeaturesListElement">Zoomable map where you can move around in order to see every bit of it.</li>
+                        <li className = "mainFeaturesListElement">Interactive map with clickable regions and countries.</li>
+                        <li className = "mainFeaturesListElement">Information about languages spoken in each region through metadata.</li>
                     </ul>
                 </div>
             </div>
