@@ -1,6 +1,283 @@
 .projectInformation {
     height: 200vh;
     width: 100%;
-    background-color: #A1A2A5;
+    background: linear-gradient(to left, #574B60 -50%, #A1A2A5 50%, #574B60 150%),
+                linear-gradient(to bottom, #574B60 0%, #A1A2A5 100%);
     margin-top: auto;
+    z-index: 1;
+}
+
+.projectInformationDiv {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    height: 4%;
+    width: 100%;
+}
+
+.projectInformationH1 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pictureProjectInfo {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    border: 2px solid #574B60;
+}
+
+.aboutProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 32%;
+    width: 100%;
+    background: linear-gradient(to left, #574B60 -50%, #A1A2A5 50%, #574B60 150%);
+}
+
+.infoAboutProject {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    position: relative; /* Make this element a positioning context */
+}
+
+.infoAboutProject::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 152px; /* Keep the bottom horizontal line unchanged */
+    height: 102px;
+    background: linear-gradient(to left, #574B60 0%, #574B60 100%) 0 100px / 150px 2px no-repeat; /* Horizontal line */
+    box-sizing: border-box;
+}
+
+.pictureAboutProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+.pictureAboutProject::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 152px; /* Adjusted width to accommodate the horizontal line */
+    height: 102px;
+    background: linear-gradient(to right, #574B60 0%, #574B60 100%) 0 100px / 150px 2px no-repeat; /* Horizontal line */
+    box-sizing: border-box;
+}
+
+.aboutProjectH2 {
+    margin-left: 25%;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.aboutProjectP {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.mainFeatures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 32%;
+    width: 100%;
+    background: linear-gradient(to left, #574B60 -50%, #A1A2A5 50%, #574B60 150%);
+}
+
+.pictureMainFeatures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+/* For .infoGithub */
+.pictureMainFeatures::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 152px; /* Adjusted width to accommodate the horizontal line */
+    height: 102px;
+    background: linear-gradient(to left, #574B60 0%, #574B60 100%) 0 0 / 150px 2px no-repeat; /* Horizontal line */
+    box-sizing: border-box;
+}
+
+.pictureMainFeatures::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 152px; /* Adjusted width to accommodate the horizontal line */
+    height: 102px;
+    background: linear-gradient(to left, #574B60 0%, #574B60 100%) 0 100px / 150px 2px no-repeat; /* Horizontal line */
+    box-sizing: border-box;
+}
+
+.infoMainFeatures {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    position: relative; /* Make this element a positioning context */
+}
+
+/* For .infoMainFeatures */
+.infoMainFeatures::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 152px; /* Adjusted width to accommodate the horizontal line */
+    height: 102px;
+    background: linear-gradient(to right, #574B60 0%, #574B60 100%) 0 0 / 150px 2px no-repeat; /* Horizontal line */
+    box-sizing: border-box;
+}
+
+.infoMainFeatures::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 152px; /* Adjusted width to accommodate the horizontal line */
+    height: 102px;
+    background: linear-gradient(to right, #574B60 0%, #574B60 100%) 0 100px / 150px 2px no-repeat; /* Horizontal line */
+    box-sizing: border-box;
+}
+
+.mainFeaturesH2 {
+    margin-left: 25%;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.mainFeaturesList {
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    list-style: none;
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 32%;
+    width: 100%;
+    background: linear-gradient(to left, #574B60 -50%, #A1A2A5 50%, #574B60 150%);
+}
+
+.infoGithub {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    position: relative; /* Make this element a positioning context */
+}
+
+/* For .infoGithub */
+.infoGithub::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 152px; /* Adjusted width to accommodate the horizontal line */
+    height: 102px;
+    background: linear-gradient(to left, #574B60 0%, #574B60 100%) 0 0 / 150px 2px no-repeat; /* Horizontal line */
+    box-sizing: border-box;
+}
+
+.pictureGithub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+/* For .infoMainFeatures */
+.pictureGithub::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 152px; /* Adjusted width to accommodate the horizontal line */
+    height: 102px;
+    background: linear-gradient(to right, #574B60 0%, #574B60 100%) 0 0 / 150px 2px no-repeat; /* Horizontal line */
+    box-sizing: border-box;
+}
+
+.githubH2 {
+    margin-left: 25%;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.githubP {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.githubA {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.githubA:hover {
+    color: #574B60;
 }
