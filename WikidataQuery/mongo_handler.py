@@ -14,7 +14,7 @@ myclient = MongoClient(uri, server_api=ServerApi('1'))
 mydb = myclient["LangMap"]
 
 def populate_metadata_mongodb(data):
-    LanguageMetaData_col = mydb["LanguageMetaData"]
+    LanguageMetaData_col = mydb["LanguageMetaDataTest"]
     LanguageMetaData_col.create_index([("iso_code", pymongo.ASCENDING)], unique=True)
 
     # TODO: missing any type of update when running again, I think

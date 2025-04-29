@@ -124,7 +124,7 @@ def clean_dead_lang(lang_data, output_file, dump_to_file):
                 "Language": data["Language"],
                 "LanguageID": data["LanguageID"],
                 "Regions": data["Regions"],
-                "RegionsCountry": [],
+                "RegionsCountry": data["RegionsCountry"],
                 "RegionsID": data["RegionsID"],
                 "RegionsOSM": data["RegionsOSM"],
                 "Countries": data["Countries"],
@@ -170,6 +170,7 @@ def remove_retired_languages(lang_data, output_file, dump_to_file):
     return cleaned_query_json
         
 def populate_metadata(api_data, lang_data):
+    languagesProcessed = []
     for entry in api_data["results"]["bindings"]:
         language = entry["languageLabel"]["value"]
         region = entry["regionLabel"]["value"] if "regionLabel" in entry else "Missing"
@@ -198,9 +199,8 @@ def populate_metadata(api_data, lang_data):
                 "immediate_Language_Families": [],
                 "number_of_speakers": [] 
             }
+            
 
-
-        region_info = {"Region": region, "RegionCountry": regionCountry}
         if region not in lang_data[iso_code][language]["Regions"]:
             lang_data[iso_code][language]["Regions"].append(region)
         
@@ -209,15 +209,15 @@ def populate_metadata(api_data, lang_data):
             lang_data[iso_code][language]["RegionsOSM"].append(region_osm_id) # put in multiple missings of the regionosm id matching in placement to the region names
             lang_data[iso_code][language]["RegionsCountry"].append(regionCountry)
 
-        country_info = {"Country": country, "IsOfficialLanguage": is_official_language_of_country}
+        country_info = {"Country": country, "IsOfficialLanguage": is_official_language_of_country, "OSM": country_osm_id}
         if is_official_language_of_country == "true":
-            notOfficial = {"Country": country, "IsOfficialLanguage": "false"}
+            notOfficial = {"Country": country, "IsOfficialLanguage": "false", "OSM": country_osm_id}
             if notOfficial in lang_data[iso_code][language]["Countries"]:
                 lang_data[iso_code][language]["Countries"].remove(notOfficial)
             if country_info not in lang_data[iso_code][language]["Countries"]:
                 lang_data[iso_code][language]["Countries"].append(country_info)      
         elif is_official_language_of_country == "false":
-            official = {"Country": country, "IsOfficialLanguage": "true"}
+            official = {"Country": country, "IsOfficialLanguage": "true", "OSM": country_osm_id}
             if official not in lang_data[iso_code][language]["Countries"]:
                 if country_info not in lang_data[iso_code][language]["Countries"]:
                     lang_data[iso_code][language]["Countries"].append(country_info)
@@ -227,6 +227,25 @@ def populate_metadata(api_data, lang_data):
         if countryID not in lang_data[iso_code][language]["CountriesID"]:
             lang_data[iso_code][language]["CountriesID"].append(countryID)
             lang_data[iso_code][language]["CountriesOSM"].append(country_osm_id)
+        
+        currentLanguageInfo = {"language": language, "iso_code": iso_code}
+        if currentLanguageInfo not in languagesProcessed:
+            languagesProcessed.append(currentLanguageInfo)
+    
+    #reorder country array so that it lines up with osm code list
+    for entry in languagesProcessed:
+        newCountryList = []
+        language = entry.get("language")
+        iso_code = entry.get("iso_code")
+        osm_list = lang_data[iso_code][language]["CountriesOSM"]
+        countries_list = lang_data[iso_code][language]["Countries"]
+        for osm in osm_list:
+            for country_data in countries_list:
+                if country_data.get("OSM", "NULL") == osm:
+                    if country_data not in newCountryList:
+                        newCountryList.append(country_data)
+        lang_data[iso_code][language]["Countries"] = newCountryList
+
     print(f"200 done, sleeping for 1.5 seconds...") # get better logging
     time.sleep(1.5) 
     return lang_data

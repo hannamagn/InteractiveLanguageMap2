@@ -18,7 +18,8 @@
             "Countries": [
                 {
                     "Country": "Ghana",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192781"
                 }
             ],
             "CountriesID": [
@@ -64,7 +65,8 @@
             "Countries": [
                 {
                     "Country": "Argentina",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "286393"
                 }
             ],
             "CountriesID": [
@@ -109,7 +111,8 @@
             "Countries": [
                 {
                     "Country": "Armenia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "364066"
                 }
             ],
             "CountriesID": [
@@ -190,7 +193,8 @@
             "Countries": [
                 {
                     "Country": "Afghanistan",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "303427"
                 }
             ],
             "CountriesID": [
@@ -235,7 +239,8 @@
             "Countries": [
                 {
                     "Country": "Algeria",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192756"
                 }
             ],
             "CountriesID": [
@@ -279,11 +284,13 @@
             "Countries": [
                 {
                     "Country": "United States",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "148838"
                 },
                 {
                     "Country": "Canada",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1428125"
                 }
             ],
             "CountriesID": [
@@ -331,7 +338,8 @@
             "Countries": [
                 {
                     "Country": "Australia",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "80500"
                 }
             ],
             "CountriesID": [
@@ -375,7 +383,8 @@
             "Countries": [
                 {
                     "Country": "Algeria",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192756"
                 }
             ],
             "CountriesID": [
@@ -421,7 +430,8 @@
             "Countries": [
                 {
                     "Country": "Austria",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "16239"
                 }
             ],
             "CountriesID": [
@@ -465,7 +475,8 @@
             "Countries": [
                 {
                     "Country": "Australia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "80500"
                 }
             ],
             "CountriesID": [
@@ -510,7 +521,8 @@
             "Countries": [
                 {
                     "Country": "United Kingdom",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "62149"
                 }
             ],
             "CountriesID": [
@@ -561,7 +573,8 @@
             "Countries": [
                 {
                     "Country": "Thailand",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2067731"
                 }
             ],
             "CountriesID": [
@@ -598,7 +611,8 @@
             "Countries": [
                 {
                     "Country": "Mali",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192785"
                 }
             ],
             "CountriesID": [
@@ -643,7 +657,8 @@
             "Countries": [
                 {
                     "Country": "Bulgaria",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "186382"
                 }
             ],
             "CountriesID": [
@@ -692,7 +707,8 @@
             "Countries": [
                 {
                     "Country": "Indonesia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "304751"
                 }
             ],
             "CountriesID": [
@@ -749,7 +765,8 @@
             "Countries": [
                 {
                     "Country": "Bolivia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "252645"
                 }
             ],
             "CountriesID": [
@@ -793,7 +810,8 @@
             "Countries": [
                 {
                     "Country": "Brazil",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "59470"
                 }
             ],
             "CountriesID": [
@@ -839,7 +857,8 @@
             "Countries": [
                 {
                     "Country": "Chad",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2361304"
                 }
             ],
             "CountriesID": [
@@ -883,7 +902,8 @@
             "Countries": [
                 {
                     "Country": "Spain",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1311341"
                 }
             ],
             "CountriesID": [
@@ -929,7 +949,8 @@
             "Countries": [
                 {
                     "Country": "Thailand",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2067731"
                 }
             ],
             "CountriesID": [
@@ -974,7 +995,8 @@
             "Countries": [
                 {
                     "Country": "Czech Republic",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "51684"
                 }
             ],
             "CountriesID": [
@@ -1020,7 +1042,8 @@
             "Countries": [
                 {
                     "Country": "Cuba",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "307833"
                 }
             ],
             "CountriesID": [
@@ -1065,7 +1088,8 @@
             "Countries": [
                 {
                     "Country": "Chile",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "167454"
                 }
             ],
             "CountriesID": [
@@ -1110,7 +1134,8 @@
             "Countries": [
                 {
                     "Country": "People's Republic of China",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "270056"
                 }
             ],
             "CountriesID": [
@@ -1154,7 +1179,8 @@
             "Countries": [
                 {
                     "Country": "Colombia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "120027"
                 }
             ],
             "CountriesID": [
@@ -1199,7 +1225,8 @@
             "Countries": [
                 {
                     "Country": "Croatia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "214885"
                 }
             ],
             "CountriesID": [
@@ -1244,7 +1271,8 @@
             "Countries": [
                 {
                     "Country": "Costa Rica",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "287667"
                 }
             ],
             "CountriesID": [
@@ -1289,7 +1317,8 @@
             "Countries": [
                 {
                     "Country": "Cambodia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "49898"
                 }
             ],
             "CountriesID": [
@@ -1333,7 +1362,8 @@
             "Countries": [
                 {
                     "Country": "Dominican Republic",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "307828"
                 }
             ],
             "CountriesID": [
@@ -1378,11 +1408,13 @@
             "Countries": [
                 {
                     "Country": "Kingdom of the Netherlands",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2323309"
                 },
                 {
                     "Country": "Netherlands",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "47796"
                 }
             ],
             "CountriesID": [
@@ -1428,7 +1460,8 @@
             "Countries": [
                 {
                     "Country": "Denmark",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "50046"
                 }
             ],
             "CountriesID": [
@@ -1474,7 +1507,8 @@
             "Countries": [
                 {
                     "Country": "Turkey",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "174737"
                 }
             ],
             "CountriesID": [
@@ -1518,7 +1552,8 @@
             "Countries": [
                 {
                     "Country": "Ecuador",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "108089"
                 }
             ],
             "CountriesID": [
@@ -1563,7 +1598,8 @@
             "Countries": [
                 {
                     "Country": "Japan",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "382313"
                 }
             ],
             "CountriesID": [
@@ -1608,7 +1644,8 @@
             "Countries": [
                 {
                     "Country": "Egypt",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1473947"
                 }
             ],
             "CountriesID": [
@@ -1653,7 +1690,8 @@
             "Countries": [
                 {
                     "Country": "El Salvador",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1520612"
                 }
             ],
             "CountriesID": [
@@ -1698,7 +1736,8 @@
             "Countries": [
                 {
                     "Country": "Estonia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "79510"
                 }
             ],
             "CountriesID": [
@@ -1744,7 +1783,8 @@
             "Countries": [
                 {
                     "Country": "Ethiopia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192800"
                 }
             ],
             "CountriesID": [
@@ -1814,7 +1854,8 @@
             "Countries": [
                 {
                     "Country": "Canada",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1428125"
                 }
             ],
             "CountriesID": [
@@ -1858,7 +1899,8 @@
             "Countries": [
                 {
                     "Country": "Finland",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "54224"
                 }
             ],
             "CountriesID": [
@@ -1904,7 +1946,8 @@
             "Countries": [
                 {
                     "Country": "France",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2202162"
                 }
             ],
             "CountriesID": [
@@ -1950,7 +1993,8 @@
             "Countries": [
                 {
                     "Country": "Finland",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "54224"
                 }
             ],
             "CountriesID": [
@@ -1994,7 +2038,8 @@
             "Countries": [
                 {
                     "Country": "Nepal",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "184633"
                 }
             ],
             "CountriesID": [
@@ -2038,7 +2083,8 @@
             "Countries": [
                 {
                     "Country": "Ghana",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192781"
                 }
             ],
             "CountriesID": [
@@ -2083,15 +2129,18 @@
             "Countries": [
                 {
                     "Country": "Germany",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "51477"
                 },
                 {
                     "Country": "Luxembourg",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2171347"
                 },
                 {
                     "Country": "Belgium",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "52411"
                 }
             ],
             "CountriesID": [
@@ -2140,7 +2189,8 @@
             "Countries": [
                 {
                     "Country": "Guatemala",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1521463"
                 }
             ],
             "CountriesID": [
@@ -2184,7 +2234,8 @@
             "Countries": [
                 {
                     "Country": "Greece",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192307"
                 }
             ],
             "CountriesID": [
@@ -2228,7 +2279,8 @@
             "Countries": [
                 {
                     "Country": "Guinea",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192778"
                 }
             ],
             "CountriesID": [
@@ -2273,7 +2325,8 @@
             "Countries": [
                 {
                     "Country": "Vietnam",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "49915"
                 }
             ],
             "CountriesID": [
@@ -2317,7 +2370,8 @@
             "Countries": [
                 {
                     "Country": "Vietnam",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "49915"
                 }
             ],
             "CountriesID": [
@@ -2362,7 +2416,8 @@
             "Countries": [
                 {
                     "Country": "Honduras",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "287670"
                 }
             ],
             "CountriesID": [
@@ -2407,7 +2462,8 @@
             "Countries": [
                 {
                     "Country": "People's Republic of China",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "270056"
                 }
             ],
             "CountriesID": [
@@ -2451,7 +2507,8 @@
             "Countries": [
                 {
                     "Country": "Vietnam",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "49915"
                 }
             ],
             "CountriesID": [
@@ -2495,7 +2552,8 @@
             "Countries": [
                 {
                     "Country": "United States",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "148838"
                 }
             ],
             "CountriesID": [
@@ -2540,7 +2598,8 @@
             "Countries": [
                 {
                     "Country": "Hungary",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "21335"
                 }
             ],
             "CountriesID": [
@@ -2592,7 +2651,8 @@
             "Countries": [
                 {
                     "Country": "Nigeria",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192787"
                 }
             ],
             "CountriesID": [
@@ -2637,7 +2697,8 @@
             "Countries": [
                 {
                     "Country": "Iceland",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "299133"
                 }
             ],
             "CountriesID": [
@@ -2682,7 +2743,8 @@
             "Countries": [
                 {
                     "Country": "Canada",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1428125"
                 }
             ],
             "CountriesID": [
@@ -2726,7 +2788,8 @@
             "Countries": [
                 {
                     "Country": "Missing",
-                    "IsOfficialLanguage": "Missing"
+                    "IsOfficialLanguage": "Missing",
+                    "OSM": "Missing"
                 }
             ],
             "CountriesID": [
@@ -2776,7 +2839,8 @@
             "Countries": [
                 {
                     "Country": "Indonesia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "304751"
                 }
             ],
             "CountriesID": [
@@ -2822,7 +2886,8 @@
             "Countries": [
                 {
                     "Country": "India",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "304716"
                 }
             ],
             "CountriesID": [
@@ -2872,7 +2937,8 @@
             "Countries": [
                 {
                     "Country": "Italy",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "365331"
                 }
             ],
             "CountriesID": [
@@ -2918,7 +2984,8 @@
             "Countries": [
                 {
                     "Country": "Ireland",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "62273"
                 }
             ],
             "CountriesID": [
@@ -2964,7 +3031,8 @@
             "Countries": [
                 {
                     "Country": "Israel",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1473946"
                 }
             ],
             "CountriesID": [
@@ -3009,7 +3077,8 @@
             "Countries": [
                 {
                     "Country": "Jamaica",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "555017"
                 }
             ],
             "CountriesID": [
@@ -3055,7 +3124,8 @@
             "Countries": [
                 {
                     "Country": "Nepal",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "184633"
                 }
             ],
             "CountriesID": [
@@ -3100,7 +3170,8 @@
             "Countries": [
                 {
                     "Country": "Japan",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "382313"
                 }
             ],
             "CountriesID": [
@@ -3144,7 +3215,8 @@
             "Countries": [
                 {
                     "Country": "Jamaica",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "555017"
                 }
             ],
             "CountriesID": [
@@ -3189,7 +3261,8 @@
             "Countries": [
                 {
                     "Country": "Jordan",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "184818"
                 }
             ],
             "CountriesID": [
@@ -3233,7 +3306,8 @@
             "Countries": [
                 {
                     "Country": "Japan",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "382313"
                 }
             ],
             "CountriesID": [
@@ -3277,7 +3351,8 @@
             "Countries": [
                 {
                     "Country": "Nepal",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "184633"
                 }
             ],
             "CountriesID": [
@@ -3322,7 +3397,8 @@
             "Countries": [
                 {
                     "Country": "Malaysia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2108121"
                 }
             ],
             "CountriesID": [
@@ -3367,7 +3443,8 @@
             "Countries": [
                 {
                     "Country": "South Korea",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "307756"
                 }
             ],
             "CountriesID": [
@@ -3412,7 +3489,8 @@
             "Countries": [
                 {
                     "Country": "Libya",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192758"
                 }
             ],
             "CountriesID": [
@@ -3456,7 +3534,8 @@
             "Countries": [
                 {
                     "Country": "Guinea-Bissau",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192776"
                 }
             ],
             "CountriesID": [
@@ -3500,7 +3579,8 @@
             "Countries": [
                 {
                     "Country": "Lithuania",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "72596"
                 }
             ],
             "CountriesID": [
@@ -3544,7 +3624,8 @@
             "Countries": [
                 {
                     "Country": "Burundi",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "195269"
                 }
             ],
             "CountriesID": [
@@ -3588,7 +3669,8 @@
             "Countries": [
                 {
                     "Country": "Mexico",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "114686"
                 }
             ],
             "CountriesID": [
@@ -3632,7 +3714,8 @@
             "Countries": [
                 {
                     "Country": "Latvia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "72594"
                 }
             ],
             "CountriesID": [
@@ -3663,25 +3746,26 @@
             "Language": "Tibetan Sign Language",
             "LanguageID": "http://www.wikidata.org/entity/Q15936110",
             "Regions": [
-                "Xinjiang",
-                "Tibetan people"
+                "Tibetan people",
+                "Xinjiang"
             ],
             "RegionsCountry": [
                 "People's Republic of China",
                 "People's Republic of China"
             ],
             "RegionsID": [
-                "http://www.wikidata.org/entity/Q34800",
-                "http://www.wikidata.org/entity/Q187985"
+                "http://www.wikidata.org/entity/Q187985",
+                "http://www.wikidata.org/entity/Q34800"
             ],
             "RegionsOSM": [
-                "153310",
-                "Missing"
+                "Missing",
+                "153310"
             ],
             "Countries": [
                 {
                     "Country": "People's Republic of China",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "270056"
                 }
             ],
             "CountriesID": [
@@ -3725,7 +3809,8 @@
             "Countries": [
                 {
                     "Country": "Laos",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "49903"
                 }
             ],
             "CountriesID": [
@@ -3770,7 +3855,8 @@
             "Countries": [
                 {
                     "Country": "Panama",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "287668"
                 }
             ],
             "CountriesID": [
@@ -3815,7 +3901,8 @@
             "Countries": [
                 {
                     "Country": "Trinidad and Tobago",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "555717"
                 }
             ],
             "CountriesID": [
@@ -3860,7 +3947,8 @@
             "Countries": [
                 {
                     "Country": "Peru",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "288247"
                 }
             ],
             "CountriesID": [
@@ -3904,7 +3992,8 @@
             "Countries": [
                 {
                     "Country": "Seychelles",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "536765"
                 }
             ],
             "CountriesID": [
@@ -3948,7 +4037,8 @@
             "Countries": [
                 {
                     "Country": "Mauritius",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "535828"
                 }
             ],
             "CountriesID": [
@@ -3993,7 +4083,8 @@
             "Countries": [
                 {
                     "Country": "Malawi",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "195290"
                 }
             ],
             "CountriesID": [
@@ -4037,7 +4128,8 @@
             "Countries": [
                 {
                     "Country": "Malta",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "365307"
                 }
             ],
             "CountriesID": [
@@ -4082,7 +4174,8 @@
             "Countries": [
                 {
                     "Country": "Mexico",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "114686"
                 }
             ],
             "CountriesID": [
@@ -4132,7 +4225,8 @@
             "Countries": [
                 {
                     "Country": "Mexico",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "114686"
                 }
             ],
             "CountriesID": [
@@ -4176,7 +4270,8 @@
             "Countries": [
                 {
                     "Country": "Mongolia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "161033"
                 }
             ],
             "CountriesID": [
@@ -4221,7 +4316,8 @@
             "Countries": [
                 {
                     "Country": "Madagascar",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "447325"
                 }
             ],
             "CountriesID": [
@@ -4265,7 +4361,8 @@
             "Countries": [
                 {
                     "Country": "Missing",
-                    "IsOfficialLanguage": "Missing"
+                    "IsOfficialLanguage": "Missing",
+                    "OSM": "Missing"
                 }
             ],
             "CountriesID": [
@@ -4309,7 +4406,8 @@
             "Countries": [
                 {
                     "Country": "Mozambique",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "195273"
                 }
             ],
             "CountriesID": [
@@ -4354,7 +4452,8 @@
             "Countries": [
                 {
                     "Country": "Namibia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "195266"
                 }
             ],
             "CountriesID": [
@@ -4399,7 +4498,8 @@
             "Countries": [
                 {
                     "Country": "Nicaragua",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "287666"
                 }
             ],
             "CountriesID": [
@@ -4445,7 +4545,8 @@
             "Countries": [
                 {
                     "Country": "Nigeria",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192787"
                 }
             ],
             "CountriesID": [
@@ -4490,7 +4591,8 @@
             "Countries": [
                 {
                     "Country": "Norway",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1059668"
                 }
             ],
             "CountriesID": [
@@ -4534,7 +4636,8 @@
             "Countries": [
                 {
                     "Country": "Nepal",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "184633"
                 }
             ],
             "CountriesID": [
@@ -4591,7 +4694,8 @@
             "Countries": [
                 {
                     "Country": "Canada",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1428125"
                 }
             ],
             "CountriesID": [
@@ -4636,7 +4740,8 @@
             "Countries": [
                 {
                     "Country": "New Zealand",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "556706"
                 }
             ],
             "CountriesID": [
@@ -4680,7 +4785,8 @@
             "Countries": [
                 {
                     "Country": "Papua New Guinea",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "307866"
                 }
             ],
             "CountriesID": [
@@ -4726,7 +4832,8 @@
             "Countries": [
                 {
                     "Country": "Pakistan",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "307573"
                 }
             ],
             "CountriesID": [
@@ -4770,7 +4877,8 @@
             "Countries": [
                 {
                     "Country": "Peru",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "288247"
                 }
             ],
             "CountriesID": [
@@ -4814,7 +4922,8 @@
             "Countries": [
                 {
                     "Country": "Colombia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "120027"
                 }
             ],
             "CountriesID": [
@@ -4858,7 +4967,8 @@
             "Countries": [
                 {
                     "Country": "Iran",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "304938"
                 }
             ],
             "CountriesID": [
@@ -4911,11 +5021,13 @@
             "Countries": [
                 {
                     "Country": "United States",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "148838"
                 },
                 {
                     "Country": "Canada",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1428125"
                 }
             ],
             "CountriesID": [
@@ -4970,7 +5082,8 @@
             "Countries": [
                 {
                     "Country": "Malaysia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2108121"
                 }
             ],
             "CountriesID": [
@@ -5015,7 +5128,8 @@
             "Countries": [
                 {
                     "Country": "United States",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "148838"
                 }
             ],
             "CountriesID": [
@@ -5060,7 +5174,8 @@
             "Countries": [
                 {
                     "Country": "Poland",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "49715"
                 }
             ],
             "CountriesID": [
@@ -5105,7 +5220,8 @@
             "Countries": [
                 {
                     "Country": "Philippines",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "443174"
                 }
             ],
             "CountriesID": [
@@ -5154,7 +5270,8 @@
             "Countries": [
                 {
                     "Country": "Portugal",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "295480"
                 }
             ],
             "CountriesID": [
@@ -5200,7 +5317,8 @@
             "Countries": [
                 {
                     "Country": "Paraguay",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "287077"
                 }
             ],
             "CountriesID": [
@@ -5245,7 +5363,8 @@
             "Countries": [
                 {
                     "Country": "Costa Rica",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "287667"
                 }
             ],
             "CountriesID": [
@@ -5289,7 +5408,8 @@
             "Countries": [
                 {
                     "Country": "Romania",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "90689"
                 }
             ],
             "CountriesID": [
@@ -5334,7 +5454,8 @@
             "Countries": [
                 {
                     "Country": "Costa Rica",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "287667"
                 }
             ],
             "CountriesID": [
@@ -5382,7 +5503,8 @@
             "Countries": [
                 {
                     "Country": "Russia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "60189"
                 }
             ],
             "CountriesID": [
@@ -5428,7 +5550,8 @@
             "Countries": [
                 {
                     "Country": "Australia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "80500"
                 }
             ],
             "CountriesID": [
@@ -5472,7 +5595,8 @@
             "Countries": [
                 {
                     "Country": "Rwanda",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "171496"
                 }
             ],
             "CountriesID": [
@@ -5516,7 +5640,8 @@
             "Countries": [
                 {
                     "Country": "Saudi Arabia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "307584"
                 }
             ],
             "CountriesID": [
@@ -5561,7 +5686,8 @@
             "Countries": [
                 {
                     "Country": "Belgium",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "52411"
                 }
             ],
             "CountriesID": [
@@ -5605,7 +5731,8 @@
             "Countries": [
                 {
                     "Country": "South Africa",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "87565"
                 }
             ],
             "CountriesID": [
@@ -5651,11 +5778,13 @@
             "Countries": [
                 {
                     "Country": "Liechtenstein",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1155955"
                 },
                 {
                     "Country": "Switzerland",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "51701"
                 }
             ],
             "CountriesID": [
@@ -5701,7 +5830,8 @@
             "Countries": [
                 {
                     "Country": "Sierra Leone",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192777"
                 }
             ],
             "CountriesID": [
@@ -5750,7 +5880,8 @@
             "Countries": [
                 {
                     "Country": "Switzerland",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "51701"
                 }
             ],
             "CountriesID": [
@@ -5794,7 +5925,8 @@
             "Countries": [
                 {
                     "Country": "Singapore",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "536780"
                 }
             ],
             "CountriesID": [
@@ -5839,7 +5971,8 @@
             "Countries": [
                 {
                     "Country": "Albania",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "53292"
                 }
             ],
             "CountriesID": [
@@ -5884,7 +6017,8 @@
             "Countries": [
                 {
                     "Country": "Sri Lanka",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "536807"
                 }
             ],
             "CountriesID": [
@@ -5929,7 +6063,8 @@
             "Countries": [
                 {
                     "Country": "Israel",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1473946"
                 }
             ],
             "CountriesID": [
@@ -5977,7 +6112,8 @@
             "Countries": [
                 {
                     "Country": "Spain",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1311341"
                 }
             ],
             "CountriesID": [
@@ -6035,7 +6171,8 @@
             "Countries": [
                 {
                     "Country": "Switzerland",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "51701"
                 }
             ],
             "CountriesID": [
@@ -6079,7 +6216,8 @@
             "Countries": [
                 {
                     "Country": "Slovakia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "14296"
                 }
             ],
             "CountriesID": [
@@ -6124,7 +6262,8 @@
             "Countries": [
                 {
                     "Country": "Sweden",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "52822"
                 }
             ],
             "CountriesID": [
@@ -6170,7 +6309,8 @@
             "Countries": [
                 {
                     "Country": "Israel",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1473946"
                 }
             ],
             "CountriesID": [
@@ -6215,7 +6355,8 @@
             "Countries": [
                 {
                     "Country": "Solomon Islands",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1857436"
                 }
             ],
             "CountriesID": [
@@ -6259,7 +6400,8 @@
             "Countries": [
                 {
                     "Country": "Tunisia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192757"
                 }
             ],
             "CountriesID": [
@@ -6305,7 +6447,8 @@
             "Countries": [
                 {
                     "Country": "Turkey",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "174737"
                 }
             ],
             "CountriesID": [
@@ -6350,7 +6493,8 @@
             "Countries": [
                 {
                     "Country": "Thailand",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2067731"
                 }
             ],
             "CountriesID": [
@@ -6396,7 +6540,8 @@
             "Countries": [
                 {
                     "Country": "Taiwan",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "449220"
                 }
             ],
             "CountriesID": [
@@ -6441,7 +6586,8 @@
             "Countries": [
                 {
                     "Country": "Mali",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192785"
                 }
             ],
             "CountriesID": [
@@ -6486,7 +6632,8 @@
             "Countries": [
                 {
                     "Country": "Tanzania",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "195270"
                 }
             ],
             "CountriesID": [
@@ -6531,7 +6678,8 @@
             "Countries": [
                 {
                     "Country": "Uganda",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192796"
                 }
             ],
             "CountriesID": [
@@ -6576,7 +6724,8 @@
             "Countries": [
                 {
                     "Country": "Uruguay",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "287072"
                 }
             ],
             "CountriesID": [
@@ -6621,7 +6770,8 @@
             "Countries": [
                 {
                     "Country": "Ukraine",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "60199"
                 }
             ],
             "CountriesID": [
@@ -6669,7 +6819,8 @@
             "Countries": [
                 {
                     "Country": "Brazil",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "59470"
                 }
             ],
             "CountriesID": [
@@ -6713,7 +6864,8 @@
             "Countries": [
                 {
                     "Country": "Belgium",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "52411"
                 }
             ],
             "CountriesID": [
@@ -6757,7 +6909,8 @@
             "Countries": [
                 {
                     "Country": "Moldova",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "58974"
                 }
             ],
             "CountriesID": [
@@ -6801,7 +6954,8 @@
             "Countries": [
                 {
                     "Country": "Venezuela",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "272644"
                 }
             ],
             "CountriesID": [
@@ -6846,7 +7000,8 @@
             "Countries": [
                 {
                     "Country": "Spain",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1311341"
                 }
             ],
             "CountriesID": [
@@ -6890,7 +7045,8 @@
             "Countries": [
                 {
                     "Country": "Kenya",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "192798"
                 }
             ],
             "CountriesID": [
@@ -6935,7 +7091,8 @@
             "Countries": [
                 {
                     "Country": "Malaysia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "2108121"
                 }
             ],
             "CountriesID": [
@@ -6979,7 +7136,8 @@
             "Countries": [
                 {
                     "Country": "Morocco",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "3630439"
                 }
             ],
             "CountriesID": [
@@ -7024,7 +7182,8 @@
             "Countries": [
                 {
                     "Country": "Australia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "80500"
                 }
             ],
             "CountriesID": [
@@ -7070,7 +7229,8 @@
             "Countries": [
                 {
                     "Country": "Australia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "80500"
                 }
             ],
             "CountriesID": [
@@ -7116,11 +7276,13 @@
             "Countries": [
                 {
                     "Country": "Serbia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "1741311"
                 },
                 {
                     "Country": "Slovenia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "218657"
                 }
             ],
             "CountriesID": [
@@ -7167,7 +7329,8 @@
             "Countries": [
                 {
                     "Country": "Myanmar",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "50371"
                 }
             ],
             "CountriesID": [
@@ -7211,7 +7374,8 @@
             "Countries": [
                 {
                     "Country": "Zimbabwe",
-                    "IsOfficialLanguage": "true"
+                    "IsOfficialLanguage": "true",
+                    "OSM": "195272"
                 }
             ],
             "CountriesID": [
@@ -7257,7 +7421,8 @@
             "Countries": [
                 {
                     "Country": "Zambia",
-                    "IsOfficialLanguage": "false"
+                    "IsOfficialLanguage": "false",
+                    "OSM": "195271"
                 }
             ],
             "CountriesID": [
