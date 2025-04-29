@@ -1,6 +1,6 @@
 .worldMapHeader {
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 90vh; /* Full viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
