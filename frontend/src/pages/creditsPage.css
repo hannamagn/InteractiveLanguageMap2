@@ -4,22 +4,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to left, #574B60 -50%, #A1A2A5 50%, #574B60 150%);
 }
 
-
-.personpage{
-display: flex;
-flex-wrap: wrap;
-background-color:  white;
-justify-content: space-evenly;
-border-radius: 10px;
+.creditsPageH1 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
+.creditsPageP {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.personpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
 
 .person {
     width: 40%;
     height: 300px;
-    background-color: #574B60;
+    border-radius: 10px;
+    background: linear-gradient(to left, #A1A2A5 -400%, #574B60 50%, #A1A2A5 500%);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -27,35 +42,46 @@ border-radius: 10px;
     align-items: center;
     justify-content: center; 
     transition: transform 0.6s ease; 
-    transform-origin: center; /
+    transform-origin: center;
   }
 
-
-
 .person:hover {
-    transform: scale(1.03); 
+    transform: scale(1.01); 
 }
 
-
-.creditsPageP{
-
-font-size: 40px;
-font-style: bold;
-
+.personImg, .personText {
+    transform: none;
+    position: relative;
+    will-change: transform;
 }
 
-
-.personimg{
-background-color: rgb(0, 0, 0);
-width: 30%;
-height: 60%;
-margin-left: 10px;
-color: white;
-
+.personImg{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: 60%;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #A1A2A5;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    object-fit:cover;
 }
 
 .personText{
-width: 70%;
-margin-left: 10px ;
-margin-right: 10px;
+    width: 70%;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+
+.personH3 {
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.personP {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
 }
