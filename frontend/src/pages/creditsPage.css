@@ -55,6 +55,9 @@
     height: 60%;
     margin-left: 10px;
     color: white;
+    border-radius: 5px;
+    border: 1px solid #A1A2A5;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
 }
 
 .personText{
