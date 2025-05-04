@@ -61,19 +61,19 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
         const data = await res.json();
 
         const popupHtml = `
-          <div class="popupbox">
-            <div class="popup-title">${name}</div>
-            <button class="closeButton">×</button>
-          </div>
-          <div class="line"></div>
-          <div class="popup-content">
-            <div><strong>Languages:</strong></div>
-            <ul>
-              ${data.map((d: any) => `<li>${d.language}${d.isOfficial ? ' (official)' : ''}</li>`).join('')}
-            </ul>
-          </div>
-        `;
-
+        <div class="popupbox region-popup">
+          <div class="popup-title">${name}</div>
+          <button class="closeButton">×</button>
+        </div>
+        <div class="line"></div>
+        <div class="popup-content">
+          <div><strong>Languages:</strong></div>
+          <ul class="language-list">
+            ${data.map((d: any) => `<li>${d.language}${d.isOfficial ? ' (official)' : ''}</li>`).join('')}
+          </ul>
+        </div>
+      `;
+      
         const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false })
           .setLngLat(e.lngLat)
           .setHTML(popupHtml)
