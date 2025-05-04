@@ -35,6 +35,27 @@ export class LanguageService {
       .sort((a, b) => a.localeCompare(b));
   }
 
+  async getLanguagesByRegion(name: string): Promise<{ language: string; isOfficial: boolean }[]> {
+    const languages = await this.languageModel.find({
+      $or: [
+        { 'Countries.name': name },
+        { 'Regions.name': name },
+      ]
+    }).exec();
+  
+    return languages
+      .filter(lang => typeof lang.Language === 'string') // <-- Filter out undefined/null
+      .map(lang => {
+        const isOfficial = (lang.Countries || []).some(
+          c => c.name === name && (c.is_official_language === true || c.is_official_language === 'true')
+        );
+        return {
+          language: lang.Language as string, // <-- Now TypeScript is satisfied
+          isOfficial
+        };
+      });
+  }   
+
   private async getPolygonData(
     osmId: string | number,
     name: string,
