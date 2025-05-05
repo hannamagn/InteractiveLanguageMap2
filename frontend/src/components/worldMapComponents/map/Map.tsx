@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import maplibregl from 'maplibre-gl';
 import { useLanguage } from '../../../context/LanguageContext';
 import CheckBox, { ViewFilter } from '../Checkbox/Checkbox';
@@ -42,6 +42,39 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
   const activePopupRef = useRef<maplibregl.Popup | null>(null);
 
 
+  const applyFilterForLang = useCallback((lang: string) => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    const fillId = `fill-${lang}`;
+    const outlineId = `outline-${lang}`;
+    const countryList = Array.from(countryRegionsRef.current[lang] || []);
+
+    let expr: maplibregl.FilterSpecification;
+    if (viewFilter === 'country') {
+      expr = ['!', ['has', 'region']];
+    } else if (viewFilter === 'region') {
+      expr = ['has', 'region'];
+    } else {
+      expr = [
+        'any',
+        ['==', ['get', 'official'], true],
+        ['all',
+          ['==', ['get', 'official'], false],
+          ['has', 'region']
+        ],
+        ['all',
+          ['==', ['get', 'official'], false],
+          ['!', ['has', 'region']],
+          ['!', ['in', ['get', 'country'], ['literal', countryList]]]
+        ],
+      ];
+    }
+
+    map.setFilter(fillId, expr);
+    map.setFilter(outlineId, expr);
+  }, [viewFilter]);
+
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainer.current!,
@@ -84,7 +117,6 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
           const countrySet = new Set<string>();
           geojson.features = geojson.features.map((feature: any, idx: number) => {
             if (feature.id == null) feature.id = idx;
-            // Collect country names for region features
             if (feature.properties.region) {
               countrySet.add(feature.properties.country);
             }
@@ -258,49 +290,24 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
       }
     };
 
+    const loadAndFilter = async () => {
+      await updateLayers();
+      loadedLanguagesRef.current.forEach(applyFilterForLang);
+    };
+
+
     if (!map.isStyleLoaded()) {
-      map.once('style.load', updateLayers);
+      map.once('style.load', loadAndFilter);
     } else {
-      updateLayers();
+      loadAndFilter();
     }
-  }, [selectedLanguages]);
+  }, [selectedLanguages, applyFilterForLang]);
 
 
   useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
-  
-    loadedLanguagesRef.current.forEach((lang) => {
-      const fill = `fill-${lang}`;
-      const outline = `outline-${lang}`;
-      const countryList = Array.from(countryRegionsRef.current[lang] || []);
-  
-      let expr: maplibregl.FilterSpecification;
-  
-      if (viewFilter === 'country') {
-        expr = ['!', ['has', 'region']];
-      } else if (viewFilter === 'region') {
-        expr = ['has', 'region'];
-      } else {
-        expr = [
-          'any',
-          ['==', ['get', 'official'], true],
-          ['all',
-            ['==', ['get', 'official'], false],
-            ['has', 'region']
-          ],
-          ['all',
-            ['==', ['get', 'official'], false],
-            ['!', ['has', 'region']],
-            ['!', ['in', ['get', 'country'], ['literal', countryList]]]
-          ]
-        ];
-      }
-  
-      map.setFilter(fill, expr);
-      map.setFilter(outline, expr);
-    });
-  }, [viewFilter, selectedLanguages]);
+    loadedLanguagesRef.current.forEach(applyFilterForLang);
+  }, [viewFilter, applyFilterForLang]);
+
 
 
   return (
