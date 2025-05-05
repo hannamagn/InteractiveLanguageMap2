@@ -43,7 +43,7 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       center: [0, 0],
       zoom: 2,
       maxZoom: 10,
-      minZoom: 1.5,
+      minZoom: 0,
       pitchWithRotate: false,
       dragRotate: false
     });
