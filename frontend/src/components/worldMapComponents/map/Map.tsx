@@ -59,20 +59,32 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       try {
         const res = await fetch(`http://localhost:3000/language/by-region/${encodeURIComponent(name)}`);
         const data = await res.json();
-
+        
+        const official = data.filter((d: any) => d.isOfficial);
+        const other = data.filter((d: any) => !d.isOfficial);
+        
         const popupHtml = `
-        <div class="popupbox region-popup">
-          <div class="popup-title">${name}</div>
-          <button class="closeButton">×</button>
-        </div>
-        <div class="line"></div>
-        <div class="popup-content">
-          <div><strong>Languages:</strong></div>
-          <ul class="language-list">
-            ${data.map((d: any) => `<li>${d.language}${d.isOfficial ? ' (official)' : ''}</li>`).join('')}
-          </ul>
-        </div>
-      `;
+          <div class="popupbox region-popup">
+            <div class="popup-title">${name}</div>
+            <button class="closeButton">×</button>
+          </div>
+          <div class="line"></div>
+          <div class="popup-content">
+            ${official.length ? `
+              <div><strong>Official language${official.length > 1 ? 's' : ''}:</strong></div>
+              <ul class="language-list">
+                ${official.map((d: any) => `<li>${d.language}</li>`).join('')}
+              </ul>
+            ` : ''}
+            ${other.length ? `
+              <div><strong>Other language${other.length > 1 ? 's' : ''}:</strong></div>
+              <ul class="language-list">
+                ${other.map((d: any) => `<li>${d.language}</li>`).join('')}
+              </ul>
+            ` : ''}
+          </div>
+        `;
+        
       
         const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false })
           .setLngLat(e.lngLat)
