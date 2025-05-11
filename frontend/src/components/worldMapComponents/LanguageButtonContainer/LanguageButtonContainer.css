@@ -23,9 +23,21 @@ background-color: rgb(118, 118, 196)
     background-color: rgb(255, 255, 255);
     border: #574B60 solid 1px;
     border-radius: 5px;
+}
 
+#clearAllButton {
+    z-index: 10001;
+    position: sticky;
+    top: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 95%;
+    height: 20px;
 
+}
 
+#clearAllButton:hover {
+    background-color: #A26769;
+    cursor: pointer;
 }
 
 Button{

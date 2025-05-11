@@ -80,6 +80,9 @@ function LanguageButtonContainer() {
     dispatch({ type: 'TOGGLE_LANGUAGE', payload: lang });
   };
 
+  const handleClearAll = () => {
+    dispatch({ type: 'CLEAR_ALL_LANGUAGES' });
+  };
 
   return (
     <div className="languageContainer">
@@ -118,6 +121,24 @@ function LanguageButtonContainer() {
 
 
       <div className="selectedcontainer">
+      {state.selectedLanguages.length > 1 && (
+        <Button
+          id="clearAllButton"
+          variant="contained"
+          onClick={handleClearAll}
+          sx={{
+            backgroundColor: '#574B60',
+            color: '#FFFFFF',
+            textTransform: 'none',
+            '&:hover': {
+              backgroundColor: '#A26769',
+              cursor: 'pointer',
+            }
+          }}
+        >
+          Clear All
+        </Button>
+      )}
         {state.selectedLanguages.map((lang, index) => (
           <Button
             key={index}
@@ -134,6 +155,8 @@ function LanguageButtonContainer() {
           </Button>
         ))}
       </div>
+
+      
 
       <div className="container"  ref={containerRef}>
       {displayedLanguages.length > 0 ? (
