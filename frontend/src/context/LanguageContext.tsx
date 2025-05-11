@@ -6,7 +6,7 @@ type State = {
 
 type Action =
   | { type: 'TOGGLE_LANGUAGE'; payload: string }
-
+  | { type: 'CLEAR_ALL_LANGUAGES' };
 
 const initialState: State = {
   selectedLanguages: [],
@@ -21,6 +21,11 @@ function languageReducer(state: State, action: Action): State {
           ? state.selectedLanguages.filter(lang => lang !== action.payload) // Remove if already selected
           : [...state.selectedLanguages, action.payload] // Add if not selected
         
+      };
+    case 'CLEAR_ALL_LANGUAGES':
+      return {
+        ...state,
+        selectedLanguages: [],
       };
 
     default:
