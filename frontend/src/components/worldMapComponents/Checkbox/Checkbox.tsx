@@ -11,6 +11,7 @@ interface CountryCheckBoxProps {
 const CountryCheckBox: React.FC<CountryCheckBoxProps> = ({ filter, onFilterChange }) => {
   return (
     <div className="filter-container">
+      <h2 className="filter-title">Filter and information</h2>
       <div className="legend">
         <div className="legend-item">
           <span className="legend-color official" /> Official language
