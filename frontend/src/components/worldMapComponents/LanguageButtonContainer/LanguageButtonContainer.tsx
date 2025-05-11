@@ -131,7 +131,7 @@ function LanguageButtonContainer() {
             color: '#FFFFFF',
             textTransform: 'none',
             '&:hover': {
-              backgroundColor: '#A26769',
+              backgroundColor: '#A1A2A5',
               cursor: 'pointer',
             }
           }}
