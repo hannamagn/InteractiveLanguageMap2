@@ -20,12 +20,16 @@ function LanguageButton({ label }: LanguageButtonProps) {
 
   return (
     <Button
-      style={{
+      sx={{
         height: 'auto',
         minHeight: '20px',
         backgroundColor: isSelected ? selectedbuttoncolor : '#574B60', // Highlight if selected
         marginTop: '6px',
         textTransform: 'none',
+        '&:hover': {
+              backgroundColor: '#A1A2A5',
+              cursor: 'pointer',
+        }
       }}
       variant="contained"
       onClick={handleClick}

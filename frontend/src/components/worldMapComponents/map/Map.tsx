@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import maplibregl, { Map, Popup, FilterSpecification } from 'maplibre-gl';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
+import maplibregl,  { Map, Popup, FilterSpecification }  from 'maplibre-gl';
 import { useLanguage } from '../../../context/LanguageContext';
 import CheckBox, { ViewFilter } from '../Checkbox/Checkbox';
 import './Map.css';
@@ -33,9 +33,10 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
   const { state } = useLanguage();
   const selectedLanguages = state.selectedLanguages;
   const loadedLanguagesRef = useRef<Set<string>>(new Set());
-  const hoveredFeatureIdRef = useRef<number | string | null>(null);
+  const hoveredFeatureIdRef = useRef<number | null>(null);
   const [viewFilter, setViewFilter] = useState<ViewFilter>('all');
-  const activePopupRef = useRef<Popup | null>(null);
+  const activePopupRef = useRef<maplibregl.Popup | null>(null);
+
 
   useEffect(() => {
     const map = new maplibregl.Map({
@@ -163,9 +164,10 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
           const fillId = `fill-${lang}`;
           const outlineId = `outline-${lang}`;
 
-          geojson.features = geojson.features.map((f: any, i: number) => {
-            if (f.id == null) f.id = i;
-            return f;
+          // Ensure feature IDs
+          geojson.features = geojson.features.map((feature: any, index: number) => {
+            if (feature.id == null) feature.id = index;
+            return feature;
           });
 
           map.addSource(sourceId, { type: 'geojson', data: geojson });
@@ -284,26 +286,32 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       }
     };
 
+    const loadAndFilter = async () => {
+      await updateLayers();
+      loadedLanguagesRef.current.forEach(applyFilterForLang);
+    };
+
+
     if (!map.isStyleLoaded()) {
-      map.once('style.load', updateLayers);
+      map.once('style.load', loadAndFilter);
     } else {
-      updateLayers();
+      loadAndFilter();
     }
-  }, [selectedLanguages]);
+  }, [selectedLanguages, applyFilterForLang]);
+
 
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
 
-    const filterExpr: FilterSpecification | null =
-      viewFilter === 'country' ? ['!', ['has', 'region']] :
-      viewFilter === 'region' ? ['has', 'region'] : null;
-
     loadedLanguagesRef.current.forEach(lang => {
-      const fillId = `fill-${lang}`;
-      const outlineId = `outline-${lang}`;
-      map.setFilter(fillId, filterExpr);
-      map.setFilter(outlineId, filterExpr);
+      const fill = `fill-${lang}`;
+      const outline = `outline-${lang}`;
+      let expr: maplibregl.FilterSpecification | undefined;
+      if (viewFilter === 'country') expr = ['!', ['has', 'region']];
+      else if (viewFilter === 'region') expr = ['has', 'region'];
+      map.setFilter(fill, expr);
+      map.setFilter(outline, expr);
     });
   }, [viewFilter]);
 

@@ -23,9 +23,24 @@ background-color: rgb(118, 118, 196)
     background-color: rgb(255, 255, 255);
     border: #574B60 solid 1px;
     border-radius: 5px;
+}
 
+#clearAllButton {
+    z-index: 10001;
+    position: sticky;
+    top: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 95%;
+    height: 20px;
+    border-top: 0px solid #574B60;
+    border-bottom: #574B60 solid 1px;
+    border-right: #574B60 solid 1px;
+    border-left: #574B60 solid 1px; 
+}
 
-
+#clearAllButton:hover {
+    background-color: #A1A2A5;
+    cursor: pointer;
 }
 
 Button{
@@ -47,6 +62,7 @@ Button{
     overflow:scroll;
     overflow-x:hidden;
     align-items: center;
+    scrollbar-width: thin;
     scrollbar-color: #574B60 rgb(255, 255, 255);
     border-bottom: #574B60 solid 1px;   
 }
