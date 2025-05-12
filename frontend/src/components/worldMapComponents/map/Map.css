@@ -101,6 +101,12 @@
   margin-bottom: 4px;
 }
 
+.speakers-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
 .popup-content .language-list::-webkit-scrollbar {
   width: 6px;
 }
