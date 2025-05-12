@@ -78,7 +78,8 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainer.current!,
-      style: 'style3.json',
+      style: 'https://interactivelanguagemaptestfrontend.onrender.com/InteractiveLanguageMap2/style3.json',
+      //style: 'style3.json',
       center: [0, 0],
       zoom: 2,
       maxZoom: 10,
@@ -108,7 +109,10 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
 
       for (const lang of toAdd) {
         try {
-          const res = await fetch(`http://localhost:3000/language/geojson/${lang}`);
+
+
+          const res = await fetch(`https://interactivelanguagemap2-backend.onrender.com//language/by-region/${lang}`);
+          //const res = await fetch(`http://localhost:3000/language/geojson/${lang}`);
           const geojson = await res.json();
           const sourceId = `source-${lang}`;
           const fillId = `fill-${lang}`;
