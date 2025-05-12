@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import maplibregl,  { Map, Popup, FilterSpecification }  from 'maplibre-gl';
+import maplibregl, { Map, Popup, FilterSpecification } from 'maplibre-gl';
 import { useLanguage } from '../../../context/LanguageContext';
 import CheckBox, { ViewFilter } from '../Checkbox/Checkbox';
 import './Map.css';
@@ -33,10 +33,36 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
   const { state } = useLanguage();
   const selectedLanguages = state.selectedLanguages;
   const loadedLanguagesRef = useRef<Set<string>>(new Set());
-  const hoveredFeatureIdRef = useRef<number | null>(null);
+  const hoveredFeatureIdRef = useRef<number | string | null>(null);
+  const activePopupRef = useRef<Popup | null>(null);
+  const countryRegionsRef = useRef<Record<string, Set<string>>>({});
   const [viewFilter, setViewFilter] = useState<ViewFilter>('all');
-  const activePopupRef = useRef<maplibregl.Popup | null>(null);
 
+  const applyFilterForLang = useCallback((lang: string) => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    const fillId = `fill-${lang}`;
+    const outlineId = `outline-${lang}`;
+    const countryList = Array.from(countryRegionsRef.current[lang] || []);
+
+    let expr: FilterSpecification;
+    if (viewFilter === 'country') {
+      expr = ['!', ['has', 'region']];
+    } else if (viewFilter === 'region') {
+      expr = ['has', 'region'];
+    } else {
+      expr = [
+        'any',
+        ['==', ['get', 'official'], true],
+        ['all', ['==', ['get', 'official'], false], ['has', 'region']],
+        ['all', ['==', ['get', 'official'], false], ['!', ['has', 'region']], ['!', ['in', ['get', 'country'], ['literal', countryList]]]]
+      ];
+    }
+
+    map.setFilter(fillId, expr);
+    map.setFilter(outlineId, expr);
+  }, [viewFilter]);
 
   useEffect(() => {
     const map = new maplibregl.Map({
@@ -45,7 +71,7 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       center: [0, 0],
       zoom: 2,
       maxZoom: 10,
-      minZoom: 0,
+      minZoom: 1.5,
       pitchWithRotate: false,
       dragRotate: false
     });
@@ -58,29 +84,18 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
     map.on('mousemove', 'countries-fill', (e) => {
       const feature = e.features?.[0];
       const featureId = feature?.id;
-
       if (featureId !== undefined) {
         if (hoveredCountryId !== null) {
-          map.setFeatureState(
-            { source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId },
-            { hover: false }
-          );
+          map.setFeatureState({ source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId }, { hover: false });
         }
-
         hoveredCountryId = featureId;
-        map.setFeatureState(
-          { source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId },
-          { hover: true }
-        );
+        map.setFeatureState({ source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId }, { hover: true });
       }
     });
 
     map.on('mouseleave', 'countries-fill', () => {
       if (hoveredCountryId !== null) {
-        map.setFeatureState(
-          { source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId },
-          { hover: false }
-        );
+        map.setFeatureState({ source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId }, { hover: false });
         hoveredCountryId = null;
       }
     });
@@ -89,14 +104,11 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       const feature = e.features?.[0];
       const name = feature?.properties?.NAME;
       if (!name) return;
-
       try {
         const res = await fetch(`http://localhost:3000/language/by-region/${encodeURIComponent(name)}`);
         const data = await res.json();
-        
         const official = data.filter((d: any) => d.isOfficial);
         const other = data.filter((d: any) => !d.isOfficial);
-        
         const popupHtml = `
           <div class="popupbox region-popup">
             <div class="popup-title">${name}</div>
@@ -104,22 +116,10 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
           </div>
           <div class="line"></div>
           <div class="popup-content">
-            ${official.length ? `
-              <div><strong>Official language${official.length > 1 ? 's' : ''}:</strong></div>
-              <ul class="language-list">
-                ${official.map((d: any) => `<li>${d.language}</li>`).join('')}
-              </ul>
-            ` : ''}
-            ${other.length ? `
-              <div><strong>Other language${other.length > 1 ? 's' : ''}:</strong></div>
-              <ul class="language-list">
-                ${other.map((d: any) => `<li>${d.language}</li>`).join('')}
-              </ul>
-            ` : ''}
-          </div>
-        `;
-        
-      
+            ${official.length ? `<div><strong>Official language${official.length > 1 ? 's' : ''}:</strong></div><ul class="language-list">${official.map((d: any) => `<li>${d.language}</li>`).join('')}</ul>` : ''}
+            ${other.length ? `<div><strong>Other language${other.length > 1 ? 's' : ''}:</strong></div><ul class="language-list">${other.map((d: any) => `<li>${d.language}</li>`).join('')}</ul>` : ''}
+          </div>`;
+
         const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false })
           .setLngLat(e.lngLat)
           .setHTML(popupHtml)
@@ -131,7 +131,6 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
           const btn = document.querySelector('.popupbox .closeButton');
           if (btn) btn.addEventListener('click', () => popup.remove());
         }, 0);
-
       } catch (err) {
         console.error('Failed to fetch languages for region:', err);
       }
@@ -145,7 +144,7 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
     });
 
     return () => map.remove();
-  }, [disableScrollZoom]);
+  }, [disableScrollZoom, styleFile]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -164,11 +163,14 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
           const fillId = `fill-${lang}`;
           const outlineId = `outline-${lang}`;
 
-          // Ensure feature IDs
-          geojson.features = geojson.features.map((feature: any, index: number) => {
-            if (feature.id == null) feature.id = index;
-            return feature;
+          const countrySet = new Set<string>();
+          geojson.features = geojson.features.map((f: any, i: number) => {
+            if (f.id == null) f.id = i;
+            if (f.properties.region) countrySet.add(f.properties.country);
+            return f;
           });
+
+          countryRegionsRef.current[lang] = countrySet;
 
           map.addSource(sourceId, { type: 'geojson', data: geojson });
 
@@ -213,7 +215,6 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
           map.on('click', fillId, (e) => {
             const feature = e.features?.[0];
             if (!feature) return;
-
             const country = feature.properties?.country || '–';
             const region = feature.properties?.region || '';
             const props = geojson.properties || {};
@@ -230,7 +231,6 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
                   latest[key] = s;
                 }
               }
-
               speakersHTML = ['first language', 'second language'].map(type => {
                 const s = latest[type];
                 if (!s?.number) return null;
@@ -253,8 +253,7 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
                 <div><strong>Language Family:</strong> ${family.length ? family.join(', ') : '–'}</div>
                 <div><strong>Global Number of Speakers:</strong></div>
                 <ul class="speakers-list">${speakersHTML || '<li>–</li>'}</ul>
-              </div>
-            `;
+              </div>`;
 
             const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false })
               .setLngLat(e.lngLat)
@@ -283,6 +282,14 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
         if (map.getLayer(outline)) map.removeLayer(outline);
         if (map.getSource(src)) map.removeSource(src);
         loadedLanguagesRef.current.delete(lang);
+
+        if (activePopupRef.current) {
+          const popupContent = activePopupRef.current.getElement()?.innerHTML;
+          if (popupContent?.includes(`<div class=\"popup-title\">${lang}</div>`)) {
+            activePopupRef.current.remove();
+            activePopupRef.current = null;
+          }
+        }
       }
     };
 
@@ -291,7 +298,6 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       loadedLanguagesRef.current.forEach(applyFilterForLang);
     };
 
-
     if (!map.isStyleLoaded()) {
       map.once('style.load', loadAndFilter);
     } else {
@@ -299,21 +305,9 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
     }
   }, [selectedLanguages, applyFilterForLang]);
 
-
   useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
-
-    loadedLanguagesRef.current.forEach(lang => {
-      const fill = `fill-${lang}`;
-      const outline = `outline-${lang}`;
-      let expr: maplibregl.FilterSpecification | undefined;
-      if (viewFilter === 'country') expr = ['!', ['has', 'region']];
-      else if (viewFilter === 'region') expr = ['has', 'region'];
-      map.setFilter(fill, expr);
-      map.setFilter(outline, expr);
-    });
-  }, [viewFilter]);
+    loadedLanguagesRef.current.forEach(applyFilterForLang);
+  }, [viewFilter, applyFilterForLang]);
 
   return (
     <>
