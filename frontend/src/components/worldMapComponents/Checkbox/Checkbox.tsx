@@ -1,5 +1,5 @@
 import React from 'react';
-import './CheckBox.css';
+import './Checkbox.css';
 
 export type ViewFilter = 'all' | 'country' | 'region';
 
