@@ -44,13 +44,13 @@ export class LanguageService {
     }).exec();
   
     return languages
-      .filter(lang => typeof lang.Language === 'string') // <-- Filter out undefined/null
+      .filter(lang => typeof lang.Language === 'string')
       .map(lang => {
         const isOfficial = (lang.Countries || []).some(
           c => c.name === name && (c.is_official_language === true || c.is_official_language === 'true')
         );
         return {
-          language: lang.Language as string, // <-- Now TypeScript is satisfied
+          language: lang.Language as string,
           isOfficial
         };
       });

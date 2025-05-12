@@ -10,7 +10,10 @@ export class Language extends Document {
   iso_code?: string;  
 
   @Prop([Object])
-  Regions?: Array<{ name: string; osm_id?: string; region_osm_id?: string }>;  
+  Regions?: Array<{ 
+    name: string; 
+    osm_id?: string; 
+    region_osm_id?: string }>;  
 
   @Prop([Object])
   Countries?: Array<{

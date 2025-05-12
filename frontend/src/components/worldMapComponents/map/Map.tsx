@@ -8,6 +8,7 @@ import '../Checkbox/Checkbox.css';
 interface MapProps {
   disableScrollZoom?: boolean;
   showFilterCheckbox?: boolean;
+  styleFile?: string;
 }
 
 function stringToColor(str: string): string {
@@ -26,7 +27,7 @@ function darkenColor(rgb: string, factor = 0.6): string {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
-const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox = true }) => {
+const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox = true, styleFile = 'style3.json' }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<Map | null>(null);
   const { state } = useLanguage();
@@ -39,7 +40,7 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainer.current!,
-      style: 'style3.json',
+      style: styleFile,
       center: [0, 0],
       zoom: 2,
       maxZoom: 10,
@@ -50,6 +51,38 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
 
     if (disableScrollZoom) map.scrollZoom.disable();
     mapRef.current = map;
+
+    let hoveredCountryId: number | string | null = null;
+
+    map.on('mousemove', 'countries-fill', (e) => {
+      const feature = e.features?.[0];
+      const featureId = feature?.id;
+
+      if (featureId !== undefined) {
+        if (hoveredCountryId !== null) {
+          map.setFeatureState(
+            { source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId },
+            { hover: false }
+          );
+        }
+
+        hoveredCountryId = featureId;
+        map.setFeatureState(
+          { source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId },
+          { hover: true }
+        );
+      }
+    });
+
+    map.on('mouseleave', 'countries-fill', () => {
+      if (hoveredCountryId !== null) {
+        map.setFeatureState(
+          { source: 'maplibre', sourceLayer: 'countries', id: hoveredCountryId },
+          { hover: false }
+        );
+        hoveredCountryId = null;
+      }
+    });
 
     map.on('click', 'countries-fill', async (e) => {
       const feature = e.features?.[0];

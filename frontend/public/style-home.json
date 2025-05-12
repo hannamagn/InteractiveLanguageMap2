@@ -315,12 +315,7 @@
                 "#A1A2A5",  
                 "#A1A2A5"
               ],
-            "fill-opacity": [
-            "case",
-            ["boolean", ["feature-state", "hover"], false],
-            0.6,
-            1
-            ]
+            "fill-opacity": 1
             },
             "filter": [
               "all"
