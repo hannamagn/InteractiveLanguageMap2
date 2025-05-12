@@ -57,17 +57,13 @@ function creditsPage() {
 
                     <div className="person" >
 
-                    <img src="" alt="Hanna" className='personImg' /> 
+                    <img src="public/img/hanna_bild.jpg" alt="Hanna" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Hanna Magnusson</h3>
-                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
-                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
-                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
-                                e iste mollitia facere aliquam, reiciendis cumque id 
-                                commodi natus sunt ipsum vel! Molestias ipsam neque 
-                                dolores ad.
-                            </p>
+                            <p className = "personP"> I have  together with Emma been responsible for the backend of the project. We've created the server 
+                                and connected it to the database. We have also created the API and made sure that the data is displayed correctly. I have also worked with 
+                                features for the frontend such as the filtering.
+                                 </p>
                         </div>
 
                     </div>
