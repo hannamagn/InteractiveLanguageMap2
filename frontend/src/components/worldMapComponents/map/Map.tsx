@@ -78,7 +78,7 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainer.current!,
-      style: 'https://interactivelanguagemaptestfrontend.onrender.com/InteractiveLanguageMap2/style3.json',
+      style: 'https://interactivelanguagemap2.onrender.com/InteractiveLanguageMap2/style3.json',
       //style: 'style3.json',
       center: [0, 0],
       zoom: 2,
