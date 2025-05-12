@@ -16,7 +16,7 @@ export default defineConfig({
     host: '0.0.0.0', // Allow external access in preview mode
     port: 8080,
     allowedHosts: [
-      'interactivelanguagemaptestfrontend.onrender.com', // Allow this host
+      'interactivelanguagemap2.onrender.com', // Allow this host
     ],
   },
 });
