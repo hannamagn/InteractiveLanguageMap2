@@ -10,6 +10,29 @@ interface Region {
   osm_id?: string;
 }
 
+const COUNTRY_ALIASES: Record<string, string> = {
+  'China': "People's Republic of China",
+  'United States of America': 'United States',
+  'Russia': 'Russian Federation',
+  'Dem. Rep. Congo': 'Democratic Republic of the Congo',
+  'Czechia': 'Czech Republic',
+  'South Korea': 'Republic of Korea',
+  'North Korea': "Democratic People's Republic of Korea",
+  'Iran': 'Islamic Republic of Iran',
+  'Syria': 'Syrian Arab Republic',
+  'Laos': "Lao People's Democratic Republic",
+  'Moldova': 'Republic of Moldova',
+  'Tanzania': 'United Republic of Tanzania',
+  'Venezuela': 'Venezuela (Bolivarian Republic of)',
+  'Vietnam': 'Viet Nam',
+  'eSwatini': 'Eswatini',
+  'Eq. Guinea': 'Equatorial Guinea',
+  'Congo': 'Republic of the Congo',
+  'Palestine': 'State of Palestine',
+  'Gambia': 'The Gambia',
+  'W. Sahara': 'Western Sahara',
+};
+
 @Injectable()
 export class LanguageService {
   private readonly logger = new Logger(LanguageService.name);
@@ -36,25 +59,29 @@ export class LanguageService {
   }
 
   async getLanguagesByRegion(name: string): Promise<{ language: string; isOfficial: boolean }[]> {
+    const cleanedName = name.trim().toLowerCase();
+  
     const languages = await this.languageModel.find({
       $or: [
-        { 'Countries.name': name },
-        { 'Regions.name': name },
+        { 'Countries.name': new RegExp(`^${cleanedName}$`, 'i') },
+        { 'Regions.name': new RegExp(`^${cleanedName}$`, 'i') },
       ]
     }).exec();
   
     return languages
       .filter(lang => typeof lang.Language === 'string')
       .map(lang => {
-        const isOfficial = (lang.Countries || []).some(
-          c => c.name === name && (c.is_official_language === true || c.is_official_language === 'true')
+        const isOfficial = (lang.Countries || []).some(c =>
+          typeof c.name === 'string' &&
+          c.name.toLowerCase() === cleanedName &&
+          (c.is_official_language === true || c.is_official_language === 'true')
         );
         return {
-          language: lang.Language as string,
+          language: lang.Language!,
           isOfficial
         };
       });
-  }   
+  }  
 
   private async getPolygonData(
     osmId: string | number,
@@ -81,6 +108,31 @@ export class LanguageService {
     }
     return { geometry };
   }
+
+  async getDetailedLanguagesByRegion(name: string): Promise<{ language: string; isOfficial: boolean }[]> {
+    const possibleNames = [name, COUNTRY_ALIASES[name]].filter(Boolean);
+  
+    const languages = await this.languageModel.find({
+      $or: possibleNames.flatMap(n => [
+        { 'Countries.name': new RegExp(`^${n}$`, 'i') },
+        { 'Regions.name': new RegExp(`^${n}$`, 'i') }
+      ])
+    }).exec();    
+  
+    return languages
+      .filter(lang => typeof lang.Language === 'string')
+      .map(lang => {
+        const isOfficial = (lang.Countries || []).some(c =>
+          possibleNames.some(n => typeof c.name === 'string' && c.name.toLowerCase() === n.toLowerCase()) &&
+          (c.is_official_language === true || c.is_official_language === 'true')
+        );        
+  
+        return {
+          language: lang.Language!,
+          isOfficial
+        };
+      });
+  }  
 
   async createGeoJson(languageName: string): Promise<object> {
     const languageData = await this.getLanguageDataFromDB(languageName);

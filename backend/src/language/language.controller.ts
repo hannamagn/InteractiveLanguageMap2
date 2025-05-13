@@ -34,6 +34,17 @@ export class LanguageController {
     }
   }
 
+  @Get('region-details/:name')
+async getDetailedLanguages(@Param('name') name: string, @Res() res: Response) {
+  try {
+    const result = await this.languageService.getDetailedLanguagesByRegion(name);
+    res.json(result);
+  } catch (error) {
+    console.error('Error fetching region details:', error);
+    throw new HttpException('Failed to fetch detailed region data', HttpStatus.INTERNAL_SERVER_ERROR);
+  }
+}
+
   @Get('by-region/:name')
   async getLanguagesByRegion(@Param('name') name: string, @Res() res: Response) {
     try {

@@ -104,37 +104,52 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       const feature = e.features?.[0];
       const name = feature?.properties?.NAME;
       if (!name) return;
+    
       try {
-        const res = await fetch(`http://localhost:3000/language/by-region/${encodeURIComponent(name)}`);
+        const res = await fetch(`http://localhost:3000/language/region-details/${encodeURIComponent(name)}`);
         const data = await res.json();
+    
         const official = data.filter((d: any) => d.isOfficial);
         const other = data.filter((d: any) => !d.isOfficial);
+    
         const popupHtml = `
-          <div class="popupbox region-popup">
-            <div class="popup-title">${name}</div>
-            <button class="closeButton">×</button>
-          </div>
-          <div class="line"></div>
-          <div class="popup-content">
-            ${official.length ? `<div><strong>Official language${official.length > 1 ? 's' : ''}:</strong></div><ul class="language-list">${official.map((d: any) => `<li>${d.language}</li>`).join('')}</ul>` : ''}
-            ${other.length ? `<div><strong>Other language${other.length > 1 ? 's' : ''}:</strong></div><ul class="language-list">${other.map((d: any) => `<li>${d.language}</li>`).join('')}</ul>` : ''}
-          </div>`;
-
+        <div class="popupbox region-popup">
+          <div class="popup-title">${name}</div>
+          <button class="closeButton">×</button>
+        </div>
+        <div class="line"></div>
+        <div class="popup-content">
+          ${official.length ? `
+            <div><strong>Official language${official.length > 1 ? 's' : ''}:</strong></div>
+            <ul class="language-list">
+              ${official.map((d: any) => `<li>${d.language}</li>`).join('')}
+            </ul>` : ''
+          }
+          ${other.length ? `
+            <div><strong>Other language${other.length > 1 ? 's' : ''}:</strong></div>
+            <ul class="language-list">
+              ${other.map((d: any) => `<li>${d.language}</li>`).join('')}
+            </ul>` : ''
+          }
+        </div>
+      `;      
+    
         const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false })
           .setLngLat(e.lngLat)
           .setHTML(popupHtml)
           .addTo(map);
-
+    
         activePopupRef.current = popup;
-
+    
         setTimeout(() => {
           const btn = document.querySelector('.popupbox .closeButton');
           if (btn) btn.addEventListener('click', () => popup.remove());
         }, 0);
+    
       } catch (err) {
-        console.error('Failed to fetch languages for region:', err);
+        console.error('Failed to fetch region details:', err);
       }
-    });
+    });    
 
     map.on('mouseenter', 'countries-fill', () => {
       map.getCanvas().style.cursor = 'pointer';

@@ -13,7 +13,9 @@ export class Language extends Document {
   Regions?: Array<{ 
     name: string; 
     osm_id?: string; 
-    region_osm_id?: string }>;  
+    region_osm_id?: string;
+    region_Country?: string;
+  }>;  
 
   @Prop([Object])
   Countries?: Array<{
