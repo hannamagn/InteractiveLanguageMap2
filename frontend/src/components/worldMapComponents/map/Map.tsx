@@ -110,7 +110,7 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
         try {
 
 
-          const res = await fetch(`https://interactivelanguagemap2-backend.onrender.com/language/by-region/${lang}`);
+          const res = await fetch(`https://interactivelanguagemap2-backend.onrender.com/language/geojson/${lang}`);
           //const res = await fetch(`http://localhost:3000/language/geojson/${lang}`);
           const geojson = await res.json();
           const sourceId = `source-${lang}`;
