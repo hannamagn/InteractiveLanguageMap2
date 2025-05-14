@@ -109,30 +109,39 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
         const res = await fetch(`http://localhost:3000/language/region-details/${encodeURIComponent(name)}`);
         const data = await res.json();
     
-        const official = data.filter((d: any) => d.isOfficial);
-        const other = data.filter((d: any) => !d.isOfficial);
+        const official = data.filter((d: any) => d.isOfficial && d.language);
+        const other = data.filter((d: any) => !d.isOfficial && d.language);
+        const hasData = official.length > 0 || other.length > 0;
     
         const popupHtml = `
-        <div class="popupbox region-popup">
-          <div class="popup-title">${name}</div>
-          <button class="closeButton">×</button>
-        </div>
-        <div class="line"></div>
-        <div class="popup-content">
-          ${official.length ? `
-            <div><strong>Official language${official.length > 1 ? 's' : ''}:</strong></div>
-            <ul class="language-list">
-              ${official.map((d: any) => `<li>${d.language}</li>`).join('')}
-            </ul>` : ''
-          }
-          ${other.length ? `
-            <div><strong>Other language${other.length > 1 ? 's' : ''}:</strong></div>
-            <ul class="language-list">
-              ${other.map((d: any) => `<li>${d.language}</li>`).join('')}
-            </ul>` : ''
-          }
-        </div>
-      `;      
+          <div class="popupbox region-popup">
+            <div class="popup-title">${name}</div>
+            <button class="closeButton">×</button>
+          </div>
+          <div class="line"></div>
+          <div class="popup-content">
+            ${
+              hasData
+                ? `
+                  ${official.length ? `
+                    <div><strong>Official language${official.length > 1 ? 's' : ''}:</strong></div>
+                    <ul class="language-list">
+                      ${official.map((d: any) => `<li>${d.language}</li>`).join('')}
+                    </ul>
+                  ` : ''}
+                  ${other.length ? `
+                    <div><strong>Other language${other.length > 1 ? 's' : ''}:</strong></div>
+                    <ul class="language-list">
+                      ${other.map((d: any) => `<li>${d.language}</li>`).join('')}
+                    </ul>
+                  ` : ''}
+                `
+                : `
+                <div class="language-list"><em>No language data available for this region.</em></div>
+              `              
+            }
+          </div>
+        `;
     
         const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false })
           .setLngLat(e.lngLat)
@@ -149,7 +158,7 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       } catch (err) {
         console.error('Failed to fetch region details:', err);
       }
-    });    
+    });      
 
     map.on('mouseenter', 'countries-fill', () => {
       map.getCanvas().style.cursor = 'pointer';

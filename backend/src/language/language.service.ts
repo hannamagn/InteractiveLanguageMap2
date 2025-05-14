@@ -31,6 +31,12 @@ const COUNTRY_ALIASES: Record<string, string> = {
   'Palestine': 'State of Palestine',
   'Gambia': 'The Gambia',
   'W. Sahara': 'Western Sahara',
+  'Bosnia and Herz.': 'Bosnia and Herzegovina',
+  "Côte d'Ivoire": "Côte d’Ivoire", // or use "Ivory Coast" if that's how it's stored
+  'Central African Rep.': 'Central African Republic',
+  'N. Cyprus': 'Northern Cyprus',
+  'Solomon Is.': 'Solomon Islands',
+  'Fr. Polynesia': 'French Polynesia',
 };
 
 @Injectable()
@@ -117,21 +123,25 @@ export class LanguageService {
         { 'Countries.name': new RegExp(`^${n}$`, 'i') },
         { 'Regions.name': new RegExp(`^${n}$`, 'i') }
       ])
-    }).exec();    
+    }).exec();
   
-    return languages
-      .filter(lang => typeof lang.Language === 'string')
+    const result = languages
+      .filter(lang => typeof lang.Language === 'string' && lang.Language.trim() !== '')
       .map(lang => {
         const isOfficial = (lang.Countries || []).some(c =>
-          possibleNames.some(n => typeof c.name === 'string' && c.name.toLowerCase() === n.toLowerCase()) &&
+          possibleNames.some(n =>
+            typeof c.name === 'string' && c.name.toLowerCase() === n.toLowerCase()
+          ) &&
           (c.is_official_language === true || c.is_official_language === 'true')
-        );        
+        );
   
         return {
           language: lang.Language!,
-          isOfficial
+          isOfficial,
         };
       });
+  
+    return result;
   }  
 
   async createGeoJson(languageName: string): Promise<object> {
