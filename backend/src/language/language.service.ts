@@ -32,7 +32,7 @@ const COUNTRY_ALIASES: Record<string, string> = {
   'Gambia': 'The Gambia',
   'W. Sahara': 'Western Sahara',
   'Bosnia and Herz.': 'Bosnia and Herzegovina',
-  "Côte d'Ivoire": "Côte d’Ivoire", // or use "Ivory Coast" if that's how it's stored
+  "Côte d'Ivoire": "Côte d’Ivoire",
   'Central African Rep.': 'Central African Republic',
   'N. Cyprus': 'Northern Cyprus',
   'Solomon Is.': 'Solomon Islands',
