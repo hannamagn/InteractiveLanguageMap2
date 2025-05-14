@@ -37,21 +37,17 @@ function creditsPage() {
                         </div>
 
                     </div>
-                    <div className="person" >
 
-                    <img src="" alt="Felix" className='personImg' /> 
+                    <div className="person" >
+                        <img src="public/img/felixbild.jpg" alt="Felix" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Felix Gustavsson Jonsson</h3>
-                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
-                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
-                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
-                                e iste mollitia facere aliquam, reiciendis cumque id 
-                                commodi natus sunt ipsum vel! Molestias ipsam neque 
-                                dolores ad.
+                            <p className = "personP">I have been responsible for the backend database.
+                                This includes setting up the data pipeline of sourcing, cleaning and formatting all 
+                                the language data and border information for regions and countries. 
+                                I also set up our cloud database that the backend connects to.   
                             </p>
                         </div>
-
                     </div>
 
 
