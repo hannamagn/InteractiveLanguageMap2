@@ -111,7 +111,7 @@ const Map: React.FC<MapProps> = ({ disableScrollZoom = false, showFilterCheckbox
 
 
           const res = await fetch(`https://interactivelanguagemap2-backend.onrender.com/language/geojson/${lang}`);
-          //const res = await fetch(`http://localhost:3000/language/geojson/${lang}`);
+          //const res = await fetch(`http://localhost:8080/language/geojson/${lang}`);
           const geojson = await res.json();
           const sourceId = `source-${lang}`;
           const fillId = `fill-${lang}`;
