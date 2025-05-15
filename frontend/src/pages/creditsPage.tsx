@@ -13,16 +13,12 @@ function creditsPage() {
                 <div className = "personpage">
 
                     <div className="person">
-                        <img src="" alt="Emma" className='personImg' /> 
+                    <img src="public/img/EmmaBild.png" alt="Emma" className='personImg' />
                         <div className="personText">
                             <h3 className = "personH3">Emma Axelsson</h3>
-                            <p className = "personP">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Voluptate dolorem, sapiente nisi quas commodi impedit odio
-                                dolorum maiores illo libero nemo, nesciunt quae reprehenderi
-                                ipsum dolores minima alias quo. Aut laudantium fuga dolor
-                                e iste mollitia facere aliquam, reiciendis cumque id 
-                                commodi natus sunt ipsum vel! Molestias ipsam neque 
-                                dolores ad.
+                            <p className = "personP">I have worked primarily with the backend together with Hanna. 
+                                This includes setting up the NestJS server with the API’s and connecting it to the MongoDB database. 
+                                I have also contributed to frontend features such as clicking on countries and displaying language information. 
                             </p>
                         </div>
                     </div>
