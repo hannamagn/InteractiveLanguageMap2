@@ -30,7 +30,12 @@ function WorldMapHeader() {
                         </Button>
                     </Link>
                 </div>
-                <Map disableScrollZoom={true} showFilterCheckbox={false} />
+                <Map 
+                    disableScrollZoom={true} 
+                    showFilterCheckbox={false} 
+                    styleFile="style-home.json" 
+                />
+
 
             </div>
             {/* <header className = "worldMapHeader">
