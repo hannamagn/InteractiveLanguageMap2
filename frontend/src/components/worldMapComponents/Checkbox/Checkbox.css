@@ -63,5 +63,33 @@
     
   }
 
- 
+  .tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+    cursor: help; 
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 125%;       
+    left: 30%;
+    transform: translateX(-50%);
+    white-space: nowrap;  
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    pointer-events: none;  
+    transition: opacity 0.2s ease-in-out;
+    z-index: 100; 
+  }
+  
+  .tooltip-wrapper:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
   
