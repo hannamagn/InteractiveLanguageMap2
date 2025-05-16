@@ -59,15 +59,12 @@
   font-size: 13.5px;
   line-height: 1.4;
   color: #333;
-
-  max-height: calc(100vh - 200px);
+  max-height: 16rem;
   overflow-y: auto;
-
   scrollbar-gutter: stable;
   scrollbar-width: auto;
   scrollbar-color: #888 #f5f5f5;
 }
-
 
 .popup-content div {
   display: flex;
@@ -88,7 +85,6 @@
 }
 
 .popup-content .language-list {
-  max-height: 180px;
   padding-left: 3px;
   margin: 0;
   list-style-type: disc;
@@ -105,6 +101,10 @@
   list-style: none;
   padding-left: 0;
   margin: 0;
+}
+
+h3 {
+  user-select: none;
 }
 
 .popup-content .language-list::-webkit-scrollbar {
