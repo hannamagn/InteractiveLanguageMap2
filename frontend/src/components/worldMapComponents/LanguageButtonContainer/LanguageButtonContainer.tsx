@@ -7,6 +7,8 @@ import { useLanguage } from '../../../context/LanguageContext';
 import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';
 import ClearIcon from '@mui/icons-material/Clear';
+import { stringToColor, darkenColor } from '../../../utils/colorUtils';
+
 
 
 
@@ -139,7 +141,10 @@ function LanguageButtonContainer() {
           Clear All
         </Button>
       )}
-        {state.selectedLanguages.map((lang, index) => (
+      {state.selectedLanguages.map((lang, index) => {
+        const borderColor = darkenColor(stringToColor(lang));
+
+        return (
           <Button
             key={index}
             variant="outlined"
@@ -149,11 +154,16 @@ function LanguageButtonContainer() {
               backgroundColor: '#A26769',
               color: '#FFFFFF',
               textTransform: 'none',
+              border: `5px solid ${borderColor}`,
+              borderRadius: '6px',
+              fontWeight: 'bold'
             }}
           >
             {lang} ✕
           </Button>
-        ))}
+        );
+      })}
+
       </div>
 
       

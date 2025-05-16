@@ -5,6 +5,7 @@ import CheckBox, { ViewFilter } from '../Checkbox/Checkbox';
 import './Map.css';
 import '../Checkbox/Checkbox.css';
 
+
 interface MapProps {
   disableScrollZoom?: boolean;
   showFilterCheckbox?: boolean;
@@ -214,7 +215,16 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
             source: sourceId,
             paint: {
               'line-color': darkenColor(stringToColor(lang)),
-              'line-width': 2.5
+              'line-width': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                2, 3,
+                4, 5,
+                6, 7,
+                8, 9,
+                10, 11
+              ]
             }
           });
 
