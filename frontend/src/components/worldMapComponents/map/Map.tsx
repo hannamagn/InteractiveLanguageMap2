@@ -114,36 +114,36 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
         const hasData = official.length > 0 || other.length > 0;
     
         const popupHtml = `
-          <div class="popupbox region-popup">
-            <div class="popup-title">${name}</div>
-            <button class="closeButton">×</button>
-          </div>
-          <div class="line"></div>
-          <div class="popup-content">
-            ${
-              hasData
-                ? `
-                  ${official.length ? `
-                    <div><strong>Official language${official.length > 1 ? 's' : ''}:</strong></div>
-                    <ul class="language-list">
-                      ${official.map((d: any) => `<li>${d.language}</li>`).join('')}
-                    </ul>
-                  ` : ''}
-                  ${other.length ? `
-                    <div><strong>Other language${other.length > 1 ? 's' : ''}:</strong></div>
-                    <ul class="language-list">
-                      ${other.map((d: any) => `<li>${d.language}</li>`).join('')}
-                    </ul>
-                  ` : ''}
-                `
-                : `
-                <div class="language-list"><em>No language data available for this region.</em></div>
-              `              
-            }
-          </div>
-        `;
+        <div class="popupbox region-popup">
+          <div class="popup-title">${name}</div>
+          <button class="closeButton">×</button>
+        </div>
+        <div class="line"></div>
+        <div class="popup-content">
+          ${
+            hasData
+              ? `
+                ${official.length ? `
+                  <h3>Official language${official.length > 1 ? 's' : ''}:</h3>
+                  <ul class="language-list">
+                    ${official.map((d: any) => `<li>${d.language}</li>`).join('')}
+                  </ul>
+                ` : ''}
+                ${other.length ? `
+                  <h3>Other language${other.length > 1 ? 's' : ''}:</h3>
+                  <ul class="language-list">
+                    ${other.map((d: any) => `<li>${d.language}</li>`).join('')}
+                  </ul>
+                ` : ''}
+              `
+              : `
+              <div class="language-list"><em>No language data available for this region.</em></div>
+            `              
+          }
+        </div>
+      `;
     
-        const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false })
+        const popup = new maplibregl.Popup({ closeOnClick: true, closeButton: false, })
           .setLngLat(e.lngLat)
           .setHTML(popupHtml)
           .addTo(map);
