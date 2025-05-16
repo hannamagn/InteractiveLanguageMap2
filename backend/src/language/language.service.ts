@@ -32,11 +32,24 @@ const COUNTRY_ALIASES: Record<string, string> = {
   'Gambia': 'The Gambia',
   'W. Sahara': 'Western Sahara',
   'Bosnia and Herz.': 'Bosnia and Herzegovina',
-  "Côte d'Ivoire": "Côte d’Ivoire",
+  "Côte d'Ivoire": "Ivory Coast",
+  "S. Sudan": "South Sudan",
   'Central African Rep.': 'Central African Republic',
   'N. Cyprus': 'Northern Cyprus',
   'Solomon Is.': 'Solomon Islands',
   'Fr. Polynesia': 'French Polynesia',
+  "Falkland Is.": "Falkland Islands",
+  "S. Geo. and the Is.": "South Georgia and the South Sandwich Islands",
+  "South Georgia": "South Georgia and the South Sandwich Islands",
+  'Bahamas': 'The Bahamas',
+  'Dominican Rep.': 'Dominican Republic',
+  'St. Vin. and Gren.': 'Saint Vincent and the Grenadines',
+  'Cook Is.': 'Cook Islands',
+  'Fr. S. Antarctic Lands': 'French Southern and Antarctic Lands',
+  'Turks and Caicos Is.': 'Turks and Caicos Islands',
+  'Cabo Verde': 'Cape Verde',
+  'Puerto Rico': 'Puerto Rico',
+  'Vatican': 'Vatican City'
 };
 
 @Injectable()
