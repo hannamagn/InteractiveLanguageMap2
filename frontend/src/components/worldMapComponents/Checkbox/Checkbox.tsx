@@ -28,8 +28,17 @@ const CountryCheckBox: React.FC<CountryCheckBoxProps> = ({ filter, onFilterChang
           checked={filter === 'all'}
           onChange={() => onFilterChange('all')}
         />
-        All
-      </label>
+        <span className="tooltip-wrapper">
+                  Default view
+                  <span className="tooltip-text">
+                  Displays every territory where the language occurs:<br/>
+                  • Countries and regions where it’s official<br/>
+                  • Regions if it’s unofficial but has regional data<br/>
+                  • Whole countries if no regional breakdown exists
+                  </span>
+                </span>
+              </label>
+      
       <label className="filter-label">
         <input
           type="radio"
