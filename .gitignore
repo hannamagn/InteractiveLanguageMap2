@@ -69,17 +69,17 @@ __pycache__
 
 # big debug files
 
-WikidataQuery/debug/formatted_api_response.json
-WikidataQuery/debug/dialects.json
-WikidataQuery/debug/cleaned_dead_lang.json
-WikidataQuery/debug/cleaned_retired_lang.json
-WikidataQuery/debug/lang_missing_everything.json
-WikidataQuery/debug/langmetadata.json
-WikidataQuery/debug/langmetadataOLD.json
-WikidataQuery/debug/signlanguage.json
-WikidataQuery/debug/languages.json
-WikidataQuery/debug/minifiedFormattedRegionData.geojson
-WikidataQuery/debug/raw4.geojson
-WikidataQuery/debug/languagesOLD.json
-WikidataQuery/debug/langmetadataOLD1.json
-WikidataQuery/debug/langmetadataOK.json
+databaseCollector/debug/formatted_api_response.json
+databaseCollector/debug/dialects.json
+databaseCollector/debug/cleaned_dead_lang.json
+databaseCollector/debug/cleaned_retired_lang.json
+databaseCollector/debug/lang_missing_everything.json
+databaseCollector/debug/langmetadata.json
+databaseCollector/debug/langmetadataOLD.json
+databaseCollector/debug/signlanguage.json
+databaseCollector/debug/languages.json
+databaseCollector/debug/minifiedFormattedRegionData.geojson
+databaseCollector/debug/raw4.geojson
+databaseCollector/debug/languagesOLD.json
+databaseCollector/debug/langmetadataOLD1.json
+databaseCollector/debug/langmetadataOK.json

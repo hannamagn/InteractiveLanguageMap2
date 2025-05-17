@@ -1,0 +1,3857 @@
+{
+    "http://www.wikidata.org/entity/Q1353": {
+        "entityLabel": "Delhi",
+        "instanceOfLabel": [
+            "administrative territorial entity",
+            "megacity",
+            "metropolis",
+            "largest city",
+            "national capital"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1515": {
+        "entityLabel": "Abidjan",
+        "instanceOfLabel": [
+            "city",
+            "big city",
+            "former capital"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3803": {
+        "entityLabel": "Lesser Sunda Islands",
+        "instanceOfLabel": [
+            "archipelago"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5456": {
+        "entityLabel": "Andes",
+        "instanceOfLabel": [
+            "mountain system"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5955": {
+        "entityLabel": "Altai Mountains",
+        "instanceOfLabel": [
+            "non-geologically related mountain range"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9060": {
+        "entityLabel": "Bheri Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9152": {
+        "entityLabel": "Janakpur Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9170": {
+        "entityLabel": "Kosi Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9178": {
+        "entityLabel": "Mahakali Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9180": {
+        "entityLabel": "Mechi Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9185": {
+        "entityLabel": "Rapti Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9195": {
+        "entityLabel": "Sagarmatha Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9196": {
+        "entityLabel": "Seti Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9456": {
+        "entityLabel": "Achterhook",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q27381": {
+        "entityLabel": "North Africa",
+        "instanceOfLabel": [
+            "geographic region",
+            "cultural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q27394": {
+        "entityLabel": "Southern Africa",
+        "instanceOfLabel": [
+            "geographic region",
+            "cultural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q27407": {
+        "entityLabel": "East Africa",
+        "instanceOfLabel": [
+            "geographic region",
+            "cultural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q27468": {
+        "entityLabel": "Eastern Europe",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q36978": {
+        "entityLabel": "Pemon",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q135863": {
+        "entityLabel": "Algonquin people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q178471": {
+        "entityLabel": "Nangarhar Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q178484": {
+        "entityLabel": "Mapuche",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q188147": {
+        "entityLabel": "Kunar Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q205006": {
+        "entityLabel": "Amis",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q340520": {
+        "entityLabel": "Aceh",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q397737": {
+        "entityLabel": "Brong-Ahafo Region",
+        "instanceOfLabel": [
+            "Former Region of Ghana"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q402913": {
+        "entityLabel": "Bengali",
+        "instanceOfLabel": [
+            "nation",
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q417628": {
+        "entityLabel": "Akha",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q485348": {
+        "entityLabel": "Bashkir people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q607558": {
+        "entityLabel": "Yanesha people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q626203": {
+        "entityLabel": "Arara people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q639491": {
+        "entityLabel": "Lagunes region",
+        "instanceOfLabel": [
+            "region of Côte d'Ivoire"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q811460": {
+        "entityLabel": "Baoulé people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q844929": {
+        "entityLabel": "Obock Region",
+        "instanceOfLabel": [
+            "region of Djibouti"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q862471": {
+        "entityLabel": "West Timor",
+        "instanceOfLabel": [
+            "geographical feature"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q891238": {
+        "entityLabel": "Boké Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Guinea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q894621": {
+        "entityLabel": "Bohtan",
+        "instanceOfLabel": [
+            "principality"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q963221": {
+        "entityLabel": "Apurinã people",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1015978": {
+        "entityLabel": "Jabodetabek",
+        "instanceOfLabel": [
+            "metropolitan area",
+            "territory"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1074730": {
+        "entityLabel": "Chiricahua",
+        "instanceOfLabel": [
+            "Indigenous peoples of the Americas",
+            "Apache"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1144173": {
+        "entityLabel": "Pribilof Islands",
+        "instanceOfLabel": [
+            "island group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1375771": {
+        "entityLabel": "Amuru District",
+        "instanceOfLabel": [
+            "district of Uganda"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1394162": {
+        "entityLabel": "Achagua people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1439184": {
+        "entityLabel": "Rutulsky District",
+        "instanceOfLabel": [
+            "municipal district"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1439195": {
+        "entityLabel": "Tabasaransky District",
+        "instanceOfLabel": [
+            "municipal district"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1517159": {
+        "entityLabel": "Hadhramaut",
+        "instanceOfLabel": [
+            "geographic region",
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2158268": {
+        "entityLabel": "Bonda people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2259862": {
+        "entityLabel": "Anambé",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2566194": {
+        "entityLabel": "Achuar people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous peoples in Ecuador"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2900057": {
+        "entityLabel": "Betawi people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2979996": {
+        "entityLabel": "Akurio people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3258734": {
+        "entityLabel": "Lokono",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4062837": {
+        "entityLabel": "Alorese",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4063073": {
+        "entityLabel": "Alune",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4192499": {
+        "entityLabel": "West Pantai",
+        "instanceOfLabel": [
+            "distrik"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4691353": {
+        "entityLabel": "Agariya people",
+        "instanceOfLabel": [
+            "population group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6710363": {
+        "entityLabel": "São Tomé Province",
+        "instanceOfLabel": [
+            "province of São Tomé and Príncipe"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12470685": {
+        "entityLabel": "Adang",
+        "instanceOfLabel": [
+            "kelurahan",
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13148224": {
+        "entityLabel": "Adonara",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13148908": {
+        "entityLabel": "Mamberamo Hilir",
+        "instanceOfLabel": [
+            "distrik"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q14916492": {
+        "entityLabel": "Ternate Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15116495": {
+        "entityLabel": "Kepa Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q17041460": {
+        "entityLabel": "Zaiwa",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24283561": {
+        "entityLabel": "Asilulu",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287273": {
+        "entityLabel": "Gomo-Gomo",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287297": {
+        "entityLabel": "Q24287297",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24387883": {
+        "entityLabel": "Ulima",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24388136": {
+        "entityLabel": "Abui",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24391781": {
+        "entityLabel": "Aghu people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26219413": {
+        "entityLabel": "Subu",
+        "instanceOfLabel": [
+            "kampung of Papua"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26236561": {
+        "entityLabel": "Awyi",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26240977": {
+        "entityLabel": "Amahai",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q56391786": {
+        "entityLabel": "Maybrat people",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians",
+            "ethnic minority group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q327": {
+        "entityLabel": "Brittany",
+        "instanceOfLabel": [
+            "historical region",
+            "historical country",
+            "cultural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q828": {
+        "entityLabel": "Americas",
+        "instanceOfLabel": [
+            "continent",
+            "supercontinent",
+            "part of the world"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3889": {
+        "entityLabel": "Maputo",
+        "instanceOfLabel": [
+            "city",
+            "big city",
+            "port city",
+            "municipality of Mozambique"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3932": {
+        "entityLabel": "São Tomé",
+        "instanceOfLabel": [
+            "city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5954": {
+        "entityLabel": "Binjai",
+        "instanceOfLabel": [
+            "city of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q7835": {
+        "entityLabel": "Crimea",
+        "instanceOfLabel": [
+            "peninsula",
+            "disputed territory"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9046": {
+        "entityLabel": "Bagmati Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9133": {
+        "entityLabel": "Gandaki Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9183": {
+        "entityLabel": "Narayani Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12223": {
+        "entityLabel": "Kurds",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13708": {
+        "entityLabel": "Autonomous Region in Muslim Mindanao",
+        "instanceOfLabel": [
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q19109": {
+        "entityLabel": "Montenegrins",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q36526": {
+        "entityLabel": "Port Moresby",
+        "instanceOfLabel": [
+            "big city",
+            "port city",
+            "administrative territorial entity of Papua New Guinea",
+            "city or town"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q37736": {
+        "entityLabel": "North Caucasus",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q41470": {
+        "entityLabel": "Kurdistan",
+        "instanceOfLabel": [
+            "geographic region",
+            "great homeland",
+            "cultural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q105405": {
+        "entityLabel": "Cherokee",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q106991": {
+        "entityLabel": "Chukchis",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q117133": {
+        "entityLabel": "Comanche",
+        "instanceOfLabel": [
+            "tribe",
+            "federally recognized Native American tribe in the United States"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q118350": {
+        "entityLabel": "Caroline Islands",
+        "instanceOfLabel": [
+            "archipelago"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q157286": {
+        "entityLabel": "Nicobar Islands",
+        "instanceOfLabel": [
+            "island group",
+            "WWF ecoregion"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q165320": {
+        "entityLabel": "Cocopah people",
+        "instanceOfLabel": [
+            "Indigenous peoples of the Americas",
+            "ethnic group",
+            "Native Americans in the United States",
+            "federally recognized Native American tribe in the United States"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q165376": {
+        "entityLabel": "Badakhshan Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q166919": {
+        "entityLabel": "Thessaly",
+        "instanceOfLabel": [
+            "geographic region",
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q173808": {
+        "entityLabel": "Kandahar Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q181235": {
+        "entityLabel": "Panjshir Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q183056": {
+        "entityLabel": "Maidan Wardak Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q185442": {
+        "entityLabel": "Laghman Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q191204": {
+        "entityLabel": "Sulaymaniyah",
+        "instanceOfLabel": [
+            "city",
+            "big city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q208303": {
+        "entityLabel": "Xanthi Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Greece"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q214361": {
+        "entityLabel": "Mari people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q255655": {
+        "entityLabel": "Kasaï District",
+        "instanceOfLabel": [
+            "district of the Democratic Republic of the Congo"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q331789": {
+        "entityLabel": "Crow Nation",
+        "instanceOfLabel": [
+            "ethnic group",
+            "federally recognized Native American tribe in the United States"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q367765": {
+        "entityLabel": "Burusho people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q370868": {
+        "entityLabel": "Yao people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q383256": {
+        "entityLabel": "Chams",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q491755": {
+        "entityLabel": "Coeur d'Alene people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q598793": {
+        "entityLabel": "Lhuntse District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q614455": {
+        "entityLabel": "Baniwa people",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q633375": {
+        "entityLabel": "Karo Batak pople",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q721750": {
+        "entityLabel": "Bara people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q726665": {
+        "entityLabel": "Asháninka people",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q738395": {
+        "entityLabel": "Rupert's Land",
+        "instanceOfLabel": [
+            "territory"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q754448": {
+        "entityLabel": "Haa District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q855314": {
+        "entityLabel": "Biak Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q890340": {
+        "entityLabel": "Boffa Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Guinea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q958274": {
+        "entityLabel": "Klallam",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q966714": {
+        "entityLabel": "Cofán people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous peoples in Ecuador"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1026107": {
+        "entityLabel": "Kaqchikel people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1046324": {
+        "entityLabel": "Middle Juba",
+        "instanceOfLabel": [
+            "region of Somalia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1076608": {
+        "entityLabel": "Chortis",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1165546": {
+        "entityLabel": "Mosquito Coast",
+        "instanceOfLabel": [
+            "geographic region",
+            "coast",
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1266593": {
+        "entityLabel": "Bodo tribe",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1268420": {
+        "entityLabel": "Nuxalk Nation",
+        "instanceOfLabel": [
+            "First Nation band"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1282773": {
+        "entityLabel": "Carolinian people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1360486": {
+        "entityLabel": "Great Smoky Mountains",
+        "instanceOfLabel": [
+            "mountain system",
+            "tourist attraction"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1406599": {
+        "entityLabel": "Comox people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1632717": {
+        "entityLabel": "Numfor Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2309630": {
+        "entityLabel": "Betsimisaraka people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2892063": {
+        "entityLabel": "Bauré people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2928721": {
+        "entityLabel": "Bushong people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3658660": {
+        "entityLabel": "Carijona",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3850712": {
+        "entityLabel": "Mashco-Piro people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3866948": {
+        "entityLabel": "Muinane people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4077240": {
+        "entityLabel": "Banda people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4196525": {
+        "entityLabel": "Lakea",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4196964": {
+        "entityLabel": "Bokat",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4196975": {
+        "entityLabel": "Paleleh",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4197037": {
+        "entityLabel": "Momunu",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4251099": {
+        "entityLabel": "Bunobogu",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5313235": {
+        "entityLabel": "Dukku",
+        "instanceOfLabel": [
+            "human settlement",
+            "local government area of Nigeria"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5359465": {
+        "entityLabel": "Candoshi people",
+        "instanceOfLabel": [
+            "isolated human group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12497676": {
+        "entityLabel": "Bima people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13094877": {
+        "entityLabel": "Mamberamo Hulu",
+        "instanceOfLabel": [
+            "distrik"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24383550": {
+        "entityLabel": "Buli Asal",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26242493": {
+        "entityLabel": "Balaesang",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q65210148": {
+        "entityLabel": "Biak people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q66711956": {
+        "entityLabel": "Iraqi Kurdistan",
+        "instanceOfLabel": [
+            "geographic location"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q104846753": {
+        "entityLabel": "Kasaï",
+        "instanceOfLabel": [
+            "province of the Democratic Republic of the Congo"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q115263544": {
+        "entityLabel": "Boloki",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3703": {
+        "entityLabel": "Bamako",
+        "instanceOfLabel": [
+            "city",
+            "first-level administrative division"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3832": {
+        "entityLabel": "Bangui",
+        "instanceOfLabel": [
+            "city",
+            "prefecture of the Central African Republic",
+            "border city",
+            "big city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9164": {
+        "entityLabel": "Karnali Zone",
+        "instanceOfLabel": [
+            "zone of Nepal",
+            "former administrative territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q14118": {
+        "entityLabel": "Savoy",
+        "instanceOfLabel": [
+            "historical province of France",
+            "natural region of France"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q21161": {
+        "entityLabel": "Halligen",
+        "instanceOfLabel": [
+            "island group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q42884": {
+        "entityLabel": "Germans",
+        "instanceOfLabel": [
+            "nation",
+            "human population"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q46429": {
+        "entityLabel": "Guaraní people",
+        "instanceOfLabel": [
+            "indigenous people",
+            "indigenous peoples in Bolivia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q46733": {
+        "entityLabel": "Darfur",
+        "instanceOfLabel": [
+            "region of Sudan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q51669": {
+        "entityLabel": "Israelites",
+        "instanceOfLabel": [
+            "tribe",
+            "confederation",
+            "people",
+            "historical ethnic group",
+            "peoples of the Quran"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q75448": {
+        "entityLabel": "Gjersjøelva",
+        "instanceOfLabel": [
+            "river"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q148004": {
+        "entityLabel": "Zarma people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q170826": {
+        "entityLabel": "Irish people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q173302": {
+        "entityLabel": "Estonians",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q173816": {
+        "entityLabel": "Kapisa Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q188157": {
+        "entityLabel": "Parwan Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q188933": {
+        "entityLabel": "Kabul Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q191730": {
+        "entityLabel": "Evenks",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q210907": {
+        "entityLabel": "Haida Gwaii",
+        "instanceOfLabel": [
+            "island group",
+            "WWF ecoregion"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q311977": {
+        "entityLabel": "Dards",
+        "instanceOfLabel": [
+            "panethnicity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q341265": {
+        "entityLabel": "Aché people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q368879": {
+        "entityLabel": "Dolgans",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q492901": {
+        "entityLabel": "Kalispel",
+        "instanceOfLabel": [
+            "Native Americans in the United States"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q504574": {
+        "entityLabel": "Nanai",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q581822": {
+        "entityLabel": "Mbale District",
+        "instanceOfLabel": [
+            "district of Uganda"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q587062": {
+        "entityLabel": "Punakha District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q600200": {
+        "entityLabel": "Trashiyangtse District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q609176": {
+        "entityLabel": "Russian Far East",
+        "instanceOfLabel": [
+            "human-geographic territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q627897": {
+        "entityLabel": "Ga-Adangbe people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q639648": {
+        "entityLabel": "Dahlak Archipelago",
+        "instanceOfLabel": [
+            "archipelago"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q728933": {
+        "entityLabel": "Wangdue Phodrang District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q748093": {
+        "entityLabel": "Ennedi Region",
+        "instanceOfLabel": [
+            "region of Chad"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q812064": {
+        "entityLabel": "Bay",
+        "instanceOfLabel": [
+            "region of Somalia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q856719": {
+        "entityLabel": "Gedo",
+        "instanceOfLabel": [
+            "region of Somalia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q862086": {
+        "entityLabel": "Indians",
+        "instanceOfLabel": [
+            "human population",
+            "nationality"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q877028": {
+        "entityLabel": "Lower Shebelle",
+        "instanceOfLabel": [
+            "region of Somalia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1162132": {
+        "entityLabel": "Wixarika",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1191996": {
+        "entityLabel": "Eastern Siberia",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1268437": {
+        "entityLabel": "Gondi people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1340301": {
+        "entityLabel": "Ende",
+        "instanceOfLabel": [
+            "capital of regency"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1341218": {
+        "entityLabel": "Gurung people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1382499": {
+        "entityLabel": "Hela Province",
+        "instanceOfLabel": [
+            "province of Papua New Guinea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3435610": {
+        "entityLabel": "Enxet people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4138671": {
+        "entityLabel": "Hinukh people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4172847": {
+        "entityLabel": "Filipino people",
+        "instanceOfLabel": [
+            "nation"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5115969": {
+        "entityLabel": "Chugpa tribe",
+        "instanceOfLabel": [
+            "tribe"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6178796": {
+        "entityLabel": "Hazaristan",
+        "instanceOfLabel": [
+            "human settlement"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13560779": {
+        "entityLabel": "Gullah",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15052034": {
+        "entityLabel": "Batumerah",
+        "instanceOfLabel": [
+            "human settlement"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15057229": {
+        "entityLabel": "Kumur",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24273514": {
+        "entityLabel": "Ritabel",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287192": {
+        "entityLabel": "Wangeotek",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287209": {
+        "entityLabel": "Kao",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287218": {
+        "entityLabel": "Kira",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287221": {
+        "entityLabel": "Kedi",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287223": {
+        "entityLabel": "Laba Besar",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287227": {
+        "entityLabel": "Goal",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287236": {
+        "entityLabel": "Galela",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians",
+            "North Halmahera peoples"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287245": {
+        "entityLabel": "Togutil people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24331606": {
+        "entityLabel": "Gane Luar",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q31174452": {
+        "entityLabel": "Gane people",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1382": {
+        "entityLabel": "Piran",
+        "instanceOfLabel": [
+            "town",
+            "borough"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q14688": {
+        "entityLabel": "Ingria",
+        "instanceOfLabel": [
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15877": {
+        "entityLabel": "Izola",
+        "instanceOfLabel": [
+            "city",
+            "human settlement"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q18973": {
+        "entityLabel": "Georgians",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q39473": {
+        "entityLabel": "Transylvania",
+        "instanceOfLabel": [
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q41164": {
+        "entityLabel": "Jeju Province",
+        "instanceOfLabel": [
+            "special self-governing province and state of South Korea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q44302": {
+        "entityLabel": "Nagorno-Karabakh",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q79797": {
+        "entityLabel": "Armenians",
+        "instanceOfLabel": [
+            "human population",
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q80040": {
+        "entityLabel": "Kazakhs",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q173830": {
+        "entityLabel": "Faryab Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q182844": {
+        "entityLabel": "Herat Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q200173": {
+        "entityLabel": "South Caucasus",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q202860": {
+        "entityLabel": "Tolupan people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q204809": {
+        "entityLabel": "Koryak Okrug",
+        "instanceOfLabel": [
+            "okrug"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q206519": {
+        "entityLabel": "Lira District",
+        "instanceOfLabel": [
+            "district of Uganda"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q239577": {
+        "entityLabel": "Ibibio people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q244157": {
+        "entityLabel": "Igbo people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q276315": {
+        "entityLabel": "Karakalpaks",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q318666": {
+        "entityLabel": "Central Province",
+        "instanceOfLabel": [
+            "province of Kenya"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q473181": {
+        "entityLabel": "Malabar Coast",
+        "instanceOfLabel": [
+            "geographic region",
+            "coast"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q476030": {
+        "entityLabel": "Khanty people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q485010": {
+        "entityLabel": "Ingush people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q557539": {
+        "entityLabel": "Dar es Salaam Region",
+        "instanceOfLabel": [
+            "region of Tanzania"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q623783": {
+        "entityLabel": "Kusunda people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q629506": {
+        "entityLabel": "Bomberai Peninsula",
+        "instanceOfLabel": [
+            "peninsula"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q653956": {
+        "entityLabel": "Izhorians",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q655404": {
+        "entityLabel": "Tofalar",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q720982": {
+        "entityLabel": "Crimean Karaites",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnoreligious group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q728938": {
+        "entityLabel": "Trongsa District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q781361": {
+        "entityLabel": "Kota Waingapu",
+        "instanceOfLabel": [
+            "capital of regency",
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q862753": {
+        "entityLabel": "Lékoumou Department",
+        "instanceOfLabel": [
+            "department of the Republic of the Congo"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q887850": {
+        "entityLabel": "Greenlandic Inuit people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1121357": {
+        "entityLabel": "Huli people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1156587": {
+        "entityLabel": "Dabola Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Guinea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1229921": {
+        "entityLabel": "Kapchorwa District",
+        "instanceOfLabel": [
+            "district of Uganda"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1433137": {
+        "entityLabel": "Moyen Atlas",
+        "instanceOfLabel": [
+            "mountain system"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1469472": {
+        "entityLabel": "Sabu Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1579864": {
+        "entityLabel": "Korowai people",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2392686": {
+        "entityLabel": "Ho people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2892228": {
+        "entityLabel": "Juang people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3055244": {
+        "entityLabel": "Sous",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3654784": {
+        "entityLabel": "Kamëntsá",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3811213": {
+        "entityLabel": "Juma people",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4023538": {
+        "entityLabel": "Sausapor",
+        "instanceOfLabel": [
+            "distrik"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4192482": {
+        "entityLabel": "Ayamaru",
+        "instanceOfLabel": [
+            "distrik"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4789666": {
+        "entityLabel": "Kannur",
+        "instanceOfLabel": [
+            "city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5361344": {
+        "entityLabel": "Jeveros",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12519339": {
+        "entityLabel": "Tanimbar Kei",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12523194": {
+        "entityLabel": "Umalulu",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12698085": {
+        "entityLabel": "Moraid",
+        "instanceOfLabel": [
+            "distrik"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q19731173": {
+        "entityLabel": "Raijua Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24340558": {
+        "entityLabel": "Ilwaki",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24340563": {
+        "entityLabel": "Uhak",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24340565": {
+        "entityLabel": "Lurang",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24340566": {
+        "entityLabel": "Ustutun",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24340572": {
+        "entityLabel": "Iliun",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24340582": {
+        "entityLabel": "Q24340582",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24342644": {
+        "entityLabel": "Gamlamo",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26242362": {
+        "entityLabel": "Hawu",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q33127636": {
+        "entityLabel": "Bajju people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q42564069": {
+        "entityLabel": "Kullu Valley",
+        "instanceOfLabel": [
+            "valley"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q94750398": {
+        "entityLabel": "Jigawa",
+        "instanceOfLabel": [
+            "ward of Nigeria"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q115251891": {
+        "entityLabel": "Moré",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3739": {
+        "entityLabel": "Bissau",
+        "instanceOfLabel": [
+            "city",
+            "administrative territorial entity",
+            "big city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3838": {
+        "entityLabel": "Kinshasa",
+        "instanceOfLabel": [
+            "megacity",
+            "border city",
+            "first-level administrative division"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q41183": {
+        "entityLabel": "Aleppo",
+        "instanceOfLabel": [
+            "city",
+            "big city",
+            "populated place in Syria"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q56483": {
+        "entityLabel": "Laki",
+        "instanceOfLabel": [
+            "language",
+            "vernacular",
+            "modern language"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q131290": {
+        "entityLabel": "Ganja",
+        "instanceOfLabel": [
+            "big city",
+            "şəhər"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q142702": {
+        "entityLabel": "Malays",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q152831": {
+        "entityLabel": "Duhok",
+        "instanceOfLabel": [
+            "city",
+            "big city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q167021": {
+        "entityLabel": "Zagros Mountains",
+        "instanceOfLabel": [
+            "mountain system"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q175459": {
+        "entityLabel": "Yevlakh",
+        "instanceOfLabel": [
+            "şəhər"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q179833": {
+        "entityLabel": "Sumgait",
+        "instanceOfLabel": [
+            "big city",
+            "şəhər"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q203319": {
+        "entityLabel": "Komi people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q205047": {
+        "entityLabel": "Kurdistan Region",
+        "instanceOfLabel": [
+            "geographic region",
+            "autonomous region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q211018": {
+        "entityLabel": "Kumyks",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q230932": {
+        "entityLabel": "Mingachevir",
+        "instanceOfLabel": [
+            "şəhər"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q234783": {
+        "entityLabel": "Shaki",
+        "instanceOfLabel": [
+            "şəhər"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q263285": {
+        "entityLabel": "Temburong District",
+        "instanceOfLabel": [
+            "exclave",
+            "human-geographic territorial entity"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q362295": {
+        "entityLabel": "Tolai people",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q487749": {
+        "entityLabel": "St'at'imc people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q542272": {
+        "entityLabel": "Ladinia",
+        "instanceOfLabel": [
+            "ethnic territory"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q623295": {
+        "entityLabel": "Mamou Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Guinea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q728917": {
+        "entityLabel": "Samtse District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q827728": {
+        "entityLabel": "Mount Kerinci",
+        "instanceOfLabel": [
+            "stratovolcano"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q851191": {
+        "entityLabel": "Mani people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1058442": {
+        "entityLabel": "Zomba District",
+        "instanceOfLabel": [
+            "district of Malawi"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1060962": {
+        "entityLabel": "Lake Chamo",
+        "instanceOfLabel": [
+            "lake"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1091084": {
+        "entityLabel": "Karitiana people",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1225113": {
+        "entityLabel": "Kunama people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1362129": {
+        "entityLabel": "Bundibugyo District",
+        "instanceOfLabel": [
+            "district of Uganda"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1396210": {
+        "entityLabel": "Faranah Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Guinea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1470920": {
+        "entityLabel": "Kissidougou Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Guinea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1901211": {
+        "entityLabel": "East Malaysia",
+        "instanceOfLabel": [
+            "territory"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2375955": {
+        "entityLabel": "Lendu",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3034452": {
+        "entityLabel": "Kerinci people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3217080": {
+        "entityLabel": "Landuma people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3228749": {
+        "entityLabel": "Leco Indians",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3515132": {
+        "entityLabel": "Lengua people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4978967": {
+        "entityLabel": "Bruneian Malays",
+        "instanceOfLabel": [
+            "ethnic group",
+            "subethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6398826": {
+        "entityLabel": "Khachmaz District",
+        "instanceOfLabel": [
+            "district of Azerbaijan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q11183268": {
+        "entityLabel": "Elar",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12495112": {
+        "entityLabel": "Lokwirin",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12511875": {
+        "entityLabel": "Samparong",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15123117": {
+        "entityLabel": "Nub Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15128554": {
+        "entityLabel": "Sika Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24286916": {
+        "entityLabel": "Aru people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24383242": {
+        "entityLabel": "Kojabi",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24383443": {
+        "entityLabel": "Marlasi",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24389259": {
+        "entityLabel": "Kawadang",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q76504884": {
+        "entityLabel": "Lematang",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q104906220": {
+        "entityLabel": "Kangeanese",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "indigenous people",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2933": {
+        "entityLabel": "Asunción",
+        "instanceOfLabel": [
+            "city",
+            "border city",
+            "capital region",
+            "big city",
+            "largest city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q27121": {
+        "entityLabel": "Miyako Islands",
+        "instanceOfLabel": [
+            "island group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q31229": {
+        "entityLabel": "Mocheni Valley",
+        "instanceOfLabel": [
+            "valley"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q43937": {
+        "entityLabel": "Azawad",
+        "instanceOfLabel": [
+            "administrative territorial entity",
+            "quasi-state"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q72805": {
+        "entityLabel": "Muong people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q81126": {
+        "entityLabel": "Manchuria",
+        "instanceOfLabel": [
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q192273": {
+        "entityLabel": "Karelia",
+        "instanceOfLabel": [
+            "historical region",
+            "cultural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q208551": {
+        "entityLabel": "Laz people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q310983": {
+        "entityLabel": "Malagasy people",
+        "instanceOfLabel": [
+            "human population",
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q332976": {
+        "entityLabel": "Miskitos people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q403656": {
+        "entityLabel": "Baganda",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q473748": {
+        "entityLabel": "Buganda",
+        "instanceOfLabel": [
+            "historical country"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q477601": {
+        "entityLabel": "Tainan County",
+        "instanceOfLabel": [
+            "county of Taiwan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q495751": {
+        "entityLabel": "Mi’kmaw",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q578294": {
+        "entityLabel": "Gasa District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q636919": {
+        "entityLabel": "Sanjak of Lazistan",
+        "instanceOfLabel": [
+            "sanjak"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q637909": {
+        "entityLabel": "Mon people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q930821": {
+        "entityLabel": "Meitei people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "isolated human group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1059258": {
+        "entityLabel": "Torres Strait Islands",
+        "instanceOfLabel": [
+            "island group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1286876": {
+        "entityLabel": "Maltese people",
+        "instanceOfLabel": [
+            "nation",
+            "human population",
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1321636": {
+        "entityLabel": "Nikolskoye, Kamchatka Krai",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1418613": {
+        "entityLabel": "Southern Provinces",
+        "instanceOfLabel": [
+            "geographic concept"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2087357": {
+        "entityLabel": "Manggarai people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2183668": {
+        "entityLabel": "Moyo District",
+        "instanceOfLabel": [
+            "district of Uganda"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2259699": {
+        "entityLabel": "Mawé people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous peoples in Brazil"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3303563": {
+        "entityLabel": "Mbugu people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3630408": {
+        "entityLabel": "Khas people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "Indo-Aryan peoples"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4193682": {
+        "entityLabel": "Boawae",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4195363": {
+        "entityLabel": "Bacan",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4251076": {
+        "entityLabel": "Kayoa",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4287811": {
+        "entityLabel": "Melpa people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4791365": {
+        "entityLabel": "Tapak Tuan",
+        "instanceOfLabel": [
+            "capital of regency",
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6497193": {
+        "entityLabel": "Latundê people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6843971": {
+        "entityLabel": "Mieu people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q7208306": {
+        "entityLabel": "Pointe-Noire",
+        "instanceOfLabel": [
+            "district of the Republic of the Congo"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q7566490": {
+        "entityLabel": "South Cameroon Plateau",
+        "instanceOfLabel": [
+            "plateau"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12511988": {
+        "entityLabel": "Sangadeto",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12512192": {
+        "entityLabel": "Sarasedu",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12517238": {
+        "entityLabel": "Maba people",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12518629": {
+        "entityLabel": "Takatunga",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q14919635": {
+        "entityLabel": "Golewa",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q18390249": {
+        "entityLabel": "Masikoro",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24045859": {
+        "entityLabel": "Bulawayo Province",
+        "instanceOfLabel": [
+            "province of Zimbabwe"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24312090": {
+        "entityLabel": "Matentengin",
+        "instanceOfLabel": [
+            "fourth-level administrative division in Indonesia",
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24631154": {
+        "entityLabel": "Rowa",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26236604": {
+        "entityLabel": "Nduga people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q30337497": {
+        "entityLabel": "Belen Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q30337502": {
+        "entityLabel": "Witi Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q115251467": {
+        "entityLabel": "Mono-Alu",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1026": {
+        "entityLabel": "Poles",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1190": {
+        "entityLabel": "Limousin",
+        "instanceOfLabel": [
+            "region of France"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15878": {
+        "entityLabel": "Normandy",
+        "instanceOfLabel": [
+            "historical province of France",
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q23427": {
+        "entityLabel": "South Ossetia",
+        "instanceOfLabel": [
+            "landlocked country",
+            "state with limited recognition",
+            "disputed territory"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q36769": {
+        "entityLabel": "French Flanders",
+        "instanceOfLabel": [
+            "natural region of France"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q81734": {
+        "entityLabel": "Macedonia",
+        "instanceOfLabel": [
+            "geographic region",
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q106974": {
+        "entityLabel": "Ossetians",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q140472": {
+        "entityLabel": "Silesians",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q147239": {
+        "entityLabel": "Kashubians",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q169132": {
+        "entityLabel": "Punjab",
+        "instanceOfLabel": [
+            "geographic region",
+            "cultural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q183963": {
+        "entityLabel": "Tuamotus",
+        "instanceOfLabel": [
+            "archipelago"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q188779": {
+        "entityLabel": "Norwegians",
+        "instanceOfLabel": [
+            "nation",
+            "human population"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q318674": {
+        "entityLabel": "Oromo people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q524007": {
+        "entityLabel": "Newar people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q702220": {
+        "entityLabel": "Pennsylvania Dutch",
+        "instanceOfLabel": [
+            "ethnographic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1007232": {
+        "entityLabel": "Cholula",
+        "instanceOfLabel": [
+            "city",
+            "locality of Mexico"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1023722": {
+        "entityLabel": "Damaturu",
+        "instanceOfLabel": [
+            "city",
+            "local government area of Nigeria"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1090791": {
+        "entityLabel": "Piapoco",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1115052": {
+        "entityLabel": "Hall Islands",
+        "instanceOfLabel": [
+            "island group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1163044": {
+        "entityLabel": "Nganasan people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1509140": {
+        "entityLabel": "Okanagan people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1743695": {
+        "entityLabel": "Kisar Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1917496": {
+        "entityLabel": "Reef Islands",
+        "instanceOfLabel": [
+            "archipelago"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1983634": {
+        "entityLabel": "Odia people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1995859": {
+        "entityLabel": "Nomatsiguenga",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1996477": {
+        "entityLabel": "Noongar people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2116909": {
+        "entityLabel": "Indo people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2453291": {
+        "entityLabel": "Älvdalen",
+        "instanceOfLabel": [
+            "locality"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2735628": {
+        "entityLabel": "Palue Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4193636": {
+        "entityLabel": "Bajawa",
+        "instanceOfLabel": [
+            "capital of regency",
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6056629": {
+        "entityLabel": "Pacaraos",
+        "instanceOfLabel": [
+            "locality"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6148130": {
+        "entityLabel": "Jamod",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6826699": {
+        "entityLabel": "Mezquital Valley",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q10383165": {
+        "entityLabel": "Tongatapu",
+        "instanceOfLabel": [
+            "division of Tonga"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q11131461": {
+        "entityLabel": "Yongning Town",
+        "instanceOfLabel": [
+            "town of China"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12470875": {
+        "entityLabel": "South Aesesa",
+        "instanceOfLabel": [
+            "capital of regency",
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12502325": {
+        "entityLabel": "Palue",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12511782": {
+        "entityLabel": "Sambi Rampas",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12518463": {
+        "entityLabel": "Tababo",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12524934": {
+        "entityLabel": "Wuring",
+        "instanceOfLabel": [
+            "kelurahan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q18472979": {
+        "entityLabel": "Template:Nereids",
+        "instanceOfLabel": [
+            "Wikimedia template"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q19748586": {
+        "entityLabel": "Palembang",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q22094494": {
+        "entityLabel": "East Oirata",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q22094497": {
+        "entityLabel": "West Oirata",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24251288": {
+        "entityLabel": "Oirata",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24276590": {
+        "entityLabel": "Tepeleo",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24403495": {
+        "entityLabel": "Maba Sangaji",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q30745566": {
+        "entityLabel": "Nyokon",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q48987674": {
+        "entityLabel": "Bolyu",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q96392105": {
+        "entityLabel": "Maropa people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q115263906": {
+        "entityLabel": "Nao",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q125423898": {
+        "entityLabel": "Sonbardi",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q125423921": {
+        "entityLabel": "Kuvardev",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q125423974": {
+        "entityLabel": "Chalthana",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q125424001": {
+        "entityLabel": "Ambabarwa",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q125424042": {
+        "entityLabel": "Wasali",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q125424071": {
+        "entityLabel": "Chichari",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1848": {
+        "entityLabel": "San Marino",
+        "instanceOfLabel": [
+            "city",
+            "border city",
+            "municipality of San Marino"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q8060": {
+        "entityLabel": "Romani people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "itinerant groups of Europe"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q16184": {
+        "entityLabel": "Province of Gorizia",
+        "instanceOfLabel": [
+            "former province of Italy"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q16224": {
+        "entityLabel": "Province of Olbia-Tempio",
+        "instanceOfLabel": [
+            "former province of Italy"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q16294": {
+        "entityLabel": "Province of Udine",
+        "instanceOfLabel": [
+            "former province of Italy"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q49542": {
+        "entityLabel": "Russians",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q58187": {
+        "entityLabel": "Sri Lankan Malays",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q107331": {
+        "entityLabel": "Great Lakes Twa",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q190600": {
+        "entityLabel": "Central Greece",
+        "instanceOfLabel": [
+            "administrative territorial entity",
+            "geographic region",
+            "administrative region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q192647": {
+        "entityLabel": "Hutu",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q193092": {
+        "entityLabel": "Tutsi",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q201073": {
+        "entityLabel": "Tirana District",
+        "instanceOfLabel": [
+            "district of Albania"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q201945": {
+        "entityLabel": "Evritania Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Greece"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q209749": {
+        "entityLabel": "Gjirokastër District",
+        "instanceOfLabel": [
+            "district of Albania"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q211314": {
+        "entityLabel": "Florina Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Greece"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q213679": {
+        "entityLabel": "Pella",
+        "instanceOfLabel": [
+            "polis",
+            "archaeological site",
+            "ancient city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q216482": {
+        "entityLabel": "Trikala Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Greece"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q328493": {
+        "entityLabel": "Eastern Province",
+        "instanceOfLabel": [
+            "province of Kenya"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q337550": {
+        "entityLabel": "Secwépemc",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q491709": {
+        "entityLabel": "Spokane",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q696496": {
+        "entityLabel": "Yaeyama Islands",
+        "instanceOfLabel": [
+            "island group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q750472": {
+        "entityLabel": "Dongxiang people",
+        "instanceOfLabel": [
+            "ethnic minority"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q967796": {
+        "entityLabel": "Manihiki",
+        "instanceOfLabel": [
+            "atoll"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1355221": {
+        "entityLabel": "Sakalava people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1386136": {
+        "entityLabel": "Kisela Voda Municipality",
+        "instanceOfLabel": [
+            "municipality of North Macedonia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1421494": {
+        "entityLabel": "Solor Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1440932": {
+        "entityLabel": "Rama people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1560742": {
+        "entityLabel": "Sasak people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1760759": {
+        "entityLabel": "Saramaka",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1807392": {
+        "entityLabel": "Sechelt people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1881042": {
+        "entityLabel": "Chota Nagpur Plateau",
+        "instanceOfLabel": [
+            "plateau",
+            "WWF ecoregion"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1911163": {
+        "entityLabel": "Maumere",
+        "instanceOfLabel": [
+            "capital of regency"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2034266": {
+        "entityLabel": "Squamish",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3289762": {
+        "entityLabel": "Selayar Islands",
+        "instanceOfLabel": [
+            "archipelago"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3478243": {
+        "entityLabel": "Semai people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3485276": {
+        "entityLabel": "Sirionó people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous peoples in Bolivia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4193258": {
+        "entityLabel": "Pantar",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4193616": {
+        "entityLabel": "Riung",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6480778": {
+        "entityLabel": "Lamaholot people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6693302": {
+        "entityLabel": "Lower Assam",
+        "instanceOfLabel": [
+            "human settlement"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q11858947": {
+        "entityLabel": "Southern Sámi people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12492060": {
+        "entityLabel": "Komba",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12508896": {
+        "entityLabel": "Rongga Koe",
+        "instanceOfLabel": [
+            "kelurahan",
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12511610": {
+        "entityLabel": "Salas",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12641606": {
+        "entityLabel": "Sala",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13395623": {
+        "entityLabel": "North Bengal",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15240786": {
+        "entityLabel": "Kundal Shahi",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q18690772": {
+        "entityLabel": "Northern Sámi people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q19745125": {
+        "entityLabel": "Watu Nggene",
+        "instanceOfLabel": [
+            "kelurahan",
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24273555": {
+        "entityLabel": "Namtabung",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24341437": {
+        "entityLabel": "Saleman",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24343048": {
+        "entityLabel": "Taraudu",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24346649": {
+        "entityLabel": "Tosoa",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24380330": {
+        "entityLabel": "Salas people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24383496": {
+        "entityLabel": "Sahu people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians",
+            "North Halmahera peoples"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24388651": {
+        "entityLabel": "Waru",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24388902": {
+        "entityLabel": "Serua people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24847501": {
+        "entityLabel": "Pemana Kecil Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24895586": {
+        "entityLabel": "Konga Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26753920": {
+        "entityLabel": "Susumolas Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q30337668": {
+        "entityLabel": "Wire Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q30337711": {
+        "entityLabel": "Kolisia Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q81257619": {
+        "entityLabel": "Okinawan people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q11708": {
+        "entityLabel": "Southeast Asia",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q19044": {
+        "entityLabel": "Svaneti",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q81720": {
+        "entityLabel": "Silesia",
+        "instanceOfLabel": [
+            "geographic region",
+            "historical region",
+            "cultural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q185371": {
+        "entityLabel": "Coast Province",
+        "instanceOfLabel": [
+            "province of Kenya"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q219147": {
+        "entityLabel": "Kaohsiung County",
+        "instanceOfLabel": [
+            "county of Taiwan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q483505": {
+        "entityLabel": "Tajiks",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q602371": {
+        "entityLabel": "Parnon",
+        "instanceOfLabel": [
+            "mountain system"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q721854": {
+        "entityLabel": "Swahili people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q728929": {
+        "entityLabel": "Samdrup Jongkhar District",
+        "instanceOfLabel": [
+            "district of Bhutan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q877042": {
+        "entityLabel": "Lower Juba",
+        "instanceOfLabel": [
+            "region of Somalia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q917695": {
+        "entityLabel": "Sentinelese people",
+        "instanceOfLabel": [
+            "uncontacted peoples",
+            "isolated human group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1028268": {
+        "entityLabel": "Terena people",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1144444": {
+        "entityLabel": "Tamang people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1159279": {
+        "entityLabel": "Lake Tondano",
+        "instanceOfLabel": [
+            "lake"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1277626": {
+        "entityLabel": "Tharu people",
+        "instanceOfLabel": [
+            "people",
+            "isolated human group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1282763": {
+        "entityLabel": "Tahitians",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1456870": {
+        "entityLabel": "Nlaka'pamux",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1936223": {
+        "entityLabel": "Minahasan",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2067963": {
+        "entityLabel": "Tenggerese people",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "subethnic group",
+            "ethnoreligious group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2108042": {
+        "entityLabel": "East Malaka",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2108108": {
+        "entityLabel": "Malaka Tengah",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2108484": {
+        "entityLabel": "West Malaka",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3139967": {
+        "entityLabel": "Ternateans",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians",
+            "North Halmahera peoples"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3541911": {
+        "entityLabel": "Togutil people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "North Halmahera peoples"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3676505": {
+        "entityLabel": "Talysh",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4192868": {
+        "entityLabel": "Soa",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4266761": {
+        "entityLabel": "Djab Wurrung people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5252690": {
+        "entityLabel": "Talish-i Gushtasbi",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q5363631": {
+        "entityLabel": "Ticuna peoples",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q11100838": {
+        "entityLabel": "North Biboki",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12506955": {
+        "entityLabel": "Tidore Island",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12520058": {
+        "entityLabel": "East Tasifeto",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13097773": {
+        "entityLabel": "West Tasifeto",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15851100": {
+        "entityLabel": "Tokodede people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24273498": {
+        "entityLabel": "Marantutul",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24287148": {
+        "entityLabel": "Pale",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24348602": {
+        "entityLabel": "Fatcei",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24351378": {
+        "entityLabel": "Malbufa",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24382072": {
+        "entityLabel": "Serili",
+        "instanceOfLabel": [
+            "desa"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24389711": {
+        "entityLabel": "Tofago",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24390011": {
+        "entityLabel": "Mange",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q47461062": {
+        "entityLabel": "Tobelo people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "North Halmahera peoples"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q115913105": {
+        "entityLabel": "Sulka",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3726": {
+        "entityLabel": "Banjul",
+        "instanceOfLabel": [
+            "city",
+            "region of the Gambia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q8614": {
+        "entityLabel": "Westphalia",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q9365": {
+        "entityLabel": "Dushanbe",
+        "instanceOfLabel": [
+            "city",
+            "big city"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12404": {
+        "entityLabel": "Uri",
+        "instanceOfLabel": [
+            "canton of Switzerland"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q15118": {
+        "entityLabel": "province of Aosta",
+        "instanceOfLabel": [
+            "former province of Italy"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26262": {
+        "entityLabel": "Virgin Islands",
+        "instanceOfLabel": [
+            "archipelago"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q27496": {
+        "entityLabel": "Western Europe",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q45009": {
+        "entityLabel": "Purepecha",
+        "instanceOfLabel": [
+            "ethnic group",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q56966": {
+        "entityLabel": "Guarijio people",
+        "instanceOfLabel": [
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q84072": {
+        "entityLabel": "Turks",
+        "instanceOfLabel": [
+            "nation",
+            "human population",
+            "ethnic group",
+            "nationality",
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q172052": {
+        "entityLabel": "Badghis Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q177567": {
+        "entityLabel": "Amazon rainforest",
+        "instanceOfLabel": [
+            "tropical forest",
+            "field of study"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q179733": {
+        "entityLabel": "Aryan",
+        "instanceOfLabel": [
+            "historical ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q183036": {
+        "entityLabel": "Jowzjan Province",
+        "instanceOfLabel": [
+            "province of Afghanistan"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q193067": {
+        "entityLabel": "Tuvans",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q207996": {
+        "entityLabel": "Xhosa people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q208604": {
+        "entityLabel": "Rhodope Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Greece"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q214504": {
+        "entityLabel": "Labuan",
+        "instanceOfLabel": [
+            "federal territory of Malaysia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q260171": {
+        "entityLabel": "Lundazi",
+        "instanceOfLabel": [
+            "human settlement"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q277271": {
+        "entityLabel": "Wyandotte Nation",
+        "instanceOfLabel": [
+            "ethnic group",
+            "federally recognized Native American tribe in the United States"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q369883": {
+        "entityLabel": "Vedda people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q489003": {
+        "entityLabel": "Wallis",
+        "instanceOfLabel": [
+            "island"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q836660": {
+        "entityLabel": "Votes",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q840707": {
+        "entityLabel": "Wala people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q948267": {
+        "entityLabel": "Wilamowice",
+        "instanceOfLabel": [
+            "city",
+            "LGBTQ-free zone"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1094036": {
+        "entityLabel": "Ulchsky District",
+        "instanceOfLabel": [
+            "municipal district"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1226479": {
+        "entityLabel": "Dinguiraye Prefecture",
+        "instanceOfLabel": [
+            "prefecture of Guinea"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1453190": {
+        "entityLabel": "Turkana people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1465429": {
+        "entityLabel": "Ulch people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1756467": {
+        "entityLabel": "Pontine Marshes",
+        "instanceOfLabel": [
+            "plain",
+            "swamp"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2265699": {
+        "entityLabel": "Romaniote Jews",
+        "instanceOfLabel": [
+            "ethnic community"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2299931": {
+        "entityLabel": "Wayana people",
+        "instanceOfLabel": [
+            "ethnic group",
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2472096": {
+        "entityLabel": "Pointe de Givet",
+        "instanceOfLabel": [
+            "geographic region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2508464": {
+        "entityLabel": "Walla Walla people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2537324": {
+        "entityLabel": "Yawalapiti",
+        "instanceOfLabel": [
+            "indigenous peoples in Brazil"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2756708": {
+        "entityLabel": "Speakers of Wu Chinese",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q2993629": {
+        "entityLabel": "Urhobo people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3514245": {
+        "entityLabel": "Yucuna",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3827200": {
+        "entityLabel": "Kaitags",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4193411": {
+        "entityLabel": "Keo Tengah",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4195273": {
+        "entityLabel": "South Aru",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4250236": {
+        "entityLabel": "Nangaroro",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q8285348": {
+        "entityLabel": "Wakhan Corridor",
+        "instanceOfLabel": [
+            "geographic region",
+            "geopolitical corridor",
+            "salient"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q10855490": {
+        "entityLabel": "Kunigami",
+        "instanceOfLabel": [
+            "historical region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12644212": {
+        "entityLabel": "Muhajir",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q12645394": {
+        "entityLabel": "Yidgha people",
+        "instanceOfLabel": [
+            "ethnolinguistic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q13156669": {
+        "entityLabel": "Kavango Region",
+        "instanceOfLabel": [
+            "region of Namibia",
+            "former region of Namibia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q14517894": {
+        "entityLabel": "Wotapur",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q14555010": {
+        "entityLabel": "Pondoland",
+        "instanceOfLabel": [
+            "natural region"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24189583": {
+        "entityLabel": "Yugambeh people",
+        "instanceOfLabel": [
+            "indigenous people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q24576956": {
+        "entityLabel": "Rana Mese",
+        "instanceOfLabel": [
+            "district of Indonesia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26241203": {
+        "entityLabel": "Tidoreans",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians",
+            "North Halmahera peoples"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q26242371": {
+        "entityLabel": "Keo",
+        "instanceOfLabel": [
+            "ethnic groups in Indonesia",
+            "native Indonesians"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q39091101": {
+        "entityLabel": "Wajarri",
+        "instanceOfLabel": [
+            "people"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q65060409": {
+        "entityLabel": "Lumezi District",
+        "instanceOfLabel": [
+            "human settlement"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q65119314": {
+        "entityLabel": "Chasefu District",
+        "instanceOfLabel": [
+            "human settlement"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q127263195": {
+        "entityLabel": "Qatar Kala",
+        "instanceOfLabel": [
+            "village"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q34069": {
+        "entityLabel": "Ashkenazi Jews",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q140328": {
+        "entityLabel": "Zaghawa people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q282471": {
+        "entityLabel": "Bakool",
+        "instanceOfLabel": [
+            "region of Somalia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q660040": {
+        "entityLabel": "Hiran",
+        "instanceOfLabel": [
+            "region of Somalia"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q720386": {
+        "entityLabel": "Yukaghir people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q764931": {
+        "entityLabel": "Nizhnekolymsky District",
+        "instanceOfLabel": [
+            "municipal district",
+            "third-level administrative division"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q1737166": {
+        "entityLabel": "Kaurna people",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q3543292": {
+        "entityLabel": "Malaysian Malays",
+        "instanceOfLabel": [
+            "ethnic group",
+            "subethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q4830096": {
+        "entityLabel": "Awlad Mana",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q6741676": {
+        "entityLabel": "Singaporean Malays",
+        "instanceOfLabel": [
+            "ethnic group"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q28221938": {
+        "entityLabel": "Constantinopolitan Karaites",
+        "instanceOfLabel": [
+            "ethnoreligious group",
+            "ethnic community"
+        ]
+    },
+    "http://www.wikidata.org/entity/Q113580326": {
+        "entityLabel": "Riau Malays",
+        "instanceOfLabel": [
+            "subethnic group"
+        ]
+    }
+}
