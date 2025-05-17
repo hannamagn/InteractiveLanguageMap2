@@ -56,20 +56,6 @@ def main():
         with open("WikidataQuery/debug/minifiedFormattedRegionData.geojson", "r", encoding="utf-8") as f:
             minified_Region_Data = json.load(f)
         mongo_handler.populate_regions_mongodb_from_full_list(minified_Region_Data)
-    
-    # TODO make the check towards the mongoDB server returning a bool or something that its filled with regions and exist
-    # regions_isfilled = mongo_handler.ping_collection()
-    # if regions_isfilled:
-    #     print("The region polygon data was last pulled at [time] in atlas")
-    #     refetch_me = input("Do you want to refetch it? y/n: ")
-    #     if refetch_me == "y":
-             
-    #         logger.info("Fetching all polygons and populating mongodb")
-    #         query_service.get_regions(lang_data) # populates the database at the same time
-            
-    #         logger.info("Populating mongodb database")
-    #         mongo_handler.populate_metadata_mongodb(lang_data)
 
 if __name__ == "__main__":
-
     main()

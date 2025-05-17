@@ -14,7 +14,7 @@ myclient = MongoClient(uri, server_api=ServerApi('1'))
 mydb = myclient["LangMap"]
 
 def populate_metadata_mongodb(data):
-    LanguageMetaData_col = mydb["LanguageMetaDataTest"]
+    LanguageMetaData_col = mydb["LanguageMetaData"]
     LanguageMetaData_col.create_index([("iso_code", pymongo.ASCENDING)], unique=True)
 
     # TODO: missing any type of update when running again, I think
@@ -83,16 +83,6 @@ def db_lang_formatting(language):
     new_format.update({"immediate_Language_Families": language_families})
     new_format.update({"number_of_speakers": number_of_speakers})
     return new_format
-
-#Inserts regiondata from batches of regions NOT WORKING AT THE MOMENT, USE FUNCTION THAT TAKES FULL LIST
-def populate_regions_mongodb_in_batches(regionList):
-    Regions_col = mydb["PolygonData"]
-    try: 
-        Regions_col.insert_many(regionList)
-    except pymongo.errors.DuplicateKeyError:
-        print("This region is already inserted")
-    print(f"region count: {Regions_col.count_documents({})}")
-    print("regions populated")
 
 #Inserts regiondata from full list of regions 
 def populate_regions_mongodb_from_full_list(data):
