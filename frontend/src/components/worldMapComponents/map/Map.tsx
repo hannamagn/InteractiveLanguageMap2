@@ -107,7 +107,7 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       if (!name) return;
     
       try {
-        const res = await fetch(`http://localhost:3000/language/region-details/${encodeURIComponent(name)}`);
+        const res = await fetch(`http://localhost:3000/language/country-details/${encodeURIComponent(name)}`);
         const data = await res.json();
     
         const official = data.filter((d: any) => d.isOfficial && d.language);

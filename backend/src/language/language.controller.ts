@@ -34,7 +34,7 @@ export class LanguageController {
     }
   }
 
-@Get('region-details/:name')
+@Get('country-details/:name')
 async getDetailedLanguages(@Param('name') name: string, @Res() res: Response) {
   try {
     const result = await this.languageService.getDetailedLanguagesByRegion(name);
