@@ -1,4 +1,7 @@
 import './creditsPage.css'
+import pontus from '../../public/pontus_bild.png'
+import hanna from '../../../../public/img/hanna_bild.jpg'
+import erik from '../../../../public/pontus_bild.png'
 
 function creditsPage() {
     return (
@@ -24,7 +27,7 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                    <img src="../../../../public/pontus_bild.png" alt="Pontus" className='personImg' /> 
+                    <img src={pontus} alt="Pontus" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Pontus Wikström</h3>
                             <p className = "personP">
@@ -49,7 +52,7 @@ function creditsPage() {
 
                     <div className="person" >
 
-                    <img src="public/img/hanna_bild.jpg" alt="Hanna" className='personImg' /> 
+                    <img src={hanna} alt="Hanna" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Hanna Magnusson</h3>
                             <p className = "personP"> I have  together with Emma been responsible for the backend of the project. We've created the server 
@@ -73,7 +76,7 @@ function creditsPage() {
                     </div>
                     <div className="person" >
 
-                    <img src="public/img/ErikBild.png" alt="Erik" className='personImg' /> 
+                    <img src={erik} alt="Erik" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Erik Green Blomroos</h3>
                             <p className = "personP"> 
