@@ -1,6 +1,6 @@
 import './creditsPage.css'
 
-import pontus from '../../public/pontus_bild.png'
+import pontus from '../../public/hanna_bild.jpg'
 
 function creditsPage() {
     return (
