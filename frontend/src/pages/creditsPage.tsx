@@ -13,7 +13,7 @@ function creditsPage() {
                 <div className = "personpage">
 
                     <div className="person">
-                    <img src="public/img/EmmaBild.png" alt="Emma" className='personImg' />
+                    <img src="public/img/EmmaBild.jpeg" alt="Emma" className='personImg' />
                         <div className="personText">
                             <h3 className = "personH3">Emma Axelsson</h3>
                             <p className = "personP">I have worked primarily with the backend together with Hanna. 
