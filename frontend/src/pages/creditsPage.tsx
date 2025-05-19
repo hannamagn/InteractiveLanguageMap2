@@ -1,7 +1,7 @@
 import './creditsPage.css'
 
 
-import github from '../../public/github.png';
+import github from '../../public/hanna_bild.jpg';
 
 
 function creditsPage() {
