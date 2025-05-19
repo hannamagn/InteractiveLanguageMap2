@@ -1,7 +1,7 @@
 import './creditsPage.css'
 
 
-import hanna from '../../public/hanna_bild.jpg';
+import hanna from '../../public/img/hanna_bild.jpg';
 
 
 function creditsPage() {
