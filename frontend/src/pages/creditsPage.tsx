@@ -1,6 +1,8 @@
 import './creditsPage.css'
 
-import pontus from '../../public/hanna_bild.jpg'
+
+import github from '../../public/github.png';
+
 
 function creditsPage() {
     return (
@@ -8,6 +10,7 @@ function creditsPage() {
             <div className = "creditsPage">
                 <h1 className = "creditsPageH1">
                     Credits
+                    <img src={github} alt="gihub" className='personImg' />
                 </h1>
                 <p className = "creditsPageP">
                     This project was created by the following people:
@@ -26,7 +29,7 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                    <img src={pontus} alt="Pontus" className='personImg' /> 
+                    <img src="public/pontus_bild.PNG" alt="Pontus" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Pontus Wikström</h3>
                             <p className = "personP">
