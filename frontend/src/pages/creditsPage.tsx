@@ -2,6 +2,11 @@ import './creditsPage.css'
 
 
 import hanna from '../../public/img/hanna_bild.jpg';
+import emma from '../../public/img/EmmaBild.png';
+import erik from '../../public/img/ErikBild.png';
+import felix from '../../public/img/felixbild.jpg';
+import pontus from '../../public/img/pontus_bild.png';
+import benjamin from '../../public/img/BenjaminBild.jpg';
 
 
 function creditsPage() {
@@ -18,7 +23,7 @@ function creditsPage() {
                 <div className = "personpage">
 
                     <div className="person">
-                    <img src="public/img/EmmaBild.png" alt="Emma" className='personImg' />
+                    <img src={emma} alt="Emma" className='personImg' />
                         <div className="personText">
                             <h3 className = "personH3">Emma Axelsson</h3>
                             <p className = "personP">I have worked primarily with the backend together with Hanna. 
@@ -29,7 +34,7 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                    <img src="public/pontus_bild.PNG" alt="Pontus" className='personImg' /> 
+                    <img src={pontus} alt="Pontus" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Pontus Wikström</h3>
                             <p className = "personP">
@@ -40,7 +45,7 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                        <img src="public/img/felixbild.jpg" alt="Felix" className='personImg' /> 
+                        <img src={felix} alt="Felix" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Felix Gustavsson Jonsson</h3>
                             <p className = "personP">I have been responsible for the backend database.
@@ -66,7 +71,7 @@ function creditsPage() {
                     </div>
                     <div className="person" >
 
-                    <img src="public/img/BenjaminBild.jpg" alt="Benjamin" className='personImg' /> 
+                    <img src={benjamin} alt="Benjamin" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Benjamin Eld</h3>
                             <p className = "personP">I have been responsible for the backend database together with Felix. This includes the data 
@@ -78,7 +83,7 @@ function creditsPage() {
                     </div>
                     <div className="person" >
 
-                    <img src="public/img/ErikBild.png" alt="Erik" className='personImg' /> 
+                    <img src={erik} alt="Erik" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Erik Green Blomroos</h3>
                             <p className = "personP"> 
