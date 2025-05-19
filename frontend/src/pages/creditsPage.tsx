@@ -1,7 +1,7 @@
 import './creditsPage.css'
 
 
-import github from '../../public/hanna_bild.jpg';
+import hanna from '../../public/hanna_bild.jpg';
 
 
 function creditsPage() {
@@ -10,7 +10,7 @@ function creditsPage() {
             <div className = "creditsPage">
                 <h1 className = "creditsPageH1">
                     Credits
-                    <img src={github} alt="gihub" className='personImg' />
+                    
                 </h1>
                 <p className = "creditsPageP">
                     This project was created by the following people:
@@ -54,7 +54,7 @@ function creditsPage() {
 
                     <div className="person" >
 
-                    <img src="public/img/hanna_bild.jpg" alt="Hanna" className='personImg' /> 
+                    <img src={hanna} alt="Hanna" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Hanna Magnusson</h3>
                             <p className = "personP"> I have  together with Emma been responsible for the backend of the project. We've created the server 
