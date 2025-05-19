@@ -11,8 +11,8 @@ import { stringToColor, darkenColor } from '../../../utils/colorUtils';
 
 
 
-
-const response = await fetch('http://localhost:3000/language/all-names');
+const response = await fetch('https://interactivelanguagemap2-backend.onrender.com/language/all-names');
+//const response = await fetch('http://localhost:8080/language/all-names');
 
 if (!response.ok) {
   throw new Error(`HTTP error! Status: ${response.status}`);
