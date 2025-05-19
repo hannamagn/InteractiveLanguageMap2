@@ -1,6 +1,5 @@
 import './creditsPage.css'
-import hanna from '../../../../public/img/hanna_bild.jpg'
-import pontus from '../../../../public/pontus_bild.png'
+import github from '../../../../public/github.png';
 
 function creditsPage() {
     return (
@@ -15,7 +14,7 @@ function creditsPage() {
                 <div className = "personpage">
 
                     <div className="person">
-                    <img src="public/img/EmmaBild.png" alt="Emma" className='personImg' />
+                    <img src={github} alt="Emma" className='personImg' />
                         <div className="personText">
                             <h3 className = "personH3">Emma Axelsson</h3>
                             <p className = "personP">I have worked primarily with the backend together with Hanna. 
@@ -26,7 +25,7 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                    <img src={pontus} alt="Pontus" className='personImg' /> 
+                    <img src="../../../../public/pontus_bild.png" alt="Pontus" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Pontus Wikström</h3>
                             <p className = "personP">
@@ -51,7 +50,7 @@ function creditsPage() {
 
                     <div className="person" >
 
-                    <img src={hanna} alt="Hanna" className='personImg' /> 
+                    <img src="public/img/hanna_bild.jpg" alt="Hanna" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Hanna Magnusson</h3>
                             <p className = "personP"> I have  together with Emma been responsible for the backend of the project. We've created the server 
