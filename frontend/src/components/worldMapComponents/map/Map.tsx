@@ -107,7 +107,8 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
       if (!name) return;
     
       try {
-        const res = await fetch(`http://localhost:3000/language/country-details/${encodeURIComponent(name)}`);
+        const res = await fetch(`https://interactivelanguagemap2-backend.onrender.com/language/country-details/${encodeURIComponent(name)}`);
+       // const res = await fetch(`http://localhost:8080/language/country-details/${encodeURIComponent(name)}`);
         const data = await res.json();
     
         const official = data.filter((d: any) => d.isOfficial && d.language);
@@ -182,7 +183,8 @@ const MapComponent: React.FC<MapProps> = ({ disableScrollZoom = false, showFilte
 
       for (const lang of toAdd) {
         try {
-          const res = await fetch(`http://localhost:3000/language/geojson/${lang}`);
+          const res = await fetch(`https://interactivelanguagemap2-backend.onrender.com/language/geojson/${lang}`);
+          //const res = await fetch(`http://localhost:8080/language/geojson/${lang}`);
           const geojson = await res.json();
           const sourceId = `source-${lang}`;
           const fillId = `fill-${lang}`;
