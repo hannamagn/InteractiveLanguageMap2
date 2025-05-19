@@ -1,5 +1,6 @@
 import './creditsPage.css'
 
+import pontus from '../../public/pontus_bild.png'
 
 function creditsPage() {
     return (
@@ -25,7 +26,7 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                    <img src="public/pontus_bild.PNG" alt="Pontus" className='personImg' /> 
+                    <img src={pontus} alt="Pontus" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Pontus Wikström</h3>
                             <p className = "personP">
