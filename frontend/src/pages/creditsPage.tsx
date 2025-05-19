@@ -3,7 +3,7 @@ import './creditsPage.css'
 
 import hanna from '../../public/img/hanna_bild.jpg';
 import emma from '../../public/img/EmmaBild.png';
-import erik from '../../public/img/ErikBild.png';
+import erik from '../../public/img/erik_bild.png';
 import felix from '../../public/img/felixbild.jpg';
 import pontus from '../../public/img/pontus_bild.png';
 import benjamin from '../../public/img/BenjaminBild.jpg';
