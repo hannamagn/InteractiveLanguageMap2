@@ -24,7 +24,7 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                    <img src="public/img/pontus_bild.png" alt="Pontus" className='personImg' /> 
+                    <img src="../../../../public/pontus_bild.png" alt="Pontus" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Pontus Wikström</h3>
                             <p className = "personP">
