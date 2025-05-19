@@ -1,5 +1,5 @@
 import './creditsPage.css'
-import github from '../../../../public/github.png';
+
 
 function creditsPage() {
     return (
@@ -14,7 +14,7 @@ function creditsPage() {
                 <div className = "personpage">
 
                     <div className="person">
-                    <img src={github} alt="Emma" className='personImg' />
+                    <img src="public/img/EmmaBild.png" alt="Emma" className='personImg' />
                         <div className="personText">
                             <h3 className = "personH3">Emma Axelsson</h3>
                             <p className = "personP">I have worked primarily with the backend together with Hanna. 
@@ -25,7 +25,7 @@ function creditsPage() {
                     </div>
 
                     <div className="person" >
-                    <img src="../../../../public/pontus_bild.png" alt="Pontus" className='personImg' /> 
+                    <img src="../public/img/pontus_bild.png" alt="Pontus" className='personImg' /> 
                         <div className="personText">
                             <h3 className = "personH3">Pontus Wikström</h3>
                             <p className = "personP">
